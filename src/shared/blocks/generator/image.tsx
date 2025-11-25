@@ -202,6 +202,9 @@ export function ImageGenerator({
 
   const promptLength = prompt.trim().length;
   const remainingCredits = user?.credits?.remainingCredits ?? 0;
+  const isUnlimitedCredits =
+    user?.isAdmin && remainingCredits >= Number.MAX_SAFE_INTEGER / 2;
+  const displayCredits = isUnlimitedCredits ? '∞' : remainingCredits;
   const isPromptTooLong = promptLength > MAX_PROMPT_LENGTH;
   const isTextToImageMode = activeTab === 'text-to-image';
 
@@ -438,7 +441,7 @@ export function ImageGenerator({
       return;
     }
 
-    if (remainingCredits < costCredits) {
+    if (!isUnlimitedCredits && remainingCredits < costCredits) {
       toast.error('Insufficient credits. Please top up to keep creating.');
       return;
     }
@@ -722,13 +725,13 @@ export function ImageGenerator({
                     </span>
                     <span>{t('credits_remaining', { credits: 0 })}</span>
                   </div>
-                ) : user && remainingCredits > 0 ? (
+                ) : user && (remainingCredits > 0 || isUnlimitedCredits) ? (
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-primary">
                       {t('credits_cost', { credits: costCredits })}
                     </span>
                     <span>
-                      {t('credits_remaining', { credits: remainingCredits })}
+                      {t('credits_remaining', { credits: displayCredits })}
                     </span>
                   </div>
                 ) : (
@@ -738,7 +741,7 @@ export function ImageGenerator({
                         {t('credits_cost', { credits: costCredits })}
                       </span>
                       <span>
-                        {t('credits_remaining', { credits: remainingCredits })}
+                        {t('credits_remaining', { credits: displayCredits })}
                       </span>
                     </div>
                     <Link href="/pricing">

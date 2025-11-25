@@ -89,7 +89,12 @@ export function SignUser({
                   >
                     <Coins />
                     {t('credits_title', {
-                      credits: user.credits?.remainingCredits || 0,
+                      credits:
+                        user.isAdmin &&
+                        (user.credits?.remainingCredits ?? 0) >=
+                          Number.MAX_SAFE_INTEGER / 2
+                          ? '∞'
+                          : user.credits?.remainingCredits || 0,
                     })}
                   </Link>
                 </DropdownMenuItem>

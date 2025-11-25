@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 
+import { PERMISSIONS } from '@/core/rbac';
 import { Empty } from '@/shared/blocks/common';
 import { PanelCard } from '@/shared/blocks/panel';
 import { TableCard } from '@/shared/blocks/table';
@@ -12,6 +13,7 @@ import {
   getRemainingCredits,
 } from '@/shared/models/credit';
 import { getUserInfo } from '@/shared/models/user';
+import { hasPermission } from '@/shared/services/rbac';
 import { Tab } from '@/shared/types/blocks/common';
 import { type Table } from '@/shared/types/blocks/table';
 
@@ -95,6 +97,11 @@ export default async function CreditsPage({
   };
 
   const remainingCredits = await getRemainingCredits(user.id);
+  const isAdmin = await hasPermission(user.id, PERMISSIONS.ADMIN_ACCESS);
+  const displayCredits =
+    isAdmin && remainingCredits >= Number.MAX_SAFE_INTEGER / 2
+      ? '∞'
+      : remainingCredits.toLocaleString();
 
   const tabs: Tab[] = [
     {
@@ -131,9 +138,7 @@ export default async function CreditsPage({
         ]}
         className="max-w-md"
       >
-        <div className="text-primary text-3xl font-bold">
-          {remainingCredits}
-        </div>
+        <div className="text-primary text-3xl font-bold">{displayCredits}</div>
       </PanelCard>
       <TableCard title={t('list.title')} tabs={tabs} table={table} />
     </div>

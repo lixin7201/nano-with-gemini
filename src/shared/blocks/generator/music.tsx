@@ -107,6 +107,10 @@ export function MusicGenerator({ className, srOnlyTitle }: SongGeneratorProps) {
 
   // todo: get cost credits from settings
   const costCredits = 10;
+  const remainingCredits = user?.credits?.remainingCredits ?? 0;
+  const isUnlimitedCredits =
+    user?.isAdmin && remainingCredits >= Number.MAX_SAFE_INTEGER / 2;
+  const displayCredits = isUnlimitedCredits ? '∞' : remainingCredits;
 
   // Client-side mounting state to prevent hydration mismatch
   const [isMounted, setIsMounted] = useState(false);
@@ -250,7 +254,7 @@ export function MusicGenerator({ className, srOnlyTitle }: SongGeneratorProps) {
       return;
     }
 
-    if (!user.credits || user.credits.remainingCredits < costCredits) {
+    if (!user.credits || (!isUnlimitedCredits && user.credits.remainingCredits < costCredits)) {
       toast.error('Insufficient credits');
       return;
     }
@@ -600,14 +604,14 @@ export function MusicGenerator({ className, srOnlyTitle }: SongGeneratorProps) {
                   </div>
                 ) : user &&
                   user.credits &&
-                  user.credits.remainingCredits > 0 ? (
+                  (user.credits.remainingCredits > 0 || isUnlimitedCredits) ? (
                   <div className="mb-6 flex items-center justify-between text-sm">
                     <span className="text-primary">
                       {t('generator.credits_cost', { credits: costCredits })}
                     </span>
                     <span className="text-foreground font-medium">
                       {t('generator.credits_remaining', {
-                        credits: user.credits.remainingCredits,
+                        credits: displayCredits,
                       })}
                     </span>
                   </div>
@@ -616,7 +620,7 @@ export function MusicGenerator({ className, srOnlyTitle }: SongGeneratorProps) {
                     <span className="text-primary">
                       {t('generator.credits_cost', { credits: costCredits })},{' '}
                       {t('generator.credits_remaining', {
-                        credits: user?.credits?.remainingCredits || 0,
+                        credits: displayCredits,
                       })}
                     </span>
                     <Link href="/pricing">
