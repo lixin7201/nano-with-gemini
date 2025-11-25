@@ -5,7 +5,7 @@ import { aiTask, credit } from '@/config/db/schema';
 import { AITaskStatus } from '@/extensions/ai';
 import { appendUserToResult, User } from '@/shared/models/user';
 
-import { consumeCredits, CreditStatus } from './credit';
+import { consumeCredits, CreditStatus, isAdminFreeCredits } from './credit';
 
 export type AITask = typeof aiTask.$inferSelect & {
   user?: User;
@@ -18,7 +18,11 @@ export async function createAITask(newAITask: NewAITask) {
     // 1. create task record
     const [taskResult] = await tx.insert(aiTask).values(newAITask).returning();
 
-    if (newAITask.costCredits && newAITask.costCredits > 0) {
+    if (
+      newAITask.costCredits &&
+      newAITask.costCredits > 0 &&
+      !(await isAdminFreeCredits(newAITask.userId))
+    ) {
       // 2. consume credits
       const consumedCredit = await consumeCredits({
         userId: newAITask.userId,

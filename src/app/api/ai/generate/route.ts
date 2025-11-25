@@ -3,7 +3,10 @@ import { AIMediaType } from '@/extensions/ai';
 import { getUuid } from '@/shared/lib/hash';
 import { respData, respErr } from '@/shared/lib/resp';
 import { createAITask, NewAITask } from '@/shared/models/ai_task';
-import { getRemainingCredits } from '@/shared/models/credit';
+import {
+  getRemainingCredits,
+  isAdminFreeCredits,
+} from '@/shared/models/credit';
 import { getUserInfo } from '@/shared/models/user';
 import { getAIService } from '@/shared/services/ai';
 
@@ -39,30 +42,41 @@ export async function POST(request: Request) {
       throw new Error('no auth, please sign in');
     }
 
-    // todo: get cost credits from settings
-    let costCredits = 2;
-
+    // Validate mediaType and scene combinations regardless of admin status
     if (mediaType === AIMediaType.IMAGE) {
-      // generate image
-      if (scene === 'image-to-image') {
-        costCredits = 4;
-      } else if (scene === 'text-to-image') {
-        costCredits = 2;
-      } else {
-        throw new Error('invalid scene');
+      if (scene !== 'image-to-image' && scene !== 'text-to-image') {
+        throw new Error('invalid scene for image media type');
       }
     } else if (mediaType === AIMediaType.MUSIC) {
-      // generate music
-      costCredits = 10;
-      scene = 'text-to-music';
+      // Assuming 'text-to-music' is the only valid scene for MUSIC currently.
+      if (scene !== 'text-to-music') {
+        throw new Error('invalid scene for music media type');
+      }
     } else {
-      throw new Error('invalid mediaType');
+      throw new Error('invalid mediaType or unsupported media type');
     }
 
-    // check credits
-    const remainingCredits = await getRemainingCredits(user.id);
-    if (remainingCredits < costCredits) {
-      throw new Error('insufficient credits');
+    let costCredits = 0; // Initialize cost for everyone
+    const isUnlimited = await isAdminFreeCredits(user.id);
+
+    if (!isUnlimited) {
+      // Calculate cost credits for non-admin users
+      // todo: get cost credits from settings (for non-admins)
+      if (mediaType === AIMediaType.IMAGE) {
+        if (scene === 'image-to-image') {
+          costCredits = 4;
+        } else if (scene === 'text-to-image') {
+          costCredits = 2;
+        }
+      } else if (mediaType === AIMediaType.MUSIC) {
+        costCredits = 10;
+      }
+
+      // Check credits for non-admin users
+      const remainingCredits = await getRemainingCredits(user.id);
+      if (remainingCredits < costCredits) {
+        throw new Error('insufficient credits');
+      }
     }
 
     const callbackUrl = `${envConfigs.app_url}/api/ai/notify/${provider}`;

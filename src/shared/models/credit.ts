@@ -1,12 +1,28 @@
 import { and, asc, count, desc, eq, gt, isNull, or, sum } from 'drizzle-orm';
 
-import { db } from '@/core/db';
+import { envConfigs } from '@/config';
 import { credit } from '@/config/db/schema';
+import { db } from '@/core/db';
+import { PERMISSIONS } from '@/core/rbac';
+import { hasPermission } from '@/shared/services/rbac';
 import { PaymentType } from '@/extensions/payment';
 import { getSnowId, getUuid } from '@/shared/lib/hash';
 
 import { Order } from './order';
 import { appendUserToResult, getUserByUserIds, User } from './user';
+
+export async function isAdminFreeCredits(userId: string) {
+  if (envConfigs.admin_unlimited_credits !== 'true') {
+    return false;
+  }
+
+  const isAdmin = await hasPermission(userId, PERMISSIONS.ADMIN_ACCESS);
+  if (isAdmin) {
+    return true;
+  }
+
+  return false;
+}
 
 export type Credit = typeof credit.$inferSelect & {
   user?: User;
@@ -156,6 +172,10 @@ export async function consumeCredits({
   description?: string;
   metadata?: string;
 }) {
+  if (await isAdminFreeCredits(userId)) {
+    return null;
+  }
+
   const currentTime = new Date();
 
   // consume credits
@@ -290,6 +310,10 @@ export async function consumeCredits({
 
 // get remaining credits
 export async function getRemainingCredits(userId: string): Promise<number> {
+  if (await isAdminFreeCredits(userId)) {
+    return Number.MAX_SAFE_INTEGER;
+  }
+
   const currentTime = new Date();
 
   const [result] = await db()
