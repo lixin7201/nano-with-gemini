@@ -30,4 +30,6 @@ export const envConfigs = {
   auth_secret: process.env.AUTH_SECRET ?? '', // openssl rand -base64 32
   admin_unlimited_credits:
     process.env.ADMIN_UNLIMITED_CREDITS ?? 'false',
+  google_client_id: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID ?? '',
+  google_client_secret: process.env.GOOGLE_CLIENT_SECRET ?? '',
 };

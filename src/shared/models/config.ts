@@ -75,6 +75,9 @@ export async function getAllConfigs(): Promise<Configs> {
   const configs = {
     ...envConfigs,
     ...dbConfigs,
+    // Allow env vars to override db configs for critical auth settings
+    ...(envConfigs.google_client_id ? { google_client_id: envConfigs.google_client_id } : {}),
+    ...(envConfigs.google_client_secret ? { google_client_secret: envConfigs.google_client_secret } : {}),
   };
 
   return configs;
@@ -104,6 +107,8 @@ export async function getPublicConfigs(): Promise<Configs> {
 
   const configs = {
     ...publicConfigs,
+    // Allow env vars to override db configs for critical auth settings
+    ...(envConfigs.google_client_id ? { google_client_id: envConfigs.google_client_id } : {}),
   };
 
   return configs;
