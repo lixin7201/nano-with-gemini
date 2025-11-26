@@ -360,6 +360,74 @@ export function Pricing({
           </div>
         )}
 
+        {/* Free Trial Card */}
+        <div className="mx-auto mb-8 max-w-md">
+          <Card className="border-primary/50 relative overflow-hidden border-2 shadow-lg">
+            <div className="bg-primary/10 absolute inset-0 z-0" />
+            <CardHeader className="relative z-10 pb-2 text-center">
+              <CardTitle className="flex items-center justify-center gap-2 text-xl font-bold">
+                <Zap className="text-primary size-5 fill-current" />
+                Free / 免费试用 3 张 2K 图片
+              </CardTitle>
+              <CardDescription>
+                Try before you buy. No credit card required.
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="relative z-10 text-center">
+              <p className="mb-4 text-sm font-medium">
+                Get 30 credits (3x 2K images) for free!
+              </p>
+              <Button
+                onClick={async () => {
+                  if (!user) {
+                    setIsShowSignModal(true);
+                    return;
+                  }
+                  try {
+                    setIsLoading(true);
+                    const res = await fetch('/api/credits/free-trial', {
+                      method: 'POST',
+                    });
+                    const data = await res.json();
+                    
+                    if (!res.ok) {
+                      if (res.status === 401) {
+                         setIsShowSignModal(true);
+                         return;
+                      }
+                      if (res.status === 409) {
+                        toast.error(data.message || 'Free trial already used');
+                      } else {
+                        throw new Error(data.message || 'Failed to claim');
+                      }
+                    } else {
+                      toast.success(
+                        data.message || 'Free trial credits claimed!'
+                      );
+                      // Refresh page or update credits context if available
+                      window.location.reload();
+                    }
+                  } catch (e: any) {
+                    toast.error(e.message);
+                  } finally {
+                    setIsLoading(false);
+                  }
+                }}
+                disabled={isLoading}
+                className="w-full"
+                variant="default"
+              >
+                {isLoading ? (
+                  <Loader2 className="mr-2 size-4 animate-spin" />
+                ) : (
+                  <Zap className="mr-2 size-4" />
+                )}
+                Claim Free Credits
+              </Button>
+            </CardContent>
+          </Card>
+        </div>
+
         <div
           className={`mt-0 grid w-full gap-6 md:grid-cols-${
             pricing.items?.filter((item) => !item.group || item.group === group)

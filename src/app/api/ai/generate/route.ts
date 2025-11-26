@@ -1,18 +1,28 @@
+import { eq, and, or } from 'drizzle-orm';
+
 import { envConfigs } from '@/config';
+import { credit } from '@/config/db/schema';
+import { db } from '@/core/db';
 import { AIMediaType } from '@/extensions/ai';
-import { getUuid } from '@/shared/lib/hash';
+import { getSnowId, getUuid } from '@/shared/lib/hash';
 import { respData, respErr } from '@/shared/lib/resp';
 import { createAITask, NewAITask } from '@/shared/models/ai_task';
 import {
+  consumeCredits,
+  createCredit,
+  CreditStatus,
+  CreditTransactionScene,
+  CreditTransactionType,
   getRemainingCredits,
   isAdminFreeCredits,
+  NewCredit,
 } from '@/shared/models/credit';
 import { getUserInfo } from '@/shared/models/user';
 import { getAIService } from '@/shared/services/ai';
 
 export async function POST(request: Request) {
   try {
-    let { provider, mediaType, model, prompt, options, scene } =
+    let { provider, mediaType, model, prompt, options, scene, resolution } =
       await request.json();
 
     if (!provider || !mediaType || !model) {
@@ -59,14 +69,52 @@ export async function POST(request: Request) {
     let costCredits = 0; // Initialize cost for everyone
     const isUnlimited = await isAdminFreeCredits(user.id);
 
+    // Default resolution to 2k if not provided
+    const targetResolution = resolution || '2k';
+
     if (!isUnlimited) {
       // Calculate cost credits for non-admin users
-      // todo: get cost credits from settings (for non-admins)
       if (mediaType === AIMediaType.IMAGE) {
-        if (scene === 'image-to-image') {
-          costCredits = 4;
-        } else if (scene === 'text-to-image') {
-          costCredits = 2;
+        if (targetResolution === '4k') {
+          costCredits = 20;
+          // Check 4K permission: must have active subscription (not just free trial)
+          // We check if user has any credit grant from subscription purchase
+          // Or simpler: check if user has any 'purchase_%' credit transaction
+          // But to be more robust, we should check subscription table or credit history
+          // Here we check credit history for any purchase
+          const hasPurchase = await db()
+            .select()
+            .from(credit)
+            .where(
+              and(
+                eq(credit.userId, user.id),
+                eq(credit.transactionType, CreditTransactionType.GRANT),
+                // Check for reason starting with purchase_
+                // Since we don't have 'like' operator easily available in this context without import,
+                // we can check if scene is NOT free_trial and NOT gift/award if those are used for free stuff.
+                // Better: check if scene is 'payment' or 'subscription' (CreditTransactionScene enum)
+                or(
+                  eq(credit.transactionScene, CreditTransactionScene.PAYMENT),
+                  eq(credit.transactionScene, CreditTransactionScene.SUBSCRIPTION),
+                  eq(credit.transactionScene, CreditTransactionScene.RENEWAL)
+                )
+              )
+            )
+            .limit(1);
+
+          if (hasPurchase.length === 0) {
+             return new Response(
+               JSON.stringify({
+                 code: 'NO_4K_PERMISSION',
+                 message: '4K 仅对付费订阅用户开放',
+               }),
+               { status: 403 } // 403 Forbidden
+             );
+          }
+
+        } else {
+          // 2k
+          costCredits = 10;
         }
       } else if (mediaType === AIMediaType.MUSIC) {
         costCredits = 10;
@@ -75,8 +123,22 @@ export async function POST(request: Request) {
       // Check credits for non-admin users
       const remainingCredits = await getRemainingCredits(user.id);
       if (remainingCredits < costCredits) {
-        throw new Error('insufficient credits');
+        return new Response(
+          JSON.stringify({
+            code: 'INSUFFICIENT_CREDITS',
+            message: '积分不足，请前往订阅',
+          }),
+          { status: 402 } // 402 Payment Required
+        );
       }
+      
+      // Consume credits before generation
+      await consumeCredits({
+        userId: user.id,
+        credits: costCredits,
+        scene: mediaType === AIMediaType.IMAGE ? `image_generation_${targetResolution}` : 'music_generation',
+        description: `Generate ${mediaType} (${targetResolution || ''})`,
+      });
     }
 
     const callbackUrl = `${envConfigs.app_url}/api/ai/notify/${provider}`;
@@ -86,12 +148,55 @@ export async function POST(request: Request) {
       model,
       prompt,
       callbackUrl,
-      options,
+      options: {
+        ...options,
+        resolution: targetResolution,
+      },
     };
 
     // generate content
-    const result = await aiProvider.generate({ params });
+    let result;
+    try {
+        result = await aiProvider.generate({ params });
+    } catch (err: any) {
+        // Refund credits if generation fails
+        if (!isUnlimited && costCredits > 0) {
+             const newCredit: NewCredit = {
+              id: getUuid(),
+              transactionNo: getSnowId(),
+              transactionType: CreditTransactionType.GRANT,
+              transactionScene: 'generation_failed_refund',
+              userId: user.id,
+              status: CreditStatus.ACTIVE,
+              description: 'Refund for failed generation',
+              credits: costCredits,
+              remainingCredits: costCredits,
+              // Refund credits valid for 30 days or same as original? 
+              // Let's give 30 days for simplicity
+              expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+            };
+            await createCredit(newCredit);
+        }
+        throw err;
+    }
+
     if (!result?.taskId) {
+       // Refund credits if no task id returned (should be caught above but just in case)
+        if (!isUnlimited && costCredits > 0) {
+             const newCredit: NewCredit = {
+              id: getUuid(),
+              transactionNo: getSnowId(),
+              transactionType: CreditTransactionType.GRANT,
+              transactionScene: 'generation_failed_refund',
+              userId: user.id,
+              status: CreditStatus.ACTIVE,
+              description: 'Refund for failed generation',
+              credits: costCredits,
+              remainingCredits: costCredits,
+              expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+            };
+            await createCredit(newCredit);
+        }
       throw new Error(
         `ai generate failed, mediaType: ${mediaType}, provider: ${provider}, model: ${model}`
       );

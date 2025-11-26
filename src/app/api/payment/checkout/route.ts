@@ -55,13 +55,14 @@ export async function POST(req: Request) {
     const configs = await getAllConfigs();
 
     // choose payment provider
-    let paymentProviderName = payment_provider || '';
-    if (!paymentProviderName) {
-      paymentProviderName = configs.default_payment_provider;
-    }
-    if (!paymentProviderName) {
-      return respErr('no payment provider configured');
-    }
+    let paymentProviderName = 'creem';
+    // let paymentProviderName = payment_provider || '';
+    // if (!paymentProviderName) {
+    //   paymentProviderName = configs.default_payment_provider;
+    // }
+    // if (!paymentProviderName) {
+    //   return respErr('no payment provider configured');
+    // }
 
     // Validate payment provider against allowed providers
     // First check currency-specific payment_providers if currency is provided

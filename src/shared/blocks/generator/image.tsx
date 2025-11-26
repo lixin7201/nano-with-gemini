@@ -175,6 +175,7 @@ export function ImageGenerator({
   const [costCredits, setCostCredits] = useState<number>(2);
   const [provider, setProvider] = useState(PROVIDER_OPTIONS[0]?.value ?? '');
   const [model, setModel] = useState(MODEL_OPTIONS[0]?.value ?? '');
+  const [resolution, setResolution] = useState('2k');
   const [prompt, setPrompt] = useState('');
   const [referenceImageItems, setReferenceImageItems] = useState<
     ImageUploaderValue[]
@@ -223,11 +224,17 @@ export function ImageGenerator({
     }
 
     if (tab === 'text-to-image') {
-      setCostCredits(2);
+      setCostCredits(resolution === '4k' ? 20 : 10);
     } else {
       setCostCredits(4);
     }
   };
+
+  useEffect(() => {
+    if (activeTab === 'text-to-image') {
+      setCostCredits(resolution === '4k' ? 20 : 10);
+    }
+  }, [resolution, activeTab]);
 
   const handleProviderChange = (value: string) => {
     setProvider(value);
@@ -486,6 +493,7 @@ export function ImageGenerator({
           provider,
           model,
           prompt: trimmedPrompt,
+          resolution: isTextToImageMode ? resolution : undefined,
           options,
         }),
       });
@@ -630,6 +638,24 @@ export function ImageGenerator({
                       </SelectContent>
                     </Select>
                   </div>
+
+                  {isTextToImageMode && (
+                    <div className="space-y-2">
+                      <Label>Resolution</Label>
+                      <Select
+                        value={resolution}
+                        onValueChange={(val) => setResolution(val)}
+                      >
+                        <SelectTrigger className="w-full">
+                          <SelectValue placeholder="Select resolution" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="2k">2K (10 credits)</SelectItem>
+                          <SelectItem value="4k">4K (20 credits)</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                  )}
                 </div>
 
                 {!isTextToImageMode && (

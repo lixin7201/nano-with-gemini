@@ -330,19 +330,11 @@ export async function getSettings() {
       name: 'default_payment_provider',
       title: 'Default Payment Provider',
       type: 'select',
-      value: 'stripe',
+      value: 'creem',
       options: [
-        {
-          title: 'Stripe',
-          value: 'stripe',
-        },
         {
           title: 'Creem',
           value: 'creem',
-        },
-        {
-          title: 'Paypal',
-          value: 'paypal',
         },
       ],
       tip: 'Choose the default payment provider to use',
