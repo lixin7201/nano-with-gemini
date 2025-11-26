@@ -83,7 +83,7 @@ export class GeminiProvider implements AIProvider {
       }
     }
 
-    const { image_input, resolution, ...generationConfig } = options || {};
+    const { image_input, resolution, aspectRatio, ...generationConfig } = options || {};
 
     const payload = {
       contents: {
@@ -92,6 +92,14 @@ export class GeminiProvider implements AIProvider {
       },
       generation_config: {
         response_modalities: ['TEXT', 'IMAGE'],
+        ...(aspectRatio || resolution
+          ? {
+              image_config: {
+                aspect_ratio: aspectRatio,
+                image_size: resolution,
+              },
+            }
+          : {}),
         ...generationConfig,
       },
     };

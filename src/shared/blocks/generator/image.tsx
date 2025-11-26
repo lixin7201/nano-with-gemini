@@ -107,6 +107,19 @@ const PROVIDER_OPTIONS = [
   },
 ];
 
+const ASPECT_RATIO_OPTIONS = [
+  { value: '1:1', label: '1:1' },
+  { value: '2:3', label: '2:3' },
+  { value: '3:2', label: '3:2' },
+  { value: '3:4', label: '3:4' },
+  { value: '4:3', label: '4:3' },
+  { value: '4:5', label: '4:5' },
+  { value: '5:4', label: '5:4' },
+  { value: '9:16', label: '9:16' },
+  { value: '16:9', label: '16:9' },
+  { value: '21:9', label: '21:9' },
+];
+
 function parseTaskResult(taskResult: string | null): any {
   if (!taskResult) {
     return null;
@@ -176,6 +189,7 @@ export function ImageGenerator({
   const [provider, setProvider] = useState(PROVIDER_OPTIONS[0]?.value ?? '');
   const [model, setModel] = useState(MODEL_OPTIONS[0]?.value ?? '');
   const [resolution, setResolution] = useState('2k');
+  const [aspectRatio, setAspectRatio] = useState('1:1');
   const [prompt, setPrompt] = useState('');
   const [referenceImageItems, setReferenceImageItems] = useState<
     ImageUploaderValue[]
@@ -231,10 +245,23 @@ export function ImageGenerator({
   };
 
   useEffect(() => {
-    if (activeTab === 'text-to-image') {
-      setCostCredits(resolution === '4k' ? 20 : 10);
+    // Cost calculation logic:
+    // 1k/2k = 10 credits (default)
+    // 4k = 20 credits
+    // Image-to-image base cost is 4 credits, but if using Gemini with high res, it might be different?
+    // The requirement says: "1k/2k use original 2k price, 4k keeps price increase (now 20 credits)"
+    // And "switch tab or provider... update cost".
+    
+    if (provider === 'gemini') {
+       setCostCredits(resolution === '4k' ? 20 : 10);
+    } else {
+        if (activeTab === 'text-to-image') {
+            setCostCredits(resolution === '4k' ? 20 : 10);
+        } else {
+            setCostCredits(4);
+        }
     }
-  }, [resolution, activeTab]);
+  }, [resolution, activeTab, provider]);
 
   const handleProviderChange = (value: string) => {
     setProvider(value);
@@ -493,7 +520,8 @@ export function ImageGenerator({
           provider,
           model,
           prompt: trimmedPrompt,
-          resolution: isTextToImageMode ? resolution : undefined,
+          resolution,
+          aspectRatio,
           options,
         }),
       });
@@ -639,15 +667,55 @@ export function ImageGenerator({
                     </Select>
                   </div>
 
-                  {isTextToImageMode && (
+                  {provider === 'gemini' && (
+                    <>
+                      <div className="space-y-2">
+                        <Label>{t('form.resolution')}</Label>
+                        <Select
+                          value={resolution}
+                          onValueChange={(val) => setResolution(val)}
+                        >
+                          <SelectTrigger className="w-full">
+                            <SelectValue placeholder={t('form.select_resolution')} />
+                          </SelectTrigger>
+                          <SelectContent>
+                            <SelectItem value="1k">1K (10 credits)</SelectItem>
+                            <SelectItem value="2k">2K (10 credits)</SelectItem>
+                            <SelectItem value="4k">4K (20 credits)</SelectItem>
+                          </SelectContent>
+                        </Select>
+                      </div>
+
+                      <div className="space-y-2">
+                        <Label>{t('form.aspect_ratio')}</Label>
+                        <Select
+                          value={aspectRatio}
+                          onValueChange={(val) => setAspectRatio(val)}
+                        >
+                          <SelectTrigger className="w-full">
+                            <SelectValue placeholder={t('form.select_aspect_ratio')} />
+                          </SelectTrigger>
+                          <SelectContent>
+                            {ASPECT_RATIO_OPTIONS.map((option) => (
+                              <SelectItem key={option.value} value={option.value}>
+                                {option.label}
+                              </SelectItem>
+                            ))}
+                          </SelectContent>
+                        </Select>
+                      </div>
+                    </>
+                  )}
+
+                  {provider !== 'gemini' && isTextToImageMode && (
                     <div className="space-y-2">
-                      <Label>Resolution</Label>
+                      <Label>{t('form.resolution')}</Label>
                       <Select
                         value={resolution}
                         onValueChange={(val) => setResolution(val)}
                       >
                         <SelectTrigger className="w-full">
-                          <SelectValue placeholder="Select resolution" />
+                          <SelectValue placeholder={t('form.select_resolution')} />
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="2k">2K (10 credits)</SelectItem>

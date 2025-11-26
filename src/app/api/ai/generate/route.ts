@@ -22,7 +22,7 @@ import { getAIService } from '@/shared/services/ai';
 
 export async function POST(request: Request) {
   try {
-    let { provider, mediaType, model, prompt, options, scene, resolution } =
+    let { provider, mediaType, model, prompt, options, scene, resolution, aspectRatio } =
       await request.json();
 
     if (!provider || !mediaType || !model) {
@@ -75,13 +75,10 @@ export async function POST(request: Request) {
     if (!isUnlimited) {
       // Calculate cost credits for non-admin users
       if (mediaType === AIMediaType.IMAGE) {
+        // Check resolution for cost (applies to both text-to-image and image-to-image for Gemini)
         if (targetResolution === '4k') {
           costCredits = 20;
           // Check 4K permission: must have active subscription (not just free trial)
-          // We check if user has any credit grant from subscription purchase
-          // Or simpler: check if user has any 'purchase_%' credit transaction
-          // But to be more robust, we should check subscription table or credit history
-          // Here we check credit history for any purchase
           const hasPurchase = await db()
             .select()
             .from(credit)
@@ -89,10 +86,6 @@ export async function POST(request: Request) {
               and(
                 eq(credit.userId, user.id),
                 eq(credit.transactionType, CreditTransactionType.GRANT),
-                // Check for reason starting with purchase_
-                // Since we don't have 'like' operator easily available in this context without import,
-                // we can check if scene is NOT free_trial and NOT gift/award if those are used for free stuff.
-                // Better: check if scene is 'payment' or 'subscription' (CreditTransactionScene enum)
                 or(
                   eq(credit.transactionScene, CreditTransactionScene.PAYMENT),
                   eq(credit.transactionScene, CreditTransactionScene.SUBSCRIPTION),
@@ -113,7 +106,7 @@ export async function POST(request: Request) {
           }
 
         } else {
-          // 2k
+          // 1k/2k
           costCredits = 10;
         }
       } else if (mediaType === AIMediaType.MUSIC) {
@@ -151,6 +144,7 @@ export async function POST(request: Request) {
       options: {
         ...options,
         resolution: targetResolution,
+        aspectRatio,
       },
     };
 
