@@ -3,10 +3,10 @@ import { eq, and, or } from 'drizzle-orm';
 import { envConfigs } from '@/config';
 import { credit } from '@/config/db/schema';
 import { db } from '@/core/db';
-import { AIMediaType } from '@/extensions/ai';
+import { AIMediaType, AITaskStatus } from '@/extensions/ai';
 import { getSnowId, getUuid } from '@/shared/lib/hash';
 import { respData, respErr } from '@/shared/lib/resp';
-import { createAITask, NewAITask } from '@/shared/models/ai_task';
+import { createAITask, NewAITask, updateAITaskById } from '@/shared/models/ai_task';
 import {
   consumeCredits,
   createCredit,
@@ -148,57 +148,12 @@ export async function POST(request: Request) {
       },
     };
 
-    // generate content
-    let result;
-    try {
-        result = await aiProvider.generate({ params });
-    } catch (err: any) {
-        // Refund credits if generation fails
-        if (!isUnlimited && costCredits > 0) {
-             const newCredit: NewCredit = {
-              id: getUuid(),
-              transactionNo: getSnowId(),
-              transactionType: CreditTransactionType.GRANT,
-              transactionScene: 'generation_failed_refund',
-              userId: user.id,
-              status: CreditStatus.ACTIVE,
-              description: 'Refund for failed generation',
-              credits: costCredits,
-              remainingCredits: costCredits,
-              // Refund credits valid for 30 days or same as original? 
-              // Let's give 30 days for simplicity
-              expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
-            };
-            await createCredit(newCredit);
-        }
-        throw err;
-    }
+    // Step 1: 立即创建 PENDING 任务并返回
+    const taskId = getUuid(); // 生成一个唯一的任务 ID
+    const initialTaskStatus = AITaskStatus.PENDING;
 
-    if (!result?.taskId) {
-       // Refund credits if no task id returned (should be caught above but just in case)
-        if (!isUnlimited && costCredits > 0) {
-             const newCredit: NewCredit = {
-              id: getUuid(),
-              transactionNo: getSnowId(),
-              transactionType: CreditTransactionType.GRANT,
-              transactionScene: 'generation_failed_refund',
-              userId: user.id,
-              status: CreditStatus.ACTIVE,
-              description: 'Refund for failed generation',
-              credits: costCredits,
-              remainingCredits: costCredits,
-              expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
-            };
-            await createCredit(newCredit);
-        }
-      throw new Error(
-        `ai generate failed, mediaType: ${mediaType}, provider: ${provider}, model: ${model}`
-      );
-    }
-
-    // create ai task
     const newAITask: NewAITask = {
-      id: getUuid(),
+      id: taskId,
       userId: user.id,
       mediaType,
       provider,
@@ -206,15 +161,79 @@ export async function POST(request: Request) {
       prompt,
       scene,
       options: options ? JSON.stringify(options) : null,
-      status: result.taskStatus,
+      status: initialTaskStatus,
       costCredits,
-      taskId: result.taskId,
-      taskInfo: result.taskInfo ? JSON.stringify(result.taskInfo) : null,
-      taskResult: result.taskResult ? JSON.stringify(result.taskResult) : null,
+      taskId: taskId, // 使用相同的 ID 作为 provider task id
+      taskInfo: null,
+      taskResult: null,
     };
+
     await createAITask(newAITask);
 
-    return respData(newAITask);
+    // Step 2: 立即返回任务给前端（不等待 Gemini 完成）
+    const response = respData(newAITask);
+
+    // Step 3: 在后台异步调用 Gemini（不阻塞响应）
+    Promise.resolve().then(async () => {
+      try {
+        console.log(`[Background Task ${taskId}] Starting Gemini generation...`);
+
+        // 调用 Gemini API（这会花费 60-90 秒）
+        const result = await aiProvider.generate({ params });
+
+        console.log(`[Background Task ${taskId}] Gemini generation completed`);
+
+        if (!result?.taskId) {
+          throw new Error('Gemini did not return a valid taskId');
+        }
+
+        // 更新任务为成功状态
+        const updateData: any = {
+          status: result.taskStatus,
+          taskInfo: result.taskInfo ? JSON.stringify(result.taskInfo) : null,
+          taskResult: result.taskResult ? JSON.stringify(result.taskResult) : null,
+        };
+
+        await updateAITaskById(taskId, updateData);
+        console.log(`[Background Task ${taskId}] Task updated to SUCCESS`);
+
+      } catch (error: any) {
+        console.error(`[Background Task ${taskId}] Failed:`, error.message);
+
+        // 更新任务为失败状态
+        await updateAITaskById(taskId, {
+          status: AITaskStatus.FAILED,
+          taskInfo: JSON.stringify({
+            errorMessage: error.message,
+            errorCode: 'GENERATION_FAILED',
+          }),
+        });
+
+        // 退款积分（如果不是管理员且消耗了积分）
+        if (!isUnlimited && costCredits > 0) {
+          const newCredit: NewCredit = {
+            id: getUuid(),
+            transactionNo: getSnowId(),
+            transactionType: CreditTransactionType.GRANT,
+            transactionScene: 'generation_failed_refund',
+            userId: user.id,
+            status: CreditStatus.ACTIVE,
+            description: 'Refund for failed generation',
+            credits: costCredits,
+            remainingCredits: costCredits,
+            expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+          };
+          await createCredit(newCredit);
+          console.log(`[Background Task ${taskId}] Credits refunded`);
+        }
+      }
+    }).catch((err) => {
+      // 捕获任何未处理的错误，避免进程崩溃
+      console.error(`[Background Task ${taskId}] Unhandled error:`, err);
+    });
+
+    // 立即返回响应（不等待后台任务完成）
+    return response;
   } catch (e: any) {
     console.log('generate failed', e);
     return respErr(e.message);

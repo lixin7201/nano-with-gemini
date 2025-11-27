@@ -61,6 +61,7 @@ interface BackendTask {
   model: string;
   prompt: string | null;
   taskResult: string | null;
+  taskInfo: string | null;
 }
 
 type ImageGeneratorTab = 'text-to-image' | 'image-to-image';
@@ -341,7 +342,13 @@ export function ImageGenerator({
         setTaskStatus(currentStatus);
 
         const parsedResult = parseTaskResult(task.taskResult);
-        const imageUrls = extractImageUrls(parsedResult);
+        const parsedInfo = parseTaskResult(task.taskInfo);
+        
+        // Prioritize extracting images from taskInfo, then fallback to taskResult
+        let imageUrls = extractImageUrls(parsedInfo);
+        if (imageUrls.length === 0) {
+          imageUrls = extractImageUrls(parsedResult);
+        }
 
         if (currentStatus === AITaskStatus.PENDING) {
           setProgress((prev) => Math.max(prev, 20));

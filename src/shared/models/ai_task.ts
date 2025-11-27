@@ -14,42 +14,14 @@ export type NewAITask = typeof aiTask.$inferInsert;
 export type UpdateAITask = Partial<Omit<NewAITask, 'id' | 'createdAt'>>;
 
 export async function createAITask(newAITask: NewAITask) {
-  const result = await db().transaction(async (tx) => {
-    // 1. create task record
-    const [taskResult] = await tx.insert(aiTask).values(newAITask).returning();
+  // 简化版本：只创建任务记录，不消耗积分
+  // 积分消耗已在 /api/ai/generate 中提前完成
+  const [taskResult] = await db()
+    .insert(aiTask)
+    .values(newAITask)
+    .returning();
 
-    if (
-      newAITask.costCredits &&
-      newAITask.costCredits > 0 &&
-      !(await isAdminFreeCredits(newAITask.userId))
-    ) {
-      // 2. consume credits
-      const consumedCredit = await consumeCredits({
-        userId: newAITask.userId,
-        credits: newAITask.costCredits,
-        scene: newAITask.scene,
-        description: `generate ${newAITask.mediaType}`,
-        metadata: JSON.stringify({
-          type: 'ai-task',
-          mediaType: taskResult.mediaType,
-          taskId: taskResult.id,
-        }),
-      });
-
-      // 3. update task record with consumed credit id
-      if (consumedCredit && consumedCredit.id) {
-        taskResult.creditId = consumedCredit.id;
-        await tx
-          .update(aiTask)
-          .set({ creditId: consumedCredit.id })
-          .where(eq(aiTask.id, taskResult.id));
-      }
-    }
-
-    return taskResult;
-  });
-
-  return result;
+  return taskResult;
 }
 
 export async function findAITaskById(id: string) {
