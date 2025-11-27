@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "价格",
+    "title": "价格 - Nano Banana2",
     "description": "选择方案，立即开始"
   },
   "pricing": {
     "id": "pricing",
     "sr_only_title": "ShipAny 价格表",
     "title": "价格",
-    "description": "获取 ShipAny 的全部功能，极速交付你的 AI SaaS 创业项目。",
+    "description": "选择适合您创作需求的方案。",
     "groups": [
       {
         "name": "monthly",
@@ -19,7 +19,7 @@
     "items": [
       {
         "title": "Basic",
-        "description": "适合轻度创作的个人用户",
+        "description": "适合爱好者和探索者",
         "features_title": "你将获得",
         "features": [
           "每月 250 积分（约 25 张 2K 或 12 张 4K）",
@@ -47,7 +47,7 @@
       },
       {
         "title": "Pro",
-        "description": "适合自由设计师和内容创作者",
+        "description": "适合创作者和设计师",
         "features_title": "你将获得",
         "features": [
           "每月 1000 积分（约 100 张 2K 或 50 张 4K）",
@@ -75,7 +75,7 @@
       },
       {
         "title": "Premium",
-        "description": "适合高频创作的专业用户",
+        "description": "适合高级用户和工作室",
         "features_title": "你将获得",
         "features": [
           "每月 2500 积分（约 250 张 2K 或 125 张 4K）",

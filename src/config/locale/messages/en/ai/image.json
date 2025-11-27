@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "title": "AI Image Generator",
+    "title": "Nano Banana2 Generator",
     "description": "Generate images with AI models, support text-to-image and image-to-image."
   },
   "page": {
-    "title": "AI Image Generator",
+    "title": "Nano Banana2 Generator",
     "description": "Generate images with AI models, support text-to-image and image-to-image."
   },
   "generator": {
-    "title": "Image Generator",
+    "title": "Nano Banana2 Generator",
     "description": "Generate images with AI models, support text-to-image and image-to-image.",
     "tabs": {
       "text-to-image": "Text to Image",
@@ -35,7 +35,7 @@
     "loading": "Loading...",
     "generating": "Generating...",
     "sign_in_to_generate": "Sign In to Generate Image",
-    "credits_cost": "Cost {credits} credits",
+    "credits_cost": "Cost {credits} credits (1k/2k=10, 4k=20)",
     "credits_remaining": "Remaining {credits} credits",
     "buy_credits": "Buy Credits",
     "progress": "Progress",

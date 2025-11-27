@@ -2,10 +2,10 @@
   "header": {
     "id": "header",
     "brand": {
-      "title": "ShipAny Two",
+      "title": "Nano Banana2",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny Two"
+        "alt": "Nano Banana2"
       },
       "url": "/"
     },
@@ -86,12 +86,12 @@
   },
   "hero": {
     "id": "hero",
-    "title": "一小时快速上线你的 AI 创业项目",
-    "highlight_text": "一小时",
-    "description": "ShipAny 是用于构建 AI SaaS 创业项目的 NextJS 项目模板。<br/>集成常用功能，快速上线你的产品。",
+    "title": "使用 Gemini AI 创作惊艳图像",
+    "highlight_text": "Gemini AI",
+    "description": "Nano Banana2 是由 Google Gemini 模型驱动的终极 AI 图像生成平台。创作、编辑、激发灵感。",
     "announcement": {
       "badge": "全新",
-      "title": "🎉 ShipAny 模板二已发布",
+      "title": "🎉 Nano Banana2 已上线",
       "url": "/pricing"
     },
     "tip": "🎁 前 1000 名用户特价优惠",
@@ -124,7 +124,7 @@
     }
   },
   "logos": {
-    "title": "ShipAny 使用以下技术栈构建",
+    "title": "由先进技术驱动",
     "items": [
       {
         "title": "Next.js",
@@ -477,11 +477,11 @@
   "footer": {
     "id": "footer",
     "brand": {
-      "title": "ShipAny Two",
-      "description": "ShipAny 是专为 AI SaaS 创业项目打造的 NextJS 模板。丰富模板与组件，极速交付你的产品。",
+      "title": "Nano Banana2",
+      "description": "Nano Banana2 是您的终极 AI 图像生成平台。",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny Two"
+        "alt": "Nano Banana2"
       },
       "url": "/"
     },

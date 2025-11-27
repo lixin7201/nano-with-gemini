@@ -2,10 +2,10 @@
   "header": {
     "id": "header",
     "brand": {
-      "title": "ShipAny Two",
+      "title": "Nano Banana2",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny Two"
+        "alt": "Nano Banana2"
       },
       "url": "/"
     },
@@ -86,12 +86,12 @@
   },
   "hero": {
     "id": "hero",
-    "title": "Ship AI Startups in hours, not days",
-    "highlight_text": "in hours",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups.<br/>Ship Fast with a variety of templates and components.",
+    "title": "Create Stunning Images with Gemini AI",
+    "highlight_text": "Gemini AI",
+    "description": "Nano Banana2 is your ultimate AI image generation platform powered by Google's Gemini models. Create, edit, and inspire.",
     "announcement": {
       "badge": "New",
-      "title": "🎉 ShipAny Template Two",
+      "title": "🎉 Nano Banana2 is Live",
       "url": "/pricing"
     },
     "tip": "🎁 Special offer for the first 1000 users",
@@ -124,7 +124,7 @@
     }
   },
   "logos": {
-    "title": "ShipAny is built on the shoulders of giants",
+    "title": "Powered by advanced technology",
     "items": [
       {
         "title": "Next.js",
@@ -477,11 +477,11 @@
   "footer": {
     "id": "footer",
     "brand": {
-      "title": "ShipAny Two",
-      "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
+      "title": "Nano Banana2",
+      "description": "Nano Banana2 is your ultimate AI image generation platform.",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny Two"
+        "alt": "Nano Banana2"
       },
       "url": "/"
     },

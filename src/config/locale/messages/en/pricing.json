@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Pricing",
+    "title": "Pricing - Nano Banana2",
     "description": "Start with a plan"
   },
   "pricing": {
     "id": "pricing",
     "sr_only_title": "ShipAny Pricing",
     "title": "Pricing",
-    "description": "Get all features of ShipAny, Ship your AI SaaS startups fast.",
+    "description": "Choose the plan that fits your creative needs.",
     "groups": [
       {
         "name": "monthly",
@@ -19,7 +19,7 @@
     "items": [
       {
         "title": "Basic",
-        "description": "For individual creators",
+        "description": "For hobbyists and explorers",
         "features_title": "Includes",
         "features": [
           "250 credits/mo (~25 2K or 12 4K images)",
@@ -35,7 +35,7 @@
         "is_featured": false,
         "tip": "Entry level subscription",
         "button": {
-          "title": "Subscribe Basic",
+          "title": "Get Basic",
           "url": "/pricing",
           "icon": "RiFlashlightFill"
         },
@@ -47,7 +47,7 @@
       },
       {
         "title": "Pro",
-        "description": "For designers and content creators",
+        "description": "For creators and designers",
         "features_title": "Includes",
         "features": [
           "1000 credits/mo (~100 2K or 50 4K images)",
@@ -63,7 +63,7 @@
         "is_featured": true,
         "tip": "Recommended: Best Value",
         "button": {
-          "title": "Subscribe Pro",
+          "title": "Get Pro",
           "url": "/pricing",
           "icon": "RiFlashlightFill"
         },
@@ -75,7 +75,7 @@
       },
       {
         "title": "Premium",
-        "description": "For professional users",
+        "description": "For power users and studios",
         "features_title": "Includes",
         "features": [
           "2500 credits/mo (~250 2K or 125 4K images)",
@@ -91,7 +91,7 @@
         "is_featured": false,
         "tip": "Best for high volume usage",
         "button": {
-          "title": "Subscribe Premium",
+          "title": "Get Premium",
           "url": "/pricing",
           "icon": "RiFlashlightFill"
         },
