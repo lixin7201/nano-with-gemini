@@ -160,7 +160,7 @@ export async function POST(request: Request) {
       model,
       prompt,
       scene,
-      options: options ? JSON.stringify(options) : null,
+      options: options ? JSON.stringify({ ...options, resolution: targetResolution, aspectRatio }) : JSON.stringify({ resolution: targetResolution, aspectRatio }),
       status: initialTaskStatus,
       costCredits,
       taskId: taskId, // 使用相同的 ID 作为 provider task id
@@ -173,66 +173,10 @@ export async function POST(request: Request) {
     // Step 2: 立即返回任务给前端（不等待 Gemini 完成）
     const response = respData(newAITask);
 
-    // Step 3: 在后台异步调用 Gemini（不阻塞响应）
-    Promise.resolve().then(async () => {
-      try {
-        console.log(`[Background Task ${taskId}] Starting Gemini generation...`);
+    // Step 3: 移除后台异步调用，改为在 query 接口中触发 (Long Polling)
+    // Promise.resolve().then(async () => { ... })
 
-        // 调用 Gemini API（这会花费 60-90 秒）
-        const result = await aiProvider.generate({ params });
-
-        console.log(`[Background Task ${taskId}] Gemini generation completed`);
-
-        if (!result?.taskId) {
-          throw new Error('Gemini did not return a valid taskId');
-        }
-
-        // 更新任务为成功状态
-        const updateData: any = {
-          status: result.taskStatus,
-          taskInfo: result.taskInfo ? JSON.stringify(result.taskInfo) : null,
-          taskResult: result.taskResult ? JSON.stringify(result.taskResult) : null,
-        };
-
-        await updateAITaskById(taskId, updateData);
-        console.log(`[Background Task ${taskId}] Task updated to SUCCESS`);
-
-      } catch (error: any) {
-        console.error(`[Background Task ${taskId}] Failed:`, error.message);
-
-        // 更新任务为失败状态
-        await updateAITaskById(taskId, {
-          status: AITaskStatus.FAILED,
-          taskInfo: JSON.stringify({
-            errorMessage: error.message,
-            errorCode: 'GENERATION_FAILED',
-          }),
-        });
-
-        // 退款积分（如果不是管理员且消耗了积分）
-        if (!isUnlimited && costCredits > 0) {
-          const newCredit: NewCredit = {
-            id: getUuid(),
-            transactionNo: getSnowId(),
-            transactionType: CreditTransactionType.GRANT,
-            transactionScene: 'generation_failed_refund',
-            userId: user.id,
-            status: CreditStatus.ACTIVE,
-            description: 'Refund for failed generation',
-            credits: costCredits,
-            remainingCredits: costCredits,
-            expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
-          };
-          await createCredit(newCredit);
-          console.log(`[Background Task ${taskId}] Credits refunded`);
-        }
-      }
-    }).catch((err) => {
-      // 捕获任何未处理的错误，避免进程崩溃
-      console.error(`[Background Task ${taskId}] Unhandled error:`, err);
-    });
-
-    // 立即返回响应（不等待后台任务完成）
+    // 立即返回响应
     return response;
   } catch (e: any) {
     console.log('generate failed', e);
