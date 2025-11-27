@@ -85,18 +85,29 @@ export class GeminiProvider implements AIProvider {
 
     const { image_input, resolution, aspectRatio, ...generationConfig } = options || {};
 
+    let imageSize;
+    if (resolution === '1k') {
+      imageSize = '1K';
+    } else if (resolution === '2k') {
+      imageSize = '2K';
+    } else if (resolution === '4k') {
+      imageSize = '4K';
+    }
+
     const payload = {
-      contents: {
-        role: 'user',
-        parts: requestParts,
-      },
-      generation_config: {
-        response_modalities: ['TEXT', 'IMAGE'],
-        ...(aspectRatio || resolution
+      contents: [
+        {
+          role: 'user',
+          parts: requestParts,
+        },
+      ],
+      generationConfig: {
+        responseModalities: ['IMAGE'],
+        ...(aspectRatio || imageSize
           ? {
-              image_config: {
-                aspect_ratio: aspectRatio,
-                image_size: resolution,
+              imageConfig: {
+                ...(aspectRatio ? { aspectRatio } : {}),
+                ...(imageSize ? { imageSize } : {}),
               },
             }
           : {}),
@@ -130,7 +141,11 @@ export class GeminiProvider implements AIProvider {
     const parts = candidate.content?.parts;
 
     if (!parts || parts.length === 0) {
-      throw new Error('no parts returned');
+      const finishReason = candidate.finishReason;
+      const finishMessage = candidate.finishMessage;
+      throw new Error(
+        `no parts returned. finishReason: ${finishReason}, finishMessage: ${finishMessage}`
+      );
     }
 
     const imagePart = parts.find((p: any) => p.inlineData);
