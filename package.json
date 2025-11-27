@@ -1,16 +1,16 @@
 {
-  "name": "shipany-template-two",
+  "name": "nano-banana2",
   "version": "1.2.0",
   "private": true,
-  "author": "ShipAny.ai",
-  "homepage": "https://shipany.ai",
+  "author": "Nano Banana2 Team",
+  "homepage": "https://your-domain.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shipanyai/shipany-template-two"
+    "url": "https://github.com/your-repo/nano-banana2"
   },
   "keywords": [
-    "shipany",
-    "shipany-template-two",
+    "nano-banana2",
+    "gemini-ai-image",
     "ai-saas-boilerplate",
     "ai-saas-template",
     "ai-saas-framework",

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-ShipAny Template Two is a modern full-stack SaaS application for AI-powered content generation with integrated payment processing. It supports multiple deployment targets (Vercel, Cloudflare, Docker) and payment providers (Stripe, PayPal, Creem).
+Nano Banana2 is a modern full-stack SaaS application for AI-powered image generation with integrated payment processing. It supports multiple deployment targets (Vercel, Cloudflare, Docker) and payment providers (Stripe, PayPal, Creem).
 
 ## Essential Commands
 

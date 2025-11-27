@@ -71,16 +71,16 @@ const MAX_PROMPT_LENGTH = 2000;
 
 const MODEL_OPTIONS = [
   {
+    value: 'gemini-3-pro-image-preview',
+    label: 'Gemini 3 Pro Image Preview',
+    provider: 'gemini',
+    scenes: ['text-to-image', 'image-to-image'],
+  },
+  {
     value: 'black-forest-labs/flux-schnell',
     label: 'FLUX Schnell',
     provider: 'replicate',
     scenes: ['text-to-image'],
-  },
-  {
-    value: 'google/nano-banana',
-    label: 'Nano Banana',
-    provider: 'replicate',
-    scenes: ['text-to-image', 'image-to-image'],
   },
   {
     value: 'bytedance/seedream-4',
@@ -88,22 +88,16 @@ const MODEL_OPTIONS = [
     provider: 'replicate',
     scenes: ['text-to-image', 'image-to-image'],
   },
-  {
-    value: 'gemini-3-pro-image-preview',
-    label: 'Gemini 3 Pro Image Preview',
-    provider: 'gemini',
-    scenes: ['text-to-image', 'image-to-image'],
-  },
 ];
 
 const PROVIDER_OPTIONS = [
   {
-    value: 'replicate',
-    label: 'Replicate',
-  },
-  {
     value: 'gemini',
     label: 'Gemini',
+  },
+  {
+    value: 'replicate',
+    label: 'Replicate',
   },
 ];
 
@@ -240,7 +234,7 @@ export function ImageGenerator({
     if (tab === 'text-to-image') {
       setCostCredits(resolution === '4k' ? 20 : 10);
     } else {
-      setCostCredits(4);
+      setCostCredits(resolution === '4k' ? 20 : 10);
     }
   };
 
@@ -248,20 +242,8 @@ export function ImageGenerator({
     // Cost calculation logic:
     // 1k/2k = 10 credits (default)
     // 4k = 20 credits
-    // Image-to-image base cost is 4 credits, but if using Gemini with high res, it might be different?
-    // The requirement says: "1k/2k use original 2k price, 4k keeps price increase (now 20 credits)"
-    // And "switch tab or provider... update cost".
-    
-    if (provider === 'gemini') {
-       setCostCredits(resolution === '4k' ? 20 : 10);
-    } else {
-        if (activeTab === 'text-to-image') {
-            setCostCredits(resolution === '4k' ? 20 : 10);
-        } else {
-            setCostCredits(4);
-        }
-    }
-  }, [resolution, activeTab, provider]);
+    setCostCredits(resolution === '4k' ? 20 : 10);
+  }, [resolution]);
 
   const handleProviderChange = (value: string) => {
     setProvider(value);

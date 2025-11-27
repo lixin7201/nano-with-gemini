@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Nano Banana2",
-    "description": "Nano Banana2 - 使用 Gemini AI 创作惊艳图像。",
-    "keywords": "shipany, shipany-boilerplate, shipany-template-two-demo"
+    "description": "Nano Banana2 — 基于 Gemini 的高质量 AI 出图平台。支持文生图/图生图，提供 1K/2K/4K 高清输出。",
+    "keywords": "Nano Banana2, AI 图片生成, Gemini 出图, 文生图, 图生图, 4K 图片, 在线出图, AI 壁纸, 文生图工具, 高分辨率 AI 图片"
   },
   "sign": {
     "sign_in_title": "登录",
