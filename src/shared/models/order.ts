@@ -1,4 +1,4 @@
-import { and, count, desc, eq } from 'drizzle-orm';
+import { and, count, desc, eq, inArray } from 'drizzle-orm';
 
 import { db } from '@/core/db';
 import { credit, order, subscription } from '@/config/db/schema';
@@ -174,11 +174,13 @@ export async function updateOrderInTransaction({
   updateOrder,
   newSubscription,
   newCredit,
+  expectedStatus,
 }: {
   orderNo: string;
   updateOrder: UpdateOrder;
   newSubscription?: NewSubscription;
   newCredit?: NewCredit;
+  expectedStatus?: OrderStatus[];
 }) {
   if (!orderNo || !updateOrder) {
     throw new Error('orderNo and updateOrder are required');
@@ -253,7 +255,12 @@ export async function updateOrderInTransaction({
     const [orderResult] = await tx
       .update(order)
       .set(updateOrder)
-      .where(eq(order.orderNo, orderNo))
+      .where(
+        and(
+          eq(order.orderNo, orderNo),
+          expectedStatus ? inArray(order.status, expectedStatus) : undefined
+        )
+      )
       .returning();
 
     result.order = orderResult;

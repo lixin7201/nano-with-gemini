@@ -21,7 +21,7 @@ import { PricingCurrency } from '@/shared/types/blocks/pricing';
 
 export async function POST(req: Request) {
   try {
-    const { product_id, currency, locale, payment_provider, metadata } =
+    const { product_id, currency, locale, payment_provider, metadata, quantity } =
       await req.json();
     if (!product_id) {
       return respErr('product_id is required');
@@ -55,14 +55,13 @@ export async function POST(req: Request) {
     const configs = await getAllConfigs();
 
     // choose payment provider
-    let paymentProviderName = 'creem';
-    // let paymentProviderName = payment_provider || '';
-    // if (!paymentProviderName) {
-    //   paymentProviderName = configs.default_payment_provider;
-    // }
-    // if (!paymentProviderName) {
-    //   return respErr('no payment provider configured');
-    // }
+    let paymentProviderName = payment_provider || '';
+    if (!paymentProviderName) {
+      paymentProviderName = configs.default_payment_provider;
+    }
+    if (!paymentProviderName) {
+      return respErr('no payment provider configured');
+    }
 
     // Validate payment provider against allowed providers
     // First check currency-specific payment_providers if currency is provided
@@ -128,6 +127,19 @@ export async function POST(req: Request) {
         // If currency not found in list, fallback to default (already set above)
       }
       // If no currencies list exists, fallback to default (already set above)
+    }
+
+    // Validate quantity
+    let checkoutQuantity = 1;
+    if (quantity) {
+      const q = parseInt(quantity);
+      if (isNaN(q) || q < 1) {
+        return respErr('invalid quantity');
+      }
+      if (q > 100) {
+        return respErr('quantity exceeds limit (100)');
+      }
+      checkoutQuantity = q;
     }
 
     // get payment interval
@@ -204,10 +216,13 @@ export async function POST(req: Request) {
         email: user.email,
       },
       type: paymentType,
+      orderNo: orderNo, // Set orderNo for provider use (e.g. Creem request_id)
+      quantity: checkoutQuantity,
       metadata: {
         app_name: configs.app_name,
         order_no: orderNo,
         user_id: user.id,
+        seats: checkoutQuantity,
         ...(metadata || {}),
       },
       successUrl: `${configs.app_url}/api/payment/callback?order_no=${orderNo}`,
@@ -240,7 +255,7 @@ export async function POST(req: Request) {
       userId: user.id,
       userEmail: user.email,
       status: OrderStatus.PENDING,
-      amount: checkoutAmount, // use the amount for selected currency
+      amount: checkoutAmount * checkoutQuantity, // Total amount
       currency: checkoutCurrency,
       productId: pricingItem.product_id,
       paymentType: paymentType,
@@ -251,7 +266,7 @@ export async function POST(req: Request) {
       productName: pricingItem.product_name,
       description: pricingItem.description,
       callbackUrl: callbackUrl,
-      creditsAmount: pricingItem.credits,
+      creditsAmount: pricingItem.credits * checkoutQuantity, // Total credits
       creditsValidDays: pricingItem.valid_days,
       planName: pricingItem.plan_name || '',
       paymentProductId: paymentProductId,

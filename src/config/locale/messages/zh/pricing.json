@@ -101,7 +101,8 @@
         "valid_days": 30,
         "group": "monthly"
       }
-    ]
+    ],
+    "policy": "价格以 USD 计；税费可能因地区而适用。您可随时取消订阅。<a href='/terms-of-service#refunds' class='underline'>退款政策</a>"
   },
   "page": {
     "current_plan": "当前方案",

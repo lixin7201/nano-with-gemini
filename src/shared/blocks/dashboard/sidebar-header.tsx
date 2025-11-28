@@ -24,7 +24,7 @@ export function SidebarHeader({ header }: { header: SidebarHeaderType }) {
             >
               {header.brand && (
                 <Link href={header.brand.url || ''}>
-                  {header.brand.logo && (
+                  {/* {header.brand.logo && (
                     <Image
                       src={header.brand.logo.src}
                       alt={header.brand.logo.alt || ''}
@@ -32,7 +32,7 @@ export function SidebarHeader({ header }: { header: SidebarHeaderType }) {
                       height={80}
                       className="h-auto w-8 shrink-0"
                     />
-                  )}
+                  )} */}
                   <span className="text-base font-semibold">
                     {header.brand.title}
                   </span>

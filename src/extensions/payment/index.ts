@@ -201,6 +201,8 @@ export enum PaymentEventType {
   PAYMENT_REFUNDED = 'payment.refunded', // payment refunded
   SUBSCRIBE_UPDATED = 'subscribe.updated', // subscription updated
   SUBSCRIBE_CANCELED = 'subscribe.canceled', // subscription canceled
+  DISPUTE_CREATED = 'dispute.created', // dispute created
+  UNKNOWN = 'unknown', // unknown event
 }
 
 export interface EventInfo {}

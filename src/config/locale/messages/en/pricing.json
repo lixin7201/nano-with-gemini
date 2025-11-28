@@ -6,8 +6,8 @@
   "pricing": {
     "id": "pricing",
     "sr_only_title": "Nano Banana2 Pricing",
-    "title": "Pricing",
-    "description": "Choose the plan that fits your creative needs.",
+    "title": "Simple, transparent pricing",
+    "description": "Choose the plan that's right for you. All plans include a 14-day money-back guarantee.",
     "groups": [
       {
         "name": "monthly",
@@ -16,13 +16,22 @@
         "label": "Subscription"
       }
     ],
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save": "Save {percent}%",
+    "popular": "Most Popular",
+    "current_plan": "Current Plan",
+    "whats_included": "What's included",
+    "processing": "Processing...",
+    "tax_note": "Taxes may apply",
+    "refund_policy": "14-day money-back guarantee",
     "items": [
       {
         "title": "Basic",
         "description": "For hobbyists and explorers",
         "features_title": "Includes",
         "features": [
-          "250 credits/mo (~25 2K or 12 4K images)",
+          "250 credits/mo (approx. 25 2K or 12 4K images)",
           "Support 2K / 4K output",
           "Standard queue priority"
         ],
@@ -50,7 +59,7 @@
         "description": "For creators and designers",
         "features_title": "Includes",
         "features": [
-          "1000 credits/mo (~100 2K or 50 4K images)",
+          "1000 credits/mo (approx. 100 2K or 50 4K images)",
           "Support custom resolution",
           "Higher queue priority"
         ],
@@ -78,7 +87,7 @@
         "description": "For power users and studios",
         "features_title": "Includes",
         "features": [
-          "2500 credits/mo (~250 2K or 125 4K images)",
+          "2500 credits/mo (approx. 250 2K or 125 4K images)",
           "Highest queue priority",
           "Premium support & higher batch limits"
         ],
@@ -101,7 +110,8 @@
         "valid_days": 30,
         "group": "monthly"
       }
-    ]
+    ],
+    "policy": "Prices are in USD; taxes may apply based on your location. You can cancel anytime. <a href='/terms-of-service#refunds' class='underline'>Refund Policy</a>"
   },
   "page": {
     "current_plan": "Current Plan",

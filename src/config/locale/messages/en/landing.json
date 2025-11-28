@@ -82,7 +82,7 @@
       "title": "🎉 Nano Banana2 is Live",
       "url": "/pricing"
     },
-    "tip": "🎁 Special offer for the first 1000 users",
+    "tip": "🎁 Special offer for early adopters",
     "buttons": [
       {
         "title": "Get Started",
@@ -100,7 +100,7 @@
       }
     ],
     "show_avatars": true,
-    "avatars_tip": "999+ users are using Nano Banana2",
+    "avatars_tip": "Join our growing community",
     "show_award": false,
     "image": {
       "src": "/imgs/features/admin.png",
@@ -322,7 +322,7 @@
     "description": "for it's easy to use and fast to ship.",
     "items": [
       {
-        "title": "999+",
+        "title": "1000+",
         "description": "Customers"
       },
       {
@@ -339,62 +339,7 @@
     "id": "testimonials",
     "title": "What Users Say About Nano Banana2",
     "description": "Hear from creators who use Nano Banana2 for their projects.",
-    "items": [
-      {
-        "name": "David Chen",
-        "role": "Founder of AIWallpaper.shop",
-        "quote": "Nano Banana2 has transformed my workflow. The image quality is incredible!",
-        "image": {
-          "src": "/imgs/avatars/1.png",
-          "alt": "david"
-        }
-      },
-      {
-        "name": "Rachel Kim",
-        "role": "CTO at HeyBeauty.ai",
-        "quote": "I love the 4K resolution support. It's perfect for my design work.",
-        "image": {
-          "src": "/imgs/avatars/2.png",
-          "alt": "rachel"
-        }
-      },
-      {
-        "name": "Marcus Thompson",
-        "role": "Solo Developer",
-        "quote": "The interface is so easy to use, and the results are always stunning.",
-        "image": {
-          "src": "/imgs/avatars/3.png",
-          "alt": "marcus"
-        }
-      },
-      {
-        "name": "Sofia Garcia",
-        "role": "CEO of Melodisco",
-        "quote": "Best AI image generator I've used. Highly recommended!",
-        "image": {
-          "src": "/imgs/avatars/4.png",
-          "alt": "sofia"
-        }
-      },
-      {
-        "name": "James Wilson",
-        "role": "Tech Lead at GPTs.works",
-        "quote": "Great value for money. The credit system is fair and transparent.",
-        "image": {
-          "src": "/imgs/avatars/5.png",
-          "alt": "james"
-        }
-      },
-      {
-        "name": "Anna Zhang",
-        "role": "Startup Founder",
-        "quote": "I use it every day for my social media content. It's a lifesaver.",
-        "image": {
-          "src": "/imgs/avatars/6.png",
-          "alt": "anna"
-        }
-      }
-    ]
+    "items": []
   },
   "faq": {
     "id": "faq",
@@ -403,35 +348,31 @@
     "tip": "Can't find what you're looking for? Contact our <a href='https://discord.gg/HQNnrzjZQS' target='_blank' class='text-primary font-medium hover:underline'>customer support team</a>",
     "items": [
       {
-        "question": "What is Nano Banana2?",
-        "answer": "Nano Banana2 is an advanced AI image generation platform powered by Google's Gemini models."
+        "question": "Is there a free trial?",
+        "answer": "Yes, we offer a free trial with 30 credits (3x 2K images) so you can explore our features."
       },
       {
-        "question": "Do I need design skills to use Nano Banana2?",
-        "answer": "No, Nano Banana2 is designed for everyone. Just describe what you want to see, and our AI will create it for you."
+        "question": "How does billing work?",
+        "answer": "We offer flexible pricing plans. You can choose between monthly or annual billing, or purchase credits as needed."
       },
       {
-        "question": "What resolutions are supported?",
-        "answer": "We support 1K, 2K, and 4K high-resolution output to meet your various needs."
+        "question": "Can I cancel anytime?",
+        "answer": "Yes, you can cancel your subscription at any time from your account settings."
       },
       {
-        "question": "How much does it cost?",
-        "answer": "We offer flexible pricing plans. You can check our pricing page for more details."
+        "question": "What is the refund policy?",
+        "answer": "We offer a 14-day refund policy for all paid plans. If you are not satisfied, contact us for a full refund."
       },
       {
-        "question": "Can I use the images for commercial purposes?",
-        "answer": "Yes, you own the rights to the images you generate with Nano Banana2."
-      },
-      {
-        "question": "How do I get started?",
-        "answer": "Simply sign up for an account, choose a plan, and start generating images immediately."
+        "question": "How can I contact support?",
+        "answer": "You can reach our support team at support@nanobanana2.com for any assistance."
       }
     ]
   },
   "cta": {
     "id": "cta",
-    "title": "Start Creating with Nano Banana2",
-    "description": "Unleash your creativity today.",
+    "title": "Ready to get started?",
+    "description": "Join thousands of satisfied users and start creating today.",
     "buttons": [
       {
         "title": "Get Started",
@@ -560,7 +501,7 @@
         {
           "title": "Email",
           "icon": "Mail",
-          "url": "mailto:support@your-domain.com",
+          "url": "mailto:support@nanobanana2.com",
           "target": "_self"
         }
       ]

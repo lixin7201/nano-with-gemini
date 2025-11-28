@@ -5,6 +5,7 @@ import {
   pgTable,
   text,
   timestamp,
+  uniqueIndex,
 } from 'drizzle-orm/pg-core';
 
 export const user = pgTable(
@@ -233,6 +234,9 @@ export const order = pgTable(
     ),
     // Order orders by creation time for listing
     index('idx_order_created_at').on(table.createdAt),
+    // Unique constraints
+    uniqueIndex('idx_order_no').on(table.orderNo),
+    uniqueIndex('idx_transaction_id').on(table.transactionId),
   ]
 );
 

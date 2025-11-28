@@ -57,8 +57,9 @@ export class CreemProvider implements PaymentProvider {
       // build payment payload
       const payload: any = {
         product_id: order.productId,
-        request_id: order.requestId || undefined,
-        units: 1,
+        request_id:
+          order.orderNo || order.requestId || order.metadata?.order_no,
+        units: order.quantity || Number(order.metadata?.seats) || 1,
         discount_code: order.discount
           ? {
               code: order.discount.code,
@@ -79,8 +80,13 @@ export class CreemProvider implements PaymentProvider {
               text: customField.metadata,
             }))
           : undefined,
+        cancel_url: order.cancelUrl,
+        return_url: order.successUrl,
         success_url: order.successUrl,
-        metadata: order.metadata,
+        metadata: {
+          ...order.metadata,
+          seats: order.quantity || order.metadata?.seats || 1,
+        },
       };
 
       const result = await this.makeRequest('/v1/checkouts', 'POST', payload);
@@ -116,7 +122,7 @@ export class CreemProvider implements PaymentProvider {
     try {
       // retrieve payment
       const session = await this.makeRequest(
-        `/v1/checkouts?checkout_id=${sessionId}`,
+        `/v1/checkouts/${sessionId}`,
         'GET'
       );
 
@@ -133,7 +139,9 @@ export class CreemProvider implements PaymentProvider {
   async getPaymentEvent({ req }: { req: Request }): Promise<PaymentEvent> {
     try {
       const rawBody = await req.text();
-      const signature = req.headers.get('creem-signature') as string;
+      const signature =
+        req.headers.get('creem-signature') ||
+        req.headers.get('Creem-Signature');
 
       if (!rawBody || !signature) {
         throw new Error('Invalid webhook request');
@@ -143,12 +151,23 @@ export class CreemProvider implements PaymentProvider {
         throw new Error('Signing Secret not configured');
       }
 
-      const computedSignature = await this.generateSignature(
+      const computedSignatureBase64 = await this.generateSignature(
         rawBody,
-        this.configs.signingSecret
+        this.configs.signingSecret,
+        'base64'
       );
 
-      if (computedSignature !== signature) {
+      const computedSignatureHex = await this.generateSignature(
+        rawBody,
+        this.configs.signingSecret,
+        'hex'
+      );
+
+      const isValid =
+        this.constantTimeEqual(computedSignatureBase64, signature) ||
+        this.constantTimeEqual(computedSignatureHex, signature);
+
+      if (!isValid) {
         throw new Error('Invalid webhook signature');
       }
 
@@ -162,6 +181,18 @@ export class CreemProvider implements PaymentProvider {
       let paymentSession: PaymentSession | undefined = undefined;
 
       const eventType = this.mapCreemEventType(event.eventType);
+
+      if (eventType === PaymentEventType.UNKNOWN) {
+        // Return a dummy event for unknown types to allow 200 ACK
+        return {
+          eventType: PaymentEventType.UNKNOWN,
+          eventResult: event,
+          paymentSession: {
+            provider: this.name,
+            paymentStatus: PaymentStatus.PROCESSING, // Default status
+          },
+        };
+      }
 
       if (eventType === PaymentEventType.CHECKOUT_SUCCESS) {
         paymentSession = await this.buildPaymentSessionFromCheckoutSession(
@@ -182,7 +213,15 @@ export class CreemProvider implements PaymentProvider {
       }
 
       if (!paymentSession) {
-        throw new Error('Invalid webhook event');
+        // Should not happen if eventType is mapped, but safe fallback
+        return {
+          eventType: PaymentEventType.UNKNOWN,
+          eventResult: event,
+          paymentSession: {
+            provider: this.name,
+            paymentStatus: PaymentStatus.PROCESSING,
+          },
+        };
       }
 
       return {
@@ -205,6 +244,7 @@ export class CreemProvider implements PaymentProvider {
     try {
       const billing = await this.makeRequest('/v1/customers/billing', 'POST', {
         customer_id: customerId,
+        return_url: returnUrl,
       });
 
       if (!billing.customer_portal_link) {
@@ -242,7 +282,8 @@ export class CreemProvider implements PaymentProvider {
 
   private async generateSignature(
     payload: string,
-    secret: string
+    secret: string,
+    encoding: 'hex' | 'base64' = 'hex'
   ): Promise<string> {
     try {
       const encoder = new TextEncoder();
@@ -258,8 +299,12 @@ export class CreemProvider implements PaymentProvider {
       );
 
       const signature = await crypto.subtle.sign('HMAC', key, messageData);
-
       const signatureArray = new Uint8Array(signature);
+
+      if (encoding === 'base64') {
+        return btoa(String.fromCharCode(...signatureArray));
+      }
+
       return Array.from(signatureArray)
         .map((b) => b.toString(16).padStart(2, '0'))
         .join('');
@@ -268,11 +313,23 @@ export class CreemProvider implements PaymentProvider {
     }
   }
 
+  private constantTimeEqual(a: string, b: string): boolean {
+    if (a.length !== b.length) {
+      return false;
+    }
+    let result = 0;
+    for (let i = 0; i < a.length; i++) {
+      result |= a.charCodeAt(i) ^ b.charCodeAt(i);
+    }
+    return result === 0;
+  }
+
   private async makeRequest(endpoint: string, method: string, data?: any) {
     const url = `${this.baseUrl}${endpoint}`;
     const headers = {
       'x-api-key': this.configs.apiKey,
       'Content-Type': 'application/json',
+      'Creem-Version': '2024-01-01', // Fixed version
     };
 
     const config: RequestInit = {
@@ -284,14 +341,53 @@ export class CreemProvider implements PaymentProvider {
       config.body = JSON.stringify(data);
     }
 
-    const response = await fetch(url, config);
-    if (!response.ok) {
-      throw new Error(
-        `request creem api failed with status: ${response.status}`
-      );
-    }
+    const maxRetries = 3;
+    let attempt = 0;
 
-    return await response.json();
+    while (attempt < maxRetries) {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout
+      config.signal = controller.signal;
+
+      try {
+        const response = await fetch(url, config);
+        clearTimeout(timeoutId);
+
+        if (response.ok) {
+          return await response.json();
+        }
+
+        // Don't retry on 4xx errors
+        if (response.status >= 400 && response.status < 500) {
+          throw new Error(
+            `request creem api failed with status: ${response.status}`
+          );
+        }
+
+        // Retry on 5xx or network errors
+        throw new Error(`Server error: ${response.status}`);
+      } catch (error: any) {
+        clearTimeout(timeoutId);
+        attempt++;
+
+        if (attempt >= maxRetries || (error.message && error.message.includes('4'))) {
+           if (attempt >= maxRetries) {
+             console.error(`Creem API request failed after ${maxRetries} attempts: ${error.message}`);
+           }
+           if (error.message && error.message.includes('4')) {
+             throw error; // Rethrow 4xx immediately
+           }
+        }
+
+        // Exponential backoff: 0.5s, 1s, 2s
+        const delay = 500 * Math.pow(2, attempt - 1);
+        await new Promise((resolve) => setTimeout(resolve, delay));
+        
+        if (attempt === maxRetries) {
+             throw error;
+        }
+      }
+    }
   }
 
   private mapCreemEventType(eventType: string): PaymentEventType {
@@ -308,13 +404,16 @@ export class CreemProvider implements PaymentProvider {
         return PaymentEventType.SUBSCRIBE_UPDATED;
       case 'subscription.canceled':
         return PaymentEventType.SUBSCRIBE_CANCELED;
+      case 'subscription.expired':
+        return PaymentEventType.SUBSCRIBE_CANCELED;
+      case 'subscription.trialing':
+        return PaymentEventType.SUBSCRIBE_UPDATED;
+      case 'refund.created':
+        return PaymentEventType.PAYMENT_REFUNDED; // Assuming this exists or map to updated
+      case 'dispute.created':
+        return PaymentEventType.DISPUTE_CREATED; // Assuming this exists or map to unknown/log
       default:
-        // not handle other event type
-        // subscription.expired
-        // subscription.trialing
-        // refund.created
-        // dispute.created
-        throw new Error(`Not handle creem event type: ${eventType}`);
+        return PaymentEventType.UNKNOWN;
     }
   }
 
@@ -325,9 +424,19 @@ export class CreemProvider implements PaymentProvider {
 
     if (orderStatus === 'paid') {
       return PaymentStatus.SUCCESS;
+    } else if (
+      ['processing', 'pending', 'unpaid'].includes(orderStatus) ||
+      ['processing', 'pending', 'unpaid'].includes(status)
+    ) {
+      return PaymentStatus.PROCESSING;
+    } else if (
+      ['failed', 'canceled', 'expired', 'refunded'].includes(orderStatus) ||
+      ['failed', 'canceled', 'expired', 'refunded'].includes(status)
+    ) {
+      return PaymentStatus.FAILED;
     } else {
-      // todo: handle other status
-      throw new Error(`Unknown Creem session status: ${status}`);
+      console.warn(`Unknown Creem session status: ${status}/${orderStatus}`);
+      return PaymentStatus.PROCESSING;
     }
   }
 

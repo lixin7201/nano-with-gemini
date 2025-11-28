@@ -133,6 +133,13 @@ export async function handleCheckoutSuccess({
     }
   }
 
+  // Concurrency protection: Double-check order status from DB
+  const currentOrder = await findOrderByOrderNo(orderNo);
+  if (currentOrder?.status === OrderStatus.PAID) {
+    console.log(`Order ${orderNo} is already PAID (double-check), skipping handleCheckoutSuccess`);
+    return;
+  }
+
   // payment success
   if (session.paymentStatus === PaymentStatus.SUCCESS) {
     // update order status to be paid
@@ -227,12 +234,18 @@ export async function handleCheckoutSuccess({
       };
     }
 
-    await updateOrderInTransaction({
+    const result = await updateOrderInTransaction({
       orderNo,
       updateOrder,
       newSubscription,
       newCredit,
+      expectedStatus: [OrderStatus.PENDING, OrderStatus.CREATED],
     });
+
+    if (!result.order) {
+      console.log(`Order ${orderNo} update skipped (conditional update failed - likely already paid)`);
+      return;
+    }
   } else if (
     session.paymentStatus === PaymentStatus.FAILED ||
     session.paymentStatus === PaymentStatus.CANCELED

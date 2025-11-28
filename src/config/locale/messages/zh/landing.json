@@ -82,7 +82,7 @@
       "title": "🎉 Nano Banana2 已上线",
       "url": "/pricing"
     },
-    "tip": "🎁 前 1000 名用户特价优惠",
+    "tip": "🎁 早期用户特价优惠",
     "buttons": [
       {
         "title": "立即开始",
@@ -100,7 +100,7 @@
       }
     ],
     "show_avatars": true,
-    "avatars_tip": "999+ 用户在使用 Nano Banana2",
+    "avatars_tip": "加入我们不断增长的社区",
     "show_award": false,
     "image": {
       "src": "/imgs/features/admin.png",
@@ -322,7 +322,7 @@
     "description": "因其易用且上线飞快。",
     "items": [
       {
-        "title": "999+",
+        "title": "1000+",
         "description": "位用户"
       },
       {
@@ -339,62 +339,7 @@
     "id": "testimonials",
     "title": "用户对 Nano Banana2 的评价",
     "description": "听听创作者们如何评价 Nano Banana2。",
-    "items": [
-      {
-        "name": "David Chen",
-        "role": "AIWallpaper.shop 创始人",
-        "quote": "Nano Banana2 改变了我的工作流程。图像质量令人难以置信！",
-        "image": {
-          "src": "/imgs/avatars/1.png",
-          "alt": "david"
-        }
-      },
-      {
-        "name": "Rachel Kim",
-        "role": "HeyBeauty.ai CTO",
-        "quote": "我喜欢 4K 分辨率支持。它非常适合我的设计工作。",
-        "image": {
-          "src": "/imgs/avatars/2.png",
-          "alt": "rachel"
-        }
-      },
-      {
-        "name": "Marcus Thompson",
-        "role": "独立开发者",
-        "quote": "界面非常易于使用，结果总是令人惊叹。",
-        "image": {
-          "src": "/imgs/avatars/3.png",
-          "alt": "marcus"
-        }
-      },
-      {
-        "name": "Sofia Garcia",
-        "role": "Melodisco CEO",
-        "quote": "我用过的最好的 AI 图像生成器。强烈推荐！",
-        "image": {
-          "src": "/imgs/avatars/4.png",
-          "alt": "sofia"
-        }
-      },
-      {
-        "name": "James Wilson",
-        "role": "GPTs.works 技术负责人",
-        "quote": "物超所值。积分系统公平透明。",
-        "image": {
-          "src": "/imgs/avatars/5.png",
-          "alt": "james"
-        }
-      },
-      {
-        "name": "Anna Zhang",
-        "role": "创业者",
-        "quote": "我每天都用它来制作社交媒体内容。它帮了大忙。",
-        "image": {
-          "src": "/imgs/avatars/6.png",
-          "alt": "anna"
-        }
-      }
-    ]
+    "items": []
   },
   "faq": {
     "id": "faq",
@@ -560,7 +505,7 @@
         {
           "title": "邮箱",
           "icon": "Mail",
-          "url": "mailto:support@your-domain.com",
+          "url": "mailto:support@nanobanana2.com",
           "target": "_self"
         }
       ]

@@ -8,6 +8,7 @@ import {
   handleSubscriptionRenewal,
   handleSubscriptionUpdated,
 } from '@/shared/services/payment';
+import { OrderStatus } from '@/shared/models/order';
 
 export async function POST(
   req: Request,
@@ -28,6 +29,13 @@ export async function POST(
 
     // get payment event from webhook notification
     const event = await paymentProvider.getPaymentEvent({ req });
+    
+    // Handle unknown or ignored events gracefully
+    if (event.eventType === PaymentEventType.UNKNOWN) {
+      console.log('Ignored unknown payment event');
+      return Response.json({ message: 'ignored' });
+    }
+
     if (!event) {
       throw new Error('payment event not found');
     }
@@ -56,6 +64,12 @@ export async function POST(
       const order = await findOrderByOrderNo(orderNo);
       if (!order) {
         throw new Error('order not found');
+      }
+
+      // Idempotency check: if order is already PAID, skip processing
+      if (order.status === OrderStatus.PAID) {
+        console.log(`Order ${orderNo} is already PAID, skipping webhook processing`);
+        return Response.json({ message: 'success (idempotent)' });
       }
 
       await handleCheckoutSuccess({
@@ -137,6 +151,12 @@ export async function POST(
     });
   } catch (err: any) {
     console.log('handle payment notify failed', err);
+    
+    // Return 200 for known "ignorable" errors to prevent retry loops
+    if (err.message.includes('Ignored event type')) {
+      return Response.json({ message: 'ignored' });
+    }
+
     return Response.json(
       {
         message: `handle payment notify failed: ${err.message}`,

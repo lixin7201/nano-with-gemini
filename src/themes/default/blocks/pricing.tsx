@@ -5,6 +5,8 @@ import { Check, Lightbulb, Loader2, SendHorizonal, Zap } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
 import { toast } from 'sonner';
 
+import { features } from '@/config/features';
+
 import { SmartIcon } from '@/shared/blocks/common';
 import { PaymentModal } from '@/shared/blocks/payment/payment-modal';
 import { Badge } from '@/shared/components/ui/badge';
@@ -114,6 +116,7 @@ export function Pricing({
 
   const [isLoading, setIsLoading] = useState(false);
   const [productId, setProductId] = useState<string | null>(null);
+  const [quantity, setQuantity] = useState(1);
 
   // Currency state management for each item
   // Store selected currency and displayed item for each product_id
@@ -270,6 +273,7 @@ export function Pricing({
         locale: locale || 'en',
         payment_provider: paymentProvider || '',
         metadata: affiliateMetadata,
+        quantity: quantity,
       };
 
       setIsLoading(true);
@@ -522,6 +526,36 @@ export function Pricing({
                     <span className="text-muted-foreground text-sm">
                       {item.tip}
                     </span>
+                  )}
+
+                  {features.quantitySelector && (
+                    <div className="mt-4 flex flex-col gap-2">
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm font-medium">Quantity:</span>
+                        <div className="flex items-center rounded-md border">
+                          <button
+                            className="px-2 py-1 hover:bg-gray-100"
+                            onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                            disabled={quantity <= 1}
+                          >
+                            -
+                          </button>
+                          <span className="px-2 text-sm">{quantity}</span>
+                          <button
+                            className="px-2 py-1 hover:bg-gray-100"
+                            onClick={() => setQuantity(Math.min(100, quantity + 1))}
+                            disabled={quantity >= 100}
+                          >
+                            +
+                          </button>
+                        </div>
+                      </div>
+                      {quantity > 1 && (
+                        <div className="text-sm font-medium text-primary">
+                          Total: {displayedItem.currency.toUpperCase()} {(displayedItem.amount * quantity / 100).toFixed(2)}
+                        </div>
+                      )}
+                    </div>
                   )}
 
                   {isCurrentPlan ? (
