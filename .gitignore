@@ -54,12 +54,13 @@ wrangler.toml
 .wrangler
 src/shared/types/cloudflare.d.ts
 
-src/config/db/migrations
+# src/config/db/migrations # Allow migrations to be committed
 
-.debug 
+.debug
 .test
 
 *.sql
+!src/config/db/migrations/*.sql
 .source
 
 .chats
