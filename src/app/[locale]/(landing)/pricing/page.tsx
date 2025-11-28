@@ -4,10 +4,7 @@ import { getThemePage } from '@/core/theme';
 import { getMetadata } from '@/shared/lib/seo';
 import { getCurrentSubscription } from '@/shared/models/subscription';
 import { getUserInfo } from '@/shared/models/user';
-import {
-  FAQ as FAQType,
-  Testimonials as TestimonialsType,
-} from '@/shared/types/blocks/landing';
+import { FAQ as FAQType } from '@/shared/types/blocks/landing';
 import { Pricing as PricingType } from '@/shared/types/blocks/pricing';
 
 export const generateMetadata = getMetadata({
@@ -45,7 +42,6 @@ export default async function PricingPage({
   // build sections
   const pricing: PricingType = t.raw('pricing');
   const faq: FAQType = tl.raw('faq');
-  const testimonials: TestimonialsType = tl.raw('testimonials');
 
   return (
     <Page
@@ -53,7 +49,6 @@ export default async function PricingPage({
       pricing={pricing}
       currentSubscription={currentSubscription}
       faq={faq}
-      testimonials={testimonials}
     />
   );
 }
