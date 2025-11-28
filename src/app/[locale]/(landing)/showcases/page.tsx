@@ -4,7 +4,7 @@ import { getThemePage } from '@/core/theme';
 import { getMetadata } from '@/shared/lib/seo';
 import {
   CTA as CTAType,
-  Showcases as ShowcasesType,
+  Showcase as ShowcaseType,
 } from '@/shared/types/blocks/landing';
 
 export const generateMetadata = getMetadata({
@@ -30,8 +30,8 @@ export default async function ShowcasesPage({
   const Page = await getThemePage('showcases');
 
   // build sections
-  const showcases: ShowcasesType = t.raw('showcases');
+  const showcase: ShowcaseType = t.raw('showcases');
   const cta: CTAType = tl.raw('cta');
 
-  return <Page locale={locale} showcases={showcases} cta={cta} />;
+  return <Page locale={locale} showcase={showcase} cta={cta} />;
 }

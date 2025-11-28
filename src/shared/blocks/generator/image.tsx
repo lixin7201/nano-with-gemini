@@ -44,6 +44,7 @@ interface ImageGeneratorProps {
   maxImages?: number;
   maxSizeMB?: number;
   srOnlyTitle?: string;
+  initialPrompt?: string;
 }
 
 interface GeneratedImage {
@@ -174,6 +175,7 @@ export function ImageGenerator({
   maxImages = 9,
   maxSizeMB = 5,
   srOnlyTitle,
+  initialPrompt,
 }: ImageGeneratorProps) {
   const t = useTranslations('ai.image.generator');
 
@@ -185,7 +187,7 @@ export function ImageGenerator({
   const [model, setModel] = useState(MODEL_OPTIONS[0]?.value ?? '');
   const [resolution, setResolution] = useState('2k');
   const [aspectRatio, setAspectRatio] = useState('1:1');
-  const [prompt, setPrompt] = useState('');
+  const [prompt, setPrompt] = useState(initialPrompt || '');
   const [referenceImageItems, setReferenceImageItems] = useState<
     ImageUploaderValue[]
   >([]);

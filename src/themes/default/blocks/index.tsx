@@ -9,10 +9,12 @@ export * from './features-list';
 export * from './features-accordion';
 export * from './features-step';
 
+export * from './showcase';
 export * from './showcases';
-export * from './logos';
+export * from './social-avatars';
 export * from './stats';
-export * from './testimonials';
+export * from './subscribe';
+export * from './logos';
 export * from './faq';
 export * from './cta';
 export * from './subscribe';

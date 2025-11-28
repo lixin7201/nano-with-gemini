@@ -8,9 +8,9 @@ import {
   FeaturesStep,
   Hero,
   Logos,
+  Showcase,
   Stats,
   Subscribe,
-  Testimonials,
 } from '@/themes/default/blocks';
 
 export default async function LandingPage({
@@ -20,6 +20,7 @@ export default async function LandingPage({
   locale?: string;
   page: Landing;
 }) {
+  console.log('Theme LandingPage showcase:', page.showcase);
   return (
     <>
       {page.hero && <Hero hero={page.hero} />}
@@ -29,7 +30,7 @@ export default async function LandingPage({
       {page.usage && <FeaturesStep features={page.usage} />}
       {page.features && <Features features={page.features} />}
       {page.stats && <Stats stats={page.stats} className="bg-muted" />}
-      {/* {page.testimonials && <Testimonials testimonials={page.testimonials} />} */}
+      {page.showcase && <Showcase showcase={page.showcase} />}
       {page.subscribe && (
         <Subscribe subscribe={page.subscribe} className="bg-muted" />
       )}

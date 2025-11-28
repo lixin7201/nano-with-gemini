@@ -1,21 +1,21 @@
 import {
   CTA as CTAType,
-  Showcases as ShowcasesType,
+  Showcase as ShowcaseType,
 } from '@/shared/types/blocks/landing';
-import { CTA, Showcases } from '@/themes/default/blocks';
+import { CTA, Showcase } from '@/themes/default/blocks';
 
 export default async function ShowcasesPage({
   locale,
-  showcases,
+  showcase,
   cta,
 }: {
   locale?: string;
-  showcases: ShowcasesType;
+  showcase: ShowcaseType;
   cta?: CTAType;
 }) {
   return (
     <>
-      <Showcases showcases={showcases} />
+      <Showcase showcase={showcase} />
       {cta && <CTA cta={cta} className="bg-muted" />}
     </>
   );

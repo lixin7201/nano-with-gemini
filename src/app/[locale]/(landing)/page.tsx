@@ -24,10 +24,11 @@ export default async function LandingPage({
     features: t.raw('features'),
     stats: t.raw('stats'),
     subscribe: t.raw('subscribe'),
-    testimonials: t.raw('testimonials'),
+    showcase: t.raw('showcase'),
     faq: t.raw('faq'),
     cta: t.raw('cta'),
   };
+  console.log('LandingPage data:', JSON.stringify(page, null, 2));
 
   // load page component
   const Page = await getThemePage('landing');

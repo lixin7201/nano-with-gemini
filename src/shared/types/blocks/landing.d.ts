@@ -89,15 +89,12 @@ export interface Subscribe extends Section {
   submit?: FormSubmit;
 }
 
-export interface TestimonialsItem extends SectionItem {
-  name?: string;
-  role?: string;
-  quote?: string;
-  avatar?: Image;
+export interface ShowcaseItem extends SectionItem {
+  prompt?: string;
 }
 
-export interface Testimonials extends Section {
-  items?: TestimonialsItem[];
+export interface Showcase extends Section {
+  items?: ShowcaseItem[];
 }
 
 // landing props for landing page component
@@ -114,7 +111,7 @@ export interface Landing {
   subscribe?: Subscribe;
   faq?: FAQ;
   cta?: CTA;
-  testimonials?: Testimonials;
+  showcase?: Showcase;
   footer?: Footer;
   sections?: Section[];
 }
