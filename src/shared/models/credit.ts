@@ -158,6 +158,35 @@ export async function getCreditsCount({
   return result?.count || 0;
 }
 
+// get remaining credits
+export async function getRemainingCredits(userId: string): Promise<number> {
+  if (await isAdminFreeCredits(userId)) {
+    return Number.MAX_SAFE_INTEGER;
+  }
+
+  const currentTime = new Date();
+
+  const [result] = await db()
+    .select({
+      total: sum(credit.remainingCredits),
+    })
+    .from(credit)
+    .where(
+      and(
+        eq(credit.userId, userId),
+        eq(credit.transactionType, CreditTransactionType.GRANT),
+        eq(credit.status, CreditStatus.ACTIVE),
+        gt(credit.remainingCredits, 0),
+        or(
+          isNull(credit.expiresAt), // Never expires
+          gt(credit.expiresAt, currentTime) // Not yet expired
+        )
+      )
+    );
+
+  return parseInt(result?.total || '0');
+}
+
 // consume credits
 export async function consumeCredits({
   userId,
@@ -306,33 +335,4 @@ export async function consumeCredits({
   });
 
   return result;
-}
-
-// get remaining credits
-export async function getRemainingCredits(userId: string): Promise<number> {
-  if (await isAdminFreeCredits(userId)) {
-    return Number.MAX_SAFE_INTEGER;
-  }
-
-  const currentTime = new Date();
-
-  const [result] = await db()
-    .select({
-      total: sum(credit.remainingCredits),
-    })
-    .from(credit)
-    .where(
-      and(
-        eq(credit.userId, userId),
-        eq(credit.transactionType, CreditTransactionType.GRANT),
-        eq(credit.status, CreditStatus.ACTIVE),
-        gt(credit.remainingCredits, 0),
-        or(
-          isNull(credit.expiresAt), // Never expires
-          gt(credit.expiresAt, currentTime) // Not yet expired
-        )
-      )
-    );
-
-  return parseInt(result?.total || '0');
 }
