@@ -99,8 +99,8 @@
         "variant": "outline"
       }
     ],
-    "show_avatars": true,
-    "avatars_tip": "Join our growing community",
+    "show_avatars": false,
+    "avatars_tip": "",
     "show_award": false,
     "image": {
       "src": "/imgs/features/admin.png",
@@ -318,22 +318,9 @@
   },
   "stats": {
     "id": "stats",
-    "title": "People Love Nano Banana2",
-    "description": "for it's easy to use and fast to ship.",
-    "items": [
-      {
-        "title": "1000+",
-        "description": "Customers"
-      },
-      {
-        "title": "200+",
-        "description": "Blocks"
-      },
-      {
-        "title": "50+",
-        "description": "Templates"
-      }
-    ]
+    "title": "",
+    "description": "",
+    "items": []
   },
   "showcase": {
     "id": "showcase",
@@ -414,14 +401,14 @@
       },
       {
         "question": "How can I contact support?",
-        "answer": "You can reach our support team at support@nanobanana2.com for any assistance."
+        "answer": "You can reach our support team at lixin720190@gmail.com for any assistance."
       }
     ]
   },
   "cta": {
     "id": "cta",
     "title": "Ready to get started?",
-    "description": "Join thousands of satisfied users and start creating today.",
+    "description": "Start creating amazing AI images today.",
     "buttons": [
       {
         "title": "Get Started",
@@ -530,27 +517,9 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/your-app-name",
-          "target": "_blank"
-        },
-        {
-          "title": "Github",
-          "icon": "Github",
-          "url": "https://github.com/your-app-name",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/your-app-name",
-          "target": "_blank"
-        },
-        {
           "title": "Email",
           "icon": "Mail",
-          "url": "mailto:support@nanobanana2.com",
+          "url": "mailto:lixin720190@gmail.com",
           "target": "_self"
         }
       ]

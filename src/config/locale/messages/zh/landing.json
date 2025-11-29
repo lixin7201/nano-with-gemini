@@ -99,8 +99,8 @@
         "variant": "outline"
       }
     ],
-    "show_avatars": true,
-    "avatars_tip": "加入我们不断增长的社区",
+    "show_avatars": false,
+    "avatars_tip": "",
     "show_award": false,
     "image": {
       "src": "/imgs/features/admin.png",
@@ -318,22 +318,9 @@
   },
   "stats": {
     "id": "stats",
-    "title": "用户喜爱 Nano Banana2",
-    "description": "因其易用且上线飞快。",
-    "items": [
-      {
-        "title": "1000+",
-        "description": "位用户"
-      },
-      {
-        "title": "200+",
-        "description": "组件块"
-      },
-      {
-        "title": "50+",
-        "description": "专业模板"
-      }
-    ]
+    "title": "",
+    "description": "",
+    "items": []
   },
   "showcase": {
     "id": "showcase",
@@ -534,27 +521,9 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/your-app-name",
-          "target": "_blank"
-        },
-        {
-          "title": "Github",
-          "icon": "Github",
-          "url": "https://github.com/your-app-name",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/your-app-name",
-          "target": "_blank"
-        },
-        {
           "title": "邮箱",
           "icon": "Mail",
-          "url": "mailto:support@nanobanana2.com",
+          "url": "mailto:lixin720190@gmail.com",
           "target": "_self"
         }
       ]
