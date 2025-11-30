@@ -8,55 +8,6 @@
     "sr_only_title": "案例展示",
     "title": "社区展示",
     "description": "探索社区使用 Nano Banana2 创作的精美图片。",
-    "items": [
-      {
-        "title": "粉色星之卡比",
-        "prompt": "Dream diary. Pink Star Kirby sleeping on a star, blowing rainbow-colored bubbles from its mouth. Soft macaron color palette, cloud and candy stickers, glitter pencil drawing details, dreamy and sweet.",
-        "image": {
-          "src": "/imgs/showcase/pink_kirby.png",
-          "alt": "粉色星之卡比"
-        }
-      },
-      {
-        "title": "GTA 5 在线模式",
-        "prompt": "Create a picture of GTA 5 online where a person is shooting a car",
-        "image": {
-          "src": "/imgs/showcase/gta_5_online.png",
-          "alt": "GTA 5 在线模式"
-        }
-      },
-      {
-        "title": "手办产品页",
-        "prompt": "Please turn this image into an ultra-detailed, figure-style illustration and design a product showcase page for it. The product name is “Shitsuren Girls” (失恋ガールズ), and it’s a 1/7 scale figure. The manufacturer is “TENNEN”. For the TENNEN logo, use a rounded blue square with the word “TENNEN” inside: break the line after “TEN” so “NEN” sits directly underneath, left-aligned, and make the text as large as possible within the rounded square. Arrange close-up detail shots and other elements so it looks like a professional product page with a clean, visually appealing layout. Also turn “Shitsuren Girls” into a logo-style wordmark for the product.",
-        "image": {
-          "src": "/imgs/showcase/figure_product_page.png",
-          "alt": "手办产品页"
-        }
-      },
-      {
-        "title": "教授的白板",
-        "prompt": "Convert this paper into a Chinese professor's whiteboard image to help me understand the information",
-        "image": {
-          "src": "/imgs/showcase/professors_whiteboard.png",
-          "alt": "教授的白板"
-        }
-      },
-      {
-        "title": "历史时刻",
-        "prompt": "Create an image of the major event that happened at these coordinates: 41°43′32″N 49°56′49″W.",
-        "image": {
-          "src": "/imgs/showcase/gta_5_online.png",
-          "alt": "历史时刻"
-        }
-      },
-      {
-        "title": "杂志跨页",
-        "prompt": "Put this whole text, verbatim, into a photo of a glossy magazine article on a desk, with photos, beautiful typography design, pull quotes and brave formatting. The text: [...the unformatted article]",
-        "image": {
-          "src": "/imgs/showcase/figure_product_page.png",
-          "alt": "杂志跨页"
-        }
-      }
-    ]
+    "items": []
   }
 }

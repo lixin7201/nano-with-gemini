@@ -6,6 +6,7 @@ import { Image as ImageType } from '@/shared/types/blocks/common';
 import { Showcase as ShowcaseType } from '@/shared/types/blocks/landing';
 import { Copy, Sparkles } from 'lucide-react';
 import { useState } from 'react';
+import { Dialog, DialogContent, DialogTrigger, DialogTitle } from '@/shared/components/ui/dialog';
 
 export function Showcase({
   showcase,
@@ -33,22 +34,52 @@ export function Showcase({
       }
     };
 
+    const rawSrc = image?.src || '';
+    const isUnsplash = rawSrc.includes('images.unsplash.com');
+    const gridSrc = isUnsplash
+      ? `${rawSrc}${rawSrc.includes('?') ? '&' : '?'}w=600&h=336&fit=crop&q=80&auto=format`
+      : rawSrc;
+    const fullSrc = isUnsplash
+      ? `${rawSrc}${rawSrc.includes('?') ? '&' : '?'}w=1920&q=90&auto=format`
+      : rawSrc;
+
     return (
       <div className="bg-card/25 ring-foreground/[0.07] flex flex-col overflow-hidden rounded-(--radius) border border-transparent ring-1">
-        <div className="relative aspect-video w-full overflow-hidden">
-          <img
-            src={image?.src ?? ''}
-            alt={image?.alt ?? ''}
-            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-            loading="lazy"
-          />
-        </div>
+        <Dialog>
+          <DialogTrigger asChild>
+            <button
+              type="button"
+              className="relative aspect-video w-full overflow-hidden"
+            >
+              <img
+                src={gridSrc}
+                alt={image?.alt ?? title ?? 'Showcase image'}
+                className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                loading="lazy"
+              />
+            </button>
+          </DialogTrigger>
+          <DialogContent className="max-w-5xl overflow-hidden p-0">
+            <DialogTitle className="sr-only">
+              {title ?? 'Showcase image'}
+            </DialogTitle>
+            <img
+              src={fullSrc}
+              alt={image?.alt ?? title ?? 'Showcase image'}
+              className="h-auto w-full object-contain"
+            />
+          </DialogContent>
+        </Dialog>
         <div className="flex flex-1 flex-col gap-4 p-6">
           {title && <h3 className="text-lg font-semibold">{title}</h3>}
           <div className="relative flex-1">
-            <p className="text-muted-foreground text-sm line-clamp-4">
+            <Link
+              href={`/ai-image-generator?prompt=${encodeURIComponent(prompt || '')}`}
+              className="text-primary/90 hover:text-primary text-sm line-clamp-4 break-words underline-offset-2 hover:underline"
+              aria-label="Use this prompt to generate"
+            >
               {prompt}
-            </p>
+            </Link>
           </div>
           <button
             onClick={handleCopy}

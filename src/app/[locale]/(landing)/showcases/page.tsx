@@ -6,6 +6,7 @@ import {
   CTA as CTAType,
   Showcase as ShowcaseType,
 } from '@/shared/types/blocks/landing';
+import { getNanoBananaShowcaseItems } from '@/shared/adapters/nano-banana-prompts';
 
 export const generateMetadata = getMetadata({
   metadataKey: 'showcases.metadata',
@@ -32,6 +33,12 @@ export default async function ShowcasesPage({
   // build sections
   const showcase: ShowcaseType = t.raw('showcases');
   const cta: CTAType = tl.raw('cta');
+
+  // Merge external showcase items
+  const nbItems = getNanoBananaShowcaseItems();
+  if (showcase) {
+    showcase.items = [...(showcase.items || []), ...nbItems];
+  }
 
   return <Page locale={locale} showcase={showcase} cta={cta} />;
 }
