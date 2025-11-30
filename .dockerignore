@@ -1,11 +1,48 @@
-.next
-.vercel
-.vscode
-.wrangler
-data
-debug
+# Dependencies
 node_modules
+
+# Build outputs
+.next
+out
+dist
+build
+
+# Environment files
+.env
+.env.*
+.dev.vars
+
+# IDE and tools
+.vscode
+.idea
 .cursorrules
+
+# Version control
 .git
-vercel.json
+
+# Cloudflare
+.wrangler
 wrangler.toml
+
+# Vercel
+.vercel
+vercel.json
+
+# Sensitive files
+*.db
+*.pem
+*.sql
+*.key
+*.p12
+
+# Debug and logs
+debug
+*.log
+
+# Data
+data
+.chats
+
+# Temporary
+tmp
+temp

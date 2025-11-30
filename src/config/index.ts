@@ -4,6 +4,7 @@
 if (
   typeof process !== 'undefined' &&
   typeof process.cwd === 'function' &&
+  process.env.NODE_ENV === 'development' &&
   !process.env.NEXT_RUNTIME // Skip if in Next.js runtime (already loaded)
 ) {
   try {

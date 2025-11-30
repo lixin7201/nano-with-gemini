@@ -99,16 +99,22 @@ export function getPaymentServiceWithConfigs(configs: Configs) {
 /**
  * global payment service
  */
-let paymentService: PaymentManager | null = null;
+const globalForServices = globalThis as typeof globalThis & {
+  __paymentService?: PaymentManager;
+};
 
 /**
  * get payment service instance
  */
 export async function getPaymentService(): Promise<PaymentManager> {
-  if (true) {
-    const configs = await getAllConfigs();
-    paymentService = getPaymentServiceWithConfigs(configs);
+  if (globalForServices.__paymentService) {
+    return globalForServices.__paymentService;
   }
+
+  const configs = await getAllConfigs();
+  const paymentService = getPaymentServiceWithConfigs(configs);
+
+  globalForServices.__paymentService = paymentService;
   return paymentService;
 }
 

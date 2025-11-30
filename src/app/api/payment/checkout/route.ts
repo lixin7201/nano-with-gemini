@@ -199,7 +199,7 @@ export async function POST(req: Request) {
     }
 
     let callbackBaseUrl = `${configs.app_url}`;
-    if (locale && locale !== configs.default_locale) {
+    if (locale && locale !== (configs.locale || configs.default_locale || 'en')) {
       callbackBaseUrl += `/${locale}`;
     }
 
@@ -219,11 +219,17 @@ export async function POST(req: Request) {
       orderNo: orderNo, // Set orderNo for provider use (e.g. Creem request_id)
       quantity: checkoutQuantity,
       metadata: {
+        // 先合并客户端 metadata（过滤保留字段）
+        ...Object.fromEntries(
+          Object.entries(metadata || {}).filter(
+            ([key]) => !['app_name', 'order_no', 'user_id', 'seats'].includes(key)
+          )
+        ),
+        // 服务端字段最后写入，确保不被覆盖
         app_name: configs.app_name,
         order_no: orderNo,
         user_id: user.id,
         seats: checkoutQuantity,
-        ...(metadata || {}),
       },
       successUrl: `${configs.app_url}/api/payment/callback?order_no=${orderNo}`,
       cancelUrl: `${callbackBaseUrl}/pricing`,
@@ -299,11 +305,11 @@ export async function POST(req: Request) {
         checkoutInfo: JSON.stringify(checkoutOrder),
       });
 
-      return respErr('checkout failed: ' + e.message);
+      return respErr('Checkout failed, please try again');
     }
   } catch (e: any) {
-    console.log('checkout failed:', e);
-    return respErr('checkout failed: ' + e.message);
+    console.error('checkout failed');
+    return respErr('Checkout failed, please try again');
   }
 }
 

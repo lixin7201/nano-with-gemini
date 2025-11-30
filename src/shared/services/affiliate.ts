@@ -34,15 +34,21 @@ export function getAffiliateManagerWithConfigs(configs: Configs) {
 /**
  * global affiliate service
  */
-let affiliateService: AffiliateManager | null = null;
+const globalForServices = globalThis as typeof globalThis & {
+  __affiliateService?: AffiliateManager;
+};
 
 /**
  * get affiliate service instance
  */
 export async function getAffiliateService(): Promise<AffiliateManager> {
-  if (true) {
-    const configs = await getAllConfigs();
-    affiliateService = getAffiliateManagerWithConfigs(configs);
+  if (globalForServices.__affiliateService) {
+    return globalForServices.__affiliateService;
   }
+
+  const configs = await getAllConfigs();
+  const affiliateService = getAffiliateManagerWithConfigs(configs);
+
+  globalForServices.__affiliateService = affiliateService;
   return affiliateService;
 }

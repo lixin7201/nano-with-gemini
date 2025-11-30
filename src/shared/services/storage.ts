@@ -51,15 +51,21 @@ export function getStorageServiceWithConfigs(configs: Configs) {
 /**
  * global storage service
  */
-let storageService: StorageManager | null = null;
+const globalForServices = globalThis as typeof globalThis & {
+  __storageService?: StorageManager;
+};
 
 /**
  * get storage service instance
  */
 export async function getStorageService(): Promise<StorageManager> {
-  if (true) {
-    const configs = await getAllConfigs();
-    storageService = getStorageServiceWithConfigs(configs);
+  if (globalForServices.__storageService) {
+    return globalForServices.__storageService;
   }
+
+  const configs = await getAllConfigs();
+  const storageService = getStorageServiceWithConfigs(configs);
+
+  globalForServices.__storageService = storageService;
   return storageService;
 }

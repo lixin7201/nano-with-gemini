@@ -239,6 +239,14 @@ export class StripeProvider implements PaymentProvider {
 
       const eventType = this.mapStripeEventType(event.type);
 
+      // 未知事件直接返回，不抛错
+      if (eventType === PaymentEventType.UNKNOWN) {
+        return {
+          eventType: PaymentEventType.UNKNOWN,
+          eventResult: event,
+        };
+      }
+
       if (eventType === PaymentEventType.CHECKOUT_SUCCESS) {
         paymentSession = await this.buildPaymentSessionFromCheckoutSession(
           event.data.object as Stripe.Response<Stripe.Checkout.Session>
@@ -257,9 +265,7 @@ export class StripeProvider implements PaymentProvider {
         );
       }
 
-      if (!paymentSession) {
-        throw new Error('Invalid webhook event');
-      }
+
 
       return {
         eventType: eventType,
@@ -354,7 +360,7 @@ export class StripeProvider implements PaymentProvider {
       case 'customer.subscription.deleted':
         return PaymentEventType.SUBSCRIBE_CANCELED;
       default:
-        throw new Error(`Unknown Stripe event type: ${eventType}`);
+        return PaymentEventType.UNKNOWN;
     }
   }
 

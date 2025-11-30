@@ -18,15 +18,21 @@ export function getAdsManagerWithConfigs(configs: Configs) {
 /**
  * global ads service
  */
-let adsService: AdsManager | null = null;
+const globalForServices = globalThis as typeof globalThis & {
+  __adsService?: AdsManager;
+};
 
 /**
  * get ads service instance
  */
 export async function getAdsService(): Promise<AdsManager> {
-  if (true) {
-    const configs = await getAllConfigs();
-    adsService = getAdsManagerWithConfigs(configs);
+  if (globalForServices.__adsService) {
+    return globalForServices.__adsService;
   }
+
+  const configs = await getAllConfigs();
+  const adsService = getAdsManagerWithConfigs(configs);
+
+  globalForServices.__adsService = adsService;
   return adsService;
 }

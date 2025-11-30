@@ -37,15 +37,21 @@ export function getAIManagerWithConfigs(configs: Configs) {
 /**
  * global ai service
  */
-let aiService: AIManager | null = null;
+const globalForServices = globalThis as typeof globalThis & {
+  __aiService?: AIManager;
+};
 
 /**
  * get ai service manager
  */
 export async function getAIService(): Promise<AIManager> {
-  if (true) {
-    const configs = await getAllConfigs();
-    aiService = getAIManagerWithConfigs(configs);
+  if (globalForServices.__aiService) {
+    return globalForServices.__aiService;
   }
+
+  const configs = await getAllConfigs();
+  const aiService = getAIManagerWithConfigs(configs);
+
+  globalForServices.__aiService = aiService;
   return aiService;
 }

@@ -21,9 +21,47 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '*',
+        hostname: '**.r2.dev', // Cloudflare R2 默认域名
       },
+      {
+        protocol: 'https',
+        hostname: '**.r2.cloudflarestorage.com', // R2 存储域名
+      },
+      {
+        protocol: 'https',
+        hostname: '**.cloudflare.com', // Cloudflare CDN
+      },
+      // 如果你有自定义域名，添加在这里，例如：
+      // {
+      //   protocol: 'https',
+      //   hostname: 'cdn.yourdomain.com',
+      // },
     ],
+  },
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+          {
+            key: 'Referrer-Policy',
+            value: 'strict-origin-when-cross-origin',
+          },
+          {
+            key: 'Permissions-Policy',
+            value: 'camera=(), microphone=(), geolocation=()',
+          },
+        ],
+      },
+    ];
   },
   async redirects() {
     return [];

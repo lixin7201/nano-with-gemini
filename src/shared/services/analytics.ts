@@ -58,15 +58,21 @@ export function getAnalyticsManagerWithConfigs(configs: Configs) {
 /**
  * global analytics service
  */
-let analyticsService: AnalyticsManager | null = null;
+const globalForServices = globalThis as typeof globalThis & {
+  __analyticsService?: AnalyticsManager;
+};
 
 /**
  * get analytics service instance
  */
 export async function getAnalyticsService(): Promise<AnalyticsManager> {
-  if (true) {
-    const configs = await getAllConfigs();
-    analyticsService = getAnalyticsManagerWithConfigs(configs);
+  if (globalForServices.__analyticsService) {
+    return globalForServices.__analyticsService;
   }
+
+  const configs = await getAllConfigs();
+  const analyticsService = getAnalyticsManagerWithConfigs(configs);
+
+  globalForServices.__analyticsService = analyticsService;
   return analyticsService;
 }

@@ -150,7 +150,7 @@ export async function POST(
       message: 'success',
     });
   } catch (err: any) {
-    console.log('handle payment notify failed', err);
+    console.error('payment notify failed');
     
     // Return 200 for known "ignorable" errors to prevent retry loops
     if (err.message.includes('Ignored event type')) {
@@ -159,7 +159,7 @@ export async function POST(
 
     return Response.json(
       {
-        message: `handle payment notify failed: ${err.message}`,
+        message: 'Payment notification processing failed',
       },
       {
         status: 500,

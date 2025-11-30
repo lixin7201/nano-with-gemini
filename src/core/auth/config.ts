@@ -27,6 +27,15 @@ export const authOptions = {
     // Disable all logs during build and production
     disabled: true,
   },
+  // 添加 cookie 安全配置
+  session: {
+    cookieCache: {
+      enabled: true,
+      maxAge: 60 * 5, // 5 分钟缓存
+    },
+  },
+  // Cookie 安全属性由 better-auth 自动处理
+  // 生产环境会自动设置 Secure, HttpOnly, SameSite=Lax
 };
 
 // Dynamic auth options - WITH database connection
@@ -53,9 +62,21 @@ export async function getAuthOptions() {
   };
 }
 
-export async function getSocialProviders(configs: Record<string, string>) {
+interface SocialProviderConfig {
+  clientId: string;
+  clientSecret: string;
+}
+
+interface SocialProviders {
+  google?: SocialProviderConfig;
+  github?: SocialProviderConfig;
+}
+
+export async function getSocialProviders(
+  configs: Record<string, string>
+): Promise<SocialProviders> {
   // get configs from db
-  const providers: any = {};
+  const providers: SocialProviders = {};
 
   if (configs.google_client_id && configs.google_client_secret) {
     providers.google = {

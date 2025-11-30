@@ -41,15 +41,21 @@ export function getCustomerServiceWithConfigs(configs: Configs) {
 /**
  * global customer service
  */
-let customerServiceManager: CustomerServiceManager | null = null;
+const globalForServices = globalThis as typeof globalThis & {
+  __customerServiceManager?: CustomerServiceManager;
+};
 
 /**
  * get customer service instance
  */
 export async function getCustomerService(): Promise<CustomerServiceManager> {
-  if (true) {
-    const configs = await getAllConfigs();
-    customerServiceManager = getCustomerServiceWithConfigs(configs);
+  if (globalForServices.__customerServiceManager) {
+    return globalForServices.__customerServiceManager;
   }
+
+  const configs = await getAllConfigs();
+  const customerServiceManager = getCustomerServiceWithConfigs(configs);
+
+  globalForServices.__customerServiceManager = customerServiceManager;
   return customerServiceManager;
 }

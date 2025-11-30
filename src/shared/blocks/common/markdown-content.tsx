@@ -10,7 +10,7 @@ function generateHeadingId(text: string): string {
 }
 
 const md = new MarkdownIt({
-  html: true,
+  html: false, // 禁用 HTML 防止 XSS
   linkify: true,
   breaks: true,
 });
@@ -30,16 +30,15 @@ md.renderer.rules.heading_open = function (tokens, idx) {
   return `<h${level}>`;
 };
 
-// Custom renderer for links with nofollow
+// Custom renderer for links with security attributes
 md.renderer.rules.link_open = function (tokens, idx, options, env, renderer) {
   const token = tokens[idx];
   const hrefIndex = token.attrIndex('href');
 
   if (hrefIndex >= 0) {
     const href = token.attrGet('href');
-    // Add nofollow to all links
-    token.attrSet('rel', 'nofollow');
-    // Optionally add target="_blank" for external links
+    // 添加安全属性
+    token.attrSet('rel', 'nofollow noopener noreferrer');
     if (href && (href.startsWith('http://') || href.startsWith('https://'))) {
       token.attrSet('target', '_blank');
     }
@@ -59,7 +58,5 @@ interface MarkdownContentProps {
 export function MarkdownContent({ content }: MarkdownContentProps) {
   const html = content ? md.render(content) : '';
 
-  return (
-    <div className="markdown-body" dangerouslySetInnerHTML={{ __html: html }} />
-  );
+  return <div className="markdown-body" dangerouslySetInnerHTML={{ __html: html }} />;
 }
