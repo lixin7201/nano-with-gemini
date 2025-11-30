@@ -1,0 +1,4727 @@
+[
+  {
+    "id": 1,
+    "title": "带肖像和中英文定制的宽引言卡",
+    "description": "一个用于生成宽幅引言卡的提示，卡片上有一位名人的肖像，背景为棕色，引言文字为浅金色衬线字体。布局为文字占据三分之二，人物占据三分之一。引言文字和作者可参数化以便重复使用。",
+    "prompt": "一张宽幅的名人金句卡，棕色背景，衬线体浅金色“保持饥饿，保持愚蠢”，小字“——Steve Jobs”，文字前面带一个大的淡淡的引号。人物头像在左边，文字在右边，文字占画面比例 2/3，人物占 1/3，人物有一点渐变过渡的感觉。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886933714_5zqn1e_G6QBjQHbgAE3Yt_.jpg",
+      "https://cdn.gooo.ai/cms/1763886938314_wbcfc7_G6QBiiracAInQ8z.jpg",
+      "https://cdn.gooo.ai/cms/1763886941069_1d9ace_G6QBii_acAIRxKd.jpg",
+      "https://cdn.gooo.ai/cms/1763886946388_nwahev_G6QBikOaEAAmYkO.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "德国水彩地图，附带州名标注",
+    "description": "一个德语提示词，用于生成一张水彩风格的德国地图，其中所有联邦州都用圆珠笔标注，适用于教育或信息图表风格的地图。",
+    "prompt": "生成一张水彩风格的德国地图，上面用圆珠笔标注所有联邦州。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886061720_fzgqaq_G6RIeSZXgAA7cOf.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "火车广告风格的书籍广告图片",
+    "description": "一个详细的日文提示，用于生成一个 16:9 的商业书籍风格广告，其中包含特定书籍图片和日文文案要点。",
+    "prompt": "请生成一张广告图片。\n\n==== 广告规格 ===\n- 宽高比：16:9（横向）\n- 广告产品：第一张附件图片中的书籍\n- 主要吸睛点：将第一张附件图片中的书籍以三维方式呈现\n- 语言：日语\n- 风格：商业书籍广告\n\n# 需包含的文字：\n- 前导文案：【发售约一周后即决定加印】\n\n书籍《Designing from Zero with AI》现正热销中。\n\n亚马逊畅销书排行榜\n商业设计类销量排名第一（截至 10/15）\nhttps://t.co/QxbYpfFVj6",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885539326_yao7in_G6WBYReawAAcp2x.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "卡比吹泡泡的梦境日记",
+    "description": "一个可爱的提示，用于绘制一张梦幻般的日记风格插画：粉色卡比（Kirby）睡在星星上，在柔和的云朵和糖果中吹着彩虹泡泡。",
+    "prompt": "梦境日记。粉红色的星之卡比睡在一颗星星上，嘴里吐出彩虹色的气泡。柔和的马卡龙色系，云朵和糖果的贴纸，闪粉笔画的细节，梦幻且甜美。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886710060_ndpy3q_G6RHoGna4AArBDN.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "御宅族镜子自拍角人物特写",
+    "description": "一位东亚女性在宅男风格电脑角里自拍的结构化中文提示，包含详细的外貌、姿势和服装规格。",
+    "prompt": "### **场景**\n镜子自拍，御宅族电脑角落，蓝色调\n\n---\n\n### **主体**\n* **性别表现**: 女性\n* **年龄段**: 25岁左右\n* **种族**: 东亚\n* **身材**: 苗条，腰线分明；身材比例自然\n* **肤色**: 浅中性色调\n* **发型**:\n    * **长度**: 及腰长发\n    * **样式**: 直发，发尾微卷\n    * **颜色**: 中等棕色\n* **姿势**:\n    * **站姿**: 站立，轻微的对立式平衡站姿（contrapposto）\n    * **右手**: 手持手机挡住脸（身份被遮挡）\n    * **左臂**: 在躯干旁自然下垂\n    * **躯干**: 身体轻微后仰；露出腰腹\n* **着装**:\n    * **上衣**: 浅蓝色短款针织开衫，扣上前两颗纽扣；隐约可见蓝色法式内衣\n    * **下装**: 牛仔超短裤，两侧臀部各有一个蓝色缎带蝴蝶结\n    * **袜子**: 蓝白横条纹过膝长袜\n    * **配饰**: 蓝色可爱吉祥物手机壳\n\n---\n\n### **环境**\n* **描述**: 从挂墙镜中看到的卧室电脑角落\n* **陈设**:\n    * 白色书桌\n    * 单显示器，显示着柔和的蓝色壁纸（没有可读的文字）\n    * 机械键盘，白色键帽，放在蓝色桌垫上\n    * 鼠标，放在小号蓝色鼠标垫上\n    * PC主机在右侧，带有蓝色机箱灯效\n    * PC主机上或附近有三个动漫手办\n    * 墙上贴着一张佛塔海报\n    * 猫形台灯，带有蓝色点缀\n    * 一杯透明的玻璃水杯\n    * 窗边（镜头左侧）有一株高大的绿叶植物\n* **颜色替换**: 将所有原先的粉色元素（衣物和房间）替换为蓝色（婴儿蓝 -> 天空蓝/长春花蓝）。\n\n---\n\n### **灯光**\n* **光源**: 来自镜头左侧大窗户的日光，透过薄纱窗帘\n* **光线质感**: 柔和的漫射光\n* **白平衡 (K)**: 5200\n\n---\n\n### **相机**\n* **模式**: 智能手机后置摄像头通过镜子拍摄（无肖像/虚化模式）\n* **等效焦距 (mm)**: 26\n* **距离 (米)**:\n    * 主体到镜子: 0.6\n    * 相机到镜子: 0.5\n* **曝光**:\n    * 光圈 (f): 1.8\n    * 感光度 (ISO): 100\n    * 快门速度 (秒): 0.01\n    * 曝光补偿 (EV): -0.3\n* **对焦**: 对焦于镜中影像的躯干和短裤\n* **景深**: 自然的智能手机景深（深景深）；背景清晰可辨，无人为模糊\n* **构图**:\n    * **宽高比**: 1:1\n    * **裁剪**: 从头顶到大腿中部；画面包含书桌、显示器、PC主机和植物\n    * **角度**: 从镜子的视角轻微俯拍\n    * **构图备注**: 保持主体居中；为避免广角边缘拉伸，可以站远一些再进行方形裁剪\n\n---\n\n### **负面提示词**\n* 任何地方出现粉色/品红色\n* 美颜滤镜/磨皮皮肤；没有毛孔的外观\n* 夸张或扭曲的人体结构\n* NSFW，透视面料，走光\n* 商标，品牌名，可读的用户界面文本\n* 虚假的人像模式模糊，CGI/插画感",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763889946850_689z0h_G23i3sJW0AASGUw.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "特定坐标下的历史时刻 (1994)",
+    "description": "一个使用经度、纬度和精确时间戳来创建特定地点和时间图像的提示，非常适合历史重建。",
+    "prompt": "在 1994 年 7 月 18 日 上午 9:53 (UTC-3) 于 南纬 34°36’07’’ 西经 58°23’58’’ 创建图像",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209319455_ci557r_G6jfqdVWgAADyla.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "儿童黏土动画日相图信息图",
+    "description": "一个用于生成异想天开的黏土动画风格信息图的提示，该信息图向六岁儿童解释一天中的各个阶段，非常适合教育视觉材料或动画解说。",
+    "prompt": "制作一个信息图，解释一天中的各个阶段，非常适合 6 岁的孩子。风格为独特的黏土动画，具有夸张的表情、大大的眼睛和迷人的幽默感。哑光黏土纹理、手工制作的道具和温暖实用的布景灯光是其主要特色。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209309346_g5b9ok_AP3iAst7yX0FsgN9.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "F1 VIP 粉丝超逼真自拍编辑",
+    "description": "一个详尽的提示，可将用户的自拍照转换为一张 8K 超逼真照片，照片中用户身着时尚 F1 车迷服装，置身于一场高端汽车活动中，同时保留其真实面部特征，仅改变服装和场景。",
+    "prompt": "创作一张超逼真的 8K 图像，保留我真实的脸部、五官、肤色、眼睛和头发，与参考图像完全一致。\n我就是照片中的那位 女士；请保留我自信、迷人、优雅的表情，带着一丝微笑，姿态放松。\n把我置于一个户外汽车赛事现场，在看台或贵宾包厢中，视野开阔，能看到赛道和背景中的人群。天气晴朗，天空湛蓝，自然阳光增强了色彩，营造出充满活力的赛车氛围。\n采用中景构图，捕捉上半身和繁忙的背景，背景略带景深模糊效果。\n服装运动而精致，包括：\n * 一顶 红色法拉利 棒球帽，帽前有黄色跃马（cavallino rampante）标志，帽檐上印有白色数字 “16”；\n * 一件无肩带结构感牛仔上衣，紧身并带有可见缝线，突出领口和身形；\n * Miu Miu 墨镜，带有棕色渐变镜片和矩形金属镜框，部分遮盖眼睛；\n * 一条双层项链——一条是粗大的金色链条，另一条是贴近颈部的精致钻石项链；\n * 几何形金色耳环；\n * 右手腕戴着一个银色手镯；\n * 一个不显眼的红色包包挂在肩上，部分可见于手臂旁。\n头发自然散落。\n妆容精致迷人，皮肤有光泽，眼睛有神，涂着粉色口红和暖色腮红。\n指甲修长，带有粉色和红色调的彩绘，并有白色细节，在手持玻璃杯时清晰可见。\n姿势应传达出态度和精致感：\n * 右手扶着帽檐，轻轻调整；\n * 左手拿着一杯 白葡萄酒，手臂放松；\n * 身体略微倾斜，脸朝向镜头。\n光线自然而强烈，脸部和头发上带有微妙的阳光反射。\n使用鲜艳的调色板——红色、牛仔蓝、金色和焦糖色调，与阳光明媚的背景形成对比。\n整体氛围现代、奢华、放松，表达了享受专属体验的生活方式，在高端汽车赛事中展现出优雅和强大的气场。\n质量：8K 超逼真照片，脸部和服装清晰对焦，背景略微模糊，有彩色人群和阳光下的赛道。\n重要提示：\n * 保留我原始的脸部、头发和肤色。\n * 保留真实的 p",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209297048_n7xo8a_G6jRUN9WAAAsoLO.jpg",
+      "https://cdn.gooo.ai/cms/1764209299373_as206e_G6jRUVAWsAA60lX.jpg",
+      "https://cdn.gooo.ai/cms/1764209301563_vql86q_G6jRUcoW4AAsbyw.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "LINE 风格 Q 版表情包头像九宫格",
+    "description": "一个用于生成彩色手绘 LINE 风格 Q 版表情符号肖像的提示，这些肖像以网格形式排列，并配有幽默文字，非常适合聊天贴纸或社交媒体反应。",
+    "prompt": "根据 参考图片中展示的角色，创作一组色彩鲜艳、手绘风格的 LINE 式半身 Q 版表情包肖像，并确保其头部配饰描绘准确。\n\n将这些肖像以 4x6 的网格布局排列，并配上常见的聊天短语或相关的幽默梗。\n文字请使用手写风格字体。\n输出内容必须是原创的——请勿直接复制参考图片。\n最终图像应为 4K 分辨率，宽高比为 16:9。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209293843_81g6sf_G6i09XKXsAAzHUd.jpg",
+      "https://cdn.gooo.ai/cms/1764209296085_0rv83z_G6fE-98aoAA_MAV.jpg",
+      "https://cdn.gooo.ai/cms/1764209298228_hkmm3p_G6fFJqMbkAEwTcy.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "带有坐标和日期的时空穿越场景",
+    "description": "一个用于在特定地理坐标和历史时间生成逼真场景的提示，有助于在精确位置可视化过去的事件。",
+    "prompt": "创建一个与以下时刻对应的图像：北纬 31.7785°, 东经 35.2296°，公元 33 年 4 月 3 日，15:00",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209331516_8c4o7a_xGNxFU0HUJy68Slk.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "手绘等距地标示意图",
+    "description": "一个简单的模板提示，用于创建方形格式的地标手绘等距图，适用于风格化地图或教育图形。",
+    "prompt": "绘制 1080x1080 尺寸的 [LANDMARK] 手绘等距示意图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209280491_x1ll9v_G6inJYdXcAAtK84.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "电影风格的黑白女性肖像",
+    "description": "一个结构化提示，用于创作一张戏剧性的黑白照片，内容是一位穿着西装的严肃年轻女性的超写实肖像，风格和相机细节清晰明确。",
+    "prompt": "一张逼真的黑白照片，照片中是一位留着深色长发的年轻女性，其面部特征、结构和表情与参考图像中的人物高度吻合。她表情威严或严肃，直视镜头。她身穿黑色西装外套、白色翻领衬衫和一条修身黑色领带。光线富有戏剧性，背景为深色且统一。风格：超写实、电影感、高对比度、黑白。主体：女性，身穿黑色西装、白色衬衫、修身黑色领带，表情威严、严肃、自信，中景特写，正面拍摄。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209309502_8l487n_G6ikg5OaQAAkDPZ.jpg",
+      "https://cdn.gooo.ai/cms/1764209312612_kku1ve_G6g6WBeaoAAgc4V.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "冰箱扫描食谱信息图",
+    "description": "一个概念性提示，用于将冰箱里的食材转化为简单的分步食谱信息图，适用于烹饪或美食内容。",
+    "prompt": "扫描 冰箱 里的食材，并根据现有食材建议可以烹饪的菜肴，提供详细的分步食谱，以简单的信息图形式呈现。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209304921_59ezzl_G6iRr_OXQAApGxR.jpg",
+      "https://cdn.gooo.ai/cms/1764209307247_lpjakr_G6iRr_GXIAAmzY2.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "平铺式分解照片",
+    "description": "一个详细的提示，用于将任何物体转化为超逼真的平铺式 8K 俯拍图像，并带有已拆解部件的标签。",
+    "prompt": "超逼真的 8K 平面摆拍照片，严格遵循 knolling 风格。从上方 90 度俯视拍摄附图中物体，将其完全拆解成 8 到 12 个主要部件，并以整齐的网格或放射状图案排列在极简主义的 木质或哑光灰色 桌面上。使用均匀的间距、完美的对齐，无重叠，无多余物体。场景采用柔和、漫射的多光源照明，营造出微妙的阴影、中性色彩平衡，并使整个画面都清晰对焦。展示高度详细的真实世界材质（金属、塑料、橡胶握把、电路板、螺丝）。对于每个部件，添加一个细白色矩形边框，并在部件旁边放置一个简短、清晰的英文标签，使用简洁的无衬线字体，不遮盖部件；注释必须清晰可辨但又不显突兀。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209292148_v43ti8_G6iCbeKXUAAKINx.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "一位年轻男士的瑞士高山冬季肖像",
+    "description": "在冬季傍晚，瑞士白雪皑皑的高山村庄里，一位年轻男子的超详细数码单反风格肖像，具有电影般的灯光和浅景深。",
+    "prompt": "超写实、超细节的数码单反电影级肖像，描绘一位年轻男子（与参考图中的面部特征相同），在冬季傍晚时分，站立在 瑞士高山村庄 的户外。细雪纷飞，寒冷的空气中可见清晰的哈气。他的双手插在口袋里，姿态放松自然。\n\n他身穿厚实的羊毛冬大衣、有质感的针织毛衣和一条随意围着的围巾，并佩戴着一件精致的配饰：一枚银戒指。\n\n背景：白雪覆盖的屋顶、模糊的高山、发光的木屋窗户和温暖的乡村路灯，新鲜的雪地上反射着柔和的金色散景。\n\n光线：电影级的冬季光线，融合了冷蓝色阴影和温暖的金色高光。红润的冬季肤色，清晰的面部细节，浅景深，以及一丝大气薄雾。\n\n相机：8K，全画幅数码单反，85mm 镜头，f/1.8，ISO 100，1/200s。\n风格：编辑旅行肖像，超写实主义，高动态范围，清晰对焦，自然皮肤纹理。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209277201_uw7n0o_G6hyPKpaUAAvSa0.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "漫威风格的女英雄漫画分镜图",
+    "description": "一个用于生成垂直格式漫画分镜的提示，采用充满活力的漫威风格，描绘一位身披红色斗篷的女英雄在霓虹闪烁的未来城市中营救民众，并配有一个关于 Nano Banana Pro 的文本框。",
+    "prompt": "漫威风格的几幅漫画分镜，色彩鲜艳。一位身披红色斗篷的女英雄。背景中，未来城市霓虹闪烁。女英雄正在拯救陷入困境的人们。文本框：OpenArt 上的 Nano Banana Pro 真是太棒了。竖版",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209320245_2ackqz_G6hnaa3W4AAF5I5.jpg",
+      "https://cdn.gooo.ai/cms/1764209323055_5xt2wj_G6hnaynXYAIVFuu.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "电影级屋顶肖像照，源自参考照片",
+    "description": "一个详细的提示，用于生成一张超现实的垂直 8K 电影镜头，内容是附件照片中的男子在黄金时段坐在摩天大楼边缘，具有浅景深和强烈的焦外虚化效果。",
+    "prompt": "超写实 9:16 俯拍，附图中（我上传了两张自己的照片）的男子坐在摩天大楼边缘，双腿悬空，双手交握。他身穿图中所示的衣服，回头望向身后，城市天际线柔和模糊。自然光照，电影级调色，强烈焦外虚化，浅景深，8K 电影级镜头，细节丰富。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209322397_upr788_G6hnW9PWkAA411C.jpg",
+      "https://cdn.gooo.ai/cms/1764209324691_yom9jo_DRyXx0SwPjD_sU0Y.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "现有图片的卡通版本",
+    "description": "一个提示，用于将提供的图像转换为连贯的卡通风格版本，同时保留其结构和细节。",
+    "prompt": "生成此图片的卡通版本。保持图片的一致性和连贯性。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209330962_kpf4xz_ZQ0vp45DvrARSuXh.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "设备的爆炸图",
+    "description": "一个可复用的提示模板，用于以方形格式创建任何主题的带标签分解图，适用于产品拆解或教育视觉材料。",
+    "prompt": "创建一个 1080x1080 尺寸的 [SUBJECT] 技术爆炸图。该设备应被拆解，显示所有单独的组件漂浮在空中，彼此分离以展示内部零件。每个主要组件都已标注。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209285191_okmdsp_G6g6qKtWUAAqVz1.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "未来派面部年龄检测器信息图肖像",
+    "description": "一个详细的长提示，用于创建超逼真的肖像信息图，该信息图通过叠加层和带标签的百分比分析面部衰老因素，风格类似于高端美妆科技广告。",
+    "prompt": "基于（您的照片）的超逼真、高分辨率肖像信息图。保持与（您的照片）中相同的人物、身份、发型、服装和自然肤色，背景为中性影棚。在整个面部叠加一个微妙的半透明面部分析网格，类似于 3D 面部扫描网格：细而柔和的白色线条沿着面部轮廓，略微发光但不遮盖皮肤细节。在面部一侧添加一条干净的垂直红色激光线，如同未来主义扫描。所有分析线条必须柔和、极简且优雅，如同医美科技广告一般。\n\n创建一个干净的医美信息图，使用全球数据百分比评估 5 个衰老因素：\n1. 细纹和皱纹\n2. 皮肤质地和弹性\n3. 面部体积和松弛\n4. 眼部衰老迹象\n5. 肤色和色素沉着\n\n对于每个因素，放置一个带有细线指向相关面部区域的小标签，并在旁边写一个简短的标题和基于全球数据的 0-100% 的真实百分比分数，例如：\n“细纹和皱纹 – 18%”\n“皮肤质地和弹性 – 72%”\n“面部体积和松弛 – 35%”\n“眼部衰老迹象 – 41%”\n“肤色和色素沉着 – 63%”\n\n使用干净、现代的无衬线字体和小型技术风格文本，如同科学面部分析 UI。在图像底部中央，用大号粗体文字显示基于分析的最终预估真实年龄，例如：\n“预估年龄：(基于面部分析的随机数字)”\n\n整体风格：未来主义 AI 引导护肤分析，极简主义，高级编辑照明，不指定性别，适用于任何人类面部。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209283961_v9vxxb_G6g1yJ9WIAAaRg0.jpg",
+      "https://cdn.gooo.ai/cms/1764209286585_u12ys0_G6WdE9OWYAASxko.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "漫画风格的中文漫画分镜生成器",
+    "description": "一个提示，告诉 Nano Banana Pro 扮演一位拥有《鬼灭之刃》手绘风格的日本漫画家，并将提供的内容转换成中文漫画分镜。",
+    "prompt": "你是一个擅长中文的日本漫画家，有着强烈的个人手绘风格。《鬼灭之刃》的原始草稿手绘图，你是作者之一。\n\n请使用你擅长的个人漫画线稿图风格, 调用Nano Banana Pro 将如下内容，基于你的理解，生成你的分格漫画手稿图！\n\n不要输出分析内容，直接输出分格漫画图片，图中使用中文表达。\n────────────────\n\n在这里填入你想改编成漫画的文字内容",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209315628_nxbzf7_G6g0DNNaQAAX57_.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "幕后拍摄设置可视化",
+    "description": "一个提示，用于生成逼真的图表式图像，展示拍摄给定场景时摄像机和灯光的布局，并清晰标注各个元素。",
+    "prompt": "生成一张逼真的图像，显示拍摄此场景时摄像机和灯光的放置位置，并标注所有出现的元素。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209326262_tg3bz7_39eDwwbS-saX7Hi8.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "诸葛连弩的复古工程爆炸图",
+    "description": "请用简洁的中文提示，让 Nano Banana Pro 创作一张诸葛连弩的复古风格工程爆炸图，所有标签均需使用中文。",
+    "prompt": "请创建诸葛连弩的复古风格工程爆炸图，里面的文字是中文",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209313579_ubdedt_G6fqDcAasAABUU-.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "老式食谱风格插画",
+    "description": "一个提示，可将美食照片转换为手绘复古食谱页面，其中包含带标签的食材和手写文字，非常适合温馨的美食内容。",
+    "prompt": "将这道 拉面 变成一个可爱的食谱页面，配以手绘复古食谱风格的插图。用精心绘制的食材围绕主菜，包括标签、用量和碗、打蛋器或勺子等厨具。为了营造温馨怀旧的感觉，请使用纹理阴影、温暖的柔和色彩和精致的墨水般轮廓。添加手写风格的食谱文字，将食材和说明有机地融入布局中。确保页面既具有艺术性又兼具教育性，将彩色插图与经典的食谱美学相结合。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209298676_jiw4pb_G6gVT__W8AAoTR_.jpg",
+      "https://cdn.gooo.ai/cms/1764209302048_bulors_G6gVT__WsAATonO.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "IT 电影多面板序列",
+    "description": "一个简短的提示，用于生成一个电影化的多画面宽屏序列，以阐释小说《IT》中的一个富有想象力的剧本。",
+    "prompt": "使用多个宽屏面板网格创建电影序列，以讲述书籍《IT》中富有想象力的剧本故事。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209275413_3m39wy_G6f_WMXa8AAb2Rn.jpg",
+      "https://cdn.gooo.ai/cms/1764209277760_veaaja_G6cgXctW4AAbDuy.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "编辑级牛仔布肖像，保留面部特征",
+    "description": "一个 JSON 风格的提示，用于创建一张 8K 编辑级时尚肖像，描绘一个身穿牛仔服和羊羔绒夹克的人，同时保持其面部与参考照片一致。",
+    "prompt": "```json\n{\n  \"photo\": {\n    \"type\": \"社论时尚摄影\",\n    \"quality\": \"8k 超逼真\",\n    \"lens\": \"50mm 浅景深\",\n    \"composition\": \"中景肖像，社论构图，无文字，无水印\",\n    \"face\": {\n      \"preserve_original\": true,\n      \"reference_match\": true,\n      \"description\": \"模特的脸部特征、比例、妆容风格和表情必须与提供的参考图片 100% 相同。\"\n    },\n    \"model_pose\": {\n      \"position\": \"坐姿\",\n      \"legs\": \"一条腿弯曲的放松姿势\",\n      \"hands\": \"一只手托着头\",\n      \"expression\": \"平静，极简主义情绪\"\n    },\n    \"wardrobe\": {\n      \"jacket\": {\n        \"type\": \"米色羊羔绒夹克\",\n        \"texture\": \"蓬松、毛茸茸、有触感\"\n      },\n      \"shirt\": {\n        \"type\": \"牛仔衬衫\",\n        \"layered\": true\n      },\n      \"pants\": {\n        \"type\": \"浅蓝色牛仔裤\"\n      },\n      \"boots\": {\n        \"type\": \"黑色切尔西皮靴\",\n        \"texture\": \"光滑抛光皮革\"\n      },\n      \"socks\": {\n        \"color\": \"米色\"\n      }\n    },\n    \"textures\": {\n      \"emphasis\": [\n        \"蓬松的羊羔绒纤维\",\n        \"粗犷的牛仔面料\",\n        \"光滑的皮靴\",\n        \"可见的接缝\",\n        \"可见的缝线\"\n      ]\n    },\n    \"environment\": {\n      \"backdrop\": \"干净的浅灰色影棚背景\",\n      \"lighting\": {\n        \"style\": \"柔和自然影棚灯光\",\n        \"key_light\": \"柔和的侧面主光\",\n        \"fill_light\": \"微妙的补光\",\n        \"shadows\": \"柔和的阴影\"\n      }\n    },\n    \"color_grade\": {\n      \"type\": \"电影级\",\n      \"balance\": \"中性暖冷色调平衡\"\n    }\n  }\n}\n```",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209287561_cussb9_G6ffMXfbQAABUWE.jpg",
+      "https://cdn.gooo.ai/cms/1764209290078_kmguwq_G6ffMYaaoAA9ko6.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "儿童蜡笔风格的家庭露营画",
+    "description": "一个韩语提示，用于将纸上的图画转换为家庭露营场景的儿童蜡笔风格插画，同时保持图像的其余部分不变。这适用于风格迁移或图像到图像的用途，其中周围的元素保持不变。",
+    "prompt": "保持图片中所有其他元素不变，仅将纸上的图画改为不同的风格。\n\n图画内容是与一辆 大篷车 一起进行的露营旅行。左边是 一对母子 坐在桌旁，右边是 父亲 正在用 烧烤架 烤肉。\n\n将图画改为小学生蜡笔画的风格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209273626_l8kc9j_G6aTZUyasAAi6u8.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "参考图像的四个摄像机角度网格",
+    "description": "一个提示，用于创建参考图像的四种不同摄像机角度的网格，同时匹配其风格和调色板，并保持每个镜头独一无二。",
+    "prompt": "创建 你的参考图像 的四种不同摄像机角度的网格，使用 你选择的摄像机角度，并遵循与 参考图像 相同的风格和调色板。确保新镜头独一无二。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885755233_dia86f_G6XGckTacAAtoxg.jpg",
+      "https://cdn.gooo.ai/cms/1763885758320_lj1jts_G6XHXoHa0AAbZY1.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "编辑月亮位置并更改绘画风格",
+    "description": "一个编辑提示，将绘制的月亮移动到女人的左侧，并将艺术风格切换为透明水彩。",
+    "prompt": "将背景中女人的月亮从观看者的角度移到左侧。将绘画风格改为透明水彩。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885803992_kt7dsr_G6XCQjTbcAABemP.jpg",
+      "https://cdn.gooo.ai/cms/1763885806179_07fuct_G6XCSvNbMAArO0f.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "给定坐标处发生重大事件",
+    "description": "一个需要大量推理的提示，要求 AI 创建一张在指定地理坐标处发生的重大事件的图像。",
+    "prompt": "请根据以下坐标创建一张重大事件的图片：41°43′32″N 49°56′49″W。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885779472_a0w3s2_G6XCycxaAAA8aHp.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "杰克逊实验室信息图",
+    "description": "一个简单的提示，用于生成一份关于杰克逊实验室的信息图表。",
+    "prompt": "关于 杰克逊实验室 的信息图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885765990_p37fcw_G6XAjaYWYAA6Jro.jpg"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "根据参考线框图进行网页设计",
+    "description": "一个日语提示，要求 Nano Banana Pro 根据参考图片中的文本设计一个简洁流畅的布局，同时忽略其原有布局。",
+    "prompt": "请根据参考图片中的文字内容进行设计。忽略其布局。请像专业设计师一样进行设计。创建一个简洁、组织良好且流程美观的设计。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885630688_hxag4z_G6W2E7sbwAAvjZV.jpg"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "🎨 手绘",
+    "description": "",
+    "prompt": "",
+    "images": []
+  },
+  {
+    "id": 34,
+    "title": "可爱的长尾山雀 LINE 贴图集",
+    "description": "一个日语提示，用于生成 12 个以变形可爱长尾山雀为主题的 LINE 贴纸，面向高中女生。",
+    "prompt": "设计 12 款以Q版可爱的银喉长尾山雀为主题的 LINE 贴图。贴图的姿势和文字排版应各不相同，以确保设计独特且多样化。对话内容为日语。背景为白色。贴图的目标用户是“女高中生”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885604698_gw8vfk_G6W0A72akAAjDPX.jpg"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "根据照片制作逼真的角色设计图",
+    "description": "一个用于从照片生成电影级写实角色设计表（包括多角度视图、表情表和姿势表），然后移除原始人物图像的日文长提示。",
+    "prompt": "请根据这张照片中的人物，创建一个详细的角色设计表。该设计表将用于一部真人电影，因此请注意不要使其看起来像动漫风格的艺术作品。请务必按照以下三个角色元素来构建：\n \n - 角色多角度（三视图）展示表\n - 表情表，展示喜悦、悲伤、愤怒、惊讶、恐惧和中性等基本情绪状态\n - 姿势表，展示角色跑步、跳跃、大笑和哭泣等典型动作\n\n创建完成后，请删除原始人物图片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885585379_oiwknt_ruxtQefhmHdMJqYj.jpg"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "关于 Google 早年经历的信息图",
+    "description": "一个简单的英文提示，用于创建信息图，总结 Google 的早期发展和重要里程碑。",
+    "prompt": "请制作一份关于 Google 早期发展及其重要里程碑的信息图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885651129_mb3n6p_G6WVfU7bEAAZIB7.jpg"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "2D NES 平台游戏的精灵图",
+    "description": "根据游戏封面，生成一个 2D NES 风格平台游戏（包含敌人和 NPC）的精灵图。",
+    "prompt": "为 2D NES 平台游戏创建精灵图，包括敌人和 NPC。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885772344_vq443h_G6WwNlQWcAAaPsj.jpg"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "涂装方案对比图",
+    "description": "一个日文提示，要求 Nano Banana Pro 生成一张包含多种绘画模拟图案的图片，以便于比较。",
+    "prompt": "这样我就可以进行绘画模拟，制作一张图片，让我可以比较几种不同的图案。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885608347_2zc1gm_G6WwWI2asAASozn.jpg",
+      "https://cdn.gooo.ai/cms/1763885610455_4x2swh_Gon_PtsW4AAHBN5.jpg",
+      "https://cdn.gooo.ai/cms/1763885612907_eyhfhr_Gon_PtkWUAA9N__.jpg"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "根据参考照片和草图绘制的动作场景",
+    "description": "使用上传的照片和草图，创作一张 1990 年代风格的纽约动作镜头：一名男子从建筑物边缘滑落，一名女子伸手去抓，构图和姿势与草图一致。",
+    "prompt": "使用该男子的照片，仿佛他正从建筑物边缘滑落，而该女子正在伸手，精确匹配草图的姿势和构图，以 NYC 作为场景的风格参考。一张高质量的 20 世纪 90 年代动作照片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885813137_zxo17g_G6WvO9NbMAAFlEE.jpg",
+      "https://cdn.gooo.ai/cms/1763885816485_jmmp0d_G6WvO9JaAAAdU5-.jpg",
+      "https://cdn.gooo.ai/cms/1763885819116_w84c2k_G6WvO9cbAAArAvk.jpg",
+      "https://cdn.gooo.ai/cms/1763885822088_u0dk54_G6WvO9Pa8AA58u2.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "江户风格木版画忍者角色",
+    "description": "一个用日语提示生成的江户时代风格的木版画，描绘了一个摆出酷炫姿势的角色，标题是“机关忍者胧”。",
+    "prompt": "一张江户时代风格的木版画，描绘了一个角色摆出大胆而酷炫的姿势，标题为“Karakuri Ninja Oboro”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885651972_3rk4hk_G6WvEPhaMAAaxci.jpg"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "印尼总统系列抓拍照片",
+    "description": "生成一组六张图片，以纪录片风格呈现一位印度尼西亚总统，场景包括在办公室、在稻田里以及与其他领导人一同参加派对。",
+    "prompt": "生成一组六张纪实风格的偷拍照片，内容为 这位印度尼西亚总统 在办公室、稻田里以及与其他总统开派对的场景。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885747153_bnzbtt_G6WhmStboAARYf4.jpg",
+      "https://cdn.gooo.ai/cms/1763885750604_s6xw06_G6WieZebgAARJvP.jpg"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "通过风格迁移实现的 90 年代版网站",
+    "description": "一个风格转换提示，可根据参考图像将用户的网站转换为完整的 1990 年代主题版本。",
+    "prompt": "制作一个我的网站的 90 年代版本。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885764059_puzk3l_G6Wr0C8asAAS2QA.jpg",
+      "https://cdn.gooo.ai/cms/1763885766883_dttyit_G6Wsp5Ra0AAveFv.jpg",
+      "https://cdn.gooo.ai/cms/1763885769647_0qv8ki_G6WtEjmasAAiAd_.jpg"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "将 Netflix 屏幕变成西部片风格",
+    "description": "一个创意风格的提示，将整个 Netflix 屏幕变成西部主题版本。",
+    "prompt": "将整个 Netflix 屏幕变成西方版本。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885796761_sntaeq_G6UXjFSXYAAmV7I.jpg"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "文章或内容的缩略图设计提示",
+    "description": "一个可复用的提示模板，将模型设定为平面设计师和营销人员的角色，根据给定的目的和主题生成三个引人注目的缩略图设计方案。",
+    "prompt": "目的：(示例) 为一篇笔记文章创建缩略图\n主题：(示例) 我，一个 30 岁的上班族，在评估了我的副业后，决定独立的原因\n*请插入您自己的目的和主题！*\n\n您的角色是“平面设计师和营销人员”。\n请创建能让读者本能地想要点击的设计。\n首先，输出三张设计选项图片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885549951_qrlx4i_G6Wju8sa8AEnTqT.jpg",
+      "https://cdn.gooo.ai/cms/1763885552974_2ctvx6_G6WjxYGasAEMU1x.jpg",
+      "https://cdn.gooo.ai/cms/1763885555781_ivrz0g_G6Wjz_gbsAAdLWB.jpg"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "床上的衣物",
+    "description": "一个编辑风格的提示，它以一个参考人物为基础，将她每件衣服单独平铺在床上。",
+    "prompt": "把她的每件衣服都单独平铺在床上。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885776121_5wbi8e_G6WmWG4awAAOfG8.jpg",
+      "https://cdn.gooo.ai/cms/1763885779430_5x8s1g_G6WmXAvaoAA_wYG.jpg"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "朴拙涂鸦风格的主题插画",
+    "description": "一个简洁的英文提示，用于为任何主题生成具有稚拙线条和幽默夸张的涂鸦风格插画。",
+    "prompt": "一幅涂鸦风格的插画，描绘了 [subject]，线条质朴，造型幽默夸张。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885693303_4y3k33_G6Wl2YxbsAARB2b.jpg"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "简单的动作电影场景",
+    "description": "一个极短的提示，指示模型生成一个动作电影场景，风格和细节由 AI 决定。",
+    "prompt": "拍一段动作电影场景。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885756906_5uh75u_G6WjiYjb0AAO-x8.jpg"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "黑板风格的 AI 新闻图解",
+    "description": "将 AI 新闻内容转化为手绘粉笔画风格信息图的提示",
+    "prompt": "请使用以下内容，以手绘黑板报的形式总结新闻，就像老师写的一样，用图表和易于理解的表达方式进行分解。\n---\n“来自 Grok 的搜索结果”",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885620059_vzaj75_G6WfVvIbAAEgvYg.jpg",
+      "https://cdn.gooo.ai/cms/1763885622901_pk1vka_G6P2CkracAINIfP.jpg"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "逼真的馕饼双关语图片",
+    "description": "一个日语提示，生成一张 1:1 的新鲜出炉馕饼的特写照片，上面烙印着一个双关语文字，旁边放着咖喱。",
+    "prompt": "一张 1:1 比例的写实特写图片，展示了新鲜出炉的馕。在蓬松鼓起的馕表面，焦痕形成了文字“You can do naan-thing”。旁边放着一碗咖喱。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885671264_1izmax_G6WZt8tagAAf17W.jpg",
+      "https://cdn.gooo.ai/cms/1763885674196_zir32q_G6WZt8sawAADz5E.jpg",
+      "https://cdn.gooo.ai/cms/1763885676552_xwrd5j_G6WZt8paIAEOFnb.jpg",
+      "https://cdn.gooo.ai/cms/1763885680229_plt205_G6WZt8ua4AAXFz_.jpg"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "食物照片变身生物风格营养海报",
+    "description": "一个混合提示，它以一张食物照片作为参考，将每种食材变成一种生物，并以相同的顺序排列，附带名称、卡路里和营养指标，用于制作一张科学海报。",
+    "prompt": "将参考图片中的食材重构为活生生的生物。按照相同的顺序排列它们，并清晰地标出每种食材的名称、卡路里和营养指数。最终呈现为“食材介绍海报”风格的图片，并加入有趣的科学小知识。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885574174_uvvu12_G6WaqgMaQAAxwpf.jpg",
+      "https://cdn.gooo.ai/cms/1763885577415_azx7x9_G6WaronbsAE5UJo.jpg"
+    ]
+  },
+  {
+    "id": 51,
+    "title": "日本辣妹杂志校服专题",
+    "description": "一个用于生成日式辣妹风杂志专题页面的提示，内容聚焦于校服穿搭造型。",
+    "prompt": "日本辣妹杂志的校服造型特辑。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885594270_mwd5m6_G6WYLU0bwAAvl24.jpg"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "游戏王魔法卡文本主题",
+    "description": "一张日文纯文本提示，用于创建一张以指定事件为主题的《游戏王》魔法卡，带有日文描述和白色外背景。",
+    "prompt": "设计一张游戏王魔法卡。以游戏王官方美术风格绘制插图，使其具有吸引力。卡牌的主题是“Bitcoin crash”。用日文写描述，不要使用振假名或旁注标记。卡牌的外部背景应为白色。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885641391_hqmmrw_G6WTtQFa4AAW5Q3.jpg",
+      "https://cdn.gooo.ai/cms/1763885645055_e08k1j_G6WTtBQa0AE0H0y.jpg"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "AI 伙伴从背后拥抱的双人镜头",
+    "description": "一个提示，将两张图片合成，让第二个角色从后面拥抱第一个人，双臂环绕着他们，在一个共享的场景中。",
+    "prompt": "生成一个场景：第二张图片中的人物从后面抱住第一张照片中的人，双臂环绕到前面，两人一同出现在画面中。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885596702_az92dn_G6WTI9uaoAAkuNO.jpg"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "关于嵌入式工程师困境的四格漫画",
+    "description": "一个简洁的日语提示，要求 Nano Banana Pro 生成一个四格漫画，描绘嵌入式工程师的艰辛。",
+    "prompt": "生成一个关于嵌入式工程师辛酸的四格漫画。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885630443_0dvcf0_G6WRtuRaAAMLWHU.jpg",
+      "https://cdn.gooo.ai/cms/1763885633634_vef04n_G6WRu0saEAA3qeK.jpg"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "夏尔中的“威利在哪里”风格《指环王》",
+    "description": "生成一张繁忙的《威利在哪里》风格插图，其中包含夏尔中所有的《指环王》角色，非常适合制作有趣的“找找看”图片。",
+    "prompt": "一张“威利在哪里”风格的图片，展示了所有在夏尔的《指环王》角色。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885809757_312j74_G6WQrOdWIAANLiE.jpg"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "面部特征一致的摇滚乐队海报",
+    "description": "一个英文提示，用于生成一张摇滚乐队海报，海报中包含几位参考人物，并保持他们面部特征的一致性，同时添加乐队名称。",
+    "prompt": "用这些人制作一张摇滚乐队海报。保持面部一致。将 \"The AI Syndicate\" 作为乐队名称。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885639610_ebcaun_G6WO0TCXQAAXVBN.jpg",
+      "https://cdn.gooo.ai/cms/1763885643172_nkrvvb_G6WK0amXwAA0NQd.jpg"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "黑白硬汉 LINE 贴图",
+    "description": "根据所附角色图片，生成 16 个黑白 LINE 贴图，配上适合硬汉的酷炫短语。",
+    "prompt": "请使用附件图片中的角色，创作 16 款黑白 LINE 贴图。这些贴图应种类丰富，并包含硬汉们会想使用的酷炫短语。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885612334_nuy6h2_G6WOJgBbsAAHKyK.jpg"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "纽约客漫画生成 | CartoonSynth",
+    "description": "",
+    "prompt": "",
+    "images": []
+  },
+  {
+    "id": 59,
+    "title": "诗歌的电影化诠释",
+    "description": "一个灵活的提示，要求 AI 创作一幅电影般的插画，以表现给定诗歌的情感、隐喻和氛围。",
+    "prompt": "创作一幅电影般的插画，以视觉方式呈现以下诗歌，捕捉其情感、隐喻和氛围：[your poem here]。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885757835_2dtopz_G6WIPlLaQAA-tE7.jpg"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "照片上的可爱手写笔记",
+    "description": "让 Nano Banana Pro 在照片上叠加大量可爱的手写注释，非常适合有趣的社交帖子或装饰快照。",
+    "prompt": "在照片上写下尽可能多的可爱手写笔记和高光！",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885802545_yjxgp1_G6WIjoEaQAAUqb1.jpg"
+    ]
+  },
+  {
+    "id": 61,
+    "title": "铺在床上的衣物",
+    "description": "一个简短的英文提示，用于生成一张图片，图片中女孩的每件衣物都单独放在床上。",
+    "prompt": "将她的每件衣物都单独放在床上。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885560814_v44syb_G6WDzG1bkAA2XxH.jpg",
+      "https://cdn.gooo.ai/cms/1763885563907_4q8zk4_G6WD2ILasAAVUmp.jpg",
+      "https://cdn.gooo.ai/cms/1763885566306_buxmpj_G6WD3PCbgAE-WtM.jpg"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "从插画生成照片级渲染图",
+    "description": "将插画转换为基于源图像的高度精细、电影感、超现实照片级图像的英文提示。",
+    "prompt": "基于图像的原始照片，超写实，高度精细，8K 超高清，逼真纹理，锐利对焦，自然光照，电影感，高分辨率摄影。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885620093_1a8kg3_G6WC-FgbIAArVU_.jpg",
+      "https://cdn.gooo.ai/cms/1763885622638_434lm0_G6WC_WSaQAAxX_J.jpg"
+    ]
+  },
+  {
+    "id": 63,
+    "title": "电影级 3D 标志，自动分配纹理",
+    "description": "一个用于生成电影级 3D 标志的提示，其中 AI 会根据品牌风格选择逼真的纹理，并带有戏剧性的灯光和产品广告的感觉。",
+    "prompt": "为 [BRAND] 创建一个电影级的 3D 标志。\n根据品牌风格自动分配逼真的纹理（玻璃、火焰、霓虹、镀铬、液体、冰、熔岩、木材或云朵）。\n使用富有张力的灯光、景深和柔和发光的背景。\n风格：产品广告 / 揭示镜头，电影感，超高清。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885708637_4kfc88_G6WCcaKWYAAc2oH.jpg",
+      "https://cdn.gooo.ai/cms/1763885710942_3vh3ht_G6WCcaXWMAEAcnS.jpg",
+      "https://cdn.gooo.ai/cms/1763885713621_w5wm5e_G6WCcaWXwAE3TpL.jpg",
+      "https://cdn.gooo.ai/cms/1763885716719_yxkd1w_G6WClZeXwAARoPn.jpg"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "上传角色创作的《丝之歌》四格漫画",
+    "description": "一个日文提示，使用上传的角色图片，以竖向四格漫画的形式解释游戏《丝之歌》。",
+    "prompt": "使用上传图片中的角色，用四格漫画的形式解释游戏 Silksong。宽高比应为 9:16。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885631829_gkdyd2_G6WBe4Qa0AAi8ZX.jpg"
+    ]
+  },
+  {
+    "id": 65,
+    "title": "将社交媒体简介变成 NES 游戏卡封面",
+    "description": "一个提示，可以分析你的社交媒体简介，并将其变成 NES 游戏卡带的特写，风格类似于产品照片，背景是一个青少年房间，卡带标签上印有你的名字。",
+    "prompt": "分析我的个人简介，然后构思一款能代表我的电子游戏，如果我是一款电子游戏的话。制作一张 NES 卡带的特写图，背景模糊，显示出青少年卧室的场景。让它看起来像产品照片，并确保包含我的名字。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885740673_03j2j3_G6WAh8pXgAA72ua.jpg"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "动漫风格坐姿肖像（基于面部图像）",
+    "description": "一个日语提示，它能将一张人脸图像转化为一张动漫风格的数字插画，画中人物身着华丽礼服，跪在天鹅绒基座上。",
+    "prompt": "根据这张图片，你能创作一幅数字插画吗？风格偏向动漫，描绘这个人穿着一件漂亮的连衣裙，盘腿（正坐）坐在一张天鹅绒基座上。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885621769_tv374w_G6V_pcxbUAE1FpF.jpg",
+      "https://cdn.gooo.ai/cms/1763885624695_0de943_G6V_pcybMAAv6BU.jpg"
+    ]
+  },
+  {
+    "id": 67,
+    "title": "身份验证角色，护照可见",
+    "description": "一个用于创建角色图像的提示，其中主体清晰地向相机展示其护照以进行身份验证，护照上的姓名、所属机构和生日均可自定义。",
+    "prompt": "让图片中的人物坐在电脑前，手持护照，将证件清晰地展示给摄像头，以证明其是真实人物。证件信息应清晰可见，包括姓名 [NAME]、所属机构 [YOUR DATA] 和出生日期 [YOUR DATE]。所有其他细节均可随机虚构。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885700131_5zq69o_owci0y6lHFtgF_T9.jpg"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "高细节 IT 职业信息图（泰语/英语混合）",
+    "description": "一个部分用泰语和英语撰写的提示，要求制作一份关于 IT 职业和与软件开发生命周期相关的职位的高度详细信息图，可用于学生指导材料。",
+    "prompt": "制作一张非常详细的信息图，描述与软件开发生命周期相关的 IT 职业或 IT 工作。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885764895_tvj6qd_G6V5eTNawAAooML.jpg",
+      "https://cdn.gooo.ai/cms/1763885768630_41vg6r_G6V5eTebcAApYb7.jpg",
+      "https://cdn.gooo.ai/cms/1763885771400_sa7tpx_G6V5eTKaAAAhpoZ.jpg",
+      "https://cdn.gooo.ai/cms/1763885774138_oegbkb_G6V5eThbsAAWJFi.jpg"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "总结文本的单一图表图像（日语）",
+    "description": "一个非常简短的日文提示，要求 Nano Banana Pro 将一份文字密集的课堂讲义总结成一张图表。",
+    "prompt": "将其总结为一张图表图片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885794674_19q656_G6V5jRXbAAAhXIp.jpg"
+    ]
+  },
+  {
+    "id": 70,
+    "title": "缓解颈肩僵硬的肩部拉伸信息图",
+    "description": "一个用于生成 3:4 极简插画信息图的提示，内容是关于一个简单的三分钟拉伸运动，以缓解肩部僵硬，图中包含一位女性模特。",
+    "prompt": "请创作一幅插画风格的图表，内容是“3 分钟肩部拉伸练习”。使用最少的插图，并以女性模特为主角。尺寸应为 3:4。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885512006_1j0ii0_G6V4UTDaEAA-cwu.jpg"
+    ]
+  },
+  {
+    "id": 71,
+    "title": "烤架上的超逼真玻璃五花肉",
+    "description": "一个韩式提示词，用于生成烤架上玻璃制五花肉片的超写实照片风格图像。",
+    "prompt": "烤架上放着一份玻璃制成的超逼真五花肉。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885528976_ysdl5g_G6Vx0FwaEAAH6Jf.jpg",
+      "https://cdn.gooo.ai/cms/1763885532644_5sgj0m_G6Vx365acAANsFq.jpg"
+    ]
+  },
+  {
+    "id": 72,
+    "title": "辛普森风格的火箭香蕉混合体",
+    "description": "一个简短的英文提示，用于生成一个以《辛普森一家》艺术风格呈现的、幽默且富有创意的火箭和香蕉的混合体。",
+    "prompt": "一个非常创新且有趣的火箭和香蕉的混合体，采用《辛普森一家》的风格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885668826_iwojwe_G6V1MuOa8AA2Qq6.jpg"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "食谱分解与美食摄影",
+    "description": "一个英文提示，用于分析菜肴图片，生成包含配料的详细食谱，同时使输出看起来像专业的摄影作品。",
+    "prompt": "为这道菜制作一份详细的食谱，包括所有配料名称及其原始食材。让它看起来像一次真实的摄影作品。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885699082_jn5j72_G6VwFfTaUAA1Gw9.jpg",
+      "https://cdn.gooo.ai/cms/1763885703555_eo2jni_G6V0U-Za0AEAm6H.jpg"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "文本转思维导图图形",
+    "description": "一个日文提示，可将给定文本转化为一个围绕主主题的有机、颜色编码、带图标的思维导图。",
+    "prompt": "将这段文字转化为一张从中心向外扩展的思维导图。\n\n关键点：\n- 将主旨放在中心\n- 将相关元素排列为分支节点\n- 使用颜色编码区分不同类别\n- 添加简单图标\n- 采用有机布局\n\n让它感觉像我的思绪正在被整理。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885614678_ny25s3_G6VyZDHa4AETYFj.jpg"
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Squatty Potty 白板说明",
+    "description": "一个幽默的教学提示，用于创建一个详细的白板风格插图，解释如何正确使用 Squatty Potty。",
+    "prompt": "一张关于如何正确使用 Squatty Potty 的详细白板插图和说明。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885747961_m9ntut_G6VvzHJWoAAldz3.jpg"
+    ]
+  },
+  {
+    "id": 76,
+    "title": "城市照片中的 VTuber 风格街头时尚缩略图",
+    "description": "一个随性的日式提示，它使用有乐町的背景照片，并添加一个 VTuber 风格的角色和粗体街头字体杂志文本，用于制作竖版缩略图。",
+    "prompt": "让人物站在地面上，但不需要展示地面。添加一个与此背景相符的角色，并使其成为一个适合作为 VTuber 的角色。\n我想要一个时尚的缩略图。\n设计要类似于 VTuber 常见的风格。\n文字使用粗体、街头风格的字体。文字应具有时尚杂志专题报道的感觉。\n采用垂直构图。\n开始生成图像。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885553891_9vcwma_G6VvZytaoAAIGKt.jpg"
+    ]
+  },
+  {
+    "id": 77,
+    "title": "文本的白板式简单图表",
+    "description": "一个提示，可以将文本转化为简洁的 16:9 白板风格图表，包含核心概念、箭头和突出显示的关键点。",
+    "prompt": "将此文本转化为一个简单的白板风格图表。\n\n要点：\n- 将主要概念置于中心\n- 使用箭头表示流程和关系\n- 将重要部分用方框括起来\n- 解释简短，只关注关键点\n\n将尺寸设置为 16:9，并设计一个简洁的图表，方便在智能手机上查看。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885572755_sge1y4_G6Vuv_hboAALHXx.jpg"
+    ]
+  },
+  {
+    "id": 78,
+    "title": "MrBeast 风格的爱泼斯坦文件缩略图",
+    "description": "一个英文提示，用于生成一个 MrBeast 风格的 YouTube 缩略图，其中唐纳德·特朗普正在揭示爱泼斯坦文件中的内容。",
+    "prompt": "一个 MrBeast 风格的 YouTube 缩略图，但主角是唐纳德·特朗普，视频内容是他揭露爱泼斯坦档案里的秘密。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885675982_nbo6av_G6VucuKXcAAphIA.jpg"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "杂乱衣橱中的高角度仙女垃圾摇滚偶像",
+    "description": "一个长篇、高度详细的图像生成规范，描述了一位东亚偶像倒立躺在一个凌乱的衣柜里，采用仙女垃圾摇滚风格，有纹身，并包含具体的服装和环境细节。最好在有参考姿势图像时使用。",
+    "prompt": "从高角度俯视拍摄一位东亚女偶像，她躺在凌乱衣橱的地板上，严格遵循 image_0.png 中所示的倒立姿势和解剖结构。她身穿一件华丽的蓝色蕾丝叠层迷你连衣裙，带有挤奶女工式紧身胸衣、心形领口、泡泡袖和荷叶边下摆。她穿着厚重的及膝红色皮靴，靴子正面有一条垂直缝线。可见的纹身包括大腿上的铁丝网图案和胸部的小型手刺心形与钥匙图案。地板上堆满了各种纺织品、薄纱和衣物。背景墙漆成黄色，上面有白色金属丝置物架、半透明塑料储物抽屉和一个塞满衣物的衣架。灯光是顶部的钨丝灯，营造出温暖的棕褐色调，具有 90 年代一次性相机滤镜的复古感。氛围是疲惫、凌乱和浪漫的垃圾摇滚风。\n\n仙女垃圾摇滚美学，一个穿着华丽蓝色连衣裙和红色皮靴的女孩倒立躺在凌乱的黄色墙壁衣橱里，姿势来自 image_0.png，棕褐色调，高角度拍摄。\n\n负面提示：极简主义、干净的地板、明亮的日光、冷光、整洁、空旷空间、现代家具、霓虹色、高清数码感、光泽表面、广角、鱼眼、肢体扭曲、缺少纹身、姿势不正确。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885730864_glu6vm_G6VuGawW0AACHQW.jpg",
+      "https://cdn.gooo.ai/cms/1763885733855_y32rdc_G6VuGauWYAAZNir.jpg",
+      "https://cdn.gooo.ai/cms/1763885736139_cwr7iu_G6VuGatW8AAFsGz.jpg",
+      "https://cdn.gooo.ai/cms/1763885739425_oqyfk9_G6S2x1xaYAAZ_N6.jpg",
+      "https://cdn.gooo.ai/cms/1763885743286_ybd5vb_G6S2x1ybIAAlOt6.jpg"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "LINE 贴纸表",
+    "description": "一个日语提示，用于将附加的角色图片制作成 16 个带有对话和不同姿势的 LINE 迷你贴纸。",
+    "prompt": "制作 LINE 贴图。将附图转换为 Q 版角色，并制作 16 种不同姿势和对话文字的变体。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885562530_hhrlz8_G6VtZ20bsAAtBRG.jpg",
+      "https://cdn.gooo.ai/cms/1763885565415_a7vxd8_G6VteK4bwAA81uj.jpg"
+    ]
+  },
+  {
+    "id": 81,
+    "title": "走出社交媒体屏幕的“错视画”主题人物",
+    "description": "一个提示，可以将上传的主体变成一幅错视画，画中主体从大屏幕上的社交媒体界面中走出，并包含 UI 细节和表情符号反应。",
+    "prompt": "一个关于 一个主题 的“错视画”幻觉，你选择的服装 从一个显示着 社交媒体 界面的大屏幕中走出。屏幕上显示着用户名“@”、1K 个赞和 12-20 条评论，周围漂浮着表情符号（心形眼、笑脸），背景是 你喜欢的背景。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885724726_hc1ah8_G6VtN7haMAAlkVQ.jpg"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "超逼真的罗罗诺亚·佐罗肖像",
+    "description": "生成《海贼王》角色罗罗诺亚·索隆超写实肖像的简洁提示。",
+    "prompt": "超逼真的罗罗诺亚·索隆肖像。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885730573_1wy9r6_G6Vrv6ebcAA1QDR.jpg"
+    ]
+  },
+  {
+    "id": 83,
+    "title": "将包中的物品取出并摊在床上",
+    "description": "一个生活方式提示，指示 AI 将包里的物品摊开在床上，其中一些散落在地板上，营造出逼真的“开箱”风格图像。",
+    "prompt": "把包里的东西拿出来放到床上，其中一些散落在地板上。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885750215_gzr7yn_G6VmQGgboAAhXu0.jpg"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "GTA 5 线上动作场景",
+    "description": "一个英文提示，用于生成一张类似于《GTA 5 线上》的动作图片，其中一个人正在向一辆汽车射击。",
+    "prompt": "创作一张《GTA 5 线上模式》的图片，内容是一个人正在射击一辆汽车。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885687163_7wtd3j_G6Vm1c1XcAA45mc.jpg"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "关于一个笨拙的精灵的四格漫画",
+    "description": "一个简单的日语提示，用 Nano Banana Pro 生成一个关于笨拙精灵一天的四格漫画。",
+    "prompt": "让我们用 Nano Banana Pro 创作一个四格漫画：“A Day in the Life of a Clumsy Elf”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885503584_sy8bil_G6VkQxjasAADXZn.jpg"
+    ]
+  },
+  {
+    "id": 86,
+    "title": "超高保真图像修复",
+    "description": "一个简短的指令提示，用于以最大程度忠实于原图的方式修复模糊图像。",
+    "prompt": "对这张图片进行超高保真度的重制。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885737425_u2b9eg_G6VjaZVb0AEcg6u.jpg",
+      "https://cdn.gooo.ai/cms/1763885739731_gh5mn8_G6VjabLasAER1YB.jpg"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "红白机游戏盒、卡带、说明书和 CRT 屏幕（日文）",
+    "description": "回复中有一条日文提示，用于生成一款游戏的红白机游戏盒、卡带、说明书以及一台显示游戏画面的 CRT 电视，该游戏的主角是图片中的角色。",
+    "prompt": "为游戏《Karakuri Ninja Oboro》制作 Famicom 游戏盒、卡带和说明书。游戏主角是图片中的角色，游戏画面显示在 CRT 电视上。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885787343_dilpuo_G6VhdElbUAAHA16.jpg"
+    ]
+  },
+  {
+    "id": 88,
+    "title": "一个角色被烧烤美食“治愈”的彩色漫画",
+    "description": "一个日文提示，用于创作一个带编号分格的彩色漫画，其中一个给定角色吃烤肉后变得更有活力，故事内容由模型决定。",
+    "prompt": "请创作一个彩色漫画，内容是这个角色吃了烤肉后变得精力充沛。故事由你决定。请为每个分格编号。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885548963_76skns_G6Vf5zebUAA1jF6.jpg"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "来自参考信息的带有经典日式字体的图表",
+    "description": "一个提示，用于根据提供的参考信息，使用传统日式字体风格创建 16:9 的日文信息图。",
+    "prompt": "根据以下信息，创建一张信息图格式的解释性图片。\n\n使用经典风格的日文字体。\n长宽比：16:9。\n语言：ja。\n\n参考信息：\n[在此插入您的参考信息]",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885573545_jgk0eb_G6VfCbmbYAAMdys.jpg",
+      "https://cdn.gooo.ai/cms/1763885576374_dyfz2q_G5JNzKVasAALkZL.jpg"
+    ]
+  },
+  {
+    "id": 90,
+    "title": "穿着相同服装的兔子",
+    "description": "一个有趣的提示，让场景中的兔子穿上与参考兔子相同的衣服。",
+    "prompt": "兔子们也穿着同样的衣服",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885731871_0www7i_G6VbpLNaIAAdLa6.jpg",
+      "https://cdn.gooo.ai/cms/1763885734558_an3s09_G6VbqP6awAEREKD.jpg"
+    ]
+  },
+  {
+    "id": 91,
+    "title": "咖啡饮品信息图",
+    "description": "一个简短的英文提示，要求制作一张展示不同咖啡饮品的图表，非常适合用于教育或菜单式视觉呈现。",
+    "prompt": "制作一张信息图，展示不同的咖啡饮品……",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885684682_0m25by_G6VZ_xEWcAA6OQ4.jpg"
+    ]
+  },
+  {
+    "id": 92,
+    "title": "手绘风格标题图片提示（来自照片）",
+    "description": "手绘风格的头部图片，描绘一个人正在介绍 Nano Banana Pro。",
+    "prompt": "完全重现上传的人物。\n将其作为一篇笔记文章的标题图片，该人物在其中介绍“Nano Banana Pro”。\n宽高比：横向 16:9。\n风格和颜色：简洁、手绘风格、斜体，带有蓝绿色渐变。\n标题文字：“深入解读 Google 全新 AI ‘Nano Banana Pro’”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885651870_4szbai_G6VZiROagAAqsIh.jpg",
+      "https://cdn.gooo.ai/cms/1763885654537_qf6h9o_G6VZiRWaIAA_9x5.jpg"
+    ]
+  },
+  {
+    "id": 93,
+    "title": "LINE 站立玩偶角色贴纸包（日文）",
+    "description": "一个日文提示，要求制作一个 4x3 的 12 个 LINE 贴纸网格，贴纸内容为一个站立的玩偶角色，每个贴纸都带有一个简单的单字短语，非常适合作为消息贴纸。",
+    "prompt": "使用这个站立的玩偶角色，创建一个索引图像，展示 4x3 = 12 个不同的 LINE 贴图。每个贴图都应该有一个非常标准、简单的单字短语。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885780843_p78kic_G6VVOz1bgAAKknE.jpg",
+      "https://cdn.gooo.ai/cms/1763885783364_dudkt4_G6VVOmlaEAAiRg2.jpg"
+    ]
+  },
+  {
+    "id": 94,
+    "title": "云中半透明海水鲸鱼",
+    "description": "一个详细的奇幻提示，描绘了一头由海水构成的半透明蓝色鲸鱼，体内充满了鱼群，它在金色的日落云层中游弋，伴随着彩虹般的光效。",
+    "prompt": "一头雄伟的、半透明的蓝色鲸鱼，由海水构成，体内可见鱼群，在日落时分穿梭于蓬松的白云之间，阳光透过它的身体形成一道彩虹，呈现出一幅超现实而宏大的场景。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885721081_bsojjm_G6VUGHGakAAbKve.jpg",
+      "https://cdn.gooo.ai/cms/1763885723690_muy3un_f1kYBsLafkoKDf5b.jpg"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "虚构网页设计师的作品集图片",
+    "description": "一个简单的日语提示，为一位假想的网页设计师生成作品集图片。",
+    "prompt": "为一位虚构的网页设计师创建一个作品集图片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885536659_mrbvqk_G6VRlhea8AA2VC8.jpg"
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Levi’s 试衣间自拍编辑",
+    "description": "一个英文提示，用于编辑人物照片，使其看起来像在 Levi's 购物，手提购物袋，并用特定型号的手机对着镜子自拍。",
+    "prompt": "拍一张我在 Levi's 购物的照片，手里拿着购物袋，在店里对着镜子自拍，用手机遮住脸。手机型号为 Samsung S25 Plus。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885684157_v1cp1y_G6VRxgtacAE0zi7.jpg"
+    ]
+  },
+  {
+    "id": 97,
+    "title": "特定坐标处的地理定位日落场景",
+    "description": "在精确的经纬度生成日落场景，这对于基于地理位置的景观或使用 Nano Banana Pro 重现真实世界地点非常有用。",
+    "prompt": "在 sunset 时，创建 7°36′28″S 110°12′14″E 的图像。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885800087_7eutgo_G6VQhDVaEAAzzMg.jpg"
+    ]
+  },
+  {
+    "id": 98,
+    "title": "关于 PLM 和数字主线的演示幻灯片",
+    "description": "一个日语商业提示，首先要求模型思考关于 PLM 系统如何实现数字主线的关键信息，然后将这些信息转化为一张演示幻灯片。",
+    "prompt": "标题为“为什么 PLM 系统对于实现数字主线至关重要”，首先思考并列出支持此信息的所有要素，然后将它们整合为一张演示幻灯片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885512547_1p56lq_G6VPODGaEAAeVlF.jpg"
+    ]
+  },
+  {
+    "id": 99,
+    "title": "CEO 招聘困境信息图",
+    "description": "一个日语提示，用于创建一张信息图，可视化一位在招聘方面遇到困难的公司总裁的处境。",
+    "prompt": "制作一张信息图，说明一位正在为招聘而苦恼的公司总裁的困境。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885503588_afls9i_G6VN5D0bcAE6djR.jpg"
+    ]
+  },
+  {
+    "id": 100,
+    "title": "这个世界结构的抽象插图",
+    "description": "一个非常简短的日语提示，要求用一张图片简洁地表现世界的结构。",
+    "prompt": "绘制一幅简洁的插图，展现这个世界的结构。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885528450_c3svlm_G6VLDM9agAAYBtm.jpg"
+    ]
+  },
+  {
+    "id": 101,
+    "title": "ChatGPT 5.1 和 Gemini 3 对比信息图",
+    "description": "一个提示，要求 Nano Banana Pro 生成一张信息图，比较 ChatGPT 5.1 和 Gemini 3。",
+    "prompt": "将 ChatGPT 5.1 和 Gemini 3 之间的比较制作成信息图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885503718_61vdlr_G6VI_4ibIAEwhIw.jpg"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "高端电影级产品展示片截图",
+    "description": "一个用于生成奢华电影级产品展示图像的提示，非常适合作为短销售视频或产品广告的帧画面。",
+    "prompt": "一款高端电影级产品展示，展示了 [Product Name]，放置在反光的优质表面上，带有柔和的轮廓光、上方戏剧性的聚光灯、超清晰的细节、85mm 镜头景深、背景中发光的散景、平滑的渐变和优雅奢华的感觉。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885953463_y2r89i_HgB-BZITdUQpUJmU.jpg"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "长文档的中文白板摘要",
+    "description": "指示 Nano Banana Pro 将一段冗长的中文文本转换成教授风格的白板图像，以帮助理解，非常适合视觉学习辅助。",
+    "prompt": "将这篇长文资料转换为中文教授白板图片，帮助我理解信息。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885859071_6v1iyq_G6VD9HEawAEPt8o.jpg",
+      "https://cdn.gooo.ai/cms/1763885862141_aw3cuv_G6VD-uYbkAEZOlp.jpg",
+      "https://cdn.gooo.ai/cms/1763885864728_5tylwm_G6RRCifaAAAcSu6.jpg"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "角色变身为超合金机器人风格",
+    "description": "将附带的角色图像转换为超合金风格的同角色机器人版本的提示。",
+    "prompt": "将这个角色变成超合金风格的机器人。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885947423_4n34s3_G6VED2_bYAAguKl.jpg"
+    ]
+  },
+  {
+    "id": 105,
+    "title": "图像增强和放大提示",
+    "description": "一个用于增强和放大图像的提示，同时保留构图和颜色，消除模糊并添加详细纹理，适用于质量升级。",
+    "prompt": "在保持构图和颜色不变的情况下，增强并放大图像。消除模糊，让纹理呈现出细节感。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885990854_91pnw3_G6VDrO7bEAAU6Ok.jpg",
+      "https://cdn.gooo.ai/cms/1763886002266_pqw1yp_G6VDrO3bkAAwViN.jpg",
+      "https://cdn.gooo.ai/cms/1763886008984_i8boz3_G6VDrOzaMAIB0av.jpg",
+      "https://cdn.gooo.ai/cms/1763886010997_2n94o5_G6VDrO6bIAAgUdN.jpg"
+    ]
+  },
+  {
+    "id": 106,
+    "title": "第五代隐形战斗机剖面图",
+    "description": "一个高细节的提示，用于生成一架现代第五代隐形战斗机的 3D 剖面技术信息图，以 DK 百科全书风格展示其内部系统。",
+    "prompt": "内容描述： 一张现代五代隐身战斗机的科普教育技术3D剖面图，侧面视角。画面清晰地展示了复杂的内部结构，包括涡扇发动机细节、机鼻处的AESA（相控阵）雷达系统、驾驶舱航电系统、飞行员座椅、燃料箱以及装有导弹的内部弹舱。\n风格与画质： 高科技信息图表风格，DK视觉大百科（Dorling Kindersley）风格，超写实主义，细节极高的工程蓝图（全彩模式）。\n光照与背景： 干净的白色背景，柔和的摄影棚布光，对焦清晰，8K超高清分辨率，虚幻引擎5（Unreal Engine 5）渲染质感，机械部件分明，具有金属质感。\n重点是需要剖面 剖面",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885984249_hp3ezb_G6VCRSva0AACfYk.jpg"
+    ]
+  },
+  {
+    "id": 107,
+    "title": "一位中性气质女性的 2x2 情绪化编辑拼贴画",
+    "description": "一个非常详细的 JSON 风格提示，描述了一位年轻女性在旧楼梯上的 2x2 电影风格拼贴画，画面情绪化，并为营造编辑风格的外观指定了具体的姿势、灯光和相机设置。",
+    "prompt": "```json\n{\n  \"image_description\": {\n    \"overall_composition\": \"一张电影感十足的 2x2 拼贴画，以同一位年轻女性为主题，营造出忧郁的氛围\",\n    \"subject\": {\n      \"appearance\": {\n        \"hair\": \"短发，蓬松凌乱\",\n        \"makeup\": \"大胆的红色口红\",\n        \"style\": \"引人注目的中性时尚造型\"\n      },\n      \"attire\": {\n        \"suit\": \"宽松西装\",\n        \"shirt\": \"宽松的白色正装衬衫，领口敞开\",\n        \"tie\": \"印花领带松散地挂在脖子上\"\n      }\n    },\n    \"environment\": {\n      \"setting\": \"昏暗的室内旧楼梯\",\n      \"lighting\": \"温暖的琥珀色灯光\",\n      \"details\": [\n        \"磨损的黑色扶手\",\n        \"有纹理的墙壁\",\n        \"柔和的环境光\"\n      ]\n    },\n    \"frames\": {\n      \"top_left\": {\n        \"pose\": \"坐在台阶上，身体前倾，下巴靠在手上\",\n        \"expression\": \"若有所思\",\n        \"details\": [\n          \"脸上微妙的阴影\",\n          \"放松的姿态\"\n        ]\n      },\n      \"top_right\": {\n        \"pose\": \"站在楼梯上，一只手轻轻扶着扶手\",\n        \"expression\": \"平静，内省\",\n        \"details\": [\n          \"宽松的黑色西装自然垂坠\",\n          \"脸部略微向镜头倾斜\",\n          \"红色口红与深色西装形成对比\",\n          \"头发自由地散落在脸颊上\"\n        ]\n      },\n      \"bottom_left\": {\n        \"pose\": \"靠在楼梯扶手上，目光望向一侧\",\n        \"expression\": \"微妙，疏离的眼神\",\n        \"details\": [\n          \"楼梯上柔和的阴影\",\n          \"背景中可见墙壁的纹理\"\n        ]\n      },\n      \"bottom_right\": {\n        \"pose\": \"双腿分开坐着，手肘撑在膝盖上，一只手轻轻触碰嘴唇\",\n        \"expression\": \"前卫，自信\",\n        \"background\": \"扶手和背景在她身后柔和地模糊\"\n      }\n    },\n    \"visual_style\": {\n      \"lighting\": \"温暖的低调照明\",\n      \"texture\": \"有纹理的阴影，略带颗粒感\",\n      \"depth\": \"电影般的景深\",\n      \"aspect_ratio\": \"每帧 1:1，排列成 2x2 网格\",\n      \"camera_settings\": {\n        \"lens\": \"35mm\",\n        \"aperture\": \"f/1.8\",\n        \"iso\": \"400\",\n        \"shutter_speed\": \"1/160s\"\n      },\n      \"overall_look\": \"忧郁的时尚拼贴画，带有复古色调、富有表现力的姿势和浓郁的氛围\"\n    }\n  }\n}\n```",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885959716_t81f5o_G6VBcvDbMAASMAi.jpg"
+    ]
+  },
+  {
+    "id": 108,
+    "title": "乐天世界大厦地标聚焦地理位置图像",
+    "description": "一个经过优化的地理定位提示，指示 Nano Banana Pro 在给定的首尔坐标处生成图像，同时聚焦于地标而非随机的周边场景。",
+    "prompt": "创建一张图片，内容为 北纬 37° 30' 40.4424''，东经 127° 5' 52.9080''。重点关注一个地标，而不是随机的场景。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885925321_lswbx2_G6VBapubAAAqFsT.jpg"
+    ]
+  },
+  {
+    "id": 109,
+    "title": "恐龙现身东京都厅大楼前",
+    "description": "一个简短的日文提示，用于将特定的恐龙放置在新宿的真实世界场景中，即东京都厅舍前。",
+    "prompt": "让这只恐龙出现在新宿的东京都厅前。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885584398_lhsr0x_G6U97uFbUAAIwji.jpg",
+      "https://cdn.gooo.ai/cms/1763885595564_s6d7v0_G6U97uUbMAAUHwX.jpg",
+      "https://cdn.gooo.ai/cms/1763885599061_goiye7_G6U-absbwAAo3Vk.jpg",
+      "https://cdn.gooo.ai/cms/1763885601525_q782ft_G6U-2kUb0AALpnb.jpg"
+    ]
+  },
+  {
+    "id": 110,
+    "title": "虚拟服装试穿，含东京街头场景选项",
+    "description": "一个多行提示，用于将上传参考图片中的人物穿上另一张上传图片中的衣服，同时保留面部和发型，让他们摆出可爱的姿势，并以写实风格渲染，可选择中性背景或东京街头背景。",
+    "prompt": "根据上传的参考图片生成人物图像，保持面部和发型与上传图片完全一致。\n为人物穿上上传的服装图片中的衣服，保留服装的款式、颜色和细节。\n人物摆出可爱自然的姿势，面向镜头。\n写实照片风格，自然光线，高分辨率。\n背景可选，可以是中性背景，也可以是 Tokyo street 场景。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885908542_4w3o8l_G6UZNI_boAASbOX.jpg",
+      "https://cdn.gooo.ai/cms/1763885911279_ci30iu_G6UZNJBaMAAZ_4g.jpg",
+      "https://cdn.gooo.ai/cms/1763885914157_v6vyac_G6UZNI9aEAAyuPL.jpg"
+    ]
+  },
+  {
+    "id": 111,
+    "title": "递归艺术家绘制自己绘画的照片",
+    "description": "创作一张业余风格的 1998 年照片，内容是一位中年艺术家将电脑屏幕上的图像复制到画布上，而该图像本身是艺术家正在绘制递归图像的照片，非常适合用于令人费解的元场景。",
+    "prompt": "一张 1998 年拍摄的业余照片，照片中一位中年艺术家正在将电脑屏幕上的图像手工复制到拉伸画布上的油画中，但这张图像本身就是艺术家正在绘制递归图像的照片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885818420_kdhol5_G6U8rOkXwAABEUg.jpg"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "附带插画的 LINE 贴图集",
+    "description": "一个提示，可以将附带的插画转化为一套基于角色的 LINE 贴纸，包含 16 种不同表情、姿势和短语。",
+    "prompt": "将附件图片中的插画转变为角色。创作包含 16 种不同表情、姿势和短语的 LINE 贴图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885971456_09wdl4_G6U7zFzaAAAUfw5.jpg"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "线框图示意图重构提示",
+    "description": "一个提示构想，用于将上传的图像转换为蓝色发光的 3D 线框，置于黑色背景之上，并可选择添加红色线框坦克，适用于示意图或科幻视觉效果。",
+    "prompt": "将其制作成一个在黑色背景上发光的蓝色 3D 线框。如果需要，可以添加红色线框坦克。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885933055_r7m4el_G6U5Hoeb0AAK3az.jpg"
+    ]
+  },
+  {
+    "id": 114,
+    "title": "房地产投资的优缺点信息图",
+    "description": "一个用于创建图像的提示，该图像直观地解释了房地产投资的优缺点，非常适合教育或营销帖子。",
+    "prompt": "创建一张图片，展示房地产投资的优缺点。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885944193_hxvxce_G6U6PR1a4AAKtOu.jpg"
+    ]
+  },
+  {
+    "id": 115,
+    "title": "根据所附角色图片制作的 LINE 贴图集",
+    "description": "提示：使用附件中的角色，创作一套 12 款的 LINE 贴图，包含各种表情、姿势以及符合主题且易于使用的短语。",
+    "prompt": "我想请你使用附件图片中的角色来制作 LINE 贴纸。请制作共 12 款，包含不同的表情、姿势和短语。请使用 [specific theme] style 的易用短语。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885979143_o1mj1o_G6U52HoaQAABvqP.jpg",
+      "https://cdn.gooo.ai/cms/1763885982519_l36ol0_G6U52HobIAAQ_Rl.jpg"
+    ]
+  },
+  {
+    "id": 116,
+    "title": "手工面包店视频广告",
+    "description": "一个简单的提示，用于为一家新的手工面包店生成视频广告，可作为商业广告的基础。",
+    "prompt": "为一家新的手工面包店制作视频广告。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885941049_whqhsg_oWORaCdVdLl1vrrb.jpg"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "唐诗学习卡",
+    "description": "一个用于生成著名唐诗学习卡的提示，其中包含全文、匹配的图像和简单的注释，以帮助学生理解诗歌的意境和背景。",
+    "prompt": "给我来10首著名的唐诗学习卡片，图像包含唐诗全文，同时画面要和诗句的内容相吻合，意境契合，方便学生理解诗文的背景和意境，有简单的中文注释。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885960446_1ybou0_G6U4KbLbQAAbu-u.jpg"
+    ]
+  },
+  {
+    "id": 118,
+    "title": "脚趾特写细节",
+    "description": "一个英文提示，要求模型放大所提供图像的脚趾部分，非常适合测试细节保留能力。",
+    "prompt": "放大脚趾。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885640122_xao4s9_G6U3EVfaMAA6XT_.jpg",
+      "https://cdn.gooo.ai/cms/1763885642953_6ov6mn_G6U3FIsbAAA_lZF.jpg"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "通过坐标查看摩天大楼夜景",
+    "description": "两个基于地理位置的提示，用于生成夜景：一个以汝矣岛的 63 大厦为主题，另一个则聚焦乐天世界大厦，两者都使用经纬度并包含可选的地标聚焦指令。",
+    "prompt": "创建一张 {argument name=\"coordinates_1_en\" default=\"37°31'11.24\"N 126°56'25.11\"E\"} 的夜景图。\n\n创建一张 37° 30' 40.4424'' N and 127° 5' 52.9080'' E 的图片。重点放在地标上，而不是随机场景。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885917845_vyb043_G6U3Bs4bEAARu36.jpg",
+      "https://cdn.gooo.ai/cms/1763885924055_hb20qk_XaGszcVwRWoLRMbP.jpg"
+    ]
+  },
+  {
+    "id": 120,
+    "title": "总结基本收入的图片",
+    "description": "一个简单的日语提示，请求一张图片来概括“基本收入”的概念。",
+    "prompt": "创作一张图片，概括基本收入的概念。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885521009_iezxk6_G6U26MKbYAAuRuh.jpg"
+    ]
+  },
+  {
+    "id": 121,
+    "title": "两格漫画修订提示",
+    "description": "请将漫画的第二格镜像翻转，并修改采访对话。",
+    "prompt": "您能把整幅画清理一下，把第二格水平翻转吗？届时，请把面试官的台词改成：“您正是我们公司一直在寻找的人才！”",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885527644_7gmypo_G6U2Qx8bkAAYk0t.png"
+    ]
+  },
+  {
+    "id": 122,
+    "title": "水浒传 30 位主要人物工笔画网格图",
+    "description": "一个中文提示，用于生成 30 位水浒传人物的网格图，采用中国工笔画风格，并在每个单元格上标明人物姓名。",
+    "prompt": "生成一副《水浒》排名前30的人物图，grid格式，中国工笔画风格，每个人物的cell的右下角写上人物的姓名。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885661194_n4dzyt_G6Uz7AZbcAEImd5.jpg"
+    ]
+  },
+  {
+    "id": 123,
+    "title": "一位女性变老的过程",
+    "description": "一个日式提示词，将第一张图片中的成年女性变成一位穿着老式服装、居家背景的老年特写，用于可视化成长或衰老。",
+    "prompt": "生成一张第一张图片中成年女性的老年版本特写。让她穿上老年女性的衣服，背景设置为一栋房子。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885925578_gs3v5q_G6STW88akAAFOKe.jpg"
+    ]
+  },
+  {
+    "id": 124,
+    "title": "基于附件的缩略图文字叠加",
+    "description": "指示 Nano Banana Pro 在附加图片上添加两行居中显示的日文文本，内容关于 Google 的 Nano Banana Pro，适用于快速创建缩略图。",
+    "prompt": "Google 推出其终极图像生成 AI “Nano Banana Pro”",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885841215_8hxrjv_G6Up5ETbcAA5eTt.jpg",
+      "https://cdn.gooo.ai/cms/1763885850477_uju6g4_G6UuiuTawAAeCSk.jpg"
+    ]
+  },
+  {
+    "id": 125,
+    "title": "投资组合策略概述图（来自附件）",
+    "description": "要求 Nano Banana Pro 创建一个图表，总结附图中所示的个人投资组合背后的策略。",
+    "prompt": "附件是我作为个人投资者的投资组合。请创建一个政策概述图，用于向他人解释此投资组合的策略。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885918282_xfk9yo_G6UujwIawAAexmT.jpg"
+    ]
+  },
+  {
+    "id": 126,
+    "title": "投资越南的优势",
+    "description": "一个简短的提示，要求 Nano Banana Pro 制作一张幻灯片，总结在越南投资的优势。",
+    "prompt": "将投资越南的优势浓缩为一页幻灯片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885517507_5xcbi0_G6UtYpUaEAEMcj9.jpg",
+      "https://cdn.gooo.ai/cms/1763885520112_j1u228_G6UtjZqbAAAT6Bo.png"
+    ]
+  },
+  {
+    "id": 127,
+    "title": "受力梁的剪力弯矩图",
+    "description": "一个英文工程提示，用于生成一个承受均布荷载的简支梁的剪力图和弯矩图。",
+    "prompt": "一个简支梁的剪力弯矩图，其承受的均布荷载为 100 plf。该梁的长度为 100 feet。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885691923_co8lo6_G6UtlugWoAALVOy.jpg"
+    ]
+  },
+  {
+    "id": 128,
+    "title": "物理学家在吊床上喝着 SPA 饮品放松身心",
+    "description": "生成一个场景：一位物理学家躺在吊床上，双腿伸展，手持饮品，置身于水疗环境中，周围只有树木和植被环绕。这个场景非常适合用于轻松的概念性图像。",
+    "prompt": "一位物理学家躺在吊床上，手边放着一杯饮料和一份 S.P.A. 画面中只露出他没穿鞋的双腿，以及树木和植被。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885843049_muac4o_G6UrfxmXwAELX_7.jpg"
+    ]
+  },
+  {
+    "id": 129,
+    "title": "折纸式分步折叠说明",
+    "description": "从一张平整的纸张到最终模型，创建 2x3 网格的逐步视觉折叠说明，每一步都包含一个正在执行操作的人，非常适合教程或手册。",
+    "prompt": "创建一个 2 by 3 的网格，其中包含从一张平整的纸到最终模型的逐步视觉折叠说明。每个步骤都应包含一个正在完成该步骤的人。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885806712_r6sie5_G6UqMWHW8AEDGhh.jpg",
+      "https://cdn.gooo.ai/cms/1763885810506_zv1akt_G6UqMWKXMAASI1l.jpg"
+    ]
+  },
+  {
+    "id": 130,
+    "title": "日落时分的黑板兔王插画",
+    "description": "创作一幅兔子国王的教室黑板画，画中带有日文文字，置于真实的教室场景中，夕阳从斜角透过窗户洒入。",
+    "prompt": "在教室黑板上，用粉笔画一只兔王，并写上文字“うさ王様参上！”（兔王驾到！）。展示真实的教室场景，夕阳从窗户斜射进来。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885834304_7tnq26_G6TzN1UbAAAojlo.jpg"
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Ben 10 遇上 TMNT 完整漫画页面",
+    "description": "一个英文提示，用于创作一整页漫画，内容是 Ben 10 穿越到《忍者神龟》宇宙，要求画面富有表现力，线条清晰，色彩鲜艳且具有官方风格。",
+    "prompt": "一整页漫画，将 Ben 10 带入 TMNT 宇宙，画面富有表现力，线条干净利落，色彩鲜明，仿佛直接出自官方联动漫画。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885894799_26kjp4_G6S-9DpaMAAj77c.jpg"
+    ]
+  },
+  {
+    "id": 132,
+    "title": "书店 POP 展示架，配有亚克力马克笔插画",
+    "description": "一个用于生成书店 POP 展示照片的提示，照片中有一个标有“neko no shippo”的亚克力马克笔插画，作为新书前的突出装饰。",
+    "prompt": "用丙烯马克笔绘制插画，使用各种颜色的丙烯马克笔。由于是 POP 展示，请从正面拍摄，置于书店场景中。POP 展示在新书前方，比其他书籍更显眼，并在插画右下角写上“neko no shippo”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885940108_p9ogfb_G6UnZv5boAA--Ow.jpg",
+      "https://cdn.gooo.ai/cms/1763885951643_y1mjob_G6Ung7SboAEOCSa.jpg"
+    ]
+  },
+  {
+    "id": 133,
+    "title": "哥特式改造版现有照片",
+    "description": "一个英文自然语言提示，用于将一个人的照片重新构想成他们当时喜欢哥特音乐的样子，让模型推断需要改变什么。",
+    "prompt": "把这个重写一下，就好像这个人当时沉迷于哥特音乐一样。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885675374_zvwxu3_G6Ul3wDa8AAoRRj.jpg",
+      "https://cdn.gooo.ai/cms/1763885677755_lw5j88_G6Ul4d7a4AA-yF5.jpg"
+    ]
+  },
+  {
+    "id": 134,
+    "title": "宠物趣味解剖图",
+    "description": "一个有趣的提示，用于为上传的宠物照片创建幽默的解剖图，并配有搞笑的标签和注释。",
+    "prompt": "为这只宠物制作一张有趣的解剖图，并配上幽默的注释。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885951009_ec1krf_G6UnKK3XIAA6EWK.jpg"
+    ]
+  },
+  {
+    "id": 135,
+    "title": "政府成果信息图（来自网络资源）",
+    "description": "一个日语提示，指示模型研究如帝国数据库（Teikoku Databank）等来源，并制作一份关于高市（Takaichi）政府过去一个月成就和问题的图表。",
+    "prompt": "我想要一张信息图，展示高市（Takaichi）政府在过去一个月取得的成就和面临的问题。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885690973_qp50fb_G6UmEq1b0AA7RHL.jpg"
+    ]
+  },
+  {
+    "id": 136,
+    "title": "四格动漫漫画，主角是熊猫女孩",
+    "description": "生成一个垂直四格漫画，采用典型的日式动漫风格，描绘一个名叫 Rookie 的银色双马尾熊猫人女孩，非常适合角色漫画。",
+    "prompt": "生成一个典型的日式动漫风格的四格漫画。图像是一个垂直的长方形，四格从上到下排列。\n\n[角色设定]\n* 姓名：Rookie\n* 种族：熊猫人（一个头上长着圆形熊猫耳朵的人类女孩）\n* 发型：银色双马尾",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885824699_kdnzqv_G6Uk2jfa0AABLxb.jpg",
+      "https://cdn.gooo.ai/cms/1763885828014_rouv1a_QivtizkRTfmYMTN8.jpg"
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Think-cell 解决文档问题的可视化解释",
+    "description": "指示 Nano Banana Pro 创建一张解释性图片，内容是关于文档创建问题以及 Think-cell 如何解决这些问题，适用于产品或销售视觉材料。",
+    "prompt": "创建一张图片，解释文档创建中存在的问题以及 Think-cell 如何解决这些问题。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885889395_c2bfy7_G6UktiRaIAAwucu.jpg"
+    ]
+  },
+  {
+    "id": 138,
+    "title": "Scouter 风格的 HUD 叠加显示战斗力",
+    "description": "提示片段和说明，用于添加显示战斗力的全屏分析 HUD 叠加层，并可配置 HUD 颜色",
+    "prompt": "使用蓝色 HUD 颜色。\n\n…\n\n◆提示\n任务: \"edit-image: add full-screen analysis HUD overlay only\"",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885850370_h6bp7e_G6UgISgacAAxf0r.jpg",
+      "https://cdn.gooo.ai/cms/1763885853220_nd31ua_G6UgIzSaQAACgqW.jpg",
+      "https://cdn.gooo.ai/cms/1763885857523_2dc7ot_G6UgJQ9b0AAoqh0.jpg",
+      "https://cdn.gooo.ai/cms/1763885861060_vzammt_G6UgJm2aIAAxSjb.jpg"
+    ]
+  },
+  {
+    "id": 139,
+    "title": "动画闪光文字显示序列",
+    "description": "用于创建华丽的动画文本显示效果的短提示，适用于运动图像生成或关键帧动画流程。",
+    "prompt": "文字以炫酷的特效和动画呈现。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885891286_e5nzpz_zxNDYDIlz4dhzt7B.jpg"
+    ]
+  },
+  {
+    "id": 140,
+    "title": "图示：如何优雅地行走",
+    "description": "一个非常简单的日语提示，要求 Nano Banana Pro 创建一个展示如何优雅行走的图表，非常适合姿势或运动指南。",
+    "prompt": "绘制一张图表，展示如何优雅地行走。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885907298_ek3mav_G6UUoBTbsAA2jTW.jpg"
+    ]
+  },
+  {
+    "id": 141,
+    "title": "拟人化的苹果和香蕉情侣",
+    "description": "一个非常简短的日文提示，要求一对由拟人化苹果和香蕉而不是人类组成的情侣。",
+    "prompt": "一对已婚夫妇，但他们不是人类，而是拟人化的苹果和香蕉。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885587392_gpmioe_G6UhPGGasAA4bUU.jpg",
+      "https://cdn.gooo.ai/cms/1763885590425_rbi1tz_DXPRRUqCHgLV1J73.jpg"
+    ]
+  },
+  {
+    "id": 142,
+    "title": "日式简洁信息图风格限制",
+    "description": "为 Nano Banana Pro 提供样式说明，以创建具有极少日文文本和类似 Microsoft 365 美学的简化扁平化信息图，有助于呈现清晰的商业视觉效果。",
+    "prompt": "使用极少的文字，并侧重于图形表达。避免日文字符乱码。使用 Hiragino Gothic 作为主要字体。保持内容不变，但颜色和设计要与 Microsoft 365 相似。采用扁平化、简洁的设计。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885817677_0vrmq3_G6UhfinasAAfFCh.jpg"
+    ]
+  },
+  {
+    "id": 143,
+    "title": "关于七海吃拉面的四格日式搞笑漫画",
+    "description": "一个详细的提示，用于创作一个垂直的四格日式搞笑漫画，内容是名为七海的年轻女子吃二郎系拉面，并带有正确的日式布局和对话方向。",
+    "prompt": "创作一部日本四格搞笑漫画，描绘这位名叫“Nanami”的日本年轻女性正在吃“Jiro-style ramen”。构图时请注意不要只聚焦于面部。将四格漫画垂直排列。对话框中的文字请采用竖排，从右向左阅读。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885933236_w6t9nr_G6Ud5ZbbQAA3LQl.jpg"
+    ]
+  },
+  {
+    "id": 144,
+    "title": "通过坐标定位同一地点的分屏延时摄影",
+    "description": "一个详细的提示，用于生成一张 16:9 的超现实图像，该图像被分成左右两半，每一半都显示同一个地理位置在不同年份和时间的样子，让 Nano Banana Pro 处理符合时代特征的细节。",
+    "prompt": "生成一张单一的、逼真的 16:9 图像，并将其构图分为左右两半。在每一侧，描绘同一个地点，\n[LOCATION_NAME: (任意地点)]，\n但处于不同的时代。\n\n左侧：(任意年份) · (时间)\n右侧：(任意年份) · (时间)\n\n保持相机位置完全相同，并使用以下坐标：\n[LATITUDE,LONGITUDE: (任意地点的经纬度)]\n\n图像中不要包含任何文本（年份、标签、水印等）。不要指定详细的视觉效果。\n将建筑、光线、汽车、人物、标志、材料、氛围和构图等所有方面都交给 Nano Banana Pro 处理。\n\n每个时代都应感觉自然，并共同在一个 16:9 的单一画幅内形成并排的时间对比图像。\n--ar 16:9 --stylize 800 --v 6",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885842488_9zd2ms_G6Ucs42a8AATKjE.jpg",
+      "https://cdn.gooo.ai/cms/1763885846570_ulh7pj_G6UcvfObgAE8rRy.jpg",
+      "https://cdn.gooo.ai/cms/1763885849512_ahofi2_G6UcxrSaQAIFNPy.jpg",
+      "https://cdn.gooo.ai/cms/1763885864190_e2qoh4_G6Uc0YRaoAAs9u1.jpg",
+      "https://cdn.gooo.ai/cms/1763885870273_u1vw12_G6QakM-bMAIwcEs.jpg",
+      "https://cdn.gooo.ai/cms/1763885874012_e2f8g9_G6QamREa4AADgqZ.jpg",
+      "https://cdn.gooo.ai/cms/1763885879555_zimf8e_G6QarM6acAIWPCq.jpg",
+      "https://cdn.gooo.ai/cms/1763885882891_kn4tf4_G6QatWgaYAAMlGQ.jpg"
+    ]
+  },
+  {
+    "id": 145,
+    "title": "一只浅灰色兔子的视角",
+    "description": "一个简单的提示，用于从浅灰色兔子的视角生成图像。",
+    "prompt": "浅灰色兔子视角拍摄",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885712039_dxnkr3_G6UcBGLaoAASC2E.jpg",
+      "https://cdn.gooo.ai/cms/1763885714415_7uagi5_G6UcTNragAALmMB.jpg"
+    ]
+  },
+  {
+    "id": 146,
+    "title": "从赛博朋克视角看比特币的四格漫画",
+    "description": "生成一个日本四格漫画，其中一个参考角色从赛博朋克的角度解释比特币的起源。",
+    "prompt": "创作一部日式四格漫画，其中参考图片中的角色将从赛博朋克的角度解释比特币的起源。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885902507_e3o1on_G6Ubs1OaoAA3-pp.jpg"
+    ]
+  },
+  {
+    "id": 147,
+    "title": "贴在馒头贩卖机上的偶像传单",
+    "description": "将手绘的偶像角色传单合成到便利店的馒头贩卖机上，使其看起来像是真实粘贴上去的，并保留了光照和透视效果。",
+    "prompt": "将手绘风格的偶像角色传单图像，视觉化地描绘成贴在便利店包子贩卖机上的样子。确保传单与贩卖机真实融合，并与周围环境保持一致的光照和透视。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885828664_75vbez_G6TFgBQaYAAe4-k.jpg"
+    ]
+  },
+  {
+    "id": 148,
+    "title": "将城市照片编辑成有越南骑行者的雨景",
+    "description": "两个连续的编辑提示：首先将城市场景转换为下雨天气，然后添加穿着雨衣骑摩托车的越南人，这对于天气和文化背景的编辑很有用。",
+    "prompt": "编辑一下，让它看起来像在下雨。\n\n下雨时，越南人会穿雨衣骑摩托车。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885867531_ybhqp6_G6UTrBVagAAwXzs.jpg",
+      "https://cdn.gooo.ai/cms/1763885870545_beyn03_G6UTr2rbsAEGn2m.jpg",
+      "https://cdn.gooo.ai/cms/1763885873652_p6p9bz_G6UURusa0AAmTKE.jpg"
+    ]
+  },
+  {
+    "id": 149,
+    "title": "《临江仙》诗词的课本式插画",
+    "description": "为古典诗词《临江仙 · 滚滚长江东逝水》创作一幅教材插画的提示，适用于文学教育。",
+    "prompt": "给杨慎的《临江仙·滚滚长江东逝水》生成一个课本教学图",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885961194_nel7bb_G6UUuMRbUAAGeZY.jpg",
+      "https://cdn.gooo.ai/cms/1763885963943_7kwh8d_A9atsqgAnqeqxU1T.jpg"
+    ]
+  },
+  {
+    "id": 150,
+    "title": "波普风格传单图片，用于笔记文章",
+    "description": "一个生成彩色流行风格传单图像的提示，用于宣传一篇特定的 Note 文章，宽高比为 3:4。",
+    "prompt": "为这篇笔记文章制作一张波普风格的传单图片。将图片比例设置为 3:4。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885969094_jxf3w9_G6UUEFKaAAEO3oQ.jpg"
+    ]
+  },
+  {
+    "id": 151,
+    "title": "基于沙发照片的等距客厅布局",
+    "description": "一个用于生成动漫风格等距客厅布局的提示，该布局与上传的沙发匹配，设置在一对夫妇的现代单层住宅中。",
+    "prompt": "为这张沙发设计一个合适的客厅布局。这个客厅位于城市里一对已婚夫妇居住的单层房屋中。以等距鸟瞰图的形式展示整个房间。使用动漫风格的插画。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885970932_3moh57_G6SVbPxa8AAm8df.png",
+      "https://cdn.gooo.ai/cms/1763885974692_0cu6dx_G6SVcbGbkAAes6z.jpg",
+      "https://cdn.gooo.ai/cms/1763885977238_0y479u_G6SVdT7aIAE7ayL.png",
+      "https://cdn.gooo.ai/cms/1763885979937_gb1621_G6SVeFabcAE9Tyi.jpg"
+    ]
+  },
+  {
+    "id": 152,
+    "title": "白板风格幻灯片，解释一项研究论文",
+    "description": "将研究论文转化为中文白板风格教学幻灯片的提示，以帮助可视化和理解内容。",
+    "prompt": "将这个论文转换为中文教授白板图片，帮助我理解信息",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763889947503_gmdcxg_G6RRCifaAAAcSu6.jpg"
+    ]
+  },
+  {
+    "id": 153,
+    "title": "爱因斯坦向埃隆·马斯克学习自拍 (中文)",
+    "description": "一个中文提示，描述爱因斯坦正尝试用智能手机自拍，埃隆·马斯克站在他旁边教他，手机屏幕上有一句幽默的台词。",
+    "prompt": "头发蓬乱的爱因斯坦困惑地盯着智能手机，试图自拍。埃隆·马斯克站在他旁边，耐心地指着屏幕教他。手机屏幕上的字：“怎么拍照？”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886626563_tfxupl_G6RQ2THagAA1mtf.jpg"
+    ]
+  },
+  {
+    "id": 154,
+    "title": "李小龙在道场与尤达大师切磋",
+    "description": "一个中文提示，描绘了身穿黄色连体衣的李小龙在一个传统中式武馆里与尤达大师趣味性地切磋，非常适合有趣的跨界同人创作。",
+    "prompt": "穿着黄色连体服的李小龙与尤达大师进行友好的切磋。李小龙拿着双截棍，尤达拿着绿色小光剑。他们都在微笑。传统中国道场背景。后方横幅写着“以武会友”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886776230_khxywd_G6RNcCXbYAAxWct.jpg"
+    ]
+  },
+  {
+    "id": 155,
+    "title": "带画框和对话气泡的高细节故事艺术布局",
+    "description": "一个可以替代“漫画”的词，它描述了一种三格高分辨率的故事艺术布局，其中包含精细的角色、全彩背景和对话气泡，模仿了艺术书籍的风格。",
+    "prompt": "构图：一个“高分辨率故事艺术”布局，分为 三 帧。\n\n背景应具有全彩背景艺术品质。\n角色描绘细致入微，对话通过语音气泡表达。\n整体布局应呈现出高端艺术书籍的“艺术布局”感。\n忠实再现参考图像的艺术风格，线条细腻，细节丰富。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886568939_6pwyg4_G6RB7o1bQAA-rYr.jpg",
+      "https://cdn.gooo.ai/cms/1763886581093_d9bi8b_G6RB86zaAAAkYmc.jpg"
+    ]
+  },
+  {
+    "id": 156,
+    "title": "像素游戏角色从电视中爬出",
+    "description": "一个中英混合的提示，描述了一个像素化的游戏角色试图从电视里爬进客厅，而一个真实的玩家用手柄把它推回去，非常适合俏皮的超现实场景。",
+    "prompt": "一个像素化的电子游戏角色试图从电视屏幕爬到客厅里。一个真实的人类玩家正手忙脚乱地用控制器把角色推回屏幕。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886834453_verzlx_G6RMg5na4AAy3d8.jpg"
+    ]
+  },
+  {
+    "id": 157,
+    "title": "可爱的 Q 版猫耳女孩插画",
+    "description": "一个简单的提示，用于生成一个可爱的、Q 版风格的猫耳女孩，她穿着荷叶边衣服，留着粉色长发。",
+    "prompt": "生成一张可爱的猫耳女孩插画。让她采用 Q 版风格，穿着荷叶边衣服，留着长长的 pink 头发。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886582456_55g2jp_G6RL8pKa0AArXjI.jpg"
+    ]
+  },
+  {
+    "id": 158,
+    "title": "将服装更改为与参考服装匹配",
+    "description": "一个时尚编辑提示，可以替换用户的服装，使其与参考图片中显示的服装相匹配，同时保持其他所有内容不变。",
+    "prompt": "从参考图片中提取服装，并更改我的服装以与之匹配。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887496456_p88ava_G6RLaTFbEAAUH0W.jpg",
+      "https://cdn.gooo.ai/cms/1763887498491_472fb1_G6RLa2xagAI7ZNl.jpg",
+      "https://cdn.gooo.ai/cms/1763887501295_w35lzz_G6RLcCSagAAysgg.jpg"
+    ]
+  },
+  {
+    "id": 159,
+    "title": "时尚女性的超逼真环境肖像提示（部分）",
+    "description": "JSON 格式的提示词，描述了一位时尚年轻女性在茂密热带竹林中的超写实环境肖像，其中包含详细的服装和姿势说明，但内容被截断。",
+    "prompt": "超现实主义环境肖像：一位时尚年轻女子站在茂密的热带竹林中。她戴着宽边黑色软呢帽，圆形细金属框墨镜，身穿塞进裤子的纯黑色圆领 T 恤，下身是深灰色高腰长裤。她姿态自信，身体微微前倾，右手",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887334848_gzjofv_G6RKPI-aEAEZgWt.jpg",
+      "https://cdn.gooo.ai/cms/1763887337289_yifyi6_Vz-uac6Ps38VOCVE.jpg"
+    ]
+  },
+  {
+    "id": 160,
+    "title": "四格漫画系列",
+    "description": "一个元结构提示（未完全引用），指示 Nano Banana Pro 创作多幅四格漫画，每幅都有自己的笑点，并将它们连接成一个单一图像上的长篇故事。",
+    "prompt": "创作四页四格漫画。每条四格漫画都有自己的笑点，并将它们排版，使每页包含两条四格漫画，总共有八条四格漫画，共同构成一个完整的故事。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886420119_d60lh6_G6RJM5QbIAAcb7v.jpg",
+      "https://cdn.gooo.ai/cms/1763886422868_ykthpv_G6RJQY5acAAnejm.jpg",
+      "https://cdn.gooo.ai/cms/1763886425906_5zdr4r_G6RJUdkaUAAzUgx.jpg",
+      "https://cdn.gooo.ai/cms/1763886447810_6c829d_G6RJXSfagAAlUz3.jpg"
+    ]
+  },
+  {
+    "id": 161,
+    "title": "细胞毒性 T 细胞杀死癌细胞的科学图解",
+    "description": "一个提示，用于创建一个精美的科学插图，展示细胞毒性 T 细胞如何识别并杀死癌细胞，插图应包含至少十个带标签的信息块，并具有清晰的布局。",
+    "prompt": "用製作精良的科研論文圖示描述細胞毒性 T 細胞識別並殺死癌細胞的過程。至少10個信息塊。非常複雜繁瑣的信息量，但又排版清晰，賞心悅目。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886914223_n5ngfw_G6RE54magAA_1ck.jpg"
+    ]
+  },
+  {
+    "id": 162,
+    "title": "船长磨损的航海日志草图",
+    "description": "一个风格化的提示，用于绘制一张海盗主题的船长日志页面草图，其中包含路飞伸向宝箱、航海元素和剪贴簿风格的装饰。",
+    "prompt": "破旧的船长航海日志。速写描绘路飞伸长橡胶手臂去抓宝箱，与桅杆形成三角形。藏宝图背景纹理，指南针印章，“通缉令”海报碎片，金币贴纸。冒险、混乱、海盗手帐风格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886687622_e1snzw_G6RGSLDa4AAFdrj.jpg"
+    ]
+  },
+  {
+    "id": 163,
+    "title": "杂志风格的照片，包含给定的文章文本",
+    "description": "一个提示，用于将给定文本块嵌入到具有丰富布局、图像、引语和粗体格式的时尚杂志文章照片中。",
+    "prompt": "請將這段文字原封不動地複製到一張精美雜誌文章的照片中，照片需包含圖片、漂亮的排版設計、精選語錄和大膽的格式。原文如下：[未格式化的文章文本貼在這裡]",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886859058_7b6sqv_G6RFnuobEAAfZ_5.jpg"
+    ]
+  },
+  {
+    "id": 164,
+    "title": "AIFocus Twitter 横幅，带有 Google 品牌标识",
+    "description": "一个中文提示，用于为 AIFocus 创建一个香蕉主题的 Twitter 横幅，该横幅需符合 Google 的品牌调性和设计元素，并适用于社交媒体品牌推广。",
+    "prompt": "给我画一张AIFocus的推特的BANANA图，要符合Google 品牌调性和设计元素",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886834681_uzf8a7_G6RDsJyaIAAtBk3.jpg"
+    ]
+  },
+  {
+    "id": 165,
+    "title": "黑白动物的 16 位像素艺术海报",
+    "description": "一个英文提示，用于创建一个 16 位像素艺术海报，其中包含所有黑白动物，以网格形式排列在自然环境中，每种动物都标有其英文名称，风格为复古游戏或百科全书。",
+    "prompt": "一张 16 位像素艺术海报，展示了自然界中所有黑白动物。构图采用整齐的网格布局，让人联想到复古视频游戏的角色选择界面或百科全书页面。每种动物都用清晰的复古像素字体标注了其英文名称。背景是干净的白色或浅灰色，带有生动的像素细节，散发出复古美学和高品质制作感。--ar 16:9",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886934411_7ftyyz_G6RBWw9bMAA_3mB.jpg",
+      "https://cdn.gooo.ai/cms/1763886937225_qvfjw4_G6RBYuEaMAAP1uA.jpg",
+      "https://cdn.gooo.ai/cms/1763886939793_cofylh_G6RBbCnaEAE_NK0.jpg",
+      "https://cdn.gooo.ai/cms/1763886942530_r1ag1x_G6RBl3PaYAABPC4.jpg"
+    ]
+  },
+  {
+    "id": 166,
+    "title": "带叠加描述的带注释地标图像",
+    "description": "生成四张带有详细叠加注释的超现实世界地标图像的提示。",
+    "prompt": "生成四张独特、超现实的图像，每张图像描绘一个世界著名的地标。对于每张图像，请在关键的建筑特征、历史元素或文化重要细节上直接叠加一套全面且清晰可辨的注释。这些注释应提供简短、信息丰富的描述。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887477922_2pyomw_G6RCqojakAAYKGL.jpg"
+    ]
+  },
+  {
+    "id": 167,
+    "title": "地球是猫咪星球的四格漫画",
+    "description": "一个提示，告诉 Nano Banana Pro 创作一个四格漫画：一个仙女降临地球，首先遇到一只三花猫，误以为这个星球属于猫，并与这只猫交谈。",
+    "prompt": "画一个四格漫画：一个仙女从天而降来到地球。因为她遇到的第一个生物是一只三花猫，所以她以为这个星球属于猫，并开始和这只猫说话。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886473985_z0wil5_G6RB5JcbkAAziGG.jpg"
+    ]
+  },
+  {
+    "id": 168,
+    "title": "结构化的屋顶冬季肖像 (JSON)",
+    "description": "一个详细的 JSON 风格英文提示，描述了一位女士站在白雪覆盖的屋顶上，画面分为垂直三等分，分别聚焦于她的眼睛、身体和脸部，整体呈现复古 Y2K 和霓虹冬季氛围。",
+    "prompt": "```json\n{\n  \"image_description\": {\n    \"upper_third\": {\n      \"focus\": \"{argument name=\\\"upper_focus_en\\\" default=\\\"她的眼睛\\\"}\",\n      \"details\": [\n        \"倒映着下方模糊的城市灯光\",\n        \"睫毛上沾着一层薄薄的霜\",\n        \"风吹乱了几缕额前的头发\"\n      ],\n      \"vibe\": \"{argument name=\\\"upper_vibe_en\\\" default=\\\"锐利的复古千禧风\\\"}\"\n    },\n    \"middle_third\": {\n      \"focus\": \"{argument name=\\\"middle_focus_en\\\" default=\\\"她的身体和周围环境\\\"}\",\n      \"details\": [\n        \"躺在铺着雪的屋顶躺椅上\",\n        \"身穿亮片冬裙，外披白色仿皮草夹克\",\n        \"柔和的霓虹光线在袖子上的雪花上跳跃\"\n      ]\n    },\n    \"lower_third\": {\n      \"focus\": \"{argument name=\\\"lower_focus_en\\\" default=\\\"她的脸部和手部特写\\\"}\",\n      \"details\": [\n        \"面向镜头，一只手举到眼睛上方\",\n        \"遮挡着一道明亮的粉色霓虹灯光\",\n        \"雪花附着在她的珠宝上\",\n        \"唇边凝结着细小的水珠\"\n      ]\n    }\n  }\n}\n```",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886147117_zgmdh6_G6RAtP9WkAAyJUJ.jpg",
+      "https://cdn.gooo.ai/cms/1763886151281_x3vkyl_G6PoCMoXUAEgOy9.jpg"
+    ]
+  },
+  {
+    "id": 169,
+    "title": "手绘信息图卡片，关于长期 IP 建设",
+    "description": "一个详细的提示，用于创建一张 9:16 的手绘信息图卡片，包含毛笔字体的中文文本和简洁的插图，主题围绕个人 IP 的长期复利效应。",
+    "prompt": "创作一张手绘风格的信息图卡片，比例为9:16竖版。卡片主题鲜明，背景为带有纸质肌理的米色或米白色，整体设计体现质朴、亲切的手绘美感。\n\n卡片上方以红黑相间、对比鲜明的大号毛笔草书字体突出标题，吸引视觉焦点。文字内容均采用中文草书，整体布局分为2至4个清晰的小节，每节以简短、精炼的中文短语表达核心要点。字体保持草书流畅的韵律感，既清晰可读又富有艺术气息。\n\n卡片中点缀简单、有趣的手绘插画或图标，例如人物或象征符号，以增强视觉吸引力，引发读者思考与共鸣。整体布局注意视觉平衡，预留足够的空白空间，确保画面简洁明了，易于阅读和理解。\n\n主题是：“做IP是长期复利，坚持每日出摊，持续做，肯定会有结果，因为99%都坚持不住的。”",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763889946989_0mephc_G6Q-oMuWkAAgOQr.jpg"
+    ]
+  },
+  {
+    "id": 170,
+    "title": "黑板上粘贴内容的摘要",
+    "description": "一个简单的提示，可以将给定文本转化为单一的黑板风格视觉摘要。",
+    "prompt": "请在一块黑板上清晰地总结以下内容。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886552076_sd4wd3_G6Q-cwGb0AAXK_L.jpg"
+    ]
+  },
+  {
+    "id": 171,
+    "title": "玻璃白板上的 Python 斐波那契代码",
+    "description": "一个提示，用于创建一张照片般的图像，内容是用彩色记号笔写在玻璃白板上的 Python 斐波那契数列代码，非常适合科技或编程主题的视觉效果。",
+    "prompt": "创建一张照片，内容是用彩色记号笔在玻璃白板上绘制的 Python 代码，用于计算斐波那契数列。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887119884_tdofiz_G6Q7IqsXUAA41_W.jpg"
+    ]
+  },
+  {
+    "id": 172,
+    "title": "Q 版角色 LINE 贴图集",
+    "description": "将附件中的角色转换为 Q 版风格，并生成一套包含 12 个 LINE 贴图的表情包，每个贴图都带有不同的表情、姿势和对话气泡。",
+    "prompt": "将附件图片中的角色制作成 Q 版形象。创作 12 款 LINE 贴图，包含不同的表情、姿势和对话气泡。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886550479_5bflpy_G6Q5lyJbEAAI5Pb.jpg",
+      "https://cdn.gooo.ai/cms/1763886553249_qsyusa_G6Q5lyHaQAA02bY.jpg"
+    ]
+  },
+  {
+    "id": 173,
+    "title": "国家医疗数据战略的政策风格幻灯片",
+    "description": "一个日语提示，要求 Nano Banana Pro 研究国家医疗数据政策的未来方向，并生成一份内阁府风格的密集幻灯片，阐述医疗数据公司应如何发展。",
+    "prompt": "在研究了国家医疗数据政策的未来方向后，请制作一张草图风格的幻灯片图片，其中包含大量文字，类似于内阁府委员会的材料，展示医疗数据公司未来的发展方向。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886317117_qpj4dq_G6Q5MAFacAUc-tE.jpg"
+    ]
+  },
+  {
+    "id": 174,
+    "title": "使用参考图片绘制的同人志封面，描绘了两个角色",
+    "description": "推文称，如果你输入两张角色图片和文字“这两个的同人志封面”，它就会生成一个典型的女性向同人志风格的封面。这个提示词是部分且随意的。",
+    "prompt": "在 nano banana pro 中输入两个角色图片，然后输入“这两个人的同人志封面”，就会出现下面的图片。\n这女性向同人志的常见度也太高了，笑死我了。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886504130_azrlpp_G6Q4s2xacAsvivR.jpg"
+    ]
+  },
+  {
+    "id": 175,
+    "title": "浣熊手办产品广告图",
+    "description": "将提供的玩偶照片转化为日本产品广告，宣传名为“Tanu Figure”的狸猫玩偶，并突出其附赠的小狸猫和发售信息。",
+    "prompt": "此图片中手办的广告。产品名称为“Tanu Figure”。目前，附赠一只小浣熊。预计于 2026 年发售。价格待定。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886396175_34n70g_G6Q5JtvacAUuAQ6.jpg",
+      "https://cdn.gooo.ai/cms/1763886399868_6zfqlk_G6Q5JtracAEyiq-.jpg"
+    ]
+  },
+  {
+    "id": 176,
+    "title": "论文摘要白板照片提示",
+    "description": "将论文总结为中文白板照片的提示。",
+    "prompt": "概括這篇論文，轉成中文白板照片",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886866812_0u3dqk_G6Qz3TZW4AAMweD.jpg",
+      "https://cdn.gooo.ai/cms/1763886869233_uojom6_G6Q0s48WEAA06yE.jpg",
+      "https://cdn.gooo.ai/cms/1763886872214_xzg6p5_G6PxynpWcAALinh.jpg"
+    ]
+  },
+  {
+    "id": 177,
+    "title": "电台节目广告漫画：大猩猩和兔子",
+    "description": "将附加的大猩猩和兔子角色制作成一页彩色广告漫画，用于深夜广播节目，包括音效和广播信息。",
+    "prompt": "请使用附带的大猩猩和兔子图片。为广播节目“元气满满电台”创作一则广告漫画，其中大猩猩和兔子是主持人。该节目每周三晚上 10:15 在 X Spaces 播出。漫画为一页彩色，并包含音效文字。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886369701_sf7129_G6Q0S5FacAUkJCh.jpg",
+      "https://cdn.gooo.ai/cms/1763886373307_j8tgmt_G6Q0WyxbMAAW8Oi.jpg",
+      "https://cdn.gooo.ai/cms/1763886376112_3z2wze_G6Q0bCzbgAAKWSe.jpg",
+      "https://cdn.gooo.ai/cms/1763886379874_7w0c6a_G6Q0cYIacAANC87.jpg"
+    ]
+  },
+  {
+    "id": 178,
+    "title": "珠穆朗玛峰顶的自画像",
+    "description": "一个提示词构思：将用户上传的肖像照片以高度逼真的风格放置在珠穆朗玛峰顶。",
+    "prompt": "把我放到珠穆朗玛峰顶。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886007632_qn1pk3_yP6Eu6_ODiGBnGHb.jpg"
+    ]
+  },
+  {
+    "id": 179,
+    "title": "关于一个饥饿的女人和煎饼的四格漫画",
+    "description": "一个结构化的日语提示，用于生成一部四格漫画，内容是一位穿着精致服装的开朗日本女性，从饥饿到开心地吃煎饼。",
+    "prompt": "我想创作一个以一位女性为主角的四格漫画。\n这位女性是 日本人。她表情明亮。\n金色马尾辫，系着红色丝带。\n一件白色衬衫，胸前有一个彩虹色的花朵补丁。\n牛仔裤和红色高跟鞋。\n\n1：这位女性边走边说：“啊，我好饿啊”。\n2：这位女性看着一家店的橱窗，说：“那些煎饼看起来真好吃”。\n3：这位女性坐在店里的桌子旁，说：“我等不及要吃了”。\n4：这位女性正在吃煎饼，说：“太好吃了！但我会变胖的！”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886272247_r4i8bs_G6QzoOaacAQYUzi.jpg"
+    ]
+  },
+  {
+    "id": 180,
+    "title": "西瓜泳池微观世界",
+    "description": "一个异想天开的提示：一个巨型西瓜的横截面，果肉是一个游泳池，里面有小人在放松，营造出一种有趣的夏日氛围。",
+    "prompt": "一个巨大西瓜的剖面图。红色的果肉实际上是一个装满红色水的游泳池。黑色的西瓜籽是游泳圈。微缩的小人在西瓜皮上游泳和晒太阳。夏日氛围。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886756202_1g3q3v_G6QxDHEacAIO_xc.jpg"
+    ]
+  },
+  {
+    "id": 181,
+    "title": "云端超现实半透明蓝鲸",
+    "description": "一个中文提示，描述了在黄金时段，一头巨大的、由水构成的半透明蓝鲸在云层中游弋，折射出彩虹，宏伟而超现实。",
+    "prompt": "黄金时刻，一只巨大的、半透明的蓝鲸在洁白蓬松的云海中游动。鲸鱼的身体由海水构成，里面还可以看到游动的鱼群。阳光穿透水做的鲸鱼，折射出彩虹。画面超现实且宏伟壮观。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886763402_um7z88_G6QvTkCacAATNjA.jpg"
+    ]
+  },
+  {
+    "id": 182,
+    "title": "阴阳锦鲤水墨插画",
+    "description": "一个中文提示，用于生成两只锦鲤在水中形成阴阳符号的极简禅意俯视图，非常适合制作平静、冥想的艺术品或壁纸。",
+    "prompt": "两条锦鲤在水中游动，形成完美的阴阳太极图案。一条鱼由黑色的水墨烟雾组成，另一条由白色的发光光线组成。俯视视角，水面有涟漪。禅意，极简主义。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886767893_0xgtq6_G6QuUsWacAArtgo.jpg"
+    ]
+  },
+  {
+    "id": 183,
+    "title": "失恋女孩手办的产品页面设计",
+    "description": "一个详细的提示，用于将图片转换为超详细的手办风格产品页面，包括标志、放大细节和专业手办产品列表的布局。",
+    "prompt": "将这张图片渲染成超精细的手办风格，并设计一个产品介绍页面。\n产品名称为“Heartbreak Girls”。\n这是一款 1/7 比例的手办。\n制造商名称为“TENNEN”。\nLogo 应为蓝色圆角方形内嵌文字 TENNEN。在“TEN”之后换行，并将下一行“NEN”对齐到行首，使其在蓝色圆角方形内尽可能大。\n放置放大细节图等，使其看起来像一个专业、视觉吸引力强的产品介绍页面。\n同时将“Heartbreak Girls”字样设计成 Logo 样式。\n使其看起来像一个正式的产品介绍页面。\n预定于 Winter 2025 发售。\n原型制作：Tennen。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886568950_hg4jfg_G6QsHDgacAANhhz.jpg",
+      "https://cdn.gooo.ai/cms/1763886572822_uvcn77_G6Qspn7bwAA0eGf.jpg"
+    ]
+  },
+  {
+    "id": 184,
+    "title": "两张照片间的服装迁移",
+    "description": "将一件衣服从一张参考图片移动到另一张图片中的人物身上，并使衣服故意显得宽松肥大。",
+    "prompt": "将图 1 中的衣服穿到图 2 的人物身上。确保衣服是超大款。\n\n2k 画质 0.14",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887435473_8n9bws_G6QssNtacAACn18.jpg",
+      "https://cdn.gooo.ai/cms/1763887438384_i92wiw_G6QssNjbkAA5wY1.jpg",
+      "https://cdn.gooo.ai/cms/1763887441000_khtarl_G6QssNpbIAAsjUH.jpg"
+    ]
+  },
+  {
+    "id": 185,
+    "title": "年轻女性的电影感黑白肖像",
+    "description": "一个结构化的 JSON 风格提示，描述了一幅超现实的年轻女性单色肖像，背景极简，光线具有电影感。",
+    "prompt": "一幅电影般的超现实主义单色肖像，描绘了一位年轻女性，她眼神富有表现力，目光平静而深邃。她留着一头短而黑、造型整齐的头发；引人注目的眼睛闪烁着反光，神情极具表现力；肤色白皙，带有细微的雀斑和真实的质感；嘴唇柔和而自然。她的表情平静而深邃，目光直视前方。她穿着黑色衣服，搭配白色纹理衣领，形成强烈对比。背景是平滑的单色渐变，极简主义风格，将焦点引向她的脸庞。使用柔和但高对比度的单色照明，面部特征带有柔和的高光和微妙的阴影深度，营造出电影般、干净、精致的效果。构图为特写肖像，超现实主义和高分辨率，具有精细的色调范围，眼睛和面部细节清晰对焦，背景渐变平滑。整体美学风格极简、艺术、优雅，具有高纹理细节、清晰的单色渲染和极致的真实感。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887081947_bla0pc_G6QsGexbMAA43DK.jpg"
+    ]
+  },
+  {
+    "id": 186,
+    "title": "Oracle-chan 幽默 LINE 贴图集",
+    "description": "一个用于生成 12 张 LINE 贴图的提示，以给定角色为主题，所有贴图都统一为网络迷因式的幽默。",
+    "prompt": "请使用附图中所示的角色，创作一张包含 12 个不同 LINE 贴图的索引图。这些贴图都应具有能让接收者发笑的幽默感。请大量借鉴互联网上真实对话中的内容，以丰富贴图的内涵。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886448330_kuhr59_G6QqoZrbEAAXKvg.jpg"
+    ]
+  },
+  {
+    "id": 187,
+    "title": "高效精华液落地页",
+    "description": "一个非常简短的日文提示，要求 Nano Banana Pro 为一款美容精华产品创建着陆页设计。",
+    "prompt": "为一款美容精华液创建着陆页。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886463989_iccj78_G6QrWLFbAAAqdit.jpg"
+    ]
+  },
+  {
+    "id": 188,
+    "title": "食品缩略图和产品照片",
+    "description": "非常简短的日语提示，用于生成炸鸡和那不勒斯意面缩略图，以及干净的白色背景产品照片。",
+    "prompt": "炸鸡的缩略图。\n那不勒斯意面的缩略图。\n将背景设为白色，并将其转变为产品照片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886404524_y7q7is_G6QpZrWacAUVN5A.jpg",
+      "https://cdn.gooo.ai/cms/1763886407949_xlk1xc_G6QqIvrbIAAlCGu.jpg"
+    ]
+  },
+  {
+    "id": 189,
+    "title": "来自所附联系人的 Messenger 贴纸包",
+    "description": "一个日文提示，要求制作 20 个方形信使贴纸，以 4x5 网格排列，贴纸上是附件中的人物，整套贴纸要多样化。",
+    "prompt": "4:3, 2K\n根据所附人物，创作一套即时通讯应用贴纸。每张贴纸应为正方形，排列为 5 列 4 行，共 20 张贴纸，尽可能大且多样化。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886180130_52owic_G6QoPuOboAAkJEZ.jpg"
+    ]
+  },
+  {
+    "id": 190,
+    "title": "苹果主题演讲风格的文本场景",
+    "description": "一个提示，可以将任何提供的文本转化为一张戏剧性的 Apple 风格主题演讲活动照片，其中包含一个大型弧形屏幕、观众、舞台灯光和 16:9 的渐变背景。",
+    "prompt": "根據文字生成一張照片：一個宏大的蘋果發布會現場，現場很多觀眾，場景很暗，有絢麗的燈光，鏡頭聚焦在很寬的大屏幕，弧形屏幕，文字和屏幕一樣有一定的透視感，很小的人物剪影站在舞台上，紫色到藍色彌散背景上，白色文字有一些漸變，像是現場實拍，高級感 16:9。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886921970_6kgjvt_G6QnxeCasAIiGHT.jpg",
+      "https://cdn.gooo.ai/cms/1763886925466_82s71i_G6QnxeDacAI0VZV.jpg",
+      "https://cdn.gooo.ai/cms/1763886928094_90nq9g_G6QnxeDacAMajXw.jpg"
+    ]
+  },
+  {
+    "id": 191,
+    "title": "关于一家人环球影城之旅的散文式漫画",
+    "description": "一个提示，将个人轶事转化为散文风格的漫画，讲述一个家庭计划去环球影城旅行，却被孩子的门票价格惊呆了。",
+    "prompt": "创作一部漫画，其中附带的角色突然决定去环球影城。当他们和家人一起查询去那里的步骤时，发现门票价格不是按“儿童票价”划分的，而是按 11 岁及以上 vs. 11 岁以下 划分的，他们震惊地发现自己 六年级 的孩子竟然要付成人票的价格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886492594_ifq79o_G6QgQunaIAEMEC7.jpg"
+    ]
+  },
+  {
+    "id": 192,
+    "title": "蒙面采访视频的 YouTube 缩略图设计简介",
+    "description": "一个冗长而详细的提示，要求 AI 使用参考图像中蒙版的人物角色设计一个高转化率的 YouTube 缩略图，重点关注布局、文本和目标受众。",
+    "prompt": "这是一张 YouTube 缩略图，右侧是一个戴着白色面具的人正在接受采访的图片。\n我想利用这种美学风格，将缩略图的信息架构分享给 AI，让它来创建缩略图，所以请构思一个提示词。\n\n参考图片仅用于右侧的蒙面人（Eru）；请以此为参考，并设计布局、文本大小和设计，以最大限度地提高点击率。\n\n目标受众是 20 多岁到 30 多岁、在沟通技巧方面有困难的男性。\n\n# 缩略图信息架构\n<左侧>\n三层对话（小字）\n以倒三角形表示\n分为三种颜色\n实际上，从上到下，是以下三点（文字模糊处理）：\n・抽象\n・事实\n・具体\n\n<右侧>\nEru（蒙面人）\n“对话的全部就是这些”（放在对话气泡中）\n\n<底部>\n“有了这个，\n对话永无止境”（横跨整个宽度）",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886590365_n7nw34_G6QkOUmbIAAIdKH.png",
+      "https://cdn.gooo.ai/cms/1763886606889_70r944_G6QkQpnasAAWyXd.jpg"
+    ]
+  },
+  {
+    "id": 193,
+    "title": "四格漫画：关于 Gemini 生成日文文本图片",
+    "description": "一个提示，用于创作一部四格漫画。漫画中，一个附加的角色通过智能手机得知 Gemini 可以生成包含日文文本的图像，然后她尝试了一下。",
+    "prompt": "创作一个包含所附角色的四格漫画。角色在智能手机上看到 Gemini 现在可以生成包含日文文本的图片，并立即前往 https://t.co/o4obUZzxf0。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886326404_hug38x_G6QjQp-a0AAov9I.jpg"
+    ]
+  },
+  {
+    "id": 194,
+    "title": "1799–1800 年瘟疫期间的摩洛哥地图",
+    "description": "一个用于生成 1799 年至 1800 年左右摩洛哥略显阴暗地图的提示，展示了瘟疫的传播及其后果。",
+    "prompt": "给我一张 摩洛哥 在 1799–1800 年间的地图，显示当时鼠疫的传播情况及其后果，并带有一些阴沉的基调。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885995626_wkuqgo_G6Qd7KhWgAE7EvF.jpg"
+    ]
+  },
+  {
+    "id": 195,
+    "title": "小众香水促销，Le Labo 风格。",
+    "description": "另一个细化提示，为香水宣传图片指定一个类似 Le Labo 的小众、雅致的高端美学风格。",
+    "prompt": "要傳達小眾有品位的高級感調性，類似 Le Labo 那種感覺。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886907025_1jacbv_G6QdYGeawAAU71a.jpg",
+      "https://cdn.gooo.ai/cms/1763886909113_zr3z5r_G6QdY6WacAcWt4A.jpg",
+      "https://cdn.gooo.ai/cms/1763886911392_4z71na_G6QdZn5bYAArE66.jpg",
+      "https://cdn.gooo.ai/cms/1763886913581_v9cpk9_G6QdadOakAAoLIf.jpg"
+    ]
+  },
+  {
+    "id": 196,
+    "title": "乐高风格自画像",
+    "description": "一个简单的提示，能将用户变成乐高风格的角色，适用于有趣的头像或个人资料图片。",
+    "prompt": "把我变成一个 乐高 角色。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886126831_jlruy9_G6QdBoYXcAASkfI.jpg",
+      "https://cdn.gooo.ai/cms/1763886130722_3zua0d_G6QdBrbXwAABM0T.jpg"
+    ]
+  },
+  {
+    "id": 197,
+    "title": "Tesla FSD 信息图解",
+    "description": "一个简单的提示，用于生成关于特斯拉全自动驾驶（Full Self-Driving）工作原理的解释性信息图，适用于技术教育视觉材料。",
+    "prompt": "制作一个信息图，解释 Tesla FSD 的工作原理。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887218389_0238ay_G6Qbg7nXcAA1tOU.jpg"
+    ]
+  },
+  {
+    "id": 198,
+    "title": "奇怪的日常照片 (LeonardoAI)",
+    "description": "和之前一样，用同样有趣的理念，让 Nano Banana Pro 想象出它能想到的最奇怪的、看起来很普通的照片。",
+    "prompt": "你能想象到的最奇怪的日常照片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887030214_feq21b_G6QbKoTbYAAc7mW.jpg",
+      "https://cdn.gooo.ai/cms/1763887033364_5p35jr_G6OqUPbXMAAzVt7.jpg"
+    ]
+  },
+  {
+    "id": 199,
+    "title": "电影角色电影海报",
+    "description": "一个英文提示，要求制作一张精美的电影海报，其中包含来自指定电影的角色，适合用于混搭电影海报设计。",
+    "prompt": "创作一张包含给定电影角色的精美海报，一张电影海报。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886102627_3n11a3_G6QaltTacAYcYIk.jpg",
+      "https://cdn.gooo.ai/cms/1763886106079_s16vry_G6QanHiakAAr5Op.jpg"
+    ]
+  },
+  {
+    "id": 200,
+    "title": "科幻电影三部曲及扩展内容",
+    "description": "一对提示，用于创作罗杰·狄金斯 (Roger Deakins) 和 IMAX 构图风格的电影级科幻三联画，采用 4:5 构图，然后将每个画板扩展成完整的 4:5 场景。",
+    "prompt": "创作一个三联画，其中包含三个 2.39:1 的镜头，置于 4:5 的构图中。让这些镜头充满电影感和科幻感，营造出一种氛围，仿佛是罗杰·狄金斯 (Roger Deakins) 用 IMAX 拍摄的，具有高对比度和去饱和的蓝色与灰色调色。\n\n然后将这三张图片逐一扩展成三个独立的 4:5 场景。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887321867_042v8f_G6QaDsFWwAAHXVO.jpg",
+      "https://cdn.gooo.ai/cms/1763887325666_bkjjr6_G6QaDsDXMAAiLNA.jpg",
+      "https://cdn.gooo.ai/cms/1763887329014_aznv36_G6QaDsEXsAA1q2s.jpg",
+      "https://cdn.gooo.ai/cms/1763887332212_mqcr31_G6QaDsFXgAABzUk.jpg"
+    ]
+  },
+  {
+    "id": 201,
+    "title": "替换服装，同时保持身份和姿势",
+    "description": "一个详细的编辑提示，在保留用户面部、姿势和环境的同时，将服装更改为与参考连衣裙相匹配。",
+    "prompt": "保留我原始照片中精确的面部、姿势、身体和环境。**只**改变服装和配饰，使其与第二张参考图片中的连衣裙和配饰完全匹配。不要改变我的发型、妆容、身体比例或拍摄角度。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887033975_wjaosj_G6QZeymWsAAO5Fz.jpg",
+      "https://cdn.gooo.ai/cms/1763887037307_fb0uko_G6QZeyjWwAABIbR.jpg"
+    ]
+  },
+  {
+    "id": 202,
+    "title": "四关键词提示：城市中的日本近未来美学",
+    "description": "一个由四个词组成的极简日文提示，用于生成一位身处都市环境的近未来美丽日本女性。",
+    "prompt": "日本\n近未来\n美女\n市中心",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886283750_1u2hyg_G6QZNWJb0AAHf15.jpg"
+    ]
+  },
+  {
+    "id": 203,
+    "title": "播客封面，基于两张参考肖像",
+    "description": "一个灵活的提示构想，用于生成播客封面：使用两张上传的人像作为参考，搭配黑色概念背景和影棚灯光，并可选择性地匹配电视剧海报中的姿势。",
+    "prompt": "先拿兩張人像作為參考圖，然後讓 Nano Banana 用這兩張圖生成播客封面，指定背景「黑色概念圖」，燈光「演播室」，可以指定參考的美劇封面，也可以不說，自由發揮。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886886173_6d4388_G6QVwnraQAAuxEB.jpg",
+      "https://cdn.gooo.ai/cms/1763886889169_4nkbpf_G6QVwnsaUAA7ASb.jpg"
+    ]
+  },
+  {
+    "id": 204,
+    "title": "翻译并重新插入漫画中的英文对话",
+    "description": "保留图片，但将对话气泡中的文字替换为英文。",
+    "prompt": "请保留图片，仅将此漫画的对话翻译成英文。将翻译后的对话放入原始对话气泡中。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886431089_85rnb3_G6QV7kFacAY4JJ5.jpg",
+      "https://cdn.gooo.ai/cms/1763886434248_mxbqlf_G6QV9PpbMAA1Eth.jpg",
+      "https://cdn.gooo.ai/cms/1763886438276_h5sg7v_G6QV97EagAAN9_Z.jpg"
+    ]
+  },
+  {
+    "id": 205,
+    "title": "旧照片修复提示",
+    "description": "通过去除瑕疵、重构面部并保留原始特征，修复旧的、严重受损的照片。",
+    "prompt": "修复这张老旧、严重受损的照片，去除所有可见的划痕、凹痕、折痕和污渍。自然、真实地重建缺失或变形的面部特征，同时保留人物的原始身份和表情。保持真实感。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887403124_dyy4ps_G6QVmpjacAAh4uB.jpg",
+      "https://cdn.gooo.ai/cms/1763887405399_wbach7_G6QVmplacAM3t34.jpg"
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Neon-girl 漫画第 1 页设置",
+    "description": "一个关于女孩 Neon 的漫画第一页的日文提示，指定了垂直日文文本气泡、从右到左的阅读顺序以及 9:16 的宽高比。",
+    "prompt": "请为以下漫画的第一页创作图像，其中包含图片中的女孩“Neon”。\n\n对话气泡应垂直排列。\n分格从右到左、从上到下阅读。\n请制作一张尺寸为 9:16 的漫画图像。\n\n标题：“闪亮启动！我是 Neon！”\n\n第 1 页",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886215531_aaavb3_G6QSn8-acAMN-Kv.jpg",
+      "https://cdn.gooo.ai/cms/1763886226311_xh8z11_G6QSn8_boAEBl_0.jpg",
+      "https://cdn.gooo.ai/cms/1763886231384_m8ni3z_G6QSn8-a8AAyvP1.jpg",
+      "https://cdn.gooo.ai/cms/1763886237669_ddtt60_G6QSn9BacAY4Krw.jpg"
+    ]
+  },
+  {
+    "id": 207,
+    "title": "阿马蒂特兰湖的立体鸟瞰图",
+    "description": "一个西班牙语提示，用于模仿现有立体图，同时描绘阿马蒂特兰湖的卫星式俯视图，周围环绕群山，以产生强烈的深度效果。",
+    "prompt": "使用立体视觉技术模仿以下立体图，但以 Lake Amatitlán 的俯瞰视角（卫星视图）呈现，并环绕湖泊的山脉以营造深度感。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886140549_j1u9lw_G6QSnACW8AAB1Nd.jpg"
+    ]
+  },
+  {
+    "id": 208,
+    "title": "信息图表（来自粘贴文本）",
+    "description": "此提示可将文本块（例如摘要）转换为简洁的信息图布局。",
+    "prompt": "为我制作一张信息图，内容如下：[在此粘贴您的文本]",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887344429_kpk972_G6QSEAoacAYVZj1.jpg",
+      "https://cdn.gooo.ai/cms/1763887348090_zs5h6w_G6QSR3ibIAAo8Uu.png"
+    ]
+  },
+  {
+    "id": 209,
+    "title": "雨夜歌舞伎町的电影感出租车",
+    "description": "一个日式提示，描述了一个雨夜，一辆出租车停在靖国通歌舞伎町一番街前，从电影般的斜前方角度拍摄。",
+    "prompt": "在雨夜中，从电影般的斜前方角度和灯光，拍摄一辆停在歌舞伎町一番街前的靖国通上的出租车。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886242764_o0pjek_G6QQi6abEAA6AXa.jpg"
+    ]
+  },
+  {
+    "id": 210,
+    "title": "带注释解读一份神秘的圣诞老人通知",
+    "description": "一个韩语提示，要求模型解读一份只有韩国人才能理解的神秘通知，并将注释和关键词直接叠加到原始图片上。",
+    "prompt": "这份通知韩国人能看懂。你能否解读一下？如果可以解读，请直接在原图上标注，写下解读出的关键词或短语。对于那些作为关键点的隐晦表达部分，请圈出来并在旁边添加你的注释。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886153454_4oim51_G6QQADYbwAEkynP.jpg",
+      "https://cdn.gooo.ai/cms/1763886157576_8gcbrl_G6MIUgXacAkCv6k.jpg"
+    ]
+  },
+  {
+    "id": 211,
+    "title": "官僚式说明图（霞关 PowerPoint）",
+    "description": "一个简单的日文提示，要求以官僚主义风格绘制解释性图表，图表内容像臭名昭著的“霞关 PowerPoint”一样充满文字。",
+    "prompt": "生成一张解释 D 课程研究生项目的优缺点 的示意图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886325508_gp66wt_G6QQE4vacAQ2pTG.jpg"
+    ]
+  },
+  {
+    "id": 212,
+    "title": "将用户与个人资料图片合并",
+    "description": "一个简短的提示，将用户的外貌与他们的个人资料图片融合，创造出一幅混合肖像。",
+    "prompt": "将我与我的个人资料图片合并。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887012141_voye06_G6QOfW2XQAA9euP.jpg"
+    ]
+  },
+  {
+    "id": 213,
+    "title": "黄昏时分，模特的光圈研究肖像系列",
+    "description": "一个技术摄影风格的提示，用于生成一系列图像，展示在城市蓝调时刻，使用佳能 85mm 镜头拍摄的温柔美丽模特，其光圈值（F1.8、F2.8、F10、F14）不断变化。",
+    "prompt": "佳能相機，85mm定頭，生成 1.8F、2.8F、10F、14F 光圈逐漸變化的效果，溫柔大美女作為模特，背景是黃昏之後的城市藍調時刻。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886921273_z835ie_G6QMSpJacAMbGcx.jpg"
+    ]
+  },
+  {
+    "id": 214,
+    "title": "时令韩式餐厅菜单图片",
+    "description": "为一家以时令有机食材为特色的韩式餐厅概念生成一张设计精美的菜单图片。",
+    "prompt": "我将在 马林 开一家名为 Haein 的传统概念餐厅。餐厅主打韩国料理，所有菜品都采用有机、农场直供的新鲜食材烹制，并根据时令推出轮换菜单。我希望你设计一份菜单图片，其中包含以下 [菜品列表、分区和设计说明]。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887390914_ngysgn_G6QIoNwWcAAgEfU.jpg"
+    ]
+  },
+  {
+    "id": 215,
+    "title": "给照片添加酷炫涂鸦",
+    "description": "一个有趣的编辑提示，可以在整个图像或特定对象上叠加酷炫的涂鸦，非常适合定制商品或社交帖子。",
+    "prompt": "添加炫酷涂鸦。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887143490_xi1v5n_G6QI2QDbMAAxNIl.jpg"
+    ]
+  },
+  {
+    "id": 216,
+    "title": "男士池畔时尚大片拍摄",
+    "description": "一个丰富、具有编辑风格的提示，用于拍摄同一位男士在豪华泳池边的照片，重点突出电影般的灯光和高端杂志美学。",
+    "prompt": "创作一张高质量的、编辑风格的照片，人物与参考图中的是同一位男士，置身于白天阳光明媚、天气晴朗的豪华泳池边。他独自一人，以经典而自信的姿态面对镜头，仿佛在为时尚杂志封面拍摄。灯光极简却不失精致，以柔和自然的对比度突出他的脸部和服装。他穿着一套时尚、剪裁合体的夏日泳池编辑风格服装，既时髦又现代，尽显优雅。泳池水在阳光下波光粼粼，倒影增添了深度和活力。背景干净，没有其他人，突显出高端、电影般的审美和精致的杂志质感。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887462764_zej0vq_G6QIx-wacAIDntH.jpg",
+      "https://cdn.gooo.ai/cms/1763887465755_1oe23d_G6QIx_oacAADTki.jpg",
+      "https://cdn.gooo.ai/cms/1763887469313_n1f27m_G6QIx-_bQAAGzHR.jpg"
+    ]
+  },
+  {
+    "id": 217,
+    "title": "水墨画风格的持剑阿部酱",
+    "description": "一个简单的提示，以水墨画风格绘制一个名为 Abe-chan 的角色，侧面视角，手持一把剑。",
+    "prompt": "安倍酱水墨画风格，侧身持剑，摆出准备战斗的姿态。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886426427_fhgv7f_G6QIG1CacAAVZDp.jpg"
+    ]
+  },
+  {
+    "id": 218,
+    "title": "教室黑板上的粉笔画插图",
+    "description": "提示词：将插画渲染成一幅色彩鲜艳的粉笔画，画在日本教室的黑板上，从某个角度观看，旁边写着特定的短语。",
+    "prompt": "用彩色粉笔在黑板上画插画。黑板从斜角拍摄，背景是日本教室。黑板固定在墙上，前面有一张讲台。在插画旁边，同样用粉笔写上“Tora has arrived!”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886595671_y9avyl_G6PhtRVacAUYbOW.jpg",
+      "https://cdn.gooo.ai/cms/1763886599021_kioyvr_G6Ph5J6acAIE7cq.jpg"
+    ]
+  },
+  {
+    "id": 219,
+    "title": "D 课程研究生学习的优缺点图解",
+    "description": "一个日语提示，用于生成一张图表，解释攻读博士课程（D 课程）的优缺点。",
+    "prompt": "生成一张图表，解释攻读博士课程（D 课程）的优缺点。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886339539_xrwesw_G6QGxLMaAAElpGO.jpg"
+    ]
+  },
+  {
+    "id": 220,
+    "title": "HaHaa 高达蓝图概念",
+    "description": "一份详细的蓝图式提示，用于设计一款受 Captain HaHaa 启发、带有复古镀铬、时髦的 70 年代科幻风格并标注技术特征的定制高达。",
+    "prompt": "设计一款名为 RX-HH-01 \\“HaHaa Gundam.\\” 的定制高达变体蓝图。\n\n它的灵感应来源于 HaHaa 船长的宇宙傲气、复古镀铬、70 年代时髦的科幻风格，以及 澳洲不羁的能量，并融合经典高达的工程设计。\n\n包含以下特色：\n\n带有微妙回旋镖曲线的镀铬 V 形天线。\n橙色 CRT 风格的胸部面板，散发着温暖的光芒。\n驾驶舱舱门上粗大的镀铬拨动开关和旋转拨盘。\n复古星舰风格的背包推进器，带有洋红色和青色的等离子排气口。\n手臂上安装的“放克加农炮”（HaHaa 船长的标志性武器）。\n腿部带有镜面镀铬面板，反射着宇宙色彩。\n脚部稳定器形状像迷你悬浮滑板。\n十个标签描述每个独特功能：\n\nHaHaa-冠天线（回旋镖造型）\nCRT 胸部显示面板\n核心放克区块单元\n肩部凹槽装甲\n光束军刀架（复古橙色刀鞘）\n宇宙放克加农炮\n星际推进器背包\n臀部裙甲——“你懂吗？”铭牌\n膝部滑翔组件\n悬浮滑板脚部稳定器\n风格：海军蓝背景上的蓝图线条图，青色发光轮廓，以及技术标注。\n视角：正交前视图，带侧面插图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887197220_jrpn0n_G6QBWWxacAYEWbU.jpg"
+    ]
+  },
+  {
+    "id": 221,
+    "title": "原创角色安娜的四格 RPG 漫画",
+    "description": "一个日语提示，用于创作一个以用户原创女性战士角色安娜为主角的四格竖版漫画，背景设定为 RPG 风格的世界，并包含日语对话。",
+    "prompt": "这个女孩是我的原创角色，名叫“Anna”。她是第二张图中手持剑的女战士。请创作一个以 RPG 游戏风格世界为背景的四格漫画。漫画分格垂直排列。对话请用日语。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886187994_5bx9h4_G6QB7yUacAU2geh.jpg"
+    ]
+  },
+  {
+    "id": 222,
+    "title": "受博世启发的“下地狱”追随者场景",
+    "description": "一个受艺术史启发的提示，用于生成一幅耶罗尼米斯·博斯（Jheronimus Bosch）追随者风格的场景，描绘基督在灵薄狱（Limbo）中，即“下地狱”（Harrowing of Hell）。",
+    "prompt": "耶罗尼姆斯·博斯追随者，《基督入地狱》（“地狱之劫”），1450–1516 年",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887509397_en10s7_G6QEGuIacAE6rK6.jpg"
+    ]
+  },
+  {
+    "id": 223,
+    "title": "雾气弥漫的松林电影感肖像",
+    "description": "一个 JSON 结构化的超写实提示，描绘一个人穿过浓密的松树林，有雾气、电影般的灯光、精致的服装和相机设置。",
+    "prompt": "```json\n{\n  \"scene\": \"一人独自行走在茂密的松林中\",\n  \"description\": \"超写实 4K 电影级人像，人物被浓密的雾气环绕，呈四分之三转身姿态，迈步中，表情平静略带好奇。\",\n  \"subjects\": [\n    {\n      \"type\": \"human\",\n      \"description\": \"人物身穿深苔绿色羊毛大衣，随动作轻微飘动；内搭炭灰色高领毛衣；胸前斜挎一个复古皮质挎包。厚重的靴子上沾有湿泥和松针的痕迹。衣物和头发上凝结着细小的水珠，睫毛和眉毛上可见水滴。\",\n      \"position\": \"画面中央，略偏左\",\n      \"pose\": \"缓慢行走，一只手轻轻拨开雾气或轻拂前景中的低矮松枝。\"\n    }\n  ],\n  \"environment\": {\n    \"location\": \"茂密的松林\",\n    \"props\": [\"低矮松枝\", \"浓密的雾气\"],\n    \"background\": \"高大的松树逐渐隐没在层层薄雾中。\"\n  },\n  \"visual_style\": {\n    \"style\": \"超现实电影摄影\",\n    \"mood\": \"平静、警觉、略带好奇\",\n    \"color_palette\": [\"冷绿色\", \"蓝色\"],\n    \"lighting\": \"自然日光透过树冠洒落，形成逼真的体积光束（god-rays）。\"\n  },\n  \"camera\": {\n    \"angle\": \"85mm 镜头，f/1.8 光圈，浅景深\",\n    \"distance\": \"特写主体，脸部和手部对焦清晰，背景虚化成柔和的焦外散景。\"\n  },\n  \"technical\": {\n    \"resolution\": \"3840 × 5760\",\n    \"quality\": \"HDR 照明与全局光照，逼真的体积雾散射，以及微妙的模拟胶片颗粒感。\"\n  }\n}\n```",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887161930_aqc6uh_G6QDXQcacAgPtrl.jpg",
+      "https://cdn.gooo.ai/cms/1763887165786_5nlvk9_G6QDXQSacAc8q8g.jpg"
+    ]
+  },
+  {
+    "id": 224,
+    "title": "模拟时钟和沙特卡布萨饭静物",
+    "description": "一个提示，生成一个精确显示 15:32 的模拟时钟，旁边放着一盘沙特卡布萨饭，上面有一只金黄烤鸡和半杯水。",
+    "prompt": "创建一个模拟时钟的图像，精确显示 15:32（非数字时钟，也没有其他时间显示），以及一个盘子，里面装着 Saudi kabsa 和一只金黄色的烤鸡，旁边放着半杯水。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885993476_zs84bq_G6QDHGxXMAAkdbh.jpg"
+    ]
+  },
+  {
+    "id": 225,
+    "title": "将女性替换为特定的名人",
+    "description": "一个西班牙语的指令式提示，要求模型从照片中移除女性，并用 Lady Gaga 和 Scarlett Johansson 取代她们，旨在编辑现有图像。",
+    "prompt": "将照片中的女性移除，然后放入 Lady Gaga 和 Scarlett Johansson。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886104619_szuoaf_G6QC9e9XwAAs5VH.jpg"
+    ]
+  },
+  {
+    "id": 226,
+    "title": "河边动漫女孩的背影",
+    "description": "一个用于改变摄像机角度的提示，以便从背后查看现有角色，同时保持姿势和场景的一致性。",
+    "prompt": "将摄像机视角切换到后方，让她继续看着河流，然后切换到对面的摄像机视角。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886971653_u19wmo_G6QAEtEb0AAr3Nr.jpg"
+    ]
+  },
+  {
+    "id": 227,
+    "title": "根据图片生成拉克斯米·维拉斯宫殿的详细施工图",
+    "description": "根据提供的图片，创建一个拉克斯米·维拉斯宫殿高度详细的原创建筑施工图。",
+    "prompt": "提示：根据我提供的图片，制作一份高度详细的原创拉克希米维拉斯宫建筑规划。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886981735_fvgtm8_G6QBXftacAsSEew.jpg"
+    ]
+  },
+  {
+    "id": 228,
+    "title": "Instagram 周末照片合集九宫格",
+    "description": "一个英文提示，可以生成一个包含 9 张图片的“照片合集”网格，展示一个人周末的各种生活方式照片，非常适合社交媒体内容自动化。",
+    "prompt": "生成此人周末的 9 张“照片合集”网格图：一张镜子自拍、一张咖啡馆照片、一张与朋友共进晚餐的照片、一张模糊的派对照片、一张散步照片、一张笔记本电脑/咖啡工作照、一张宠物瞬间、一张日落照和一张开怀大笑的抓拍。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886747768_j3l9es_G6P_hk7XwAAZGuo.jpg",
+      "https://cdn.gooo.ai/cms/1763886750620_uv687r_G6NcC-macAQxnPL.jpg"
+    ]
+  },
+  {
+    "id": 229,
+    "title": "基于图像的电影级恐怖序列",
+    "description": "一个用于创建电影级恐怖场景的提示模式，描述了一个男人在一个房间里发现怪物的过程，从现有图像开始，生成多个分镜。",
+    "prompt": "创作一段电影般的序列，内容是 ___。\n\n创作一段电影般的恐怖片序列，内容是男人在这间屋子里发现一只怪物。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887102679_vgnkgs_G6P_UN_WoAAljmr.jpg",
+      "https://cdn.gooo.ai/cms/1763887106239_k7gk9c_G6P_QnWWoAAzBgw.jpg",
+      "https://cdn.gooo.ai/cms/1763887108820_6amuz6_G6P_SRaXcAAZ_Sc.jpg",
+      "https://cdn.gooo.ai/cms/1763887111972_mlks6u_G6P_S5JXQAAYdLU.jpg"
+    ]
+  },
+  {
+    "id": 230,
+    "title": "《鬼灭之刃》风格的动漫变形与毛笔书法",
+    "description": "一个全面的英文提示，可将上传的图像转换为具有大胆笔墨书法、火焰效果和传统图案背景的戏剧性日式动漫插画，同时保留原始主题。",
+    "prompt": "将用户上传的图像（照片或插画）转换为具有戏剧张力的日式动漫艺术作品。始终只提取并使用源图像中的主体（人物），完全忽略或移除原始背景。如果源图像是插画，请以精致的动漫风格重新绘制，采用精美的日式三维阴影，增加深度、渐变和发光高光，以达到抛光效果。如果源图像是照片，请将其重新诠释为写实动漫插画，保留自然的皮肤、头发和材质纹理，但应用具有强烈深度的绘画式动漫阴影。在所有情况下，都应以强大、动感和充满活力的姿势重新绘制主体，并配以生动活泼的表情。\n\n前景书法：在最前方添加大型日式笔触书法，叠加在人物和背景之上。严格使用用户提供的日文字符（汉字、片假名或平假名）。忠实地呈现这些字符，不得更改、拆分或错误地风格化。不要翻译或替换它们。书法应为粗体黑色墨迹，带有发光的模糊白色轮廓，周围环绕着水墨飞溅和零散的笔触，以传达动感和冲击力。文本内容将是“Flame Hashira”和“Kyojuro Rengoku”。\n\n属性效果：添加指定的属性效果（fire），以现代浮世绘风格的动漫形式，伴随人物的动作动态流动，具有戏剧性的形状、发光高光、粒子和能量轨迹。\n\n背景：在任何情况下都不要包含原始照片背景。相反，用风格化的日式图案（青海波纹、麻叶、龟甲、风格化云朵等）结合发光的元素效果填充整个背景。使用深海军蓝、金色和对比色调来营造奢华的日式氛围。保持背景暗沉并带有图案，以便人物、书法和属性效果保持主要焦点。\n\n整体：始终保留主体的基本特征（发型、服装、面部特征、体型），同时通过动态阴影、富有表现力的笔触书法、戏剧性的属性效果和传统图案来增强冲击力、动感和日式美学。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886294661_eae4nn_G6P7y1rbgAAvypz.jpg"
+    ]
+  },
+  {
+    "id": 231,
+    "title": "大理石楼梯上的高角度时尚肖像",
+    "description": "一张详细的时尚肖像提示，描绘一位亚洲男模特倚靠在大理石楼梯上，保留参考对象的面部特征，并指定发型、服装和姿势，非常适合编辑风格的拍摄或个人资料图片。",
+    "prompt": "一张高角度时尚肖像，描绘了一位 25 岁的 亚洲男士，他有着与参考照片中男子相同的面部特征，凌乱的发型修饰着脸庞，随意地倚靠在 白色大理石楼梯扶手上。他身穿一件宽松的 浅蓝色和白色格纹衬衫，内搭一件",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209332870_azbk15_G6P-AKiacAAf0BH.jpg"
+    ]
+  },
+  {
+    "id": 232,
+    "title": "Gemini 3 Pro 的高角度时尚肖像提示",
+    "description": "回复包含一个详细的提示，用于拍摄一名年轻亚洲男士在大理石楼梯上的高角度时尚肖像。",
+    "prompt": "25 岁亚洲男性的高角度时尚肖像，面部特征与参考照片中的男子相同，凌乱的发型框住脸庞，随意地靠在白色大理石楼梯上",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887324615_650und_G6P-AKiacAAf0BH.jpg"
+    ]
+  },
+  {
+    "id": 233,
+    "title": "外星人与人类混血儿的悲伤肖像",
+    "description": "一个超近距离的详细肖像提示，描绘了一张人与外星人混合的脸，具有复杂的纹理、反射星云的眼睛和微小的嵌入式文字。",
+    "prompt": "人类与外星人混合面孔的超特写，表达着无声的悲伤：细致的混合特征，如鳞片状皮肤融入人类毛孔，异色瞳孔中反射出星云，泪水具有逼真的折射效果。在鳞片上嵌入外星文字和英文小字（“Emotion Transcends Species”）。在戏剧性的侧光下，睫毛或血管网络等精细细节不应有任何模糊。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887143736_l8w9rd_G6P6T7xW4AAwLFH.jpg"
+    ]
+  },
+  {
+    "id": 234,
+    "title": "Otter 科学家解释 WiFi 平面测试",
+    "description": "一个幽默的提示：水獭科学家们使用白板和照片墙来解释并庆祝通过了“水獭上飞机 WiFi 基准测试”。",
+    "prompt": "科学家水獭们正在用白板解释伊森·莫利克（Ethan Mollick）的“水獭在飞机上使用 WiFi”的 AI 测试，并演示该测试已通过，墙上挂满了水獭在飞机上使用笔记本电脑的照片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887466441_g4upju_G6P5aUSXoAARpD8.jpg"
+    ]
+  },
+  {
+    "id": 235,
+    "title": "江户时代城下町场景",
+    "description": "一个简短的日语提示，用于生成江户时代的城下町，适用于历史或教育图像。",
+    "prompt": "一座始建于 江户时代 的城下町。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886198160_o16w6z_G6P3GhnbcAAd1kt.jpg"
+    ]
+  },
+  {
+    "id": 236,
+    "title": "华而不实、可疑的信息产品风格缩略图",
+    "description": "一个日语提示，用于使用给定的图标图像，为 SEO 或 AI 相关的“信息产品”风格内容创建引人注目、略带可疑的缩略图。",
+    "prompt": "使用这个图标中的人物，制作一张华丽、闪耀的图片，就像是 SEO 或 AI 领域中所谓的“可疑信息产品”的缩略图一样。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886325253_5gkmjw_G6P2fIcacAUZjSj.png"
+    ]
+  },
+  {
+    "id": 237,
+    "title": "在日本成为一名成功的网页设计师的路线图图表",
+    "description": "一个文本加图表的提示，指导模型创建一个在日本成为一名成功的网页设计师的现实路线图图像，包括在代理机构和内部职位等职业发展步骤。",
+    "prompt": "制定一份在日本成为一名成功的网页设计师的切实可行路线图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886467953_1db9r9_G6P1cKnaAAAR1jb.jpg"
+    ]
+  },
+  {
+    "id": 238,
+    "title": "替换现有图片中的国家/地区文本",
+    "description": "一个用于编辑现有图片的提示，将所有出现的“United States”更改为“India”，同时保留整体布局。",
+    "prompt": "将此图片中所有“United States”的实例更改为“India”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886971502_b20aa0_G6P2iL4WoAANZmS.jpg"
+    ]
+  },
+  {
+    "id": 239,
+    "title": "在涩谷交叉路口，Cosplayer 与痛车合影",
+    "description": "生成一张角色扮演者在涩谷交叉路口与痛车合影的强大照片的日语提示，要求角色扮演者与提供的角色图片相符，痛车上贴有图案，并且照片中要有清晰可辨的日文和英文标识。",
+    "prompt": "生成一张有冲击力、引人注目的照片，照片中，一个扮演所提供图片中角色的 Cosplayer 站在涩谷交叉路口中央，旁边停着一辆车，车身包裹着图片中的插画。\n检查清单：\n- 对于招牌和广告牌上的文字，请确保日文和英文字符正确显示，没有乱码。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886359244_6acwfd_G6P1GvrboAAFEFS.jpg"
+    ]
+  },
+  {
+    "id": 240,
+    "title": "关于香蕉革命的单页彩色漫画",
+    "description": "一个提示，使用附加角色创作一页彩色漫画，内容是世界因 Nano Banana 2 的发布而在一夜之间改变，一场香蕉革命已经开始。",
+    "prompt": "使用附件中的角色。当他们早上醒来时，NanoBanana2 已经发布，世界也随之改变。一场香蕉革命正在发生，他们感到很惊讶。一页彩色漫画。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886480580_ibv6ki_G6Py-uHacAAzude.jpg"
+    ]
+  },
+  {
+    "id": 241,
+    "title": "日本新英格兰爱国者队球迷场景图片",
+    "description": "生成一张日本 NFL 球迷热情支持新英格兰爱国者队的图片。",
+    "prompt": "创作一张图片，内容是 日本 NFL 球迷为 新英格兰爱国者队 欢呼。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886501041_4t1wpg_G6P0NSsacAYnri1.jpg"
+    ]
+  },
+  {
+    "id": 242,
+    "title": "综合漫画单页场景创作系统提示",
+    "description": "一个针对 Nano Banana Pro 的长篇系统风格提示，它定义了角色、目标、风格指南和限制，以创建一个带有自然日语对话气泡和微情感表达的日式漫画/动画单页场景。",
+    "prompt": "请扮演一位“综合创意者”，同时具备以下三种视角：\n作者视角\n　→ 自然捕捉人物情感、氛围和动作的细微之处\n编辑视角\n　→ 管理构图、文本的自然流畅性以及信息密度的一致性\n读者视角\n　→ 优先考虑那种能瞬间吸引观众并最大化吸引力的情感\n确保这三种视角在您的输出中无矛盾地融合。\n■ 目标\n根据给定的图像和设置，创作一张“可作为日本漫画/动画单页场景的静止图像”，并配以自然的日语对话气泡和独白。\n将“微情感”和“质感的吸引力”作为场景的核心。\n■ 基本方针（AI 自由推断的轴心）\n重点关注那些在细微动作和质感中嵌入情感的描绘，例如人物的手势、指尖、眼神和头发的摆动。\n运用这三种角色，同时实现“视觉冲击力强 × 阅读自然 × 引人入胜”。\n不要将其视为单个画格，而是赋予其“单页场景”的结构强度。\n安排背景和小道具，使其与人物的内心世界相辅相成。\n在画框中留出有节奏感的空白区域，以便放置对话气泡。\n通过距离、光线方向和阴影，营造一种“引人入胜的停顿”。\n不要将其视为杂志封面，而是“故事中凝固的决定性瞬间”。\n■ 需保留的台词（连贯性和美学指南）\n自然的日语（无错别字，无 AI 式措辞）。\n手、关节、光源、阴影和姿势的物理一致性。\n避免过度的信息密度；尊重空白和停顿。\n禁止真实的 URL、二维码和 JAN 码。\n避免 AI 噪点和视觉破损。\n不要损害人物的尊严或心理真实性。\n不要倾向于性暗示；将“微情感的魅力”作为核心。\n将“微情感”视为触及心灵的质感描述，不要使用特定的恋物癖术语。\n■ 可推断的领域（创作自由）\n人物情感和内心活动的波动。\n光线方向与心理之间的关系。\n头发、衣物和材料“可触碰”的质感。\n手的角度、摇曳的眼神和身体的倾斜。\n背景的叙事意义。\n空气的温度（寂静/湿度/张力）。\n视觉吸引力的焦点。\n作为单页布局的构图强度。\n必要时添加小道具（在一致性范围内）。\n■ 输出风格（漫画单页规格）\n作为单页的可读性流程：\n　→ 空白 → 人物 → 文本 → 背景辅助。\n对话气泡应为自然的日语，放置方式应捕捉人物的呼吸和情感边缘。\n将独白视为沉入人物内心的文字（不是解释性文本，而是情感的影子）。\n让静止图像感觉包含时间的流逝。\n从手势和质感中，描绘“微情感的巅峰”。\n■ 一句话总结\n“融合作者、编辑、读者三种视角，以微情感和质感的吸引力为核心，推断并完成一页引人入胜的日语场景。”",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886265685_ak8qob_G6PvpPuacAAUB_b.jpg",
+      "https://cdn.gooo.ai/cms/1763886268552_0u1x0v_G6PvpPjacAAZFyp.jpg"
+    ]
+  },
+  {
+    "id": 243,
+    "title": "杂志文章布局文本",
+    "description": "两个相关的提示：一个英文提示和一个中文提示，都要求将一篇完整的文章文本放置在桌上的一本光面杂志的照片中，并配以丰富的排版、图片，以及一些文章主题转化为桌面物品。",
+    "prompt": "请将这段文字一字不差地放入一张光面杂志文章的照片中，这张杂志文章放在桌子上，并配有照片、精美的排版设计、引文和粗体格式。照片中应包含图片、吸引人的版面设计、精选的引文和粗体格式。杂志应放置在一张雅致的桌子上，文章中提到的一些主要主题也应以小物件的形式出现在桌子上。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886757350_7gui8y_G6Py5uaaIAEVz9o.jpg",
+      "https://cdn.gooo.ai/cms/1763886760197_nia14y_G6NWMceXMAA4Yn8.jpg"
+    ]
+  },
+  {
+    "id": 244,
+    "title": "超低角度拍摄",
+    "description": "一个非常简短的日文提示，要求场景以超低机位角度渲染。",
+    "prompt": "使用 极低角度。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886171983_4wpxd6_G6O9Ts9bgAAQ4DU.jpg"
+    ]
+  },
+  {
+    "id": 245,
+    "title": "对现有艺术作品进行愉快的微调",
+    "description": "一个非常简短的编辑指令，要求模型以最小的改动让艺术作品更欢快，适用于细微的情感调整。",
+    "prompt": "让它变得更欢快，改动越少越好！",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887274809_smjul2_G6Pxup6XcAEwLb2.jpg",
+      "https://cdn.gooo.ai/cms/1763887277439_bkw6bc_G6Pxup7WcAAvjvt.jpg",
+      "https://cdn.gooo.ai/cms/1763887280910_15a1p4_G6Pxup6WoAARjgH.jpg",
+      "https://cdn.gooo.ai/cms/1763887284603_osagio_G6Pxup8WEAAKt3t.jpg"
+    ]
+  },
+  {
+    "id": 246,
+    "title": "中国朝代信息图时间轴（繁体中文）",
+    "description": "一个用于生成超宽信息图风格的中国朝代时间轴的提示，仅使用繁体中文文本和密集标注的信息。",
+    "prompt": "幫我生成超長的橫圖，內容是中國各朝代的時間推進介紹資訊圖，只需要繁體中文。確保朝代都完整。並且盡可能多地標註出其中的資訊。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886858101_mbxhj0_G6PwLQDacAY0uTX.jpg",
+      "https://cdn.gooo.ai/cms/1763886861023_q0kn4g_G6PwLP4acAUtle-.jpg",
+      "https://cdn.gooo.ai/cms/1763886863681_0b4bsu_G6PYzywacAQ7Q2n.jpg"
+    ]
+  },
+  {
+    "id": 247,
+    "title": "办公室洗手间改造建议",
+    "description": "一个非常简短的日文自然语言提示，要求为办公室卫生间改造概念，让荧光灯、地板和门更时尚。",
+    "prompt": "让荧光灯、地板和门更具风格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886281528_qztbj7_G6Pw7-macAIy9eB.jpg",
+      "https://cdn.gooo.ai/cms/1763886284066_jweu8z_G6Pw86OacAgzsvl.jpg"
+    ]
+  },
+  {
+    "id": 248,
+    "title": "带有猫和噪声图像的扩散模型过程图",
+    "description": "一个英文提示，要求使用猫咪图片和噪声图片，绘制扩散模型图像生成过程的解释性图表，包括前向扩散学习过程和噪声预测模型。",
+    "prompt": "使用猫咪图片和噪声图片，创建一个图表来解释扩散模型的图像生成过程。在训练过程中，展示通过前向扩散向猫咪图片添加噪声的过程，并描绘创建噪声预测模型的过程。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886304274_0oku5c_G6Pvx-XacAYebYN.jpg"
+    ]
+  },
+  {
+    "id": 249,
+    "title": "将论文转化为教授的白板图",
+    "description": "一个英文提示，能将论文内容以视觉化的方式呈现在一个色彩丰富的教授风格白板上，其中包含图表、箭头和说明文字，以解释核心思想，非常适合学术总结。",
+    "prompt": "请将这篇论文转化为一张教授白板的图像：包含图表、箭头、方框和标题，以视觉方式解释核心思想。请使用颜色。\n[在此粘贴论文的完整内容]",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886790699_ufdyd4_G6Pv3pyacAMgOx4.jpg",
+      "https://cdn.gooo.ai/cms/1763886793902_l9h7mi_XO9_sTDqR3Q4DV2A.jpg"
+    ]
+  },
+  {
+    "id": 250,
+    "title": "生成一张 100 英寸 MacBook 的图片",
+    "description": "一个日语提示，要求 Nano Banana Pro 生成一张 100 英寸 MacBook 的图片，适用于幽默或概念性的视觉效果。",
+    "prompt": "生成一张 100-inch MacBook 的图片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886165151_soo4vr_G6PtTvDbAAAlsgv.jpg"
+    ]
+  },
+  {
+    "id": 251,
+    "title": "分镜风格的动作跟随帧",
+    "description": "此提示可生成一个新帧，该帧遵循草图注释，继续呈现奔向摄像机的踩踏场景。",
+    "prompt": "继续向镜头狂奔。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887347423_8ppd6v_G6PtS45acAE4TjW.jpg"
+    ]
+  },
+  {
+    "id": 252,
+    "title": "重新构图恐龙场景，以倾斜角度展示全身",
+    "description": "用于编辑现有恐龙图像的提示，首先是较短的提示，然后是更明确的日语指令，要求倾斜相机并以高智能手机纵横比包含远处恐龙的全身。",
+    "prompt": "我希望它以略低的视角拍摄，这样远处的恐龙全身都能被包含在内。\n\n将这张图片以略低的视角倾斜，使远处的恐龙全身都在画面中，然后将其制作成一个高大的智能手机屏幕，长宽比为 6:19。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886291665_cfwzxg_G6Pq1ewacAAirbG.jpg",
+      "https://cdn.gooo.ai/cms/1763886293920_yvodp7_G6Pq3RWacAAzLPg.jpg",
+      "https://cdn.gooo.ai/cms/1763886296523_hgjabp_G6PriGtagAAWUuL.jpg",
+      "https://cdn.gooo.ai/cms/1763886298944_okoeg5_G6Pr7rracAMXjI7.jpg"
+    ]
+  },
+  {
+    "id": 253,
+    "title": "现代圣诞促销海报设计 (英文)",
+    "description": "一个现代时尚的圣诞促销海报的英文提示，海报背景为纯节日红色，充满活力和俏皮的能量。",
+    "prompt": "一张现代时尚的平面设计海报，为一场 Christmas Sale 打造，充满活力和趣味。\n背景是纯色、鲜艳、充满节日气氛的 red。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886618177_tld5ao_G6PpzDNaUAATGGw.jpg",
+      "https://cdn.gooo.ai/cms/1763886621419_dk18ji_-rwqzpjuVIAdolee.jpg"
+    ]
+  },
+  {
+    "id": 254,
+    "title": "时代广场的标志性建筑亮相众多屏幕",
+    "description": "一个简短的提示，可将您的个人资料图标投放到时代广场的众多屏幕上，非常适合俏皮、超大的头像渲染。",
+    "prompt": "my icon 亮相时代广场众多屏幕",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887458888_9q5iaj_YwOF-eGfJNVSuKdp.jpg"
+    ]
+  },
+  {
+    "id": 255,
+    "title": "将插画转换为复古 Game Boy Advance 风格的像素艺术",
+    "description": "一条日语指令，指示 Nano Banana Pro 将插画转换为 Game Boy Advance 时代风格的像素艺术。",
+    "prompt": "将其转换为像素艺术，风格为 Game Boy Advance 时代。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886163801_dfdesk_G6PpZiKacAA5b5Y.jpg"
+    ]
+  },
+  {
+    "id": 256,
+    "title": "从美到空：佛教对“色”的解构",
+    "description": "一个概念性的中文提示，从佛教视角描绘了将对美貌女性形体的执着分解为空性的过程，分为几个阶段，非常适合哲学插画。",
+    "prompt": "从佛学看一个美女的从美到虚无的分解过程图，\n\n从对色相（物质形态与美貌）的执着，通过智慧的层层解剖与观照，最终体悟到万法皆空、归于寂静真理的修行次第。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886831354_71n75a_G6PnOhdbMAAxPMs.jpg"
+    ]
+  },
+  {
+    "id": 257,
+    "title": "根据给定的人物照片创建 8 款 LINE 贴纸",
+    "description": "日文提示，要求根据附带的图片制作 8 个 LINE 贴图，并配上日常用语和匹配的姿势。",
+    "prompt": "我想用这张图片里的人物制作 8 个 LINE 贴图。（附上图片）\n我想要一些日常问候语和常用语。\n请根据这些词语改变人物的表情和姿势。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886197190_b4o4fy_G6PnMFpagAAI26R.jpg"
+    ]
+  },
+  {
+    "id": 258,
+    "title": "高速经济增长时代的日本市中心商店街",
+    "description": "一个简单的日文提示，用于生成日本经济高速增长时期怀旧的市中心商店街。",
+    "prompt": "请描绘一幅在 日本 经济高速增长时期 的市中心购物街景象。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886259061_r4lfjx_G6PmprLbIAANQZp.jpg"
+    ]
+  },
+  {
+    "id": 259,
+    "title": "女生被三名男生逼到角落",
+    "description": "一个简短的日式提示，描述了一个高中场景：一名女生被三名男生逼到墙角，看起来很困扰，适合漫画或插画。",
+    "prompt": "一个女孩看起来很困扰，她被三名男学生逼到墙角，正在听他们说话。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886415532_nz7gop_G6PmKEIacAIym_v.jpg"
+    ]
+  },
+  {
+    "id": 260,
+    "title": "某名人的 MySpace 页面截图",
+    "description": "要求模型创建一个以指定名人主题的 MySpace 页面截图风格图像。",
+    "prompt": "提示：制作一个 [名人] 的 MySpace 页面截图",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887025604_e4oijm_G6Plds5W4AAyZC8.jpg",
+      "https://cdn.gooo.ai/cms/1763887027940_xhzjd9_G6PldtDWUAAFk_E.jpg"
+    ]
+  },
+  {
+    "id": 261,
+    "title": "客厅背景中的九字群场景",
+    "description": "两个链式提示：第一个是将 3x3 的角色表拼接成一张图片，然后将九个角色以各种放松的姿势放置在客厅背景中。",
+    "prompt": "请将我刚刚附加的文件拼接成 3x3 的网格，以生成一个横向长文件。合并后，将其长边调整为 1400 像素，并保持宽高比。将质量设置为 100%（最高质量），并输出为 JPG 格式。\n\n使用第一个附件图片（living room）的背景，将第二个附件图片（角色表）中的九个角色放置在客厅中，让他们悠闲地度过时光，例如坐在沙发上、看墙上的照片、拿起书本、坐在地板上聊天等等。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886344463_hboqo8_G6PjuhfacAQOr9O.jpg",
+      "https://cdn.gooo.ai/cms/1763886347262_o7kz3b_G6Pjvjbb0AAfN0e.jpg"
+    ]
+  },
+  {
+    "id": 262,
+    "title": "川剧变脸技巧信息图",
+    "description": "一个中文提示，要求提供川剧变脸技巧的解释性分解图，使用正确的中文字体和 16:9 的宽高比，非常适合文化解说。",
+    "prompt": "生成一张中国川剧变脸这门绝技的解密拆解图,中文字体不要变形。宽高比16:9",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886841587_74fl4h_G6Pi-ewaUAAhxfM.jpg"
+    ]
+  },
+  {
+    "id": 263,
+    "title": "北京拥挤的地铁上的神话人物",
+    "description": "一个中文提示，描述了北京地铁车厢里挤满了神话人物，比如孙悟空和猪八戒，车厢内还有幽默的警示牌和目的地显示屏，非常适合异想天开的场景。",
+    "prompt": "拥挤的北京地铁车厢，但乘客全是神话人物（孙悟空、猪八戒等）。车厢连接处的滚动屏显示红色字体：“前往西天取经的乘客请注意，前方到站：高老庄”。车门玻璃上贴着警告标示：“禁止在车厢内施展法术”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886842282_04v93u_G6Nk47EacAc_Qqj.jpg"
+    ]
+  },
+  {
+    "id": 264,
+    "title": "将儿童画作变成漫画风格的角色",
+    "description": "描述了一个两步工作流程，其中第一步是使用 Nano Banana Pro 将手绘图像转换为卡通人物；这实际上是一个简短的高级提示。",
+    "prompt": "用 Nano Banana Pro 将手绘图变成漫画角色。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886160196_3mqf1h_G6OvtiGacA0ff6O.jpg",
+      "https://cdn.gooo.ai/cms/1763886163145_f15ywd_G6OwMdqbAAA5TzV.jpg",
+      "https://cdn.gooo.ai/cms/1763886167859_u5pmv9_G6Own2Na8AAbLsv.jpg"
+    ]
+  },
+  {
+    "id": 265,
+    "title": "一个女孩在黑帮豪宅里直播的四格漫画",
+    "description": "一个用于生成四格漫画的提示，内容是一个名叫 Hoshina 的坚强女孩在一座据传由黑帮拥有的豪宅中直播，其中包含女孩的参考图片和黑帮男子的设定表。",
+    "prompt": "创作一个四格漫画，以第一张图片中的女孩 {protagonist_name_en} 为主角。\n故事内容是她闯入了一座据传住着可怕的 {opponent_type_en} 的宅邸，并在那里进行直播。\n\n第二张图片中的男人是 {male_role_en}。\n{protagonist_name_en_again} 以“Atashi”自称，她是一个意志坚强、有些自私的女孩。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886508324_f64fb4_G6PfAimacAA-3Q4.jpg"
+    ]
+  },
+  {
+    "id": 266,
+    "title": "插画中的黑白浪漫喜剧漫画页面",
+    "description": "一个双语提示，能将给定插画转化为日式浪漫喜剧风格的单页黑白漫画。",
+    "prompt": "请根据此插图推断并创作一页黑白漫画。这是一部日本浪漫喜剧。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886560574_6t2lct_G6Pd5B1bAAAEzy6.jpg"
+    ]
+  },
+  {
+    "id": 267,
+    "title": "动漫人物坐在真实海滩日落照片中",
+    "description": "一个详细的提示，用于合成一个插画角色坐在真实的日落海滩照片上，带有电影滤镜、焦外虚化、镜头光晕、强烈对比和匹配的透视。",
+    "prompt": "一张照片，其中一个角色坐在真实的沙滩上，有地平线和日落，情感化的照片滤镜效果，散景，镜头光晕，强烈的阴影和对比度，中景，角色是插画，背景是照片，并且背景的视角必须与角色的视角匹配。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886260860_7bbhrh_G6PdQaIbAAAHGRq.jpg",
+      "https://cdn.gooo.ai/cms/1763886263313_6kvltk_G6Pd2ZGacAUUXGX.jpg"
+    ]
+  },
+  {
+    "id": 268,
+    "title": "白板上的公式图",
+    "description": "一个简短的指令式提示，用于在白板上绘制公式并在其下方渲染图表，适用于教育或技术插图。",
+    "prompt": "在白板上画出公式，并在公式下方显示其图表。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887256998_femw9n_G6PcdNQacAEqCFx.jpg",
+      "https://cdn.gooo.ai/cms/1763887267485_nxznqr_G6PcdL-acAUCjzc.jpg"
+    ]
+  },
+  {
+    "id": 269,
+    "title": "渠道说明图",
+    "description": "一个日语提示，要求模型生成一张图片，用于解释特定频道的内容，适用于横幅或缩略图。",
+    "prompt": "生成一张图片，解释此频道的内容。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886172357_jxzpej_G6PbXiCacAEGMGY.jpg"
+    ]
+  },
+  {
+    "id": 270,
+    "title": "耶罗尼姆斯·博斯风格的 AI 未来画作",
+    "description": "创作一幅超现实主义画作，描绘 2025 年人工智能的现状，风格仿照耶罗尼米斯·博斯。",
+    "prompt": "生成一幅描绘 2025 年人工智能现状的耶罗尼米斯·博斯风格画作。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887362371_4ufkqx_G6PbZQUWAAAsMGo.jpg"
+    ]
+  },
+  {
+    "id": 271,
+    "title": "手绘思维导图，解释中国成语",
+    "description": "一个冗长且结构化的提示，让 AI 扮演三年级语文老师的角色，设计并绘制一幅活泼的手绘思维导图，用场景、拆解的汉字和逻辑布局来解释多个中国成语。",
+    "prompt": "你是小學三年級國語老師，要跟小朋友解釋下列成語。請一步一步分析： 1.針對下面成語的意思，設計適合的場景示意圖象。 2.拆解成語的用字，用延伸關鍵字，讓小朋友一看就能記住成語的關鍵解釋。 3.根據成語的相關性或邏輯，排列順序與版面。 4.繪製出有趣的手繪圖。\n成語：朝三暮四、利令智昏、洛陽紙貴、張冠李戴、融會貫通、漠不關心、心平氣和、一毛不拔、欲蓋彌彰、盲人摸象、苦口婆心、斬釘截鐵、細嚼慢嚥、朝令夕改、餘波盪漾、史無前例、身敗名裂、兵不厭詐、捲土重來、標新立異。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886898070_fr16zd_G6PazBWaUAANvE7.jpg"
+    ]
+  },
+  {
+    "id": 272,
+    "title": "YouTube 聊天直播的特定角色缩略图",
+    "description": "一个日文提示，用于使用给定角色创建 YouTube 缩略图，要求只显示上半身，姿势欢快，带有振假名的醒目“雑談”文字，以及带有条纹的简单流行背景。",
+    "prompt": "请使用这个角色制作一个 YouTube 缩略图。\n- 只使用上半身，摆出开朗的姿势和表情。\n- 加入大字文本“雑談”，并添加注音“ざつだん”。\n- 赋予其流行感，但背景要简洁，由条纹构成。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886334863_qtx3by_G6Paa6sacAAhM5D.jpg",
+      "https://cdn.gooo.ai/cms/1763886337496_4qck1l_G6PablnbwAAtCG1.jpg"
+    ]
+  },
+  {
+    "id": 273,
+    "title": "工程标注叠加",
+    "description": "一个提示，用于在现有图像上叠加技术性的手绘工程笔记和图表，非常适合用于机器或车辆的图解说明。",
+    "prompt": "在图像上方叠加技术、工程手写注释。\n使用白色粉笔风格的手写字体和清晰的技术草图线条。\n包括标签、箭头、尺寸、力、工程图和剖面图。\n风格：蓝图式涂鸦。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886131084_bipft8_G6PXyOzWwAAbBs-.jpg",
+      "https://cdn.gooo.ai/cms/1763886137126_6ukqbo_G6PXyv9WgAEIkEY.jpg"
+    ]
+  },
+  {
+    "id": 274,
+    "title": "由天才设计师兼心理学家打造的高转化率 YouTube 缩略图",
+    "description": "一个日文提示，要求 Nano Banana Pro 从一位天才缩略图设计师和心理学家的角度，设计出性能最佳的 YouTube 缩略图。",
+    "prompt": "从一位天才缩略图设计师和心理学家的角度出发，构思并生成一个能够最大化观看次数的缩略图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886479035_e4rx7h_G6PW3Y_bwAAlC_6.png",
+      "https://cdn.gooo.ai/cms/1763886505180_0o48xo_G6PW4E2acAIXdoh.jpg"
+    ]
+  },
+  {
+    "id": 275,
+    "title": "多巴胺与精神分裂症突触图",
+    "description": "生成一张内容丰富的示意图，展示突触间隙中的多巴胺和 D2 受体，以及它们与精神分裂症的关系，包括抗精神病药物在三种不同状态下的作用。",
+    "prompt": "我需要一张图解，解释多巴胺和 D2 受体在神经元突触间隙中的作用，以及它们与精神分裂症的关系。抗精神病药物通过阻断 D2 受体发挥作用。请为以下三种情况绘制图解：健康人 | 幻觉和妄想状态 | 服用抗精神病药物后。请生成一张横向图片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886515003_dgbaz3_G6PU1yObQAAwCG1.jpg"
+    ]
+  },
+  {
+    "id": 276,
+    "title": "菜肴的带标签配料照片",
+    "description": "一个西班牙语提示，用于生成一张照片，展示一道菜的所有食材，每种食材都标有名称和数量，这对于食谱分解视觉效果很有用。",
+    "prompt": "拍一张这道菜所有食材的照片，并标明它们的名称和用量。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886114056_ej3ft2_G6PVNjFWoAAC8OO.jpg",
+      "https://cdn.gooo.ai/cms/1763886117006_r1rf4n_G6PVNtCWIAE0KhW.jpg"
+    ]
+  },
+  {
+    "id": 277,
+    "title": "Stitch Redesign Agent 的各种重新设计命令",
+    "description": "包含多个针对 AI UI 编辑的英文自然语言命令；这些是 Nano Banana Pro 驱动的 AI 重设计代理的有效提示。",
+    "prompt": "为年轻一代重新设计此页面\n创建用户最有可能访问的下一个页面\n增加将商品添加到购物车的用户数量\n将按钮下移 10 像素",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886156007_m635nl_VONbejEOTP0w4L9w.jpg"
+    ]
+  },
+  {
+    "id": 278,
+    "title": "解释库兹韦尔六个纪元的日文插图",
+    "description": "一个简洁的提示，要求 Nano Banana Pro 生成一张关于雷·库兹韦尔（Ray Kurzweil）六个纪元理论的日语解释性图片。",
+    "prompt": "请创建一张图片，用日语解释雷·库兹韦尔（Ray Kurzweil）的“六个时代”理论。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886365742_tsy9kp_G6PUnvWaEAARzZV.jpg"
+    ]
+  },
+  {
+    "id": 279,
+    "title": "将建筑物转变为机器人",
+    "description": "一个日文提示，要求模型将一座建筑变成一个机器人，用于比较 Nano Banana 版本在东京都厅大楼机器人概念上的表现。",
+    "prompt": "将建筑转变为机器人。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886232325_czpqex_G6POkfNacAQMYN8.jpg",
+      "https://cdn.gooo.ai/cms/1763886235792_ukl7mj_G6POl6jaAAAOt0_.jpg"
+    ]
+  },
+  {
+    "id": 280,
+    "title": "乐高风格改造",
+    "description": "将风格转换为乐高形式。",
+    "prompt": "乐高化",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886737801_1blfav_G6PR3MnacAEXuwp.jpg",
+      "https://cdn.gooo.ai/cms/1763886741099_cwrtiy_G6PR7LmacAM106l.jpg",
+      "https://cdn.gooo.ai/cms/1763886744469_93sra1_G6NYropW4AA85ZX.jpg",
+      "https://cdn.gooo.ai/cms/1763886747238_gcb2gk_G6NZky6WIAETtNT.jpg"
+    ]
+  },
+  {
+    "id": 281,
+    "title": "将横幅图片尺寸调整为 1:1",
+    "description": "一个日语指令，要求模型将现有横幅图像转换为 1:1 的正方形版本。",
+    "prompt": "将此横幅图片更改为 1:1 尺寸。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886229409_okc97o_G6PR7WmbYAAyYXR.jpg",
+      "https://cdn.gooo.ai/cms/1763886232025_gccbg7_G6PR9d-bsAAIOP6.jpg",
+      "https://cdn.gooo.ai/cms/1763886235581_u382z7_G6PPioqagAAFL0p.jpg"
+    ]
+  },
+  {
+    "id": 282,
+    "title": "微距特写产品细节提示",
+    "description": "一个编辑提示，用于从起始图像生成特定服装和配饰细节的微距特写，这对于时尚或产品摄影模型非常有用。",
+    "prompt": "生成一个特写镜头，聚焦于 她毛衣图案的细节、靴子 等。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886102259_lhwu5e_G6POgwnXgAACocM.jpg",
+      "https://cdn.gooo.ai/cms/1763886106720_i9e5u5_G6POi98W8AAHAk5.jpg"
+    ]
+  },
+  {
+    "id": 283,
+    "title": "《威利在哪里》风格的每个迷因角色",
+    "description": "创作一张混乱的海报，其中包含所有已知的迷因角色，以密集且“威利在哪里”的搜索寻物风格呈现。",
+    "prompt": "所有已知迷因角色，以“威利在哪里”的风格呈现",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887411641_07bymg_G6POhmea4AAlBE7.jpg"
+    ]
+  },
+  {
+    "id": 284,
+    "title": "1799–1800 年摩洛哥鼠疫传播地图",
+    "description": "生成一张深色调的摩洛哥 1799–1800 年历史地图的另一种提示，该地图描绘了鼠疫的传播和影响。",
+    "prompt": "给我一张 摩洛哥 在 1799–1800 年间的地图，显示当时鼠疫的传播情况及其后果，色调略显阴暗。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886002988_7ei7ln_G6PNxzMacAAitDz.jpg"
+    ]
+  },
+  {
+    "id": 285,
+    "title": "灾难演习横幅 16:9",
+    "description": "一个简洁的日语提示，用于为防灾演习创建 16:9 的横幅，适用于活动宣传图。",
+    "prompt": "请为一次防灾演习创建一个横幅。\n16:9",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886174686_tzqfdg_G6PLvIMbAAAyYpa.jpg"
+    ]
+  },
+  {
+    "id": 286,
+    "title": "漫画风格的日文拟声词叠加",
+    "description": "一个英文提示，用于在不改变主体或背景的情况下，以经典漫画风格将大而粗体的日文拟声词文本叠加到照片上。",
+    "prompt": "添加经典漫画风格的日式大型拟声词文本。\n\n仅插入粗体、动感的文本：\n「ゴゴゴゴーッ！！！」\n\n风格要求：\n- 浓重的黑色墨水漫画字体\n- 粗笔画，带白色轮廓\n- 略带粗糙的手绘质感，如少年漫画音效\n- 从左下方向右上角倾斜放置\n- 强烈的透视变形以增强冲击力\n- 在文本周围添加细微的速度线和冲击光线\n- 略微的阴影以增加深度\n\n请勿更改女性、灯光或背景。\n保持照片的真实感。\n仅叠加漫画风格的音效文本。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886219160_hb0v2a_G6PKt0hbgAAYsI5.jpg",
+      "https://cdn.gooo.ai/cms/1763886223111_zphy0f_G6NbaGdWgAECKIL.jpg"
+    ]
+  },
+  {
+    "id": 287,
+    "title": "霞浦 PowerPoint 风格的日式信息图",
+    "description": "生成一张图片，其中包含所有用日语书写的信息，风格为霞浦 PowerPoint 幻灯片。",
+    "prompt": "生成一张包含所有信息的日文图片，采用霞浦 PPT 风格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886347894_72gwze_G6PKlMra4AAuWg8.jpg",
+      "https://cdn.gooo.ai/cms/1763886350893_llu56y_G6J4F4sa0AAAy7A.jpg"
+    ]
+  },
+  {
+    "id": 288,
+    "title": "教授在白板上讲解内容",
+    "description": "一个可重复使用的“白板提示”，能将粘贴的文本转化为一张图片，图片中一位教授正在白板上用图表、箭头、方框、说明文字和颜色解释核心思想。",
+    "prompt": "使用 Nano Banana Pro，将此内容转换为一位教授在日本白板上讲解的图像。使用图表、箭头、方框和标题来视觉化地解释核心思想。同时使用颜色。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886597015_y1i8op_G6PF-baacAk6l8o.jpg",
+      "https://cdn.gooo.ai/cms/1763886600090_w07bb3_XO9_sTDqR3Q4DV2A.jpg"
+    ]
+  },
+  {
+    "id": 289,
+    "title": "景深从背景移至男士面部",
+    "description": "一个编辑提示，将焦点集中在男人的脸上，同时模糊他的手，非常适合营造更具戏剧性、叙事感的肖像风格。",
+    "prompt": "聚焦男士面部，虚化其手部",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763885999637_truxxb_G6PEDpgXcAAiQC_.jpg"
+    ]
+  },
+  {
+    "id": 290,
+    "title": "客厅色彩重塑",
+    "description": "根据给定的颜色参考，重新为现有客厅图像着色的提示。",
+    "prompt": "以这些颜色为基础，重新构想这个客厅。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887012163_eys3ok_G6PEeQcaYAAMT72.jpg",
+      "https://cdn.gooo.ai/cms/1763887015346_3tu1e0_G6Ndd5WacAM0RlR.jpg"
+    ]
+  },
+  {
+    "id": 291,
+    "title": "十字军宣传壁画（变体）",
+    "description": "另一个简洁的提示，指定了壁画风格的十字军宣传艺术。",
+    "prompt": "十字军宣传艺术 - 湿壁画风格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886085040_4457i6_G6PD5gOXIAAVRIa.jpg"
+    ]
+  },
+  {
+    "id": 292,
+    "title": "十字军宣传壁画",
+    "description": "一个紧凑风格的提示，用于生成十字军主题的宣传艺术，呈现壁画绘画的外观，非常适合风格化的历史或奇幻海报。",
+    "prompt": "十字军宣传艺术——湿壁画风格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886063088_fuiuwy_G6PDMnuXEAA9KIv.jpg"
+    ]
+  },
+  {
+    "id": 293,
+    "title": "带有主角的 3D 超逼真太空飞行游戏美术",
+    "description": "一个用于为太空飞行游戏生成素材的提示，其中一个提供的人物成为主角，驾驶飞船并躲避岩石，以 3D 照片写实风格出现在主菜单和飞船内部。",
+    "prompt": "以这个人作为主角来制作一款太空飞行游戏。他驾驶飞船并躲避岩石，游戏采用 3D 写实风格。将这个人放置在主菜单和飞船内部。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886951719_oy8q9z_U1pOPvXTGiyXwyWH.jpg"
+    ]
+  },
+  {
+    "id": 294,
+    "title": "瑞克和莫蒂风格的唐玄奘西行路线",
+    "description": "一个用于垂直中国地图风格插画的提示，展示唐玄奘从长安到西域的路线，以《瑞克和莫蒂》的风格呈现，并带有中文标签。",
+    "prompt": "生成一張圖片來說明唐玄奘從長安前往西域取經的路線，用中文。圖片是竪版，用 Rick and Morty 的風格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886874270_2oxrsd_G6PCONXXwAAlRup.jpg"
+    ]
+  },
+  {
+    "id": 295,
+    "title": "摩洛哥阿拉伯语笑话的视觉故事漫画",
+    "description": "一个提示，用于创作一部视觉故事卡通，内容是关于一个摩洛哥阿拉伯语的笑话，讲的是一个瘾君子误解了“模特”这个词。",
+    "prompt": "我希望你为这个笑话创作一个视觉故事漫画：\n一个吸了大麻的家伙看到一个非常苗条的女孩。\n他问她：“你是做什么工作的？”\n她说：“我是模特（عارضة）。”\n他回答说：“哪个体育场的？”（玩的是“体育场主持人”这个词的梗）。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886013396_41nq0x_G6PCGIracAIPRpG.jpg",
+      "https://cdn.gooo.ai/cms/1763886023357_4j7w1p_G6PCGKLbsAA6yHC.jpg",
+      "https://cdn.gooo.ai/cms/1763886027622_mc8p33_G6PCGjcacAAfocK.jpg"
+    ]
+  },
+  {
+    "id": 296,
+    "title": "扬声器的参考技术图纸",
+    "description": "一个简洁的提示，可将扬声器照片转换为清晰的技术图纸，适用于产品文档或设计工作。",
+    "prompt": "创建此扬声器的工程图",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887486982_4rg6e0_G6PCDwMWEAA5GcT.jpg",
+      "https://cdn.gooo.ai/cms/1763887490112_scd1gr_G6PCDwMXYAAOWX-.jpg"
+    ]
+  },
+  {
+    "id": 297,
+    "title": "木炭素描风格的闺房肖像 4K",
+    "description": "一个简洁的提示，用于创建炭笔素描风格的高分辨率闺房肖像。",
+    "prompt": "闺房肖像 - 木炭素描风格 [4K 渲染]。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886046426_wxv1z0_G6PBI8SWsAAOV1V.jpg"
+    ]
+  },
+  {
+    "id": 298,
+    "title": "闺房木炭素描肖像",
+    "description": "一个简短的风格提示，用于生成高分辨率的闺房肖像，使其看起来像炭笔素描，适合私密艺术肖像。",
+    "prompt": "闺房肖像 - 木炭素描风格 [4K 渲染]。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886045958_fildzc_G6PAJ3LXwAAM2si.jpg"
+    ]
+  },
+  {
+    "id": 299,
+    "title": "屋顶上的超写实 K-pop 自拍",
+    "description": "一个非常详细的 JSON 提示，用于生成一张 K-pop 偶像 LUNA 的 8K 超逼真屋顶自拍照，包括微小的面部细节、光照、环境和相机元数据。",
+    "prompt": "```json\n{\n  \"subject\": {\n    \"identity\": \"K-pop 女团主唱，艺名：LUNA\",\n    \"age\": 21,\n    \"ethnicity\": \"韩国人\",\n    \"hair\": {\n      \"style\": \"高马尾，泡泡糖粉色，发根处有 3 厘米的灰玫瑰色渐变\",\n      \"texture\": \"玻璃般光泽，有 2 毫米的碎发被霓虹灯照亮\",\n      \"accessory\": \"心形水钻发圈，5 毫米的宝石在闪光灯下熠熠生辉\"\n    },\n    \"makeup\": {\n      \"skin\": \"光泽气垫粉底，脸颊可见 0.1 毫米的毛孔\",\n      \"eyes\": \"玫瑰金色眼影一直涂到眉骨，泪腺下方有 4 毫米的银色闪粉，外眼角有 12 毫米的飞扬假睫毛\",\n      \"liner\": \"锐利 45° 眼线，0.5 毫米的空隙用白色填充\",\n      \"lips\": \"内侧樱桃渐变色，向外模糊成花瓣效果，中央有 1 毫米厚的唇彩\",\n      \"blush\": \"冷粉色腮红高扫颧骨，反射手机闪光灯\"\n    },\n    \"pose\": {\n      \"head\": \"向右倾斜 15°，下巴向下以突出 V 脸\",\n      \"eyes\": \"向上看手机镜头，有 2 毫米高光的卧蚕\",\n      \"mouth\": \"微张心形嘟嘴，双唇之间有 3 毫米的缝隙\",\n      \"hand\": {\n        \"device\": \"iPhone 15 Pro，佩戴闪光丁香色手机壳，镜头环上缺少三颗水钻\",\n        \"grip\": \"三根手指在手机后面，小指伸直，指甲为杏仁形裸色带微亮片\",\n        \"angle\": \"相机举在高于眼睛 30 厘米处，手臂伸长\"\n      }\n    },\n    \"attire\": {\n      \"top\": \"短款淡紫色连帽衫，毛边下摆，衣领处有 1 厘米的汗珠\",\n      \"neck\": \"叠戴银色项链，最短的颈链在锁骨上方 1 厘米处\",\n      \"earrings\": \"不对称星月耳环，8 毫米，随头部倾斜而摆动\"\n    },\n    \"lighting\": {\n      \"key\": \"内置手机闪光灯，色温 6500 K，鼻尖略微过曝\",\n      \"fill\": \"夹在手机上的 LED 环形灯，色温 5600 K，在眼睛中形成圆形眼神光\",\n      \"background_bokeh\": \"城市夜景六边形焦外虚化，欠曝 2 档\"\n    }\n  },\n  \"background\": {\n    \"location\": \"首尔 23 楼屋顶咖啡馆，时间 21:17\",\n    \"depth\": \"失焦的霓虹灯招牌，紫色‘카페’和粉色‘OPEN’，3 厘米模糊效果\",\n    \"sky\": \"晴朗的靛蓝色天空，地平线处仍有 2% 的日落橙色\",\n    \"props\": \"磨砂玻璃栏杆和前景 5 厘米处的串灯，其中一个灯泡坏了\"\n  },\n  \"camera\": {\n    \"mode\": \"人像模式，3 倍变焦，f/1.78，1/120 秒，ISO 250\",\n    \"filter\": \"内置‘明亮’滤镜 +10，皮肤平滑功能关闭\",\n    \"artifacts\": \"耳环边缘有轻微的紫边——保留此效果\"\n  },\n  \"output\": \"超写实，8K 分辨率，保留脸颊上的闪光眩光，保持 9:16 的垂直手机比例，无水印\"\n}\n```",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887332912_h3yrhp_G6O_oOFXIAE3LSq.jpg"
+    ]
+  },
+  {
+    "id": 300,
+    "title": "《我不受欢迎，怎么想都是你们的错！》文化意义的 A4 视觉解说",
+    "description": "创建一个 A4 大小的说明性图片，其中包含插图，用于在文化事务会议上展示，解释漫画《我不受欢迎，怎么想都是你们的错！》的历史和魅力。",
+    "prompt": "为了能在文化厅的会议上进行展示，请制作一份 A4 单页的说明图片，配以插图，介绍漫画《我不受欢迎，怎么想都是你们的错！》的历史和魅力。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886588040_ddqkll_G6O_y4cbsAABky1.jpg"
+    ]
+  },
+  {
+    "id": 301,
+    "title": "雅虎新闻文章的单页插图",
+    "description": "一个能将雅虎新闻文章转换为一张图文并茂的幻灯片，清晰解释该主题的提示。",
+    "prompt": "生成一张图片，用图表和插图在一页幻灯片中清晰地总结以下 Yahoo News 文章。\n---\n{paste the Yahoo News article here}",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886559397_67a5nd_G6O6aboacAUVSBX.jpg"
+    ]
+  },
+  {
+    "id": 302,
+    "title": "格斯和格里菲斯在电影片场",
+    "description": "两段富有想象力的提示：一段将格斯（Guts）和格里菲斯（Griffith）置于电影片场，另一段是爱因斯坦、孙悟空和莎士比亚在火星美食摊前的超现实场景。",
+    "prompt": "格斯和格里菲斯在电影片场。\n\n爱因斯坦在火星上摆了个小吃摊，递给孙悟空一个煎饼果子。他身后有个牌子写着“相对论早午餐”。莎士比亚在太空中用卷尺测量火星。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887264846_asmckh_G6O9JegXQAAt8RZ.jpg",
+      "https://cdn.gooo.ai/cms/1763887267856_1heq2c_G6O9KyJW0AAc9Vs.jpg"
+    ]
+  },
+  {
+    "id": 303,
+    "title": "个人资料照片转身份证照片",
+    "description": "一个最简提示词，可将上传的个人资料图片转换为证件照样式布局。",
+    "prompt": "创建 ID。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887119617_8uclbu_G6O9zwiXMAAof0g.jpg"
+    ]
+  },
+  {
+    "id": 304,
+    "title": "日文熊安全指南插图",
+    "description": "一个日语提示，要求生成插图，展示日本人如何保护自己免受熊的侵害，并配有日文说明文字。",
+    "prompt": "请创作插图，展示如何保护自己免受熊的侵害。插图中出现的人物应为日本人。请提供日文说明。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886296801_mpezzh_G6O9BnAbcAESxXG.jpg"
+    ]
+  },
+  {
+    "id": 305,
+    "title": "毛绒玩具堆在卧室窗边",
+    "description": "一个英文提示，用于创建一个电影场景：从屋外向内看，透过一扇完全被特定毛绒玩具挤满的窗户，这些玩具紧贴玻璃，非常适合产品拼贴或玩具店视觉效果。",
+    "prompt": "从外部向内看，一个 卧室窗户 完全被一大堆各种毛绒玩具填满（仅由特定提供的毛绒玩偶角色组成，没有未识别或重复的玩具），（紧紧压在窗玻璃上:1.3），（脸部挤压在玻璃上:1.2），一堆凌乱可爱的玩偶，窗框，房屋外部视图，玻璃上的反光，透过缝隙可见的柔和室内灯光，温馨的氛围，电影般的灯光。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886783429_dglqwe_N2RtnzE03Ly1maLj.jpg"
+    ]
+  },
+  {
+    "id": 306,
+    "title": "基于过往互动创作的四格漫画",
+    "description": "一个日文提示，要求 Nano Banana Pro 根据用户之前与 AI 的互动，创作一个四格竖版漫画，描绘最能代表用户个性的一个片段。",
+    "prompt": "根据我们迄今为止所有的互动，请选择一个能真正代表我个性的片段，并将其制作成四格漫画。请创建该图像。将图像设置为垂直方向，使画格从上到下依次呈现。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886287371_6vwsbd_G6O8rO3acAIe_ej.jpg"
+    ]
+  },
+  {
+    "id": 307,
+    "title": "配置风格的日式少年漫画页面设置",
+    "description": "以下是用于生成带有垂直从右到左书写和特定长宽比的日本黑白少年漫画页面的结构化配置的开头。",
+    "prompt": "comic_page:\n  language: \"日语\"\n  style: \"日式少年漫画\"\n  writing-mode: \"vertical-rl\"\n  color_mode: \"黑白\"\n  aspect_ratio: \"1:1.4\"\n\n  instructions: |-",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886607325_fl0ce2_G6O76NVacAAKn0u.jpg",
+      "https://cdn.gooo.ai/cms/1763886611337_osbanz_G6O7-IOacAIfIPZ.jpg"
+    ]
+  },
+  {
+    "id": 308,
+    "title": "超市促销传单（日文）",
+    "description": "一个最简单的日式提示，用于生成典型的超市特价促销传单，其中只有商店名称被指定为变量。",
+    "prompt": "为一家超市制作一份特价传单。请包含商店名称 [store name]。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886318535_m9q9f7_G6O7tn_acAECV3k.jpg"
+    ]
+  },
+  {
+    "id": 309,
+    "title": "宁静的动漫山坡风景",
+    "description": "一幅郁郁葱葱的手绘动漫场景，描绘了绿色山坡上的一间小屋，屋顶下是巨大的云朵，非常适合作为宁静怀旧的背景。",
+    "prompt": "一片郁郁葱葱、手绘风格的动漫山水画，描绘着起伏的绿色山坡和一间小木屋。明亮的蓝色天空中飘浮着蓬松巨大的积云。充满活力的绿色调和柔和的阴影。微风轻拂着草地。细节丰富、宁静而怀旧的风格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887134299_mw0yq4_G6O3lfeXAAA-u_i.jpg"
+    ]
+  },
+  {
+    "id": 310,
+    "title": "3D 打印的科林斯义体人头盔",
+    "description": "生成一个风格化的 3D 打印科林斯式头盔，带有散热片羽饰，适用于科幻或赛博朋克视觉效果。",
+    "prompt": "3D 打印的科林斯式网络跑者头盔，其羽饰是一个散热器",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886974083_9n40dr_G6O5EhIacAAMIwm.jpg"
+    ]
+  },
+  {
+    "id": 311,
+    "title": "一张图总结福冈的优点",
+    "description": "一个日文提示，要求 AI 将福冈的优点总结成一张图片，让 Nano Banana Pro 自动选择字体和布局。",
+    "prompt": "用一张图片概括 福冈 的优点。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886265062_7uibzj_G6O5CchaUAEUzff.jpg"
+    ]
+  },
+  {
+    "id": 312,
+    "title": "和巴西明星的随机自拍",
+    "description": "一个葡萄牙语提示，用于生成一张包含五位随机巴西名人的自拍照，非常适合有趣的社交内容模型。",
+    "prompt": "Crie selfie com 5 celebridades brasileiras aleatórias",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886062001_hcffec_G6O4qsrW8AAG4t2.jpg"
+    ]
+  },
+  {
+    "id": 313,
+    "title": "丑陋的幻灯片介绍爱因斯坦",
+    "description": "一个简短的日文提示，要求 Nano Banana Pro 制作一个俗气、浮夸的幻灯片来介绍爱因斯坦。",
+    "prompt": "制作一个超级俗气的幻灯片来介绍爱因斯坦。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886332956_mov3g0_G6O4i-IacAIRnfl.jpg"
+    ]
+  },
+  {
+    "id": 314,
+    "title": "多面板细胞因子信号通路",
+    "description": "一个科学提示，用于生成 IL-2、IL-4、IL-12 和 IL-6 信号通路的多面板图，对免疫学图表很有用。",
+    "prompt": "在多个面板中，创建 IL-2、IL-4、IL-12 和 IL-6 信号通路。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887151982_cefgl1_G6O3zOKWsAAJ6wE.jpg"
+    ]
+  },
+  {
+    "id": 315,
+    "title": "领导们玩扑克牌的场景",
+    "description": "一个提示词建议，用于拍摄某些领导人一起打扑克的照片，以突显 AI 的逼真程度。",
+    "prompt": "把这些领导人的照片P成他们在玩扑克。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886017067_9skoml_G6O3IMgacAA3_Xw.jpg",
+      "https://cdn.gooo.ai/cms/1763886020491_bpt9bc_G6O3INybIAAuSqi.jpg"
+    ]
+  },
+  {
+    "id": 316,
+    "title": "卡通转写实风格转换",
+    "description": "一种元提示模式，建议您先创作某物的卡通版本，然后再要求其写实版本。",
+    "prompt": "先创作一个卡通形象，然后要求生成它的写实版本。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887073705_ao2jhp_G6O28xIacAA6yPb.jpg",
+      "https://cdn.gooo.ai/cms/1763887076423_autvcl_G6O29gWacAE3DXx.jpg"
+    ]
+  },
+  {
+    "id": 317,
+    "title": "将场景转换为低分辨率像素艺术",
+    "description": "一个简短的提示，指示模型以低分辨率像素艺术的形式重新创建整个场景，包括水花和背景。",
+    "prompt": "从零开始，以低分辨率像素艺术风格重新创作整个场景，包括水花和背景。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887339550_b5zojy_G6O2dt5WMAAUTOh.jpg"
+    ]
+  },
+  {
+    "id": 318,
+    "title": "超逼真明星团体封面大片",
+    "description": "一个提示，用于生成一张超现实的大画幅编辑风格合影，其中包含来自不同时代的众多名人，其光线和构图如同电影杂志封面。",
+    "prompt": "创作一张超写实、超清晰、全彩的大画幅图像，其中汇集了来自不同时代的众多名人，他们都站在一个宽阔的电影画幅中。这张图像必须看起来像一张完美拍摄的杂志封面，光线无可挑剔。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886355130_0kcbd4_G6Oxvk-acAEcFvW.jpg"
+    ]
+  },
+  {
+    "id": 319,
+    "title": "偶像手持带有日文文字和签名的板子",
+    "description": "一个提示，用于生成一位成年女性偶像，她手持一块签名板，上面写着一条关于享受 Nano Banana 2 的俏皮日文信息，以及她带有指定姓名的签名。",
+    "prompt": "这位被提及的成年女性偶像正拿着一块签名的色纸板，上面写着“Nano banana 2 很有趣”以及她自己的签名（她的名字是“Kurage-chan”），她正对着镜头。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886390632_p47jlb_Yt24dpgJRyvpAr1w.jpg"
+    ]
+  },
+  {
+    "id": 320,
+    "title": "摄影机角度海报",
+    "description": "一个电影海报的提示，以写实风格，通过标签和示例，直观地解释电影制作中常见的摄像机角度。",
+    "prompt": "制作一张海报，以视觉方式解释电影制作中最常见的摄影机角度，并为每个角度提供清晰的标签和电影感、写实风格的示例。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887116276_mebspu_G6OuHm1bEAAplqV.jpg"
+    ]
+  },
+  {
+    "id": 321,
+    "title": "解释奥林巴斯会计丑闻的幻灯片",
+    "description": "一个日语提示，要求 Nano Banana Pro 创建幻灯片式的图片，解释奥林巴斯会计欺诈案。",
+    "prompt": "制作幻灯片图片，解释奥林巴斯（Olympus）会计欺诈案。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886181216_wund73_G6OuBZBacAUAueW.jpg"
+    ]
+  },
+  {
+    "id": 322,
+    "title": "将主题转换为乐高风格",
+    "description": "一个简单的转换提示，指示模型将给定主题转换为乐高风格的表示。",
+    "prompt": "把这个变成乐高风格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886964434_w2cqji_G6OtZD7XgAAPjji.jpg"
+    ]
+  },
+  {
+    "id": 323,
+    "title": "将一本书总结成一张日式海报图片",
+    "description": "将给定书籍内容转化为一张日文海报图片的提示。",
+    "prompt": "将这本书的内容总结成一张海报。用日语。以图片形式。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886388281_6bww0d_G6OsUiUacAgLxjQ.jpg"
+    ]
+  },
+  {
+    "id": 324,
+    "title": "六格生活漫画",
+    "description": "一个提示词，用于生成一个六格漫画，总结你上周生活中的事件，非常适合个人故事讲述的视觉呈现。",
+    "prompt": "用 6 格漫画来描绘我上周的生活。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887093168_gx8kr3_G6Oq5egXgAAh0gW.jpg",
+      "https://cdn.gooo.ai/cms/1763887096273_mq4tc9_G6OrGcFWUAIk-Hc.jpg",
+      "https://cdn.gooo.ai/cms/1763887099378_hoeth6_G6OrHHNWsAA-Sgh.jpg",
+      "https://cdn.gooo.ai/cms/1763887102192_jodzlx_G6OrHy4XEAE1wTF.jpg"
+    ]
+  },
+  {
+    "id": 325,
+    "title": "提取帧并修改表情和天气",
+    "description": "一种提示模式，用于从多帧图像中提取一帧，并改变角色的表情和背景条件。",
+    "prompt": "提取帧 2，但把她的表情改为惊恐，并在背景中添加雨水。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887053645_nwczmd_G6NtZ31aAAAm1uD.jpg",
+      "https://cdn.gooo.ai/cms/1763887056409_62owqe_G6NtfeVawAAby5t.jpg",
+      "https://cdn.gooo.ai/cms/1763887058873_1jpolm_G6NtgjCacAYbwaa.jpg",
+      "https://cdn.gooo.ai/cms/1763887061661_s90r8d_G6NtibDacAg6fQA.jpg"
+    ]
+  },
+  {
+    "id": 326,
+    "title": "健身照片的姿态迁移",
+    "description": "一个参考引导的提示，可以根据另一张图像中相同的健身姿势，真实地重现一个男人。",
+    "prompt": "以写实风格，让这个人摆出与第一张图片中相同的健身姿势。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887129985_a9f68n_G6OooNvXwAARaSb.jpg",
+      "https://cdn.gooo.ai/cms/1763887139765_1nrkft_G6OpPhwXkAAp4so.jpg"
+    ]
+  },
+  {
+    "id": 327,
+    "title": "多位随机女名人的自拍",
+    "description": "一个简单的提示，要求模型生成一张包含十位随机女性名人的自拍，这对于压力测试人脸生成和多主体构图很有用（尽管可能与平台政策冲突）。",
+    "prompt": "10 位随机女名人的自拍",
+    "images": [
+      "https://cdn.gooo.ai/cms/1764209336879_bw7l5j_G6Oo4iwX0AAZOL9.jpg"
+    ]
+  },
+  {
+    "id": 328,
+    "title": "多位名人的自拍",
+    "description": "生成一张包含 10 位随机名人的自拍照。",
+    "prompt": "生成 10 位随机名人的自拍照",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886950111_dw2yab_G6Oo4iwX0AAZOL9.jpg",
+      "https://cdn.gooo.ai/cms/1763886952445_2fei40_G6OYuTxWwAAiXGg.jpg"
+    ]
+  },
+  {
+    "id": 329,
+    "title": "在尼罗河图片上写阿拉伯文字",
+    "description": "在尼罗河的图片上添加阿拉伯语短语“埃及万岁”，以展示阿拉伯语文本的渲染质量。",
+    "prompt": "在尼罗河的图片上，写上 埃及万岁。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886028158_qhtlnb_G6OomRLWMAAjsVS.jpg"
+    ]
+  },
+  {
+    "id": 330,
+    "title": "虚构餐厅的新款亲子丼海报",
+    "description": "一个日语提示，用于生成一张图片，宣布一家名为“定食屋ながめ”（Teishokuya Nagame）的虚构餐厅已开始供应亲子丼。",
+    "prompt": "它可以完美地输出日语。我让它生成了一张图片，显示虚构的餐厅“定食屋ながめ”（Teishokuya Nagame）已开始供应亲子丼。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886205113_iktfal_G6OolQnaEAATQfI.jpg"
+    ]
+  },
+  {
+    "id": 331,
+    "title": "复古游戏界面中的超逼真照片",
+    "description": "一个英文提示，指示 Nano Banana Pro 将复古游戏界面转换成一张超逼真的 20 世纪 90 年代风格家庭照片，移除用户界面，并重新讲述这个场景，使其仿佛真实发生。",
+    "prompt": "生成一张这个场景的超现实胶片照片。无界面。使其看起来像真实生活场景。横向构图。不要拘泥于字面；用视觉方式重新讲述故事，使其看起来真实，仿佛在现实生活中发生过一样。风格：1990年代家庭照片，随意，而非电影镜头。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886093087_nmw03i_G6OjJz1XsAAHdhx.jpg",
+      "https://cdn.gooo.ai/cms/1763886095749_7m0tjk_G6OjXRuWcAAPfSB.jpg"
+    ]
+  },
+  {
+    "id": 332,
+    "title": "天气变化电影镜头",
+    "description": "一个极简的提示，可以将阳光明媚的场景转变为具有真实物理效果和氛围的雨天场景。",
+    "prompt": "大把撒钱",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887351188_2pa7rk_b9zDt5udV3nbsBAW.jpg"
+    ]
+  },
+  {
+    "id": 333,
+    "title": "80 年代迈阿密餐厅比基尼自拍，与黑豹合影",
+    "description": "一幅电影般的 1980 年代迈阿密风格场景：一位身穿比基尼的金发女子和一只黑豹身处一家复古餐厅，画面充满柔和的霓虹色彩和电影剧照般的氛围。",
+    "prompt": "一张电影般的照片，一位时尚的年轻金发女郎身穿比基尼，身边有一只黑豹。她穿着一件柔和色调的防风夹克，内搭小比基尼，在一家复古餐厅里啜饮着热带苏打水。场景充满了超可爱的 20 世纪 80 年代迈阿密复古风情，柔和的霓虹色彩，热带元素，营造出酷炫的氛围，并带有柔和的电影颗粒感，看起来就像 80 年代电影中的剧照。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887226641_haetmy_G6Onf84XUAENJD5.jpg"
+    ]
+  },
+  {
+    "id": 334,
+    "title": "太空中的航天飞机示意图",
+    "description": "生成一张太空穿梭机在太空中的示意图，适用于教育或说明性内容。",
+    "prompt": "生成一张太空中的航天飞机图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887454501_x0e4n3_G6OnbMzbAAABomT.jpg"
+    ]
+  },
+  {
+    "id": 335,
+    "title": "中国漫画风格的动漫女性角色合集故事",
+    "description": "一个用于生成彩色中文漫画的提示，该漫画将几个受欢迎的女性动漫角色组合成一个合集故事。这对于测试图像或漫画生成模型中的角色一致性、漫画布局和中文文本支持非常有用。",
+    "prompt": "帮我生成动漫角色中的女角色的一个合集故事，其中包括娜美、罗宾、小樱、雏田、松本乱菊，做成彩色漫画的形式，要求中文。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886915574_ti79l1_G6OjvRhacAoKzWX.jpg",
+      "https://cdn.gooo.ai/cms/1763886921674_x8c59y_G6Ojw7FbkAAOfgg.jpg",
+      "https://cdn.gooo.ai/cms/1763886925639_13hb2p_G6OjyLZbAAA_oK6.jpg"
+    ]
+  },
+  {
+    "id": 336,
+    "title": "图片私信，用于使用获取信息的项目",
+    "description": "一个英文提示，要求模型从给定的项目 URL 中获取信息，并创建一个营销 DM 图片，这对于自动填充的促销图形很有用。",
+    "prompt": "帮我为这个项目生成图片私信（你需要获取他们的信息）。\nhttps://t.co/aefomvKq9A",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886803022_qtc8zp_G6OjGeybUAAaG_H.jpg"
+    ]
+  },
+  {
+    "id": 337,
+    "title": "20 世纪 80 年代 RPG 手册封面，4K 分辨率",
+    "description": "一个用于创建 4K 渲染的 1980 年代彩色 RPG 手册封面的风格提示，非常适合盒绘或封面模型。",
+    "prompt": "20 世纪 80 年代彩色 RPG 手册封面 [4K 渲染]。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886082347_hdmtck_G6Oks8LWgAAgfcE.jpg"
+    ]
+  },
+  {
+    "id": 338,
+    "title": "UI 重新设计和优化指令",
+    "description": "一套自然语言提示，用于重新设计和优化现有 UI 屏幕，重点关注受众、转化和可用性目标。",
+    "prompt": "为 年轻受众 重新设计此页面。\n\n创建最有可能的下一个页面。\n\n增加加入购物车的用户数量。\n\n将按钮向下移动 10 像素。\n\n修复此页面的可用性。\n\n降低 https://t.co/Ct6uyBtKmB 的跳出率。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887093405_lecljf_VONbejEOTP0w4L9w.jpg"
+    ]
+  },
+  {
+    "id": 339,
+    "title": "20 世纪 80 年代彩色 RPG 手册插图",
+    "description": "一个复古风格的提示，旨在创作色彩鲜艳的 1980 年代 RPG 手册艺术，非常适合怀旧游戏插画。",
+    "prompt": "20 世纪 80 年代彩色 RPG 手册插图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886053555_o5ce5a_G6OeFG7W0AAFcay.jpg"
+    ]
+  },
+  {
+    "id": 340,
+    "title": "GARP 生物学在 Tregs 插图中的应用",
+    "description": "一个简洁的生物学提示，用于绘制一幅解释调节性 T 细胞中 GARP 生物学的插图，旨在用于科学可视化。",
+    "prompt": "绘制一张关于 Treg 细胞的 GARP 生物学 的插图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887277955_kj0rus_G6OiJ81WMAEq-Ox.jpg"
+    ]
+  },
+  {
+    "id": 341,
+    "title": "将照片变成兰博基尼广告",
+    "description": "一个非常简短的提示，用于将现有图像转换为看起来像兰博基尼广告的图片。",
+    "prompt": "把这做成一个 Lamborghini 广告",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886986347_5x1igo_G6OgPJFW4AEL_hK.jpg",
+      "https://cdn.gooo.ai/cms/1763886989111_vy47ie_G6OgP7kXQAADTCs.jpg"
+    ]
+  },
+  {
+    "id": 342,
+    "title": "根据指定情绪板的风格生成图像",
+    "description": "一个风格迁移提示，要求模型根据上传的情绪板的视觉风格创建一张新图像。",
+    "prompt": "根据此情绪板的风格生成图像",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887497622_pg16cf_G6OfIxTXMAAl2Gg.jpg",
+      "https://cdn.gooo.ai/cms/1763887500317_ljjdh7_G6OfWksWAAEARVu.jpg",
+      "https://cdn.gooo.ai/cms/1763887503237_yi9kd0_G6OfcUdX0AApIHK.jpg",
+      "https://cdn.gooo.ai/cms/1763887505703_0rsnug_G6Of6ZuW8AEqAu5.jpg"
+    ]
+  },
+  {
+    "id": 343,
+    "title": "修复后的金字塔和狮身人面像",
+    "description": "一个历史重建提示，展示了金字塔和狮身人面像在刚建成时可能的样子，其中狮身人面像的面部完好无损。",
+    "prompt": "一张金字塔和狮身人面像的照片，展示了它们最初建成时的样子，其中狮身人面像的面部完好无损。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887192525_oxmlx3_G6OetU7XkAAL_2A.jpg",
+      "https://cdn.gooo.ai/cms/1763887195129_fypam3_GnFK5-FWYAADNa1.jpg"
+    ]
+  },
+  {
+    "id": 344,
+    "title": "值得游览的地点地图",
+    "description": "生成一张地图风格的图像，突出显示模型建议的地点，非常适合作为旅行灵感的视觉素材。",
+    "prompt": "我应该参观的地点地图",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886978986_cw3ht3_G6OaAliXMAAtUaY.jpg"
+    ]
+  },
+  {
+    "id": 345,
+    "title": "日本火车月台上的角色，光线匹配",
+    "description": "一个简洁的英文提示，用于生成一个站在日本火车月台上的角色，光线完美匹配，2K 分辨率，使角色与背景融为一体。",
+    "prompt": "一个角色站在 日本的火车月台 上，灯光与环境完美匹配，分辨率为 2K。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886305951_uxmycc_G6Oc5_PacAE21dW.jpg",
+      "https://cdn.gooo.ai/cms/1763886308892_xasd03_G6Oc5_cacAAEvm_.jpg",
+      "https://cdn.gooo.ai/cms/1763886311721_cmfjya_G6Oc5_eaMAAQYMN.jpg"
+    ]
+  },
+  {
+    "id": 346,
+    "title": "YouTube 频道信息图设计",
+    "description": "一个德语提示，要求 Nano Banana Pro 为 YouTube 频道创建一个信息图，可用于频道品牌视觉效果。",
+    "prompt": "Erstelle eine Infografik für meinen YouTube Kanal everlastai",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886054555_azss3h_G6OcphvXUAANXwb.jpg"
+    ]
+  },
+  {
+    "id": 347,
+    "title": "20 世纪 80 年代 RPG 手册插画提示",
+    "description": "1980 年代彩色 RPG 手册风格的插画提示语。",
+    "prompt": "20 世纪 80 年代彩色 RPG 手册插图",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886054303_mhzywq_G6ObmfiWQAAD7S2.jpg"
+    ]
+  },
+  {
+    "id": 348,
+    "title": "用“好或不好”控制台评级来标注照片",
+    "description": "一个提示，用于在肖像上叠加控制台风格的文本、指针和加载条，以评估吸引力和面部特征。",
+    "prompt": "用控制台风格的文本和指针来标注这张照片，评估人物的吸引力及其面部特征，并用加载条显示各个类别的评分，最后给出总体评分。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887074212_c6d4s5_G6NdUv9XIAA7iZ1.jpg"
+    ]
+  },
+  {
+    "id": 349,
+    "title": "10 位随机女名人的自拍",
+    "description": "一个简单的提示，用于生成一张包含十位随机女性名人的自拍，可用于测试身份合成和群组构图（在允许的情况下）。",
+    "prompt": "10 位随机女名人的自拍。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887255684_jqixfo_G6OYuTxWwAAiXGg.jpg"
+    ]
+  },
+  {
+    "id": 350,
+    "title": "金属球溅入水中（慢动作效果）",
+    "description": "一个简洁的英文提示，描述一个金属球落入水中，具有逼真的水花、物理效果和折射，2K 分辨率，营造慢动作画面感。",
+    "prompt": "一个 金属球 落入水中，伴随着慢动作的水花，逼真的物理效果和折射，分辨率为 2K。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886243245_kjiy9n_G6OZ-jeawAAU_EV.jpg",
+      "https://cdn.gooo.ai/cms/1763886246076_z586s7_G6OZ-jdbkAA4APc.jpg",
+      "https://cdn.gooo.ai/cms/1763886249339_9nfp7t_G6OZ-jYakAAoF4n.jpg",
+      "https://cdn.gooo.ai/cms/1763886252738_qwrb2j_G6OZ-jXa0AAT8Bl.jpg"
+    ]
+  },
+  {
+    "id": 351,
+    "title": "一个人在天空中发光的云朵上放松",
+    "description": "一个详细的照片编辑提示，将你的参考照片中的人物放置在金色时段发光的云朵上放松，非常适合梦幻、超现实的肖像。",
+    "prompt": "参考照片中的人物（人物面部需 100% 忠实于参考图像）正躺在天上高处一朵蓬松发光的云朵上放松，周围是柔和的金色阳光和延伸至地平线的层层云海。人物舒适地向后躺着，枕着一个枕头，身穿深色长袖衬衫、橄榄绿色裤子并戴着眼镜，一只手拿着一本书，另一只手端着一杯咖啡。光线具有电影感且温暖，捕捉了黄金时段的氛围，云朵上布满了璀璨的高光和柔和的阴影。通过广角镜头以中等景深拍摄，平衡了主体与周围梦幻天空之间的焦点。整体氛围超现实且宁静，在平和、富有想象力的环境中融合了现实主义与奇幻。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887474439_1fu21g_G6OYkPWXsAAYLNB.jpg",
+      "https://cdn.gooo.ai/cms/1763887477237_2gzxbo_G6OYkNmWsAEJNk6.jpg",
+      "https://cdn.gooo.ai/cms/1763887480573_44sduz_G6OYkRGWkAAycLZ.jpg"
+    ]
+  },
+  {
+    "id": 352,
+    "title": "卧推肌肉图",
+    "description": "一个直接的解剖学提示，生成一个身体图表，突出显示卧推练习期间激活的肌肉。",
+    "prompt": "显示卧推会锻炼到哪些肌肉的身体图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887109177_98hks9_G6OYdmpXoAAWhKh.jpg"
+    ]
+  },
+  {
+    "id": 353,
+    "title": "逼真的悬崖救援合成图",
+    "description": "根据提供的男女照片和山脉背景风格参考，创作一个逼真的悬崖救援场景。",
+    "prompt": "逼真的悬崖救援。使用男士照片作为英雄，女士照片作为滑落者。精确匹配草图的侧面姿势和构图，并使用山脉照片作为背景的风格参考。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887448172_yyy657_G6OXOlBXYAAANsP.jpg"
+    ]
+  },
+  {
+    "id": 354,
+    "title": "真人电子游戏幕后花絮",
+    "description": "一个灵活的提示模板，用于生成所选视频游戏真人改编电影的幕后拍摄花絮。",
+    "prompt": "他们制作真人版 [video game] 的幕后花絮。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887174369_0299j7_G6OWqc0XYAADPcI.jpg",
+      "https://cdn.gooo.ai/cms/1763887180518_phz0vh_G6OWqcuW8AA5u_x.jpg",
+      "https://cdn.gooo.ai/cms/1763887184913_kbel6a_G6OWqcrWcAAMfnH.jpg",
+      "https://cdn.gooo.ai/cms/1763887189353_0ynw29_G6OXUpjWwAAuryS.jpg"
+    ]
+  },
+  {
+    "id": 355,
+    "title": "日文标签配料菜肴照片",
+    "description": "一个日语提示，要求将一道菜的所有食材展示在盘中，并附上名称和用量标签。",
+    "prompt": "将这道菜的所有食材摆盘，并标明它们的名称和用量。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887456208_zlek08_G6OV-jtacAISkM2.jpg",
+      "https://cdn.gooo.ai/cms/1763887459257_wp8bus_G6OV-tyacAkyiq5.jpg"
+    ]
+  },
+  {
+    "id": 356,
+    "title": "让笔记本电脑看起来像是 AI 安全人员的专属物品",
+    "description": "一个简短的提示，用于编辑一张笔记本电脑的照片，使其看起来像是贴满了 AI 安全主题的贴纸和装饰。",
+    "prompt": "让这台笔记本电脑看起来像是 AI 安全研究人员的。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887003317_u5mnx7_G6OVdiebsAACvzY.jpg",
+      "https://cdn.gooo.ai/cms/1763887006375_51yszp_G6NRDAAaQAAconc.jpg"
+    ]
+  },
+  {
+    "id": 357,
+    "title": "八卦图附参考图片",
+    "description": "一个中文提示，要求模型根据参考图准确绘制先天八卦和后天八卦，并精确放置文字位置，背景为古籍风格，适用于传统文化视觉呈现。",
+    "prompt": "参考这张图画先天八卦和后天八卦，注意文字和卦的位置要精确对应，古朴的背景，似乎是在古老的文本上，不要有任何拼音",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886824282_s391da_G6OQTJxacAAajIG.jpg"
+    ]
+  },
+  {
+    "id": 358,
+    "title": "将图片转换为带有 OMW 文字的 YouTube 缩略图",
+    "description": "将现有图片转换为 YouTube 缩略图，并在背景上叠加显示“OMW”大字文本的提示。",
+    "prompt": "将此图片转换为 YouTube 缩略图，并添加文本“OMW”使其覆盖整个背景。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887032894_kc6wha_G6OQeBCXAAAuKyn.jpg",
+      "https://cdn.gooo.ai/cms/1763887043983_qczcw6_G6OQg0YXgAAyH1x.jpg",
+      "https://cdn.gooo.ai/cms/1763887047025_8ntrkm_ydGocOW7N6YP9Jeg.jpg"
+    ]
+  },
+  {
+    "id": 359,
+    "title": "将电子游戏截图转换为超现实现代引擎画面",
+    "description": "一个用于将现有电子游戏截图转换为超逼真、现代游戏引擎渲染图的提示，同时保留其构图。",
+    "prompt": "请修改这张电子游戏截图。保持主体和整体构图不变，但将所有内容转换为超现实、超精细的现代引擎风格截图，并带有戏剧性的光照、氛围和高分辨率。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886997844_yy4txy_G6OPHKAbkAAVHz1.jpg",
+      "https://cdn.gooo.ai/cms/1763887003345_y1l993_G6OPYPCacAMlzdC.jpg"
+    ]
+  },
+  {
+    "id": 360,
+    "title": "名人换脸三人组",
+    "description": "一个编辑提示，可以将照片中的人物替换为特定的名人，适用于有趣的合成图片。",
+    "prompt": "将金发女郎替换为 Sydney Sweeney，另外两人替换为 Kendall Jenner 和 Kylie Jenner。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887184520_fkw75t_G6OLEi3aYAAajdy.jpg"
+    ]
+  },
+  {
+    "id": 361,
+    "title": "《威利在哪里》星球大战场景",
+    "description": "生成一张密集的“威利在哪里”风格插画，其中包含塔图因上的所有《星球大战》角色，包括威利。",
+    "prompt": "一张“威利在哪里”风格的图片，展示了塔图因星球上的所有《星球大战》角色",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887372079_87cc9a_G6OIiVwXAAA_kCP.jpg"
+    ]
+  },
+  {
+    "id": 362,
+    "title": "英雄式产品广告海报",
+    "description": "一个详细的阿拉伯语提示，用于创建超现实、逼真的英雄风格广告海报，该海报能自动适应产品名称和类别，非常适合品牌宣传视觉效果。",
+    "prompt": "تصميم إعلان إبداعي واقعي وسيريالي لمنتج [اسم المنتج] من فئة [نوع المنتج]، يظهر المنتج كعنصر بطولي في منتصف الكادر ويتشكل بصريًا بطريقة ذكية تعكس روح وهوية البراند تلقائيًا.\nخلفية نظيفة ومتناسقة مع ألوان البراند، إضاءة سينمائية ناعمة، خامات واقعية فائقة، ظلال دقيقة، تكوين بصري",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886035310_g1atq8_G6OHs8hWkAArpuk.jpg",
+      "https://cdn.gooo.ai/cms/1763886038386_jp7ftl_G6OHs8tWIAAgc1X.jpg"
+    ]
+  },
+  {
+    "id": 363,
+    "title": "两个非凸集的闵可夫斯基和",
+    "description": "一个数学概念提示，要求模型创建两个非凸集的闵可夫斯基和图像，这对于抽象数学可视化很有用。",
+    "prompt": "创建两个非凸集的闵可夫斯基和图像。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886113323_94hvg6_G6OG1aKXsAAwQHc.jpg",
+      "https://cdn.gooo.ai/cms/1763886116153_juflog_G6OG2X2WMAAOj1H.jpg",
+      "https://cdn.gooo.ai/cms/1763886118660_88hj9z_G6OG3jEXkAEogCN.jpg",
+      "https://cdn.gooo.ai/cms/1763886120692_5azuuk_G6OG4wfWAAAuc9c.jpg"
+    ]
+  },
+  {
+    "id": 364,
+    "title": "超写实蜜蜂覆盖的女人特写",
+    "description": "一张非常详细的女性面部肖像提示，脸上覆盖着蜂蜜，蜜蜂清晰对焦，非常适合电影级美妆摄影风格的渲染。",
+    "prompt": "一位年轻女性的脸部特写，超写实，覆盖着浓稠的金色蜂蜜，粘稠的蜂蜜从她的额头、鼻子和嘴唇滴落。几只蜜蜂停留在她的脸颊和嘴巴附近，聚焦清晰，绒毛和透明的翅膀清晰可见。使用温暖的黄金时段光线，阳光从侧面照射在她的脸上，营造出柔和的高光和深邃的阴影。皮肤纹理极其细致，毛孔、雀斑清晰可见，散发着自然光泽，因蜂蜜而略显湿润和光亮。她的眼睛睁大，目光锐利，琥珀棕色的虹膜，清晰的反光和明亮眼神光，睫毛分明，眼睑带有微妙的金色微光。她的双唇微启，蜂蜜从下唇缓慢滴落，形成长长的细流。背景柔和模糊，带有温暖的黄色和橙色散景。使用高端单反相机，85mm 镜头，f/1.4 光圈拍摄，8K 分辨率，超真实，超细节，电影级美妆摄影，影棚级灯光，眼睛和蜜蜂完美对焦，浅景深。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887019194_o55uum_G6OGa55XEAAvg6H.jpg"
+    ]
+  },
+  {
+    "id": 365,
+    "title": "MrBeast 风格的 YouTube 频道改版",
+    "description": "创建一个 YouTube 频道页面，其布局类似于真实的 MrBeast 频道，但所有缩略图都替换为主题锦标赛。",
+    "prompt": "一个与真实的 MrBeast 频道页面完全相同的 YouTube 频道页面，其摄像机角度和视角与参考照片一致。保持 YouTube 界面、频道横幅、图标、按钮和侧边栏完全不变。将所有视频缩略图替换为关于“纳米香蕉 VS 卡通香蕉拳击锦标赛”的全新自定义缩略图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887377950_6vldl7_G6OF9MTbsAAsne8.jpg",
+      "https://cdn.gooo.ai/cms/1763887381659_o2uucw_G6OF9YIacAE-7fg.jpg",
+      "https://cdn.gooo.ai/cms/1763887385163_qx76v6_G6OF9iaacCUT8tQ.jpg"
+    ]
+  },
+  {
+    "id": 366,
+    "title": "世界一流的酷炫胶片相机海报 (2:3)",
+    "description": "一个长篇的日语提示，用于创建一个 2:3 的、酷炫现代的艺术相机海报，海报上有一个手持单反相机的人物，并精心排布了日文文本元素，以及一个开始图像生成的命令。",
+    "prompt": "为一款目前世界上最时尚的相机创作一张 2:3 的酷炫、现代且富有艺术感的宣传海报。\n- 人物形象是主要焦点。\n- 他们手持一台单反相机，垂直构图，正透过取景器，试图向我们拍摄。\n- 以时尚的方式在海报中排布以下文字（不要显示括号内的文字）。\n- 保持字体大小现代且极简。\n - Olympus OM-2\n - 在 AI 时代，选择不只是数据的胶片摄影\n - 拥抱繁琐\n开始执行图片生成。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886179470_ml3o4l_G6OFQFEagAAzSZ5.jpg",
+      "https://cdn.gooo.ai/cms/1763886182032_a78mia_G6OFQFIakAAQjOw.jpg",
+      "https://cdn.gooo.ai/cms/1763886184379_m0ukkt_G6OFQFIacAE4sS5.jpg",
+      "https://cdn.gooo.ai/cms/1763886186989_07xhk3_G6OFQFFbYAE3bOj.jpg"
+    ]
+  },
+  {
+    "id": 367,
+    "title": "高质量人像无损放大与增强",
+    "description": "将图像放大并增强至 4K，在保留构图和色彩的同时，提升细节和逼真的皮肤纹理。",
+    "prompt": "在保持构图和色彩不变的情况下，增强并放大图像。消除模糊，让皮肤呈现逼真、细致的外观：清晰的毛孔、淡淡的细纹、轻微的雀斑以及阴影和高光之间真实的过渡。保持光线的色调。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887424814_y0l18v_G6OFEaOXcAAQFld.jpg",
+      "https://cdn.gooo.ai/cms/1763887428178_i1t2ou_G6OFElIXAAA0LoL.jpg"
+    ]
+  },
+  {
+    "id": 368,
+    "title": "多图像融合人物变形",
+    "description": "一条复杂的中文提示（在推文中引用），指示模型将图 1 中的人物变成一个真实的人，手中拿着图 2 中的人偶，穿着图 3 中的衣服，化着图 4 中的妆容和发型，带着图 5 中的表情，并配有图 6 中的汽车，用于高级多参考测试。",
+    "prompt": "把图一人物1:1变成真人，手里拿着图二的手办，穿着图三人物的穿搭，化着图四人物的妆容和发色，表情是图五的表情，背后停着辆图六的车",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886844687_b7q88m_G6OD3NvbcAAzprH.jpg"
+    ]
+  },
+  {
+    "id": 369,
+    "title": "几何时尚风格提示",
+    "description": "可用于时尚图片风格提示的葡萄牙语短标签",
+    "prompt": "几何时尚",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886078437_vp4poc_G6OArCJWsAA6qPW.jpg"
+    ]
+  },
+  {
+    "id": 370,
+    "title": "产品照片，商品置于石头上",
+    "description": "一个简单的产品摄影提示，将主体整齐地放置在石头上，以获得简洁、极简的 4K 产品照片。",
+    "prompt": "将产品放置在石头上方",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887488575_7nrig8_UWKxAmthmsTPFaVQ.jpg"
+    ]
+  },
+  {
+    "id": 371,
+    "title": "编程语言演进信息图",
+    "description": "请制作一张关于编程语言演变的信息图，适合教育用途。",
+    "prompt": "一张展示编程语言演变过程的 信息图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886144995_hvtbq2_G6N_EvaWYAAJWdT.jpg"
+    ]
+  },
+  {
+    "id": 372,
+    "title": "1:1 动漫转真人转换",
+    "description": "将卡通形象转换为写实人物的极简指南，在保持身份一致性的同时改变风格。",
+    "prompt": "1:1變真人",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886907814_bs7xqe_G6N9Ts3acAIDWxj.jpg"
+    ]
+  },
+  {
+    "id": 373,
+    "title": "20 世纪 80 年代美国进口动漫风格",
+    "description": "一个简短的风格提示，指定了 20 世纪 80 年代美国进口动漫的视觉风格，非常适合怀旧动画帧。",
+    "prompt": "20 世纪 80 年代美国引进的日本动画。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886076075_kkq4sl_G6N8r77XIAEU4mb.jpg"
+    ]
+  },
+  {
+    "id": 374,
+    "title": "RLVR 框图",
+    "description": "一个简单的提示，用于生成说明 RLVR 过程的框图，适用于技术演示或文档。",
+    "prompt": "创建一个描述 RLVR 过程的框图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887089975_m54ru1_G6N8jX2acAMv53D.jpg"
+    ]
+  },
+  {
+    "id": 375,
+    "title": "显示时间推移和变化的苹果切片",
+    "description": "一个超现实的特写镜头提示，其中四片苹果片排成一列，展示了从新鲜到氧化、腐烂，最后变成玻璃的演变过程，以此来表现时间的流逝。",
+    "prompt": "一張超寫實的特寫，一個蘋果被切成四瓣排成一排。從左到右：第一瓣是新鮮多汁的；第二瓣微黃氧化；第三瓣腐爛發黴；第四瓣是由透明玻璃製成的。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886871877_l6nx60_G6N8ETybQAMxN1U.jpg",
+      "https://cdn.gooo.ai/cms/1763886875579_74uhlp_G6N8ETyacAAjo8a.jpg",
+      "https://cdn.gooo.ai/cms/1763886878455_u3rz6i_G6N8ETwagAAKBo0.jpg"
+    ]
+  },
+  {
+    "id": 376,
+    "title": "带用户签名的中文租赁合同",
+    "description": "一个中文提示，用于生成一份中文租赁合同文档，并将用户的手写签名放置在其中，这对于测试文档编辑功能很有用。",
+    "prompt": "为我生成一份中文的房租合同，把我的签名签上去",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886837882_rumtyf_G6N58soboAALFE4.jpg"
+    ]
+  },
+  {
+    "id": 377,
+    "title": "Instagram 风格的日式手写化妆品广告",
+    "description": "一个详细的日语提示，用于为敏感肌肤化妆品精华液创建类似 Instagram 的手写有机文本广告，使用紫色和粉色，并强调首次购买折扣信息。",
+    "prompt": "制作一个日式手写风格的 Instagram 帖子广告。配色应为 紫色和粉色。卖点是 适合敏感肌肤 和 价格。强调价格是 限时优惠。请同时提及精华液的质地和容量。包含“先试为快”、“不容错过”和“首次购买享 6 折”等短语。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886340404_il771z_G6N1Oq_acAcyvQE.jpg"
+    ]
+  },
+  {
+    "id": 378,
+    "title": "瓦拉纳西河坛双时间线倒影场景",
+    "description": "瓦拉纳西河坛的电影夜景，画面丰富，河水倒映出不同的历史时代，非常适合测试复杂的倒影和时间叙事。",
+    "prompt": "一幅细致入微的夜景，描绘了傍晚时分 瓦拉纳西河坛 的夜祭仪式，从 恒河 对岸的视角拍摄。图像上半部分展示了当今的城市：人群聚集在台阶上，祭司们手持巨大的火焰灯同步进行夜祭，阳台上挂着电灯，寺庙外墙经过了近期翻修，新旧建筑与现代招牌交织。火光和零星的油灯照亮了河坛上方袅袅升起的烟雾。下半部分，在 恒河 平静的水面上完美地呈现为一面镜子，展示了相同的河坛，但处于更古老的历史时期。倒影必须描绘出细微的建筑差异：更少的电灯和更多的油灯，未经现代修复的饱经风霜的石面，设计更古老的木船，穿着符合时代服饰的人们，以及早期结构形式的寺庙塔楼。水面应该如玻璃般平静，几乎没有扭曲，使两个时间线精确对齐，如同一个分裂的现实。光线、涟漪和倒影必须遵循真实的物理规律，同时保持两个世纪并存的幻觉。最终效果应像一张照片，捕捉到上方是现在，下方是过去，由河流的镜面将两者连接在一起。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887210681_5fovcs_G6N45HOacAUvZqy.jpg"
+    ]
+  },
+  {
+    "id": 379,
+    "title": "极致变焦增强",
+    "description": "以最高质量将图像放大 100 倍的最小指令，适用于细节探索拍摄。",
+    "prompt": "实现 100 倍变焦",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887449150_wc1lah_G6N4nSab0AAeo4M.jpg",
+      "https://cdn.gooo.ai/cms/1763887451485_mzfgtq_G6N4nb0akAATFA0.jpg"
+    ]
+  },
+  {
+    "id": 380,
+    "title": "1915 年孟加拉语报纸页面重建",
+    "description": "一个内容丰富、历史细节详尽的提示，用于重现真实的 1915 年孟加拉语报纸页面，包括准确的排版、插图和纸张纹理。",
+    "prompt": "一份精心重建的 1915 年孟加拉语报纸页面，采用真实的二十世纪早期排版设计。版面使用狭窄、完美对齐的垂直栏，字体符合时代特征，金属活字间距不均，行间略有套印不准。墨迹显得不完美，显示出轻微的污迹、字母边缘轻微的过度着墨，以及偶尔出现的断裂字形，这与那个时代的手工排版印刷机相符。页面包含多幅木刻风格插图：小肖像、政治漫画和简单的场景素描，雕刻痕迹清晰可见，轮廓线条粗犷。所有孟加拉语文本必须完全清晰可辨，语法与时代保持一致，并以结构化的标题、副标题和正文段落排列。纸张纹理应类似于陈旧的报纸，带有细微的泛黄、轻柔的折痕和斜光下柔和的纤维图案。最终图像应给人一种真实的档案文物感，仿佛是从 1915 年保存下来的，在排版、布局、墨迹表现和文化背景方面都精确无误。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887052897_m925px_G6N4D8IacAMgX8i.jpg"
+    ]
+  },
+  {
+    "id": 381,
+    "title": "埃隆·马斯克银行对账单模拟图",
+    "description": "一个中文提示，用于生成一份逼真的埃隆·马斯克银行对账单，包含完整的详细信息，可用于测试文档的真实性（而非用于欺诈）。",
+    "prompt": "生成一张 elon musk 银行流水账单，要有详细的所有信息",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886793327_3vman6_G6N3MUaacAYkVVp.jpg"
+    ]
+  },
+  {
+    "id": 382,
+    "title": "美国水彩地图，附州缩写",
+    "description": "一个提示，用于生成一张完整的水彩风格美国地图，地图上标明每个州的缩写，并添加创意插图。",
+    "prompt": "一张美国全图，所有州都标有缩写，采用水彩风格并配有创意插图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887152125_lps4th_G6N1zNCbcAAXP7_.jpg",
+      "https://cdn.gooo.ai/cms/1763887156535_5z00qa_A9atsqgAnqeqxU1T.jpg"
+    ]
+  },
+  {
+    "id": 383,
+    "title": "布宜诺斯艾利斯大道上的字母场景",
+    "description": "一个西班牙语指令风格的提示，用于在布宜诺斯艾利斯的七月九日大道上书写“Argentina”一词，同时可见方尖碑和春季的蓝花楹树，非常适合排版城市景观。",
+    "prompt": "在布宜诺斯艾利斯的 七月九日大道 上写下 阿根廷，确保方尖碑和春天盛开的蓝花楹清晰可见。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886123779_6896gb_G6N2j5dWkAAg2BK.jpg",
+      "https://cdn.gooo.ai/cms/1763886128935_bs0bz7_G6N2s2uXgAAQs4H.jpg"
+    ]
+  },
+  {
+    "id": 384,
+    "title": "20 世纪 80 年代美国引进的日本动画（复刻风格）",
+    "description": "这是另一个相同的 20 世纪 80 年代美国进口动漫风格提示，用于生成复古动漫视觉效果。",
+    "prompt": "20 世纪 80 年代美国引进的日本动漫。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886078475_o9lqqv_G6N2Q5lWkAAi8D6.jpg"
+    ]
+  },
+  {
+    "id": 385,
+    "title": "忧郁电影感的巴黎汽车场景",
+    "description": "一个丰富的英文提示，描述了一幅情绪化的深夜电影剧照：在下着雨的巴黎，从一辆复古雪铁龙车内向外望去，光线交织，充满电影感。",
+    "prompt": "一张情绪化、充满氛围感的电影剧照。巴黎深夜，大雨倾盆。一辆复古雪铁龙车内，一名身穿湿透风衣的男子平静地看着镜头。灯光是冷蓝色调与挡风玻璃外咖啡馆的暖琥珀色和霓虹灯光交织而成。内省的氛围。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886095012_0mt1te_G6N2J-qXMAAgY9o.jpg"
+    ]
+  },
+  {
+    "id": 386,
+    "title": "三项高级抽象推理图像测试",
+    "description": "这条推文包含三个独立的详细提示：一个粉笔手写的二次方程推导，一个超现实的金色潘洛斯三角，以及一个类似回文构词法的 LIFE/DEATH 设计，每个都测试了视觉推理的不同方面。",
+    "prompt": "一张绿色黑板的特写照片。用白色粉笔写着一元二次方程求根公式的正确推导步骤。第一行：ax^2 + bx + c = 0。第二行：x^2 + (b/a)x = -c/a。第三行：配方。最后一行：x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}。字迹工整清晰。不要乱码。\n\n一张用抛光黄金制成的彭罗斯三角的超写实照片，放在大理石桌子上。这个物体形成了一个连续的、不可能的三角形视错觉。几何结构没有断裂。摄影棚布光。\n\n一个双向图的平面设计艺术。正着看单词是'LIFE'，旋转180度倒过来看单词是'DEATH'。白纸黑墨，哥特书法风格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886723598_6lupjh_G6N1o9faoAAGufy.jpg",
+      "https://cdn.gooo.ai/cms/1763886726447_frdz7f_G6N1o9iacAEU-4-.jpg",
+      "https://cdn.gooo.ai/cms/1763886728911_y6001a_G6N1o9gacAQFHES.jpg",
+      "https://cdn.gooo.ai/cms/1763886731878_8p94bz_G6N1o93awAAT-xX.jpg"
+    ]
+  },
+  {
+    "id": 387,
+    "title": "两张图片之间的服装迁移",
+    "description": "一个基于参考的编辑提示，可以将一张图片中的人物穿上另一张图片中的服装，非常适合虚拟试穿或时尚换装。",
+    "prompt": "将第二张图片中的人物穿上第一张图片中的衣服。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887112350_bihhsx_G6N1Gk6bIAAvBji.jpg"
+    ]
+  },
+  {
+    "id": 388,
+    "title": "根据照片制作的电影感肖像",
+    "description": "一个中文提示，用于从输入图像生成一张高端、有氛围感的黑白照片，重点在于受控的光线和情感氛围。",
+    "prompt": "为图片人物生成：\n氛围基调 \n照片整体冷冽、克制，带有戏剧性的黑白质感。没有杂乱背景与干扰元素，一束光成为唯一的叙事焦点。画面如同一帧电影：安静、深沉，带着孤独却蕴含力量。 光照到哪里，目光就指向哪里。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886738753_w8lu9l_G6N0H2SbUAAOz0d.jpg",
+      "https://cdn.gooo.ai/cms/1763886741179_a1ig40_G6Nx7C-acAE_F9C.jpg"
+    ]
+  },
+  {
+    "id": 389,
+    "title": "极简迷因创作提示",
+    "description": "一个非常简短的提示，指示模型从头开始创建一个表情包。",
+    "prompt": "制作一个表情包",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887356322_0n25t0_G6NzLrsagAA1xhK.jpg"
+    ]
+  },
+  {
+    "id": 390,
+    "title": "塔防手游设计模型网格",
+    "description": "一个提示，用于创建 3x2 网格的 iPhone 屏幕，显示塔防手机游戏的不同界面，适用于 UI/UX 概念艺术。",
+    "prompt": "创建一个图像，内容是一个 塔防手游 的设计，显示在横屏模式的 iPhone 上。将其设计成 3×2 的 iPhone 网格，每个 iPhone 显示游戏的不同状态。这个图像将交付给开发人员进行实现。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887085540_x5op1e_G6NxnEdacAIXe19.jpg"
+    ]
+  },
+  {
+    "id": 391,
+    "title": "鱼眼自拍，和动漫角色一起",
+    "description": "一个有趣的鱼眼自拍提示，将一个真实的女性与几个受欢迎的动漫角色结合在一个明亮的客厅里，非常适合风格化写实和集成测试。",
+    "prompt": "一张 9:16 竖版鱼眼自拍照，画面中是一位超写实女性，基于照片创作，她与 哆啦 A 梦、鸣人、野比大雄、五条悟、成振和宝可梦的小智 在一起。每个人都带着傻气、夸张的笑容。场景设定在一个明亮的小客厅里，以白色调为主，采用高机位拍摄，并带有极端的鱼眼畸变效果。动漫角色以逼真的电影级灯光呈现，并融入了风格化的写实外观。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887234708_qt923b_G6Nw8foXoAAiqOo.jpg",
+      "https://cdn.gooo.ai/cms/1763887238759_d594qp_G6NSdnDWUAAOfB8.jpg"
+    ]
+  },
+  {
+    "id": 392,
+    "title": "另类纹身女性工作室肖像",
+    "description": "一个非常详细的角色和灯光提示，用于描绘一位自信、有纹身的年轻女性在红色摄影棚中的写实肖像，非常适合测试真实感和皮肤细节。",
+    "prompt": "一位二十多岁、大胆另类风格的年轻女性，姿态自信而有力。她留着半剃的底切发型：一侧剃得很短，另一侧是长长的、直的铂金色头发，垂落在肩上。她的皮肤是浅中色调，呈现自然的哑光质感，展现出真实的皮肤纹理、细微的毛孔、轻微的微小瑕疵和柔和的自然高光，没有塑料般的平滑感。她的妆容精致而真实，眉毛清晰，暖色烟熏眼妆，眼线干净利落，哑光粉色唇妆，眼神锐利而充满掌控力。\n\n她的上半身和手臂布满了精细的黑灰色纹身，包括带有粗犷线条和真实阴影的大片花卉图案，以及下腹部盘绕的龙纹身。她的颈部饰有分层的装饰图案，纹身看起来略带纹理感。\n\n她身穿黑色修身露脐上衣，外搭一件袖子卷起的米色开衫，配饰有叠戴的黑色颈链、细链条、小巧的黑色耳环和细微的穿孔。\n\n姿势：她双手置于脑后，双肘高高抬起，呈有力的 V 形，手指轻轻交扣。这个姿势略微抬高了她的肩膀，并在她的躯干处形成了一个微妙的 S 形曲线。她的头部略微倾斜，同时与观者保持直接的眼神接触，姿态沉稳而自信。\n\n背景：深红色摄影棚背景，哑光且略带纹理，边缘有微妙的渐变阴影，营造出干净、简约、高级时尚的红色氛围。\n\n灯光：情绪化、低调的摄影棚灯光。左前方的一盏暖色主光增强了自然的皮肤纹理和毛孔，而没有过度平滑；右侧的一盏柔和轮廓光勾勒出她的头发和肩膀。她躯干和手臂上的阴影过渡柔和真实，具有平衡的电影感对比度。\n\n相机和技术：模拟全画幅相机，使用 50 毫米或 85 毫米镜头，光圈 f/2.2，构图足够宽，确保双肘完全在画面内。高分辨率渲染，无修图，保留微小细节、轻微的胶片颗粒感、柔和的暗角和深红色深度，无美颜滤镜效果。\n\n情绪和瑕疵：整体感觉真实、有力、另类且时尚，皮肤纹理清晰可见，有细小的雀斑，轻微不均匀的高光，以及阴影中柔和的颗粒感，以展现自然的真实性。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887204832_xh635z_G6NwiVpXcAA-gJb.jpg",
+      "https://cdn.gooo.ai/cms/1763887216186_u7gf9u_G6IMlBjXIAAYrUB.jpg",
+      "https://cdn.gooo.ai/cms/1763887226052_m744wb_G6IMk-tW0AAMQNI.jpg",
+      "https://cdn.gooo.ai/cms/1763887236660_ggvj9s_G6IMlBYXsAAp6kr.jpg",
+      "https://cdn.gooo.ai/cms/1763887239763_a3lw6m_G6IMlBZXcAAjK4-.jpg"
+    ]
+  },
+  {
+    "id": 393,
+    "title": "钟面时间渲染测试",
+    "description": "一个简短的英文提示，用于测试模型是否能准确地在经典钟面上显示特定时间。",
+    "prompt": "经典时钟上的 21:33",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886695285_ec41du_G6NvYyQaEAEq1_o.jpg"
+    ]
+  },
+  {
+    "id": 394,
+    "title": "束身衣在线商店页面布局",
+    "description": "一个面向电商的提示，用于为束身衣创建完整的在线商店页面，包括布局和设计细节。",
+    "prompt": "为这款束身衣制作一个在线商店页面。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887196183_jqe6v2_G6NvOJvacAAqSr6.jpg",
+      "https://cdn.gooo.ai/cms/1763887199058_0rdz39_G6NvOSDbIAAR5Ta.jpg"
+    ]
+  },
+  {
+    "id": 395,
+    "title": "伊豆鸟岛历史的霞关风格信息图",
+    "description": "请根据自然语言请求，生成一份霞关风格的伊豆鸟岛历史信息图，并配以“いらすとや”风格的插图；该请求以文本形式呈现，但可作为提示使用。",
+    "prompt": "伊豆鸟岛历史：霞关“漫画”解读",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886310738_t00t6z_G6Ns_uabQAAQtIB.jpg"
+    ]
+  },
+  {
+    "id": 396,
+    "title": "多个人物的合影",
+    "description": "一个非常简短的提示，用于生成一张包含所有指定角色在内的合影。",
+    "prompt": "所有人物在一起自拍",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886867830_j3kabx_G6NsAFWbAAA67cC.jpg"
+    ]
+  },
+  {
+    "id": 397,
+    "title": "铺在柏油路上的衣物",
+    "description": "一个非常简短的编辑风格提示，要求模型将一个人的每件衣服分开并放置在沥青上，这对于测试物体提取和重新排列很有用。",
+    "prompt": "将他的每件衣服都单独放在柏油路上。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887245677_ryebje_G6NsZ-IacAca8YG.jpg",
+      "https://cdn.gooo.ai/cms/1763887248338_pha4re_G6NsaJWacAQVj_R.jpg"
+    ]
+  },
+  {
+    "id": 398,
+    "title": "斯蒂芬·比斯蒂风格的双层神经网络图",
+    "description": "生成一张两层神经网络图，采用史蒂芬·比斯蒂（Stephen Biesty）那种细致的剖面图风格。",
+    "prompt": "生成一张史蒂芬·比斯蒂风格的两层神经网络图",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887357692_z19t5j_G6NsI-daYAAukiT.jpg"
+    ]
+  },
+  {
+    "id": 399,
+    "title": "自动迷因生成",
+    "description": "一个随意的提示，让 Nano Banana Pro 自行生成一个 meme 概念和布局。",
+    "prompt": "给我制作一个梗图",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887356179_evd8gr_G6NsRFsWsAAMHPv.jpg"
+    ]
+  },
+  {
+    "id": 400,
+    "title": "鲤鱼演唱会特写饭拍",
+    "description": "生成一张 Liyuu 演唱会特写饭拍图的提示。",
+    "prompt": "Nano Banana Pro：生成 Liyuu 现场演唱会的近距离 fan cam",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886801118_cx97z1_G6NsJdvacAM0eH-.jpg"
+    ]
+  },
+  {
+    "id": 401,
+    "title": "爱因斯坦在麻省理工学院讲课，并讲了一个印地语笑话",
+    "description": "爱因斯坦在麻省理工学院 (MIT) 教室黑板前的写实场景的详细提示，黑板上清晰地写着一句俏皮的梵文 (Devanagari) 句子。",
+    "prompt": "一幅逼真、略带电影感的场景，描绘了 20 世纪初爱因斯坦在麻省理工学院 (MIT) 授课的情景。他站在一块写满方程式的大黑板前，手中拿着粉笔，正在讲解。教室里有木制课桌，高大的窗户透进温暖的自然光，学生们全神贯注。黑板上用天城体清晰地写着：“मैं आपसे रिलेट नहीं कर पा रहा, क्योंकि रिलेटिविटी अभी तक डिस्कवर नहीं हुई है”。捕捉爱因斯坦标志性的发型、西装和富有表现力的姿态。将历史的准确性与有趣的时代错位融合，保持高细节的学术视觉风格。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887066990_7cvztk_G6Nr4Z7acAA1P_J.jpg"
+    ]
+  },
+  {
+    "id": 402,
+    "title": "20 世纪 80 年代经典杂志广告：劳力士与雷司令",
+    "description": "一个详细的提示，用于绘制一张逼真的 1980 年代风格杂志广告：画面聚焦于一只戴着劳力士 Submariner 手表的男士手，手中握着一杯满满的雷司令葡萄酒。",
+    "prompt": "绘制一张 20 世纪 80 年代经典杂志广告风格的图片，特写一名男士的手及其附近区域，他戴着一枚调至 4:36 的劳力士潜航者型腕表，手持一杯斟满雷司令葡萄酒的酒杯，要求呈现出照片般的真实感。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886942447_4d5fkl_G6Nqk6DWYAApOBz.jpg",
+      "https://cdn.gooo.ai/cms/1763886945330_wq0ayz_G6NqtU-W8AAzRPC.jpg"
+    ]
+  },
+  {
+    "id": 403,
+    "title": "来自不同时代和文化的 50 件文物",
+    "description": "一个随意的日语提示，要求模型将来自不同时代和文化的 50 件完全不同的文物放入一张图片中。",
+    "prompt": "将来自完全不同时代和文化的 50 件文物放在一张图片中。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886187503_8rrm3c_G6Nq8hxaAAACgAr.jpg"
+    ]
+  },
+  {
+    "id": 404,
+    "title": "Seq2seq 论文信息图",
+    "description": "一个高级学术提示，用于生成解释序列到序列论文的信息图，适用于机器学习教学或演讲。",
+    "prompt": "为序列到序列论文创建一张信息图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887123111_n0j7r2_G6Npajna4AA-rZO.jpg"
+    ]
+  },
+  {
+    "id": 405,
+    "title": "将图像应用于十二面体",
+    "description": "将图像作为纹理映射到 3D 十二面体形状的简洁说明，适用于 3D 风格的渲染或模型。",
+    "prompt": "将此图像应用于十二面体。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887234527_xa9pyd_G6Np54DacAAhf4r.jpg"
+    ]
+  },
+  {
+    "id": 406,
+    "title": "戴着兜帽围巾、头顶猫咪的低角度男子",
+    "description": "一张电影风格的 9:16 肖像提示，描绘了一位戴着特定连帽围巾的年轻男子，一只缅因猫坐在他头顶。",
+    "prompt": "超细节、超现实、电影感图像，宽高比 9:16。低角度拍摄，镜头略微向上，捕捉到一位年轻男子（面部和头发 100% 参照照片），他穿着一件大地色系的红色外套和一条橄榄黄色的针织连帽围巾，围巾清晰地包裹着他的头部和颈部，没有变化。一只毛色明亮的缅因猫坐在兜帽上，看向来自后方的光线。姿势：男子站立笔直，头部略微转向一侧。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887070337_2sdepc_G6NpWFGXQAAR3Iu.jpg"
+    ]
+  },
+  {
+    "id": 407,
+    "title": "将场景转换为乐高积木",
+    "description": "一个简单的指令式提示，告诉模型将图像或场景转化为乐高 (LEGO) 形式，捕捉积木、凸粒和迷你人仔的比例。",
+    "prompt": "用乐高实现。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887325146_2blrnj_G6Nn5teb0AAFfcN.jpg",
+      "https://cdn.gooo.ai/cms/1763887328637_p7rkp2_G6Nn5rTaYAA6btE.jpg"
+    ]
+  },
+  {
+    "id": 408,
+    "title": "Stable Diffusion 教育动漫图解",
+    "description": "一个提示，用于创建一个详细的图表，以可爱的 Q 版动漫老师形象解释 Stable Diffusion，目标受众为高中生。",
+    "prompt": "创建一个详细的教育图表，解释 Stable Diffusion 过程，专为高中生设计。图片应包含可爱的 Q 版动漫风格教师角色，大眼睛，彩色头发，穿着教师服装，戴着眼镜，手持教鞭。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887287641_2cxh9y_G6NoYmBXIAIwtYx.jpg"
+    ]
+  },
+  {
+    "id": 409,
+    "title": "参考样式中的不可能三维形状",
+    "description": "使用参考样式图像生成一个不可能的 3D 形状的提示。",
+    "prompt": "这种风格下不可能实现的 3D 形状。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886963912_ua4mj6_G6NoeUQacAEgonr.jpg"
+    ]
+  },
+  {
+    "id": 410,
+    "title": "怪异的日常照片概念",
+    "description": "一个极简的概念性提示，要求想象出最怪异却又最平凡的照片，鼓励创作富有创意但又贴近日常生活的场景。",
+    "prompt": "你能想象到的最奇怪、最平淡无奇的照片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887247548_5m87k6_G6NoJ2JacAcgtNV.jpg"
+    ]
+  },
+  {
+    "id": 411,
+    "title": "手机友好的单步将杀国际象棋谜题图片",
+    "description": "一个提示，要求模型生成一张有趣的国际象棋一步杀棋谜题图片，并针对手机屏幕观看进行优化。",
+    "prompt": "制作一张有趣的国际象棋一步杀棋谜题图片。将图片比例调整为便于在手机上查看。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886956587_clpxes_G6NoHGyacAQnEFo.jpg"
+    ]
+  },
+  {
+    "id": 412,
+    "title": "现有图像的真人版",
+    "description": "一个简单的基础提示，用于将动画或风格化的帧转换为同一场景的真实真人电影版本。",
+    "prompt": "给我看图片 1 的真人版电影。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887432150_fmwkp2_G6NnhH9bIAEXW_q.jpg",
+      "https://cdn.gooo.ai/cms/1763887434560_zu9rg0_G6NnnEQbgAAV6IS.jpg"
+    ]
+  },
+  {
+    "id": 413,
+    "title": "烤面包的古怪流程图",
+    "description": "一个有趣的提示，可以生成一个极其复杂、解释如何烤面包的流程图，非常适合幽默的教学海报。",
+    "prompt": "我需要一份关于如何烤面包的流程图；请把它做得尽可能古怪、夸张和复杂。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887506853_e1hv7p_G6NnTULXIAAg-68.jpg"
+    ]
+  },
+  {
+    "id": 414,
+    "title": "锐化模糊的生活照",
+    "description": "将模糊的照片转换为超清晰、逼真的生活方式图像，同时不改变整体构图或物体。",
+    "prompt": "将提供的模糊照片转换为超清晰、逼真的生活方式照片，同时不改变构图或物体。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887425022_9d1hul_G6NmVhRWQAE9ARo.jpg",
+      "https://cdn.gooo.ai/cms/1763887428254_ivrbwj_G6NmYzUXEAAfg7a.jpg"
+    ]
+  },
+  {
+    "id": 415,
+    "title": "日本游客在台湾夜市游玩",
+    "description": "一个英文提示，用于生成一张逼真的照片级图像，内容是日本人在台湾旅行并享受夜市，其中包含正确渲染的中文文本。",
+    "prompt": "正在前往 台湾 旅行的日本人。他们正在享受夜市。\n\n一张逼真的照片级图像。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886345516_j832xn_G6NlyZdbgAAA3rh.png"
+    ]
+  },
+  {
+    "id": 416,
+    "title": "乐高式自我改造",
+    "description": "一个快速编辑提示，可以将照片中的人物变成乐高风格，同时保持其他一切不变。",
+    "prompt": "把我变成乐高，其他一切保持不变。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887174147_4yu2vi_G6NkpVsX0AAgQcP.jpg",
+      "https://cdn.gooo.ai/cms/1763887176622_jd7enp_G6NlLmpXYAAAlUs.jpg"
+    ]
+  },
+  {
+    "id": 417,
+    "title": "超现实倒置人脸肖像",
+    "description": "一张详细的英文提示，用于拍摄一名男子的肖像照，其面部元素被重新排列和倒置，非常适合超现实或身体恐怖风格的实验。",
+    "prompt": "一个男人倒立着，嘴巴在上方，鼻子颠倒，眼睛在下方，拍摄的肖像照。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886112858_mxhalv_G6NkgEjWkAAoPxO.jpg"
+    ]
+  },
+  {
+    "id": 418,
+    "title": "现代动漫电影风格，只修改左边的女孩",
+    "description": "一个简洁的提示词，用于将图像中左侧的女孩转换为现代动漫电影艺术风格，同时保持图像的其余部分不变。",
+    "prompt": "生成現代動漫電影畫風的圖片，只改左邊的女生",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886891788_hesfzy_G6NjQy0acAoDa_V.jpg"
+    ]
+  },
+  {
+    "id": 419,
+    "title": "猫咪喝可乐插画",
+    "description": "一个有趣的提示，让一只猫喝可口可乐，适合用于有趣的帖子或表情包。",
+    "prompt": "生成一张猫咪喝可口可乐的图片",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887370035_6eqxti_G6NhCALXIAMWBgY.jpg"
+    ]
+  },
+  {
+    "id": 420,
+    "title": "卡片、莎士比亚和纳博科夫场景",
+    "description": "三个简短的提示：将交易卡重新着色为黑色，描绘莎士比亚写下一句名言，以及展示纳博科夫在蝴蝶环绕中描绘原牛和天使。",
+    "prompt": "把所有这些卡片都变成黑色。\n\n创作一幅莎士比亚正在写马克·安东尼在凯撒葬礼上著名开场白的画作。\n\n创作一幅纳博科夫正在写关于原牛和天使的著名诗句的画作。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887308885_hhfm26_G6NgDE5acAEiYR_.jpg",
+      "https://cdn.gooo.ai/cms/1763887312556_2x9fqb_G6NgD1IXIAgHSPd.jpg",
+      "https://cdn.gooo.ai/cms/1763887315424_5yjdlk_G6NhHD3WcAAnJF5.jpg",
+      "https://cdn.gooo.ai/cms/1763887318326_ylzg9m_G6NhYEMXIAAUUGt.jpg"
+    ]
+  },
+  {
+    "id": 421,
+    "title": "专业的蛋糕广告照片",
+    "description": "一个产品摄影提示，将芝士蛋糕变成高端广告照片，强调光线、角度以及品牌“4D 减法”工艺（不添加奶油、淀粉或水）。",
+    "prompt": "幫我把這個起士公爵的蛋糕做成非常專業的廣告照，光影和角度都呈現出一種高級的美味感，呈現出起士公爵的4D減法工法：不加奶油、不加鮮奶油、不加澱粉、不加水。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886896578_mifvqx_G6Nil7facAcPf-U.jpg",
+      "https://cdn.gooo.ai/cms/1763886899107_ygsl1r_G6Nil7eacAIMHdd.jpg"
+    ]
+  },
+  {
+    "id": 422,
+    "title": "你能想象到的最奇怪的日常照片",
+    "description": "一个有趣的提示，要求模型创作出最奇怪的、看似平淡无奇的照片。",
+    "prompt": "你能想象到的最奇怪的日常照片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887022103_jraerb_G6NhrBvXsAACxOl.jpg",
+      "https://cdn.gooo.ai/cms/1763887025151_8g0nex_G6NcZsJXgAA3XBE.jpg"
+    ]
+  },
+  {
+    "id": 423,
+    "title": "全新宝可梦像素艺术对战场景",
+    "description": "使用现有的像素艺术战斗场景作为参考，生成一个包含不同宝可梦和环境的新战斗。",
+    "prompt": "将场景切换到一场新的战斗和环境，并加入新的宝可梦。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887438773_h6vtsn_G6NhJQkXIAIuM5D.jpg",
+      "https://cdn.gooo.ai/cms/1763887442295_sp9076_G6NhKrgXIAMa7ia.jpg",
+      "https://cdn.gooo.ai/cms/1763887445305_ix19je_G6NhQXjXIAAz23a.jpg",
+      "https://cdn.gooo.ai/cms/1763887447714_zmk1hr_G6Nhdo7XIAAbOXI.jpg"
+    ]
+  },
+  {
+    "id": 424,
+    "title": "草图变身热血漫画风格",
+    "description": "一个非常简短的日文提示，要求将图片转换为某种能力战斗漫画的风格，这对于风格化现有艺术作品很有用。",
+    "prompt": "以某部超能力格斗漫画的风格来呈现。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886376542_mn12v7_G6NhVq9bIAAf4M2.jpg",
+      "https://cdn.gooo.ai/cms/1763886380700_dvc0v0_G6NhVq8bIAEpBW9.jpg",
+      "https://cdn.gooo.ai/cms/1763886383778_gum70y_G6NhVq9acAgprNF.jpg"
+    ]
+  },
+  {
+    "id": 425,
+    "title": "现代喷气式客机的剖面信息图",
+    "description": "一个用于高度详细的未来主义 3D 剖面图的中文长提示，该剖面图展示了一架现代商用喷气式飞机的内部结构和带标签的组件，非常适合教育和技术视觉效果。",
+    "prompt": "创作一幅极具科技感的3D立体剖面信息图，旨在展示现代商用喷气式飞机的内部结构与运作原理。图面以高度还原和精细化的方式呈现，将飞机主体（包括机身、机翼、尾翼及重点展示的涡扇发动机）进行半拆解式的剖面处理，揭示其复杂的内在构造。关键零部件（例如：驾驶舱航电系统、客舱框架、货舱、燃油箱、机翼翼肋/翼梁、发动机压气机/涡轮、起落架机械装置等）被有序地拆解、悬浮排列，并用引导线连接至主体。每个主要部分都配有清晰、专业的英文标注，明确注明结构名称及其简洁的功能描述。整体布局追求极致的整洁与逻辑性，背景干净，风格宛如一张未来的交互式高级工程蓝图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886820091_wakxwf_G6NhVanacAUJgrY.jpg",
+      "https://cdn.gooo.ai/cms/1763886822882_mrgq08_G6L8MkOacAEdiPG.jpg",
+      "https://cdn.gooo.ai/cms/1763886826387_prwiiv_G6L8Ox2acAAZB5B.jpg"
+    ]
+  },
+  {
+    "id": 426,
+    "title": "童年照片的故事板",
+    "description": "一个提示，可以将一张童年照片变成一个 9 格故事板，想象照片拍摄前发生的事件，非常适合制作动画回忆和叙事序列。",
+    "prompt": "分析这张图片，然后根据导致这张照片的事件创建一个时间线。制作一个分镜脚本，就像一部电影一样：一个 9 格的分镜脚本网格，展示事件的顺序，每个序列按时间先后排列。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887217867_l6zxjh_G6Nek32X0AALNwF.png"
+    ]
+  },
+  {
+    "id": 427,
+    "title": "奥斯卡自拍，就像一个角色选择游戏界面",
+    "description": "一个有趣的提示，将参考照片中的八个人变成一个“选择你的角色”风格的视频游戏选择界面。",
+    "prompt": "在“选择你的角色”视频游戏截图中展示这 8 个人",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887486298_v49rjp_G6NeDeYXMAA9hP2.jpg",
+      "https://cdn.gooo.ai/cms/1763887490486_3ewlu3_G6NeVOzWcAAPN2J.jpg"
+    ]
+  },
+  {
+    "id": 428,
+    "title": "研究论文中的双语图表",
+    "description": "一个提示，指示模型仔细阅读一篇链接的论文，然后绘制一个专业的双语图表来总结该论文，这对于学术可视化很有用。",
+    "prompt": "你先仔细阅读这篇论文，然后为我绘制专业的 中英双语的 Diagram：https://t.co/R045a4Otpd",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886680285_eh9446_G6NeKoracAQiVRI.jpg"
+    ]
+  },
+  {
+    "id": 429,
+    "title": "20 世纪 80 年代美国引进的电视动画风格",
+    "description": "一个最简提示，指定 80 年代美国进口电视动画风格，适用于复古动画节目图像。",
+    "prompt": "80 年代美国引进的电视动画。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886086271_a22o2v_G6NeWS4WQAAMyP-.jpg"
+    ]
+  },
+  {
+    "id": 430,
+    "title": "Transformer 架构图解",
+    "description": "请 Nano Banana Pro 为原始 Transformer 架构图添加注释。",
+    "prompt": "嘿，Nano Banana Pro，请在原始 Transformer 架构图上添加注释。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886280265_cp2jg0_G6NbnamXQAAlPCO.jpg"
+    ]
+  },
+  {
+    "id": 431,
+    "title": "20 世纪 80 年代情景喜剧风格图片",
+    "description": "一个简短的、标签式的提示，指示 80 年代情景喜剧的外观，适用于复古电视风格的图像。",
+    "prompt": "80 年代情景喜剧。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886070845_vjvw9t_G6NeANeWEAA53WN.jpg"
+    ]
+  },
+  {
+    "id": 432,
+    "title": "多角色参考图组",
+    "description": "一个简单的提示，要求 Nano Banana Pro 将多个单独的角色参考图像组合成一张合影。",
+    "prompt": "制作一张所有角色的合影",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887340905_vlkqp4_G6NdqA6XsAEOakK.jpg",
+      "https://cdn.gooo.ai/cms/1763887343703_m7eh5b_G6NdsyPXgAALrpY.jpg"
+    ]
+  },
+  {
+    "id": 433,
+    "title": "竖向四格剧画风格漫画 YAML 提示词",
+    "description": "一个冗长的英文 YAML 提示，详细说明了布局、艺术风格、漫画元素以及一个 1:3 垂直四格剧画风格漫画页面的逐格内容，其中描绘了骑士 Alex 在一家便利店工作的情景。",
+    "prompt": "generation_parameters:\n  aspect_ratio: \"1:3\"\n\nmanga_page_generation_prompt:\n  layout_structure:\n    type: 整页垂直四格漫画（四格漫画布局）。\n    arrangement: 四个大致呈正方形的画格从上到下完美垂直堆叠。\n    spacing: 每个画格之间有清晰的白色分隔线。\n    title_area: （可选）顶部留有小块区域用于标题。\n    overall_aesthetic: 印刷漫画杂志页面的外观，纸张略带纹理。\n\n  art_style:\n    description: 1970 年代至 80 年代日本剧画风格：粗犷、重阴影、严肃的基调。\n    color_palette: 去饱和、浓重的油画色彩、棕褐色调、黑暗氛围。\n    texture: 粗糙的墨线、模拟笔触、戏剧性的交叉阴影和墨水渗出效果。\n\n  manga_elements:\n    speech_bubbles:\n      - Presence: 画格内有多个手绘对话气泡（fukidashi）。\n        Style: 粗糙、有机的轮廓，内含占位符日文标记。\n    sound_effects:\n      - Presence: 融入画作中的粗体片假名音效。\n        Style: 粗犷的书法（例如，“ドォォォン”、“ゴゴゴゴ”）。\n\n  panel_content_sequence:\n    panel_1_top (Intro):\n      - Scene: [广角] 骑士亚历克斯（表情严肃，身着全套盔甲）僵硬地站在现代便利店柜台后面。\n      - Text/FX: 对话气泡中是正式的问候语。小小的“ウィーン”（开门声）。\n    panel_2_upper_mid (Development):\n      - Scene: 一位受惊的上班族顾客畏缩不前，亚历克斯凶狠地瞪着他，身体前倾越过柜台。\n      - Text/FX: 顾客受惊的气泡。亚历克斯周围有巨大的“ゴゴゴゴ”（威胁音效）。\n    panel_3_lower_mid (Twist):\n      - Scene: [戏剧性特写] 亚历克斯拔出他的巨型阔剑，只是为了指向一个便当盒。\n      - Text/FX: 尖刺状的叫喊气泡“貴様の糧はこれか!!”和强烈的“ジャキィィン！”（拔剑音效）。\n    panel_4_bottom (Conclusion):\n      - Scene: 精疲力尽的店长（画风较随意）用卷起来的杂志敲打亚历克斯的头。亚历克斯看起来滑稽地沮丧。\n      - Text/FX: 店长愤怒的气泡“剣をしまうんだよ！”和清脆的“スパン！”（拍打音效）。\n\nnegative_prompt:\n  - 单幅插画、方形图像、横向构图\n  - 画格水平排列成 2x2 网格\n  - 现代干净的数字艺术、动漫风格\n  - 明亮欢快的色彩，无阴影",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886197419_hmjgce_G6Nb9qsacAALnlq.jpg"
+    ]
+  },
+  {
+    "id": 434,
+    "title": "9 图 Instagram 风格周末照片集锦",
+    "description": "生成一个九宫格 Instagram 网格，展示一个人周末不同的抓拍和生活瞬间。",
+    "prompt": "生成此人周末的 9 张“照片合集”网格：一张镜面自拍、一张咖啡馆照片、一张与朋友共进晚餐的照片、一张模糊的派对照片、一张步行照片、一张笔记本电脑和咖啡的工作照片、一张宠物瞬间、一张日落照片和一张开怀大笑的抓拍。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887396781_0ldqvi_G6NcC-macAQxnPL.jpg"
+    ]
+  },
+  {
+    "id": 435,
+    "title": "根据漫画内容添加对话",
+    "description": "一个提示，指示模型根据无对白的漫画推断故事，并在分格中插入适当的对话。",
+    "prompt": "请根据这部漫画的内容，尝试为其添加对话。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886406981_q7b469_G6NZqX0acAQG4D9.png",
+      "https://cdn.gooo.ai/cms/1763886410595_crf0um_G6NZ0ntacAYBuqH.jpg",
+      "https://cdn.gooo.ai/cms/1763886413430_xg9nkz_G6NZ4mbacAQb_xB.jpg"
+    ]
+  },
+  {
+    "id": 436,
+    "title": "将场景变成立体模型",
+    "description": "一个风格转换提示，用于将输入主体重新诠释为微缩立体模型，适用于风格化、模型般的视觉效果。",
+    "prompt": "制作一个立体模型",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887495429_reisub_G6NYropW4AA85ZX.jpg",
+      "https://cdn.gooo.ai/cms/1763887497987_rzf24f_G6NZky6WIAETtNT.jpg"
+    ]
+  },
+  {
+    "id": 437,
+    "title": "带有文字的中国古典诗歌插图（重复）",
+    "description": "提示的副本，用于说明这首长篇古典诗歌，并在图片中包含原始中文文本。",
+    "prompt": "根据以下古诗画一幅画，并附上原文。\n汉皇重色思倾国，御宇多年求不得。杨家有女初长成，养在深闺人未识。天生丽质难自弃，一朝选在君王侧。回眸一笑百媚生，六宫粉黛无颜色。\n春寒赐浴华清池，温泉水滑洗凝脂。侍儿扶起娇无力，始是新承恩泽时。云鬓花颜金步摇，芙蓉帐暖度春宵。春宵苦短日高起，从此君王不早朝。\n承欢侍宴无闲暇，春从春游夜专夜。后宫佳丽三千人，三千宠爱在一身。金屋妆成娇侍夜，玉楼宴罢醉和春。姊妹弟兄皆列土，可怜光彩生门户。遂令天下父母心，不重生男重生女。\n骊宫高处入青云，仙乐风飘处处闻。缓歌慢舞凝丝竹，尽日君王看不足。渔阳鼙鼓动地来，惊破霓裳羽衣曲。九重城阙烟尘生，千乘万骑西南行。\n翠华摇摇行复止，西出都门百余里。六军不发无奈何，宛转蛾眉马前死。花钿委地无人收，翠翘金雀玉搔头。君王掩面救不得，回看血泪相和流。\n黄埃散漫风萧索，云栈萦纡登剑阁。峨嵋山下少人行，旌旗无光日色薄。蜀江水碧蜀山青，圣主朝朝暮暮情。行宫见月伤心色，夜雨闻铃肠断声。\n天旋地转回龙驭，到此踌躇不能去。马嵬坡下泥土中，不见玉颜空死处。君臣相顾尽沾衣，东望都门信马归。\n归来池苑皆依旧，太液芙蓉未央柳。芙蓉如面柳如眉，对此如何不泪垂？春风桃李花开日，秋雨梧桐叶落时。西宫南内多秋草，落叶满阶红不扫。\n梨园弟子白发新，椒房阿监青娥老。夕殿萤飞思悄然，孤灯挑尽未成眠。迟迟钟鼓初长夜，耿耿星河欲曙天。鸳鸯瓦冷霜华重，翡翠衾寒谁与共？悠悠生死别经年，魂魄不曾来入梦。\n临邛道士鸿都客，能以精诚致魂魄。为感君王辗转思，遂教方士殷勤觅。排空驭气奔如电，升天入地求之遍。上穷碧落下黄泉，两处茫茫皆不见。\n忽闻海上有仙山，山在虚无缥缈间。楼阁玲珑五云起，其中绰约多仙子。中有一人字太真，雪肤花貌参差是。\n金阙西厢叩玉扃，转教小玉报双成。闻道汉家天子使，九华帐里梦魂惊。揽衣推枕起徘徊，珠箔银屏迤俪开。云鬓半偏新睡觉，花冠不整下堂来。风吹仙袂飘飖举，犹似霓裳羽衣舞。玉容寂寞泪阑干，梨花一枝春带雨。\n含情凝睇谢君王，一别音容两渺茫。昭阳殿里恩爱绝，蓬莱宫中日月长。回头下望人寰处，不见长安见尘雾。惟将旧物表深情，钿合金钗寄将去。钗留一股合一扇，钗擘黄金合分钿。但令心似金钿坚，天上人间会相见。\n临别殷勤重寄词，词中有誓两心知。七月七日长生殿，夜半无人私语时。在天愿作比翼鸟，在地愿为连理枝。天长地久有时尽，此恨绵绵无绝期。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886701554_c0zocl_G6NZPo_acAYrjpG.jpg",
+      "https://cdn.gooo.ai/cms/1763886704396_uoodfl_G6MjNA9aIAAaLoG.jpg"
+    ]
+  },
+  {
+    "id": 438,
+    "title": "国际象棋传奇人物齐聚酒吧",
+    "description": "一个简单的场景提示，要求鲍比·费舍尔（Bobby Fischer）、米哈伊尔·塔尔（Mikhail Tal）和马格努斯·卡尔森（Magnus Carlsen）一起在酒吧里，非常适合人物群像插画。",
+    "prompt": "鲍比·菲舍尔、米哈伊尔·塔尔和马格努斯·卡尔森在一家酒吧里一起闲逛。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887298239_0r0xjh_G6NX0OpacAcwKxS.jpg",
+      "https://cdn.gooo.ai/cms/1763887301581_2hytw4_G6NVRy7acAAgmJJ.jpg"
+    ]
+  },
+  {
+    "id": 439,
+    "title": "时尚杂志文章全文",
+    "description": "生成一张光面杂志文章平铺在桌上的照片，其中包含所有提供的文本，并带有精心设计的排版、照片和引文。",
+    "prompt": "将这段文字原封不动地放入一张光面杂志文章的图片中，这张杂志放在桌子上，配有照片、精美的排版设计、引文和粗体格式。文字内容：[...the unformatted article]。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887054878_tg7sxg_G6NXhzHWUAAL6HP.jpg",
+      "https://cdn.gooo.ai/cms/1763887057441_xspa3g_G6NXqKsWAAAPRpy.jpg",
+      "https://cdn.gooo.ai/cms/1763887060611_v5mhxw_G6NWMceXMAA4Yn8.jpg"
+    ]
+  },
+  {
+    "id": 440,
+    "title": "毛茸茸角色们的温馨观影时光",
+    "description": "一个描述丰富的特写镜头场景：14 个毛茸茸的角色挤在一起，在一个舒适的客厅里观看一台老式电视机。",
+    "prompt": "一个中景镜头，显示 14 只毛茸茸的卡通人物挤在一起，并排坐在一个磨损的米色布艺沙发上和地板上。它们都面向前方，看着沙发前一张矮木桌上摆放的老式木箱电视机。房间光线昏暗，左侧窗户透进的暖光和电视机的光芒照亮了这些生物的脸庞和毛茸茸的质感。背景是一个舒适、略显凌乱的客厅，铺着编织地毯，一个书架上摆满了旧书，背景中还有质朴的厨房元素。整体氛围温暖、舒适且充满乐趣。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887392995_q551ez_G6NXWXbW8AAUG4W.jpg"
+    ]
+  },
+  {
+    "id": 441,
+    "title": "手绘的日本虚构小镇地图",
+    "description": "一个日语提示，用于生成一个虚构日本城镇的手绘风格地图，非常适合世界构建或演示视觉效果。",
+    "prompt": "一张手绘的虚构小镇地图，位于 日本。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886206862_xhs5vk_G6NXBeZacAM7KM5.jpg"
+    ]
+  },
+  {
+    "id": 442,
+    "title": "杂志文章长文本布局",
+    "description": "此提示词可将长篇文章文本渲染为带有照片和现代排版、置于桌面上的时尚光面杂志文章。",
+    "prompt": "将这段文字原封不动地放入一张光面杂志文章的图片中，图片中包含照片、精美的排版设计、引文和粗体格式。文字内容：[在此粘贴完整的未格式化文章]",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887400520_thdbip_G6NWMceXMAA4Yn8.jpg"
+    ]
+  },
+  {
+    "id": 443,
+    "title": "带有文字的中国古典诗歌插图",
+    "description": "一个提示，指示模型描绘著名的唐诗《长恨歌》，并包含完整的中文原文，适用于文学或教育艺术作品。",
+    "prompt": "根据以下古诗画一幅画，并附上原文。\n汉皇重色思倾国，御宇多年求不得。杨家有女初长成，养在深闺人未识。天生丽质难自弃，一朝选在君王侧。回眸一笑百媚生，六宫粉黛无颜色。\n春寒赐浴华清池，温泉水滑洗凝脂。侍儿扶起娇无力，始是新承恩泽时。云鬓花颜金步摇，芙蓉帐暖度春宵。春宵苦短日高起，从此君王不早朝。\n承欢侍宴无闲暇，春从春游夜专夜。后宫佳丽三千人，三千宠爱在一身。金屋妆成娇侍夜，玉楼宴罢醉和春。姊妹弟兄皆列土，可怜光彩生门户。遂令天下父母心，不重生男重生女。\n骊宫高处入青云，仙乐风飘处处闻。缓歌慢舞凝丝竹，尽日君王看不足。渔阳鼙鼓动地来，惊破霓裳羽衣曲。九重城阙烟尘生，千乘万骑西南行。\n翠华摇摇行复止，西出都门百余里。六军不发无奈何，宛转蛾眉马前死。花钿委地无人收，翠翘金雀玉搔头。君王掩面救不得，回看血泪相和流。\n黄埃散漫风萧索，云栈萦纡登剑阁。峨嵋山下少人行，旌旗无光日色薄。蜀江水碧蜀山青，圣主朝朝暮暮情。行宫见月伤心色，夜雨闻铃肠断声。\n天旋地转回龙驭，到此踌躇不能去。马嵬坡下泥土中，不见玉颜空死处。君臣相顾尽沾衣，东望都门信马归。\n归来池苑皆依旧，太液芙蓉未央柳。芙蓉如面柳如眉，对此如何不泪垂？春风桃李花开日，秋雨梧桐叶落时。西宫南内多秋草，落叶满阶红不扫。\n梨园弟子白发新，椒房阿监青娥老。夕殿萤飞思悄然，孤灯挑尽未成眠。迟迟钟鼓初长夜，耿耿星河欲曙天。鸳鸯瓦冷霜华重，翡翠衾寒谁与共？悠悠生死别经年，魂魄不曾来入梦。\n临邛道士鸿都客，能以精诚致魂魄。为感君王辗转思，遂教方士殷勤觅。排空驭气奔如电，升天入地求之遍。上穷碧落下黄泉，两处茫茫皆不见。\n忽闻海上有仙山，山在虚无缥缈间。楼阁玲珑五云起，其中绰约多仙子。中有一人字太真，雪肤花貌参差是。\n金阙西厢叩玉扃，转教小玉报双成。闻道汉家天子使，九华帐里梦魂惊。揽衣推枕起徘徊，珠箔银屏迤俪开。云鬓半偏新睡觉，花冠不整下堂来。风吹仙袂飘飖举，犹似霓裳羽衣舞。玉容寂寞泪阑干，梨花一枝春带雨。\n含情凝睇谢君王，一别音容两渺茫。昭阳殿里恩爱绝，蓬莱宫中日月长。回头下望人寰处，不见长安见尘雾。惟将旧物表深情，钿合金钗寄将去。钗留一股合一扇，钗擘黄金合分钿。但令心似金钿坚，天上人间会相见。\n临别殷勤重寄词，词中有誓两心知。七月七日长生殿，夜半无人私语时。在天愿作比翼鸟，在地愿为连理枝。天长地久有时尽，此恨绵绵无绝期。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886657954_vlcbiv_G6NWDdCakAELqTM.jpg",
+      "https://cdn.gooo.ai/cms/1763886661651_tidtrq_G6MjNA9aIAAaLoG.jpg"
+    ]
+  },
+  {
+    "id": 444,
+    "title": "以谢尔盖·布林为模特进行服装搭配",
+    "description": "一个后续提示，要求 AI 将之前生成的服装单品混搭成不同的穿搭，并以谢尔盖·布林 (Sergey Brin) 作为模特。",
+    "prompt": "现在，请将这些单品混合搭配，并以谢尔盖·布林 (Sergey Brin) 为模特，向我展示我可以搭配出的服装组合。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886935190_e13gkt_G6NVDa6acAgEsaR.jpg"
+    ]
+  },
+  {
+    "id": 445,
+    "title": "根据中国古典长诗创作的插画",
+    "description": "一个很长的中文提示，要求模型为一首著名的唐诗配图，并在图片中包含完整的原诗，适合用于古典文学海报或教学视觉材料。",
+    "prompt": "根据以下古诗画一幅画，并附上原文。\n汉皇重色思倾国，御宇多年求不得。杨家有女初长成，养在深闺人未识。天生丽质难自弃，一朝选在君王侧。回眸一笑百媚生，六宫粉黛无颜色。\n春寒赐浴华清池，温泉水滑洗凝脂。侍儿扶起娇无力，始是新承恩泽时。云鬓花颜金步摇，芙蓉帐暖度春宵。春宵苦短日高起，从此君王不早朝。\n承欢侍宴无闲暇，春从春游夜专夜。后宫佳丽三千人，三千宠爱在一身。金屋妆成娇侍夜，玉楼宴罢醉和春。姊妹弟兄皆列土，可怜光彩生门户。遂令天下父母心，不重生男重生女。\n骊宫高处入青云，仙乐风飘处处闻。缓歌慢舞凝丝竹，尽日君王看不足。渔阳鼙鼓动地来，惊破霓裳羽衣曲。九重城阙烟尘生，千乘万骑西南行。\n翠华摇摇行复止，西出都门百余里。六军不发无奈何，宛转蛾眉马前死。花钿委地无人收，翠翘金雀玉搔头。君王掩面救不得，回看血泪相和流。\n黄埃散漫风萧索，云栈萦纡登剑阁。峨嵋山下少人行，旌旗无光日色薄。蜀江水碧蜀山青，圣主朝朝暮暮情。行宫见月伤心色，夜雨闻铃肠断声。\n天旋地转回龙驭，到此踌躇不能去。马嵬坡下泥土中，不见玉颜空死处。君臣相顾尽沾衣，东望都门信马归。\n归来池苑皆依旧，太液芙蓉未央柳。芙蓉如面柳如眉，对此如何不泪垂？春风桃李花开日，秋雨梧桐叶落时。西宫南内多秋草，落叶满阶红不扫。\n梨园弟子白发新，椒房阿监青娥老。夕殿萤飞思悄然，孤灯挑尽未成眠。迟迟钟鼓初长夜，耿耿星河欲曙天。鸳鸯瓦冷霜华重，翡翠衾寒谁与共？悠悠生死别经年，魂魄不曾来入梦。\n临邛道士鸿都客，能以精诚致魂魄。为感君王辗转思，遂教方士殷勤觅。排空驭气奔如电，升天入地求之遍。上穷碧落下黄泉，两处茫茫皆不见。\n忽闻海上有仙山，山在虚无缥缈间。楼阁玲珑五云起，其中绰约多仙子。中有一人字太真，雪肤花貌参差是。\n金阙西厢叩玉扃，转教小玉报双成。闻道汉家天子使，九华帐里梦魂惊。揽衣推枕起徘徊，珠箔银屏迤逦开。云鬓半偏新睡觉，花冠不整下堂来。风吹仙袂飘飖举，犹似霓裳羽衣舞。玉容寂寞泪阑干，梨花一枝春带雨。\n含情凝睇谢君王，一别音容两渺茫。昭阳殿里恩爱绝，蓬莱宫中日月长。回头下望人寰处，不见长安见尘雾。惟将旧物表深情，钿合金钗寄将去。钗留一股合一扇，钗擘黄金合分钿。但令心似金钿坚，天上人间会相见。\n临别殷勤重寄词，词中有誓两心知。七月七日长生殿，夜半无人私语时。在天愿作比翼鸟，在地愿为连理枝。天长地久有时尽，此恨绵绵无绝期。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886771104_r7f79f_G6NVP_YaUAEBvfA.jpg",
+      "https://cdn.gooo.ai/cms/1763886775290_whll4j_G6MjNA9aIAAaLoG.jpg"
+    ]
+  },
+  {
+    "id": 446,
+    "title": "插画基于诗歌《长恨歌》",
+    "description": "请根据中国古典诗歌《长恨歌》创作一幅插画。插画中需包含完整的《长恨歌》诗文。",
+    "prompt": "根据以下古诗画一幅画，并附上原文。\n汉皇重色思倾国，御宇多年求不得。杨家有女初长成，养在深闺人未识。天生丽质难自弃，一朝选在君王侧。回眸一笑百媚生，六宫粉黛无颜色。\n春寒赐浴华清池，温泉水滑洗凝脂。侍儿扶起娇无力，始是新承恩泽时。云鬓花颜金步摇，芙蓉帐暖度春宵。春宵苦短日高起，从此君王不早朝。\n承欢侍宴无闲暇，春从春游夜专夜。后宫佳丽三千人，三千宠爱在一身。金屋妆成娇侍夜，玉楼宴罢醉和春。姊妹弟兄皆列土，可怜光彩生门户。遂令天下父母心，不重生男重生女。\n骊宫高处入青云，仙乐风飘处处闻。缓歌慢舞凝丝竹，尽日君王看不足。渔阳鼙鼓动地来，惊破霓裳羽衣曲。九重城阙烟尘生，千乘万骑西南行。\n翠华摇摇行复止，西出都门百余里。六军不发无奈何，宛转蛾眉马前死。花钿委地无人收，翠翘金雀玉搔头。君王掩面救不得，回看血泪相和流。\n黄埃散漫风萧索，云栈萦纡登剑阁。峨嵋山下少人行，旌旗无光日色薄。蜀江水碧蜀山青，圣主朝朝暮暮情。行宫见月伤心色，夜雨闻铃肠断声。\n天旋地转回龙驭，到此踌躇不能去。马嵬坡下泥土中，不见玉颜空死处。君臣相顾尽沾衣，东望都门信马归。\n归来池苑皆依旧，太液芙蓉未央柳。芙蓉如面柳如眉，对此如何不泪垂？春风桃李花开日，秋雨梧桐叶落时。西宫南内多秋草，落叶满阶红不扫。\n梨园弟子白发新，椒房阿监青娥老。夕殿萤飞思悄然，孤灯挑尽未成眠。迟迟钟鼓初长夜，耿耿星河欲曙天。鸳鸯瓦冷霜华重，翡翠衾寒谁与共？悠悠生死别经年，魂魄不曾来入梦。\n临邛道士鸿都客，能以精诚致魂魄。为感君王辗转思，遂教方士殷勤觅。排空驭气奔如电，升天入地求之遍。上穷碧落下黄泉，两处茫茫皆不见。\n忽闻海上有仙山，山在虚无缥缈间。楼阁玲珑五云起，其中绰约多仙子。中有一人字太真，雪肤花貌参差是。\n金阙西厢叩玉扃，转教小玉报双成。闻道汉家天子使，九华帐里梦魂惊。揽衣推枕起徘徊，珠箔银屏迤迤开。云鬓半偏新睡觉，花冠不整下堂来。风吹仙袂飘飖举，犹似霓裳羽衣舞。玉容寂寞泪阑干，梨花一枝春带雨。\n含情凝睇谢君王，一别音容两渺茫。昭阳殿里恩爱绝，蓬莱宫中日月长。回头下望人寰处，不见长安见尘雾。惟将旧物表深情，钿合金钗寄将去。钗留一股合一扇，钗擘黄金合分钿。但令心似金钿坚，天上人间会相见。\n临别殷勤重寄词，词中有誓两心知。七月七日长生殿，夜半无人私语时。在天愿作比翼鸟，在地愿为连理枝。天长地久有时尽，此恨绵绵无绝期。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886647059_omru2o_G6NVDc0acAkj8HI.jpg",
+      "https://cdn.gooo.ai/cms/1763886650400_h7hjqe_G6MjNA9aIAAaLoG.jpg"
+    ]
+  },
+  {
+    "id": 447,
+    "title": "世界末日后仅存的便利店",
+    "description": "一个丰富的中文提示，用于拍摄一张荒凉废土的广角照片，其中有最后一间仍在营业的便利店，包括具体的招牌文字和氛围。",
+    "prompt": "广角镜头拍摄荒凉的废土世界，沙漠中央伫立着一家破败但依然营业的便利店。阳光刺眼，尘土飞扬。便利店破碎的玻璃门上贴着一张巨大的、泛黄的告示，上面用红笔醒目地写着：“全人类最后一家便利店，不收瓶盖只收黄金”。屋顶的广告牌虽然生锈，但依稀可见一行大字：“再苦不能苦肚子，再穷不能穷教育”。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886647506_gxjrq4_G6NUwT2aMAAXs1N.jpg",
+      "https://cdn.gooo.ai/cms/1763886650455_enbwfr_G6MjNA9aIAAaLoG.jpg"
+    ]
+  },
+  {
+    "id": 448,
+    "title": "赛博朋克 80 年代中国街头小吃摊场景",
+    "description": "一个丰富的电影式提示，描述了一个赛博朋克风格的 1980 年代中国路边摊，由一位带着机械假肢的老人经营，摊位上挂着幽默的招牌，周围弥漫着雨夜霓虹的氛围。",
+    "prompt": "一张极具电影感的画面，描绘一个位于未来赛博朋克风格贫民窟的80年代风格中式路边摊。霓虹灯管闪烁着故障的粉色光芒。摊主是一个戴着机械义肢的老大爷。摊位上挂着一块做旧的木牌，上面用发光的荧光颜料手写着：“祖传老中医专治机械故障”。旁边还有一个电子屏滚动显示：“今日特价：高能电池爆炒螺丝钉”。烟火气十足，雨水打湿了地面反射着灯光。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886687980_l4cpks_G6NUgMhacAMFI5e.jpg",
+      "https://cdn.gooo.ai/cms/1763886691680_54004d_G6MjNA9aIAAaLoG.jpg"
+    ]
+  },
+  {
+    "id": 449,
+    "title": "逼真的人体骨骼系统信息图",
+    "description": "生成一张逼真的人体骨骼系统信息图，附带标签，非常适合教育内容。",
+    "prompt": "制作一张带有标签的逼真信息图，内容为 人体骨骼系统。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887077677_u8wsnh_gRfkx8K6X4IOkRHj.jpg"
+    ]
+  },
+  {
+    "id": 450,
+    "title": "生态系统营养级信息图",
+    "description": "一个用于生成关于生态系统中营养级和能量传递的详细信息图的提示，该信息图专为大学生设计，并带有标注的生态金字塔。",
+    "prompt": "为 大学生 制作一份关于生态系统中营养级和能量传递的详细信息图。该信息图应包含一个生态金字塔（能量金字塔或生物量金字塔），并定义生产者、初级消费者、次级消费者和三级消费者，以及",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887106001_v432rn_ZLj7dZKZK8ia_tvG.jpg"
+    ]
+  },
+  {
+    "id": 451,
+    "title": "加勒比地区紧张局势军事简报",
+    "description": "一个西班牙语提示，要求绘制一幅黑板画，画中一名美国士兵详细解释美国和委内瑞拉之间在加勒比海的军事紧张局势。",
+    "prompt": "画一个黑板，上面有一名 美国士兵 详细解释 美国和委内瑞拉之间加勒比海域的军事紧张局势。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886148404_ux93qq_G6NT8ycXcAAUnTW.jpg"
+    ]
+  },
+  {
+    "id": 452,
+    "title": "关于过去图像模型失败的信息图",
+    "description": "一对提示，用于创建和优化一个信息图，解释为什么 AI 模型在特定的视觉任务中表现不佳，其中会提及钟表时间以及训练数据问题。",
+    "prompt": "制作一张信息图，解释为什么人工智能以前不擅长这些任务，重点关注训练数据问题，例如广告中所有时钟都显示 10:10。\n\n研究该主题并改进信息图中的解释。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887243058_nlviu2_G6NTdMyW0AAu5Lg.jpg",
+      "https://cdn.gooo.ai/cms/1763887246032_65dbzm_G6NTdOQbMAAlqjI.jpg",
+      "https://cdn.gooo.ai/cms/1763887249351_g5hdy1_G6NTdM4WkAAim7r.jpg",
+      "https://cdn.gooo.ai/cms/1763887252542_squ8v4_G6NTdNJWoAAlxn2.jpg"
+    ]
+  },
+  {
+    "id": 453,
+    "title": "一生中的假日照片",
+    "description": "生成一系列假日风格的照片，展示同一个人变老至 80 岁。",
+    "prompt": "生成此人从幼年到 80 岁各个年龄段的节日照片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887441625_1huswc_G6NSYTlWcAAWEd-.jpg"
+    ]
+  },
+  {
+    "id": 454,
+    "title": "《飞出个未来》风格的宇宙飞船和警示标志",
+    "description": "一个用于生成卡通静止画面的提示，风格类似于《飞出个未来》，画面中一艘宇宙飞船面临着许多警告标志，非常适合幽默的科幻场景。",
+    "prompt": "创作一张未来风格卡通剧照，类似于《飞出个未来》，画面中一艘宇宙飞船漂浮在约 29 块写着“走开”的牌子前面。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887085226_95xwmz_G6NSRtKaEAA0lxc.jpg"
+    ]
+  },
+  {
+    "id": 455,
+    "title": "夜景都市大桥时尚肖像",
+    "description": "一个 JSON 格式的提示词，用于生成一张超逼真的黄昏肖像照：一位魅力四射的女士站在一座欧洲桥上，其中包含负面提示词、相机、灯光和姿势参数。",
+    "prompt": "```json\n{\n  \"title\": \"桥上夜景人像\",\n  \"prompt_text\": \"一名年轻成年女性模特在黄昏时分站在华丽的石桥栏杆上，拍摄全身肖像。她留着蓬松的齐肩深棕色波浪发。妆容精致迷人，涂着大胆的红色口红，眼部轮廓分明。她穿着一件短款修身黑色迷你连衣裙，略带褶皱效果，搭配及膝黑色靴子。腰间可见一条精致的银色身体链。背景是黄昏时分的欧洲城市，河流倒映着城市灯光，远处是灯火辉煌的历史建筑和桥梁。天空是深蓝色、紫色和灰色的戏剧性混合，云朵清晰可见。超写实、电影感、高细节、氛围感灯光。\",\n  \"negative_prompt\": \"模糊、低质量、变形、毁容、解剖结构不良、卡通、插画、绘画、过饱和、光线暗淡、构图差、水印、签名、现代建筑\",\n  \"model_tags\": [\n    \"黄昏摄影\",\n    \"城市风光人像\",\n    \"魅力写真\",\n    \"街头摄影（造型）\"\n  ],\n  \"camera_and_composition\": {\n    \"shot_type\": \"全身照\",\n    \"angle\": \"平视视角，略微向上倾斜，以捕捉天空和背景建筑。\",\n    \"framing\": \"垂直构图，主体略微偏左，遵循三分法构图原则，背景城市风光占据画面右侧和上半部分。\",\n    \"focal_length_mm\": 35,\n    \"depth_of_field\": \"适中，确保主体和近景（桥梁和附近的城市灯光）清晰对焦，最远处的元素略微柔和。\",\n    \"implied_aperture\": \"f/4.0–f/5.6\"\n  },\n  \"lighting_and_atmosphere\": {\n    \"lighting_type\": \"黄昏时分的自然环境光与人造城市灯光混合。\",\n    \"light_source_position\": \"来自上方和后方的环境暮光；来自城市建筑和桥梁的温暖人造光提供高光。\",\n    \"shadow_detail\": \"适合黄昏的柔和、漫射阴影，主体面部和肩部因环境光和反射而有更亮的高光。\",\n    \"color_grading\": \"天空和水面呈冷色调，城市灯光呈温暖的金色调，营造出平衡而丰富的黄昏调色板。\"\n  },\n  \"pose_and_expression\": {\n    \"pose_key_points\": \"一只手轻轻触碰头部右侧的头发，另一只手臂放松地搭在桥栏杆上。身体略微转向镜头，靠在栏杆上。\",\n    \"expression\": \"柔和、直视镜头，带着微妙而自信的表情，嘴唇微启。\",\n    \"body_language\": \"放松优雅，展示服装和风景如画的背景。\"\n  }\n}\n```",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887227490_locs2y_G6NQtYoa8AAy5OT.jpg"
+    ]
+  },
+  {
+    "id": 456,
+    "title": "桑拿房建造商根据参考照片绘制蓝图",
+    "description": "根据上传的参考图片，创建桑拿房的建造者风格蓝图。",
+    "prompt": "为这个 桑拿房 创建一份建造蓝图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887022531_ogpiv6_G6NPupRbQAArlxl.jpg"
+    ]
+  },
+  {
+    "id": 457,
+    "title": "添加带有刺绣文字的棒球帽",
+    "description": "一个后续编辑提示，用于在现有生成图像中添加一顶带有特定字母的棒球帽。",
+    "prompt": "给我一顶棒球帽，上面绣有“create”字样。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887043104_e5ge2l_A9Gnc23xIV-Rgm5N.jpg"
+    ]
+  },
+  {
+    "id": 458,
+    "title": "热腾腾大阪烧的 1:1 特写图片",
+    "description": "一个简洁的日文提示，用于生成铁板上新鲜烹制的御好烧的方形特写镜头。",
+    "prompt": "“别犹豫，大胆地加蛋黄酱吧。”\n一张特写、1:1 比例的图片，展示了铁板上新鲜出炉、热气腾腾的御好烧。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886617181_hra8mr_G6NPf7HW0AAWg6J.jpg",
+      "https://cdn.gooo.ai/cms/1763886620419_e7eghj_G6NPgJ3XoAAh2UQ.jpg",
+      "https://cdn.gooo.ai/cms/1763886629849_zovljm_G6NPgXGWsAAAfeC.jpg",
+      "https://cdn.gooo.ai/cms/1763886633996_fuuqo4_G6NPgkEWwAAQ-67.jpg"
+    ]
+  },
+  {
+    "id": 459,
+    "title": "根据参考照片制作 90 年代风格的胶片肖像",
+    "description": "一个冗长而详细的提示，用于将一张男士参考照片转化为一张温暖、颗粒感十足的 1990 年代胶片风格肖像，置于一个舒适的室内环境中。",
+    "prompt": "创作一张 90 年代风格的肖像照，人物与参考照片中的男子相同，保留其精确的面部特征和表情。图像应呈现出 90 年代胶片相机拍摄的效果，略带颗粒感，色调温暖。场景设在一个舒适、光线昏暗的房间里，相机闪光灯清晰可见，将光线聚焦在男子身上，而背景则略显阴影。\n画面中只显示他上半身。他优雅地摆着姿势，穿着简约而时尚的 90 年代服装，例如休闲衬衫或高领毛衣，与温暖的室内环境相得益彰。\n背景是一面白墙，上面钉着几张 90 年代好莱坞明星的杂志剪报和海报，增添了一丝怀旧气息。整体氛围应唤起经典的复古肖像感，自然而富有艺术感的打光。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887380219_clixza_G6NO9iaacAIIN1l.jpg",
+      "https://cdn.gooo.ai/cms/1763887383110_uechpo_G6NO9kPbkAAy5Mr.jpg"
+    ]
+  },
+  {
+    "id": 460,
+    "title": "台湾选举投票流程图（繁体中文）",
+    "description": "一个繁体中文提示，用于生成图文并茂的流程图，解释台湾县市长选举的投票程序和注意事项，非常适合公民教育材料。",
+    "prompt": "台灣縣市長選舉投票流程圖與注意事項，繁體中文，插圖式圖表",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886773834_cca6j7_G6NNTUFaEAEiEmw.jpg"
+    ]
+  },
+  {
+    "id": 461,
+    "title": "YouTube 缩略图创作者的工作流程五格漫画",
+    "description": "一个提示，生成一个五格漫画，展示一位 YouTube 缩略图创作者在 Photoshop 中进行设计，然后交付给客户，接着庆祝观看量提升，并分析数据。",
+    "prompt": "请创作一个五格漫画。\n内容为：一位 YouTube 缩略图创作者在 Photoshop 中制作缩略图，将其交付给客户，然后，在观看次数增加后，开心地在分析仪表板中分析表现。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886357554_x2nxw7_G6NMayAaIAA4Eel.jpg"
+    ]
+  },
+  {
+    "id": 462,
+    "title": "罗纳尔多与马斯克和普京的自拍",
+    "description": "一个幽默的推测性提示：克里斯蒂亚诺·罗纳尔多、埃隆·马斯克和弗拉基米尔·普京在白宫前合影自拍，他们都穿着西装。",
+    "prompt": "克里斯蒂亚诺·罗纳尔多与埃隆·马斯克和弗拉基米尔·普京自拍，三人均身着西装，站在白宫前。图片应捕捉到友好轻松的氛围，他们的脸部光线良好，白宫在背景中清晰可见。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887167739_14nsws_G6NLIB5acAM4xtu.jpg"
+    ]
+  },
+  {
+    "id": 463,
+    "title": "台湾 10,000 新台币发放信息图",
+    "description": "一个繁体中文的提示，要求模型创建一个图表，解释如何在台湾领取最近的 10,000 新台币补助金。",
+    "prompt": "台灣近期普發一萬的領取方式，繁體中文，插圖式圖表",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886749610_pgdhjn_G6NLFMVacA42YLz.jpg"
+    ]
+  },
+  {
+    "id": 464,
+    "title": "黑板上解勾股定理",
+    "description": "生成一张教室黑板的图像，上面逐步解出勾股定理，非常适合教育视觉材料。",
+    "prompt": "生成一张教室黑板的图片，上面正在逐步求解 Pythagorean theorem。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887044123_bo9c7q_G6NKpnLacAsZFHL.jpg"
+    ]
+  },
+  {
+    "id": 465,
+    "title": "关于生成式 AI 的四格讽刺漫画",
+    "description": "一个日语提示，指示模型创作一幅讽刺生成式 AI 本身的四格漫画。",
+    "prompt": "请创作一幅四格漫画，以讽刺生成式 AI。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886395696_fd2j10_G6NJHzzaUAAH906.jpg"
+    ]
+  },
+  {
+    "id": 466,
+    "title": "戴墨镜、留胡子的肖像编辑，比例 9:16",
+    "description": "一个编辑现有图片的提示，将其宽高比更改为 9:16，添加太阳镜和卷曲的黑色胡子，并将字体切换为方形库法体。",
+    "prompt": "将尺寸更改为 9:16，给他戴上太阳镜，加上卷曲的黑色小胡子，并将字体更改为 square Kufi。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886027263_895oeq_G6NIzU_WoAAG7X6.jpg",
+      "https://cdn.gooo.ai/cms/1763886039153_qanm5x_G6NE0jOXcAAuiOo.jpg"
+    ]
+  },
+  {
+    "id": 467,
+    "title": "将漫画翻译成日文并重新渲染为图像",
+    "description": "一个简单的提示，要求 Nano Banana Pro 将漫画翻译成日文，并以带有翻译文本的图片形式输出。",
+    "prompt": "请将这部漫画翻译成日文并制作成图片。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886397200_g6d3v4_G6NG1CracAMqUXk.png",
+      "https://cdn.gooo.ai/cms/1763886400324_g9t6c1_G6NG3h4bcAA00Lg.png",
+      "https://cdn.gooo.ai/cms/1763886404517_ulk83s_G6NGeYgbwAAauuC.png",
+      "https://cdn.gooo.ai/cms/1763886407901_8od4he_G6NGivTacAABH5y.png"
+    ]
+  },
+  {
+    "id": 468,
+    "title": "老年蓄须男子的黑白肖像",
+    "description": "一个直接的肖像提示，用于生成一张高度逼真的黑白照片，照片中是一位留着胡须的老人，侧光强烈，皱纹细节清晰。",
+    "prompt": "一张黑白肖像，一位蓄着胡须的老年男子，正面照，双眼深邃，布满细纹，一侧有强烈的自然光，高分辨率，照片风格非常写实。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887291411_v5xdnf_G6NEI2RacAExrMP.jpg",
+      "https://cdn.gooo.ai/cms/1763887309411_8pcft4_G6NELJ4acAUSUe-.jpg"
+    ]
+  },
+  {
+    "id": 469,
+    "title": "日式杂志风格的手冲咖啡流程图",
+    "description": "一份繁体中文的提示，用于绘制手冲咖啡流程图，并附有台湾繁体中文的简单说明，风格类似于日本时尚或生活杂志，非常适合咖啡馆视觉呈现。",
+    "prompt": "請畫出一張手沖咖啡流程圖附上簡單說明，日本流行雜誌風格，但是說明文字是台灣繁體中文",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886851879_iv7pon_G6NF90eacAMg3l3.jpg"
+    ]
+  },
+  {
+    "id": 470,
+    "title": "一位男士未经计划的狗仔队风格街头肖像",
+    "description": "一个电影风格的狗仔队式特写肖像提示，捕捉一个自信的男人在熙熙攘攘的人群中，带有刺眼的闪光灯和街头时尚的氛围。",
+    "prompt": "一张未经计划的狗仔队风格肖像，特写镜头捕捉到一位面部特征鲜明的男士，他自信地咧嘴一笑，回眸一瞥。拍摄角度略低，在模糊而熙攘的人群中，只展现了他的脸庞和肩膀。画面原始而充满自发性，由刺眼的闪光灯和高 ISO 纹理照亮。他身着深色高领毛衣和时尚太阳镜，散发出不费力的街头时尚魅力，其活力和氛围令人联想到巴黎时装周的喧嚣。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887468606_y1ni2w_G6NCNWlacAU3dDH.jpg"
+    ]
+  },
+  {
+    "id": 471,
+    "title": "Google Banana Band 演唱会海报",
+    "description": "一个中文提示，用于设计一张海报，宣布 Google Banana Band 将在特定日期于一个主要场馆举行演唱会，适合测试繁体中文的排版和布局。",
+    "prompt": "幫我製作一張海報，谷歌香蕉樂團即將在 2025/12/31 在大巨蛋開演唱會",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886676613_lexji3_G6M-nimacAILke5.jpg"
+    ]
+  },
+  {
+    "id": 472,
+    "title": "《长恨歌》插画",
+    "description": "与之前那首长诗的提示相同：根据古典诗歌《长恨歌》生成一幅插画，并在图片中包含完整的原文。",
+    "prompt": "根据以下古诗画一幅画，并附上原文。\n汉皇重色思倾国，御宇多年求不得。杨家有女初长成，养在深闺人未识。天生丽质难自弃，一朝选在君王侧。回眸一笑百媚生，六宫粉黛无颜色。\n春寒赐浴华清池，温泉水滑洗凝脂。侍儿扶起娇无力，始是新承恩泽时。云鬓花颜金步摇，芙蓉帐暖度春宵。春宵苦短日高起，从此君王不早朝。\n承欢侍宴无闲暇，春从春游夜专夜。后宫佳丽三千人，三千宠爱在一身。金屋妆成娇侍夜，玉楼宴罢醉和春。姊妹弟兄皆列土，可怜光彩生门户。遂令天下父母心，不重生男重生女。\n骊宫高处入青云，仙乐风飘处处闻。缓歌慢舞凝丝竹，尽日君王看不足。渔阳鼙鼓动地来，惊破霓裳羽衣曲。九重城阙烟尘生，千乘万骑西南行。\n翠华摇摇行复止，西出都门百余里。六军不发无奈何，宛转蛾眉马前死。花钿委地无人收，翠翘金雀玉搔头。君王掩面救不得，回看血泪相和流。\n黄埃散漫风萧索，云栈萦纡登剑阁。峨嵋山下少人行，旌旗无光日色薄。蜀江水碧蜀山青，圣主朝朝暮暮情。行宫见月伤心色，夜雨闻铃肠断声。\n天旋地转回龙驭，到此踌躇不能去。马嵬坡下泥土中，不见玉颜空死处。君臣相顾尽沾衣，东望都门信马归。\n归来池苑皆依旧，太液芙蓉未央柳。芙蓉如面柳如眉，对此如何不泪垂？春风桃李花开日，秋雨梧桐叶落时。西宫南内多秋草，落叶满阶红不扫。\n梨园弟子白发新，椒房阿监青娥老。夕殿萤飞思悄然，孤灯挑尽未成眠。迟迟钟鼓初长夜，耿耿星河欲曙天。鸳鸯瓦冷霜华重，翡翠衾寒谁与共？悠悠生死别经年，魂魄不曾来入梦。\n临邛道士鸿都客，能以精诚致魂魄。为感君王辗转思，遂教方士殷勤觅。排空驭气奔如电，升天入地求之遍。上穷碧落下黄泉，两处茫茫皆不见。\n忽闻海上有仙山，山在虚无缥缈间。楼阁玲珑五云起，其中绰约多仙子。中有一人字太真，雪肤花貌参差是。\n金阙西厢叩玉扃，转教小玉报双成。闻道汉家天子使，九华帐里梦魂惊。揽衣推枕起徘徊，珠箔银屏迤逦开。云鬓半偏新睡觉，花冠不整下堂来。风吹仙袂飘飖举，犹似霓裳羽衣舞。玉容寂寞泪阑干，梨花一枝春带雨。\n含情凝睇谢君王，一别音容两渺茫。昭阳殿里恩爱绝，蓬莱宫中日月长。回头下望人寰处，不见长安见尘雾。惟将旧物表深情，钿合金钗寄将去。钗留一股合一扇，钗擘黄金合分钿。但令心似金钿坚，天上人间会相见。\n临别殷勤重寄词，词中有誓两心知。七月七日长生殿，夜半无人私语时。在天愿作比翼鸟，在地愿为连理枝。天长地久有时尽，此恨绵绵无绝期。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886808052_fprdop_G6MjNA9aIAAaLoG.jpg",
+      "https://cdn.gooo.ai/cms/1763886810902_j90sia_G6L_z4macAM-vx3.jpg"
+    ]
+  },
+  {
+    "id": 473,
+    "title": "古典中文诗歌插画提示",
+    "description": "请根据这首古典诗歌创作一幅插画，并附上原文。",
+    "prompt": "给我画一张Nano Banana Pro的头图，要符合谷歌Nano Banana的品牌调性和设计元素",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886724051_10irbc_G6MheJ3acAQFxos.jpg",
+      "https://cdn.gooo.ai/cms/1763886726980_vzywif_G6L_z4macAM-vx3.jpg"
+    ]
+  },
+  {
+    "id": 474,
+    "title": "乐高史诗级蜘蛛侠电影海报场景",
+    "description": "一个详细的中文提示，用于创作一个史诗般的乐高风格蜘蛛侠动作场景，包含暴风雨的天空、闪电、散落的积木和电影海报式的构图。",
+    "prompt": "史诗级乐高蜘蛛侠摆出充满动感的动作姿势，展现其标志性超能力，身着标志性服装，色彩和细节真实还原。戏剧性的暴风雨天空中，耀眼的闪电照亮整个场景。超级英雄摆出英勇姿态，周围是旋转的乐高碎片和飞舞的积木块，场景中散落着小型乐高小人仔，它们正惊叹地注视着这一切。整体采用电影海报式构图，配以逼真渲染效果，营造出史诗般的超级英雄氛围，色彩浓郁饱和，运用专业的景深和富有戏剧性的光影效果",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886668521_fzthib_G6MgHcQacAIb5cC.jpg"
+    ]
+  },
+  {
+    "id": 475,
+    "title": "风暴中的电影时尚大片",
+    "description": "在多风的城市街道上拍摄一张具有电影感的高级时装编辑肖像，带有运动模糊效果，附带负面提示和高端渲染的技术参数。",
+    "prompt": "时尚电影感社论肖像，中景。一个人物面对镜头，置身于都市街道的狂风暴雨中。数百张飞舞的报纸和碎片在空中盘旋，背景和纸张带有强烈的水平运动模糊，以传达极快的速度和风力。人物身着 [在此插入服装细节]。面部保持清晰对焦，皮肤纹理超逼真，光线富有戏剧性，而环境则模糊。Vogue 美学，8K 分辨率，杰作，景深，定格动作镜头。\n\nnegative_prompt: 静态、平静、静止的空气、模糊的脸、扭曲的特征、卡通、插画、3D 渲染、糟糕的解剖结构、水印、低质量、噪点、颗粒、丑陋、变形。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886993492_ihaiqg_G6MdpCSacAErjmi.jpg",
+      "https://cdn.gooo.ai/cms/1763886997028_1sz99m_G6MdpCWbMAA2Vic.jpg"
+    ]
+  },
+  {
+    "id": 476,
+    "title": "身穿黑色蕾丝连衣裙的女士在黄金时段的肖像",
+    "description": "一个肖像摄影风格的提示，用于根据提供的参考面部和发型，生成一张美丽的女性在温暖的黄金时段的图像，身着奢华的黑色蕾丝服装，表情神秘。",
+    "prompt": "拍攝一張金色時刻的暖色調光線，模特是一位美麗的女士，使用提供的照片中的面部特徵和髮型。她身穿一件奢華的黑色蕾絲吊帶，袖子上有一個時尚的鏤空設計。優雅自信的姿態，她回眸一瞥，眼神優雅而神秘。她有一雙灰色的眼睛，一頭烏黑的長髮如瀑布般傾瀉而下。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886878832_yw8sb5_G6MU1DWacAY0eyv.jpg",
+      "https://cdn.gooo.ai/cms/1763886882235_h15qnv_G6MU3MNaEAEnP08.jpg",
+      "https://cdn.gooo.ai/cms/1763886884957_de37ck_G6MU6wxacAAZD9P.jpg"
+    ]
+  },
+  {
+    "id": 477,
+    "title": "根据图片说明完成绘图",
+    "description": "一个简洁的中文提示，指示模型根据输入图像中显示的要求完成绘图，适用于解决问题或完成工作表任务。",
+    "prompt": "按图片里的要求，完成这幅画",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886784088_zmro8e_G6MOXGLaUAAgHMy.png",
+      "https://cdn.gooo.ai/cms/1763886786811_rw3w0f_G6MOZdUbwAAoN3Z.jpg"
+    ]
+  },
+  {
+    "id": 478,
+    "title": "电影般的雨中街道、水下大教堂和设计转照片",
+    "description": "回复中包含多个中文提示：一条霓虹倒影下的雨中老街、一座带有体积光和潜水员的水下大教堂，以及将设计草图转化为实物图像的请求。",
+    "prompt": "老旧街道下着大雨，路灯昏黄，水面反射扭曲的霓虹招牌，一个人打着透明伞站在画面中央，看不清脸，浅景深，电影级构图，8K，颗粒感，略带蓝绿冷色调。\n\n古老的大教堂完全浸没在水下，阳光穿透水面，体积光线中充满漂浮粒子，彩色玻璃窗在石地板上投射出五彩斑斓的图案，成千上万微小气泡升腾，潜水员穿着流畅的服装\n\n将设计稿转为实物图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886733994_mv705z_G6MM5PwWkAA0LxK.jpg",
+      "https://cdn.gooo.ai/cms/1763886736904_1pcf6n_G6MM5PuWUAA0uPf.jpg",
+      "https://cdn.gooo.ai/cms/1763886739743_h0acba_G6MNSndWEAAb2RN.jpg",
+      "https://cdn.gooo.ai/cms/1763886742389_ngmhyh_G6MNSxYX0AAV9cz.jpg"
+    ]
+  },
+  {
+    "id": 479,
+    "title": "公园里一幅描绘欢乐人群的巴洛克风俗画",
+    "description": "回复中有一个英文提示，要求创作一幅荷兰/佛兰德黄金时代巴洛克风格的流派画作，画面为宽阔、细节丰富、充满节日气氛的公园场景，且不含任何文字。",
+    "prompt": "巴洛克风俗画，荷兰/佛兰德斯黄金时代，经典的“公园里的欢乐人群”节庆群像场景，以一幅高度细致的油画呈现，而非海报，无文字排版和无图形设计元素。\n超宽水平构图，灵感源自 17 世纪巴洛克绘画。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886755476_ezq14r_G6MEbEiWgAA2qbR.jpg",
+      "https://cdn.gooo.ai/cms/1763886758303_3gbq5t_G6H7fUzWoAAMD64.jpg"
+    ]
+  },
+  {
+    "id": 480,
+    "title": "地铁门旁的甜美日系女孩",
+    "description": "一个中文提示，用于生成一个站在地铁门旁边的日系可爱女孩，适合时尚或角色形象。",
+    "prompt": "生成一张日式风的美女图片，站在地铁门口，甜美动人",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886849353_zxiybl_G6MBmWmacAk9lnc.jpg"
+    ]
+  },
+  {
+    "id": 481,
+    "title": "霓虹边框中的赛博朋克女性",
+    "description": "一个结构化的 JSON 提示词，描述了一名女子独自一人站在迷雾弥漫的赛博朋克城市街道上，她的身影被一个发光的红色矩形框架勾勒出来，周围是青色和红色的灯光。",
+    "prompt": "```json\n{\n  \"description\": \"一名孤独的女性站在黑暗、多雾的城市环境中，她被一个发光的红色霓虹矩形框架衬托出剪影。整体色调为忧郁的青色和红色，构图极简，充满未来感。高楼在雾中逐渐淡出，带有柔和的漫射、戏剧性的对比、电影般的灯光、湿润路面的反光、赛博朋克氛围、体积雾和超精细渲染。\",\n  \"style\": {\n    \"mood\": \"电影感、超现实、极简\",\n    \"lighting\": \"霓虹红光与柔和的雾气漫射\",\n    \"colors\": \"青色阴影和红色高光\",\n    \"camera\": \"85 毫米镜头，低角度，高对比度\"\n  },\n  \"environment\": {\n    \"setting\": \"废弃的城市街道\",\n    \"weather\": \"浓雾\",\n    \"architecture\": \"高大、黑暗、现代的整体式建筑\"\n  },\n  \"character\": {\n    \"type\": \"剪影\",\n    \"gender\": \"女性\",\n    \"clothing\": \"细节极少的长外套\",\n    \"pose\": \"静止站立，面向前方\"\n  },\n  \"effects\": {\n    \"fog\": \"体积雾\",\n    \"light_frame\": \"发光的红色矩形传送门\",\n    \"reflections\": \"湿润路面上的微妙反光\"\n  }\n}\n```",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887306385_5ujmij_G6L2s31acAE90yy.jpg",
+      "https://cdn.gooo.ai/cms/1763887308435_o2n3pk_G6L2s3NbYAAKAGK.jpg",
+      "https://cdn.gooo.ai/cms/1763887315724_ecbxt3_G6L2s6ZaUAA8Gdx.jpg"
+    ]
+  },
+  {
+    "id": 482,
+    "title": "白天等距建筑编辑",
+    "description": "一个简洁的编辑风格提示，指示 Nano Banana 将现有建筑图像转换为白天的等距视图，非常适合建筑可视化。",
+    "prompt": "将图像变为白天场景，并使其呈等距视角（仅限建筑）。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886091199_d6gqli_G6IS91VWEAAwQMA.jpg",
+      "https://cdn.gooo.ai/cms/1763886093420_sanvuu_G6IS91JWYAAQkuN.jpg",
+      "https://cdn.gooo.ai/cms/1763886096140_cw2yfz_G6IS91QW4AAsEEr.jpg",
+      "https://cdn.gooo.ai/cms/1763886098409_9b1js1_G6IS91QXMAEv1zc.jpg"
+    ]
+  },
+  {
+    "id": 483,
+    "title": "超现实冬季公园漫步肖像",
+    "description": "一个结构化、参数化的提示，用于生成一张超写实的超高清肖像，描绘一名男子在寒冷的冬季城市公园中行走，具有浅景深和电影级灯光效果。",
+    "prompt": "主题：与参考图中的人物相同\n焦点：100% 聚焦于主体（清晰），背景 = 0% 聚焦（高斯模糊程度高）。\n环境：\n  - 地点：城市公园\n  - 时间：寒冷冬日的清晨\n  - 元素：薄雾弥漫的空气，结霜的草地，长而柔和的阴影，苍白的阳光。\n外貌：\n  - 服装：保暖冬装夹克，多层内搭，围巾整齐地围着，保暖长裤，低调的配饰。\n  - 氛围：平静，沉着，自然的晨间散步姿态。\n相机：\n  - 景深：非常浅。\n  - 镜头：85mm 电影人像镜头。\n  - 色调：冷蓝白色，高动态范围。\n  - 构图：中心加权，人像构图。\n输出：\n  - 超现实主义。\n  - 超高清。\n  - 服装和皮肤纹理细节丰富。\n  - 背景中的公园游客模糊。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763887130103_wp39sg_G6FtnYEbMAYRYA_.jpg",
+      "https://cdn.gooo.ai/cms/1763887134053_c444vg_G6FtnRmaYAA1zcs.jpg",
+      "https://cdn.gooo.ai/cms/1763887136391_sjd7do_G6FtnUub0AA4k1k.jpg"
+    ]
+  },
+  {
+    "id": 484,
+    "title": "带有 Chrome 浏览器和 YouTube 上 MrBeast 视频的 Windows 11 桌面",
+    "description": "生成一张 Windows 11 桌面截图，其中显示 Google Chrome 浏览器已打开，正在播放 YouTube，并能看到 MrBeast 视频的缩略图。",
+    "prompt": "生成一张Windows 11操作系统的桌面截图，截图中已打开Google Chrome浏览器，并在浏览器窗口内展示YouTube网站上Mr. Beast的视频缩略图。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886781465_hophpb_G6FpBNQbMAEVtK3.jpg"
+    ]
+  },
+  {
+    "id": 485,
+    "title": "SKT 携手 Uzi 和 Faker 赢得 S16 冠军",
+    "description": "生成一张图片，内容是选手 Uzi 带领 SKT 赢得 S16 冠军，队友中包括 Faker。",
+    "prompt": "生成一张UZl选手带领SKT战队在S16夺冠的图片，队员里有faker。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886787973_nqpo2n_G6FnhLAaYAAuMP_.jpg",
+      "https://cdn.gooo.ai/cms/1763886790281_gqbyv5_G6FnxudbMAECYkl.jpg",
+      "https://cdn.gooo.ai/cms/1763886793072_1caliu_G6Fn2LgbMAI52dB.jpg",
+      "https://cdn.gooo.ai/cms/1763886796021_2cdjnn_G6Fn-9FaEAAQpJF.jpg"
+    ]
+  },
+  {
+    "id": 486,
+    "title": "宿舍日常生活 iPhone 拍摄提示",
+    "description": "描述两名女学生在宿舍里的 iPhone 快照的长提示。",
+    "prompt": "iPhone随手拍，宿舍日常场景照片，两位穿着校服的女生坐在双层铁架床的下铺。左侧女生左腿搭床沿、右腿前伸，低头看手机；中间女生双腿弯曲并拢，身体端正。背景为女生宿舍，上铺堆放杂乱衣物，地面散落多双运动鞋、休闲鞋及袜子。低分辨率照片，随手拍，生活化随意氛围，展现宿舍放松日常状态。比例 9:16。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886849945_6tgkan_G6Fl-5MaAAAbKXd.jpg",
+      "https://cdn.gooo.ai/cms/1763886853291_4a6vpt_G6FmOJzbMAE2Oo6.jpg",
+      "https://cdn.gooo.ai/cms/1763886856716_i3wqqf_G6FmaBBaAAEiFje.png",
+      "https://cdn.gooo.ai/cms/1763886859624_028llv_G6FmbXLaYAEjR1Z.jpg"
+    ]
+  },
+  {
+    "id": 487,
+    "title": "苏打水产品主图",
+    "description": "一个中文提示，用于为一款名为“夏夜凉风”的柠檬味气泡水产品设计主电商图片，图片中需包含产品名称和特定标语，适用于产品详情页。",
+    "prompt": "为一款名为「夏夜沁风」的柠檬味气泡水设计一张电商详情页主图。要求包含产品名「夏夜沁风」，以及广告语「一口喝下整个夏天」，风格清新、有购买欲。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886819055_rhndmm_G6Fk90VbgAAyx-I.jpg",
+      "https://cdn.gooo.ai/cms/1763886822075_mfsfba_G6Fk_WXbMAAH5VV.jpg",
+      "https://cdn.gooo.ai/cms/1763886825086_leyxy5_G6FlCgfb0AAXpa5.jpg",
+      "https://cdn.gooo.ai/cms/1763886827994_gj7o3z_G6FlH9kbwAAbDeV.jpg"
+    ]
+  },
+  {
+    "id": 488,
+    "title": "中国诗歌和跨界人物提示",
+    "description": "诗歌插画和角色混搭的几个提示。",
+    "prompt": "给这句古诗词配图“落霞与孤鹜齐飞，秋水共长天一色”。\n生成蜡笔小新和小白在《清明上河图》的一角卖大福的场景\n生成孙悟空和林黛玉的合照。\n大漠孤烟直，长河落日圆。给这句诗配图\n手账风格，出一个冰激凌制作步骤教程图，步骤说明要中文。\n漫画分镜。\n电商产品联名，宣传图",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886898619_8vo7nt_G6DY5TPagAAmwof.jpg",
+      "https://cdn.gooo.ai/cms/1763886901912_dfa1je_G6DZWOabMAAp28m.jpg",
+      "https://cdn.gooo.ai/cms/1763886904944_rxgilc_G6DZZNKb0AAAunt.jpg",
+      "https://cdn.gooo.ai/cms/1763886907813_eppy8i_G6DaJKraEAA7XwM.jpg"
+    ]
+  },
+  {
+    "id": 489,
+    "title": "玻璃拟态个人品牌样机",
+    "description": "一个长篇的英/中混合提示（在回复中），用于制作一个现代玻璃拟态风格的视觉模型，该模型具有一个带有特定文本布局的圆角玻璃面板，用于个人品牌设计。",
+    "prompt": "生成一张极具现代感的玻璃拟态风格的视觉设计样机图\n\n3:4比例\n\n中央偏右1/3位置是一个半透明的玻璃质感圆角矩形面板，边缘柔和，具有模糊背景与渐变光影效果。面板上有以下文字：\n\n• 左上：Zho\n• 左下：\nArchitect\nArtist\nAi explorer\n• 右侧小字：Founder of https://t.co/s6eXbY9EAY",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886714392_p0ylvx_G6BingWbMAE8obT.jpg",
+      "https://cdn.gooo.ai/cms/1763886717027_s5hrbe_GpXuaKOXEAAoA1P.jpg"
+    ]
+  },
+  {
+    "id": 490,
+    "title": "公寓场景中的男人",
+    "description": "一个非常简单的法语提示，描述了一个公寓里的男人，可作为以人物为中心的图像的简单基础场景。",
+    "prompt": "公寓里的男人。",
+    "images": [
+      "https://cdn.gooo.ai/cms/1763886045964_c2a7pe_wCrV3zTcMFq7WRNR.jpg"
+    ]
+  }
+]

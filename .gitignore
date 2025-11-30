@@ -64,3 +64,4 @@ src/shared/types/cloudflare.d.ts
 .source
 
 .chats
+!src/data/
