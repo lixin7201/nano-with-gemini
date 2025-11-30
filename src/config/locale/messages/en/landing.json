@@ -105,10 +105,6 @@
     "image": {
       "src": "/imgs/features/admin.png",
       "alt": "hero"
-    },
-    "image_invert": {
-      "src": "/imgs/features/admin-dark.png",
-      "alt": "hero"
     }
   },
   "logos": {

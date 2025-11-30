@@ -76,9 +76,8 @@ export function FeaturesAccordion({
 
           <ScrollAnimation delay={0.2} direction="right">
             {/* min-w-0/flex-shrink to prevent overflow */}
-            <div className="bg-background relative flex min-w-0 flex-shrink overflow-hidden rounded-3xl border p-2">
-              <div className="absolute inset-0 right-0 ml-auto w-15 border-l bg-[repeating-linear-gradient(-45deg,var(--color-border),var(--color-border)_1px,transparent_1px,transparent_8px)]"></div>
-              <div className="bg-background relative aspect-76/59 w-full min-w-0 rounded-2xl sm:w-[calc(3/4*100%+3rem)]">
+            <div className="bg-background relative w-full min-w-0 rounded-2xl">
+              <div className="bg-background relative w-full min-w-0 rounded-2xl">
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={`${activeItem}-id`}
@@ -86,16 +85,16 @@ export function FeaturesAccordion({
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 6, scale: 0.98 }}
                     transition={{ duration: 0.2 }}
-                    className="size-full overflow-hidden rounded-2xl border bg-zinc-900 shadow-md"
+                    className="w-full overflow-hidden rounded-2xl border bg-zinc-900 shadow-md"
                   >
                     <Image
                       src={images[activeItem].image}
-                      className="size-full object-cover object-left-top dark:mix-blend-lighten"
+                      className="w-full h-auto dark:mix-blend-lighten"
                       alt={images[activeItem].alt}
                       width={1207}
                       height={929}
                       // prevent img from exceeding parent
-                      style={{ maxWidth: '100%', height: 'auto' }}
+                      style={{ width: '100%', height: 'auto' }}
                     />
                   </motion.div>
                 </AnimatePresence>
