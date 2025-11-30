@@ -390,7 +390,7 @@
     "id": "footer",
     "brand": {
       "title": "Nano Banana2",
-      "description": "Nano Banana2 is your ultimate AI image generation platform.",
+      "description": "Nano Banana2 is your ultimate AI image generation platform. Nano Banana2 is an independent platform powered by Google's Gemini models. We are not affiliated with, endorsed by, or sponsored by Google.",
       "logo": {
         "src": "/logo.png",
         "alt": "Nano Banana2"
@@ -480,6 +480,10 @@
         {
           "title": "Terms of Service",
           "url": "/terms-of-service"
+        },
+        {
+          "title": "Refund Policy",
+          "url": "/refund-policy"
         }
       ]
     },
