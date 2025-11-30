@@ -101,52 +101,9 @@
     ],
     "show_avatars": false,
     "avatars_tip": "",
-    "show_award": false,
-    "image": {
-      "src": "/imgs/features/admin.png",
-      "alt": "hero"
-    }
+    "show_award": false
   },
-  "logos": {
-    "title": "由先进技术驱动",
-    "items": [
-      {
-        "title": "Next.js",
-        "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "Next.js"
-        }
-      },
-      {
-        "title": "React",
-        "image": {
-          "src": "/imgs/logos/react.svg",
-          "alt": "React"
-        }
-      },
-      {
-        "title": "TailwindCSS",
-        "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "TailwindCSS"
-        }
-      },
-      {
-        "title": "Shadcn/UI",
-        "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "Shadcn/UI"
-        }
-      },
-      {
-        "title": "Vercel",
-        "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
-        }
-      }
-    ]
-  },
+
   "introduce": {
     "id": "introduce",
     "title": "Nano Banana2 是什么？",

@@ -18,7 +18,7 @@ export default async function LandingPage({
   // build page params
   const page: Landing = {
     hero: t.raw('hero'),
-    logos: t.raw('logos'),
+
     introduce: t.raw('introduce'),
     benefits: t.raw('benefits'),
     usage: t.raw('usage'),
