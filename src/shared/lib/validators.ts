@@ -14,6 +14,6 @@ export const checkoutSchema = z.object({
   currency: z.string().optional(),
   locale: z.string().optional(),
   payment_provider: z.string().optional(),
-  metadata: z.record(z.string()).optional(),
+  metadata: z.record(z.string(), z.string()).optional(),
   quantity: z.number().int().min(1).max(100).optional(),
 });
