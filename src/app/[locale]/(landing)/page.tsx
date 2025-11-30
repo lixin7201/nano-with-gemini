@@ -28,7 +28,6 @@ export default async function LandingPage({
     faq: t.raw('faq'),
     cta: t.raw('cta'),
   };
-  console.log('LandingPage data:', JSON.stringify(page, null, 2));
 
   // load page component
   const Page = await getThemePage('landing');

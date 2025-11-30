@@ -20,7 +20,6 @@ export default async function LandingPage({
   locale?: string;
   page: Landing;
 }) {
-  console.log('Theme LandingPage showcase:', page.showcase);
   return (
     <>
       {page.hero && <Hero hero={page.hero} />}
