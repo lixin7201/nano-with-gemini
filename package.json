@@ -3,10 +3,10 @@
   "version": "1.2.0",
   "private": true,
   "author": "Nano Banana2 Team",
-  "homepage": "https://your-domain.com",
+  "homepage": "https://www.nanobanana2.blog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-repo/nano-banana2"
+    "url": "https://github.com/lixin7201/nano-banana2"
   },
   "keywords": [
     "nano-banana2",

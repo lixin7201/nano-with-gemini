@@ -277,15 +277,15 @@
   },
   "showcase": {
     "id": "showcase",
-    "title": "Community Showcase",
+    "title": "Sample Gallery",
     "description": "Explore stunning images created by our community with Nano Banana2.",
     "items": []
   },
   "faq": {
     "id": "faq",
     "title": "Frequently Asked Questions About Nano Banana2",
-    "description": "Have another question? Contact us on Discord or by email.",
-    "tip": "Can't find what you're looking for? Contact our <a href='https://discord.gg/HQNnrzjZQS' target='_blank' class='text-primary font-medium hover:underline'>customer support team</a>",
+    "description": "Have another question? Contact us by email.",
+    "tip": "Can't find what you're looking for? Contact our <a href='mailto:support@nanobanana2.blog' class='text-primary font-medium hover:underline'>customer support team</a>",
     "items": [
       {
         "question": "Is there a free trial?",
@@ -305,7 +305,7 @@
       },
       {
         "question": "How can I contact support?",
-        "answer": "You can reach our support team at lixin720190@gmail.com for any assistance."
+        "answer": "You can reach our support team at support@nanobanana2.blog for any assistance."
       }
     ]
   },
@@ -331,16 +331,16 @@
   },
   "subscribe": {
     "id": "subscribe",
-    "title": "Subscribe to our newsletter",
-    "description": "Get the latest news and updates from Nano Banana2.",
+    "title": "",
+    "description": "",
     "submit": {
       "input": {
-        "placeholder": "Enter your email"
+        "placeholder": ""
       },
       "button": {
-        "title": "Subscribe"
+        "title": ""
       },
-      "action": "/api/subscribe"
+      "action": ""
     }
   },
   "footer": {
@@ -423,7 +423,7 @@
         {
           "title": "Email",
           "icon": "Mail",
-          "url": "mailto:lixin720190@gmail.com",
+          "url": "mailto:support@nanobanana2.blog",
           "target": "_self"
         }
       ]

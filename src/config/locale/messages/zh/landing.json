@@ -277,15 +277,15 @@
   },
   "showcase": {
     "id": "showcase",
-    "title": "社区展示",
+    "title": "示例画廊",
     "description": "探索社区使用 Nano Banana2 创作的精美图片。",
     "items": []
   },
   "faq": {
     "id": "faq",
     "title": "关于 Nano Banana2 的常见问题",
-    "description": "还有其他问题？欢迎加入 Discord 或发邮件联系我们。",
-    "tip": "没有找到想要的答案？请联系 <a href='https://discord.gg/HQNnrzjZQS' target='_blank' class='text-primary font-medium hover:underline'>我们的客服团队</a>",
+    "description": "还有其他问题？欢迎发邮件联系我们。",
+    "tip": "没有找到想要的答案？请联系 <a href='mailto:support@nanobanana2.blog' class='text-primary font-medium hover:underline'>我们的客服团队</a>",
     "items": [
       {
         "question": "Nano Banana2 是什么？",
@@ -335,23 +335,23 @@
   },
   "subscribe": {
     "id": "subscribe",
-    "title": "订阅我们的邮件通知",
-    "description": "获取 Nano Banana2 最新资讯与产品动态。",
+    "title": "",
+    "description": "",
     "submit": {
       "input": {
-        "placeholder": "输入邮箱"
+        "placeholder": ""
       },
       "button": {
-        "title": "订阅"
+        "title": ""
       },
-      "action": "/api/subscribe"
+      "action": ""
     }
   },
   "footer": {
     "id": "footer",
     "brand": {
       "title": "Nano Banana2",
-      "description": "Nano Banana2 是您的终极 AI 图像生成平台。",
+      "description": "Nano Banana2 是您的终极 AI 图像生成平台。Nano Banana2 是由 Google Gemini 模型驱动的独立平台。我们与 Google 没有任何关联、认可或赞助关系。",
       "logo": {
         "src": "/logo.png",
         "alt": "Nano Banana2"
@@ -427,7 +427,7 @@
         {
           "title": "邮箱",
           "icon": "Mail",
-          "url": "mailto:lixin720190@gmail.com",
+          "url": "mailto:support@nanobanana2.blog",
           "target": "_self"
         }
       ]
@@ -441,6 +441,10 @@
         {
           "title": "服务条款",
           "url": "/terms-of-service"
+        },
+        {
+          "title": "退款政策",
+          "url": "/refund-policy"
         }
       ]
     },

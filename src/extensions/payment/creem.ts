@@ -58,7 +58,7 @@ export class CreemProvider implements PaymentProvider {
       const payload: any = {
         product_id: order.productId,
         request_id: order.requestId || undefined,
-        units: 1,
+        units: order.quantity || 1,
         discount_code: order.discount
           ? {
               code: order.discount.code,
