@@ -34,11 +34,13 @@ export default async function ShowcasesPage({
   const showcase: ShowcaseType = t.raw('showcases');
   const cta: CTAType = tl.raw('cta');
 
-  // Merge external showcase items
-  const nbItems = getNanoBananaShowcaseItems();
-  if (showcase) {
-    showcase.items = [...(showcase.items || []), ...nbItems];
-  }
+  // Note: External showcase items disabled for compliance
+  // They contain third-party AI brand names (Google, Gemini, ChatGPT)
+  // which may violate AI Wrapper compliance requirements
+  // const nbItems = getNanoBananaShowcaseItems();
+  // if (showcase) {
+  //   showcase.items = [...(showcase.items || []), ...nbItems];
+  // }
 
   return <Page locale={locale} showcase={showcase} cta={cta} />;
 }
