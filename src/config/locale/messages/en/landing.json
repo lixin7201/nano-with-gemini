@@ -82,7 +82,7 @@
       "title": "🎉 Nano Banana2 is Live",
       "url": "/pricing"
     },
-    "tip": "🎁 Special offer for early adopters",
+    "tip": "",
     "buttons": [
       {
         "title": "Get Started",
@@ -125,7 +125,7 @@
       },
       {
         "title": "Multi-Resolution Support",
-        "description": "Support 1K, 2K, and 4K high-resolution output.",
+        "description": "Support 1K and 2K high-resolution output. Free users: 1K only, upgrade for 2K.",
         "icon": "RiDatabase2Line",
         "image": {
           "src": "/imgs/features/2.png",
@@ -173,15 +173,6 @@
         "icon": "RiClapperboardAiLine",
         "image": {
           "src": "/imgs/features/admin-settings.png",
-          "alt": "benefits"
-        }
-      },
-      {
-        "title": "Community Support",
-        "description": "Join our community of creators and share your work.",
-        "icon": "RiCodeFill",
-        "image": {
-          "src": "/imgs/features/landing-page.png",
           "alt": "benefits"
         }
       }
@@ -239,7 +230,7 @@
     "items": [
       {
         "title": "High Resolution",
-        "description": "Support for up to 4K resolution output.",
+        "description": "Support for up to 2K resolution output. Free users: 1K only, upgrade for 2K.",
         "icon": "RiNextjsFill"
       },
       {

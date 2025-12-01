@@ -31,9 +31,10 @@
         "description": "For hobbyists and explorers",
         "features_title": "Includes",
         "features": [
-          "250 credits/mo (approx. 25 2K or 12 4K images)",
-          "Support 2K / 4K output",
-          "Standard queue priority"
+          "250 credits/mo (approx. 25 images at 2K)",
+          "Support up to 2K output",
+          "Standard queue priority",
+          "Free users: 1K only, upgrade for 2K"
         ],
         "interval": "month",
         "amount": 990,
@@ -59,9 +60,10 @@
         "description": "For creators and designers",
         "features_title": "Includes",
         "features": [
-          "1000 credits/mo (approx. 100 2K or 50 4K images)",
-          "Support custom resolution",
-          "Higher queue priority"
+          "1000 credits/mo (approx. 100 images at 2K)",
+          "Support up to 2K output",
+          "Higher queue priority",
+          "Free users: 1K only, upgrade for 2K"
         ],
         "interval": "month",
         "amount": 2990,
@@ -87,7 +89,8 @@
         "description": "For power users and studios",
         "features_title": "Includes",
         "features": [
-          "2500 credits/mo (approx. 250 2K or 125 4K images)",
+          "2500 credits/mo (approx. 250 images at 2K)",
+          "Support up to 2K output",
           "Highest queue priority",
           "Premium support & higher batch limits"
         ],

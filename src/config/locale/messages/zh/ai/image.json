@@ -35,7 +35,7 @@
     "loading": "加载中...",
     "generating": "生成中...",
     "sign_in_to_generate": "登录生成图片",
-    "credits_cost": "消耗 {credits} 积分 (1k/2k=10, 4k=20)",
+    "credits_cost": "消耗 {credits} 积分（每张图 10 积分）。免费用户仅限 1K，会员可用 2K",
     "credits_remaining": "剩余 {credits} 积分",
     "buy_credits": "购买积分",
     "progress": "进度",

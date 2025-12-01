@@ -72,6 +72,17 @@ export async function POST(request: Request) {
     // Default resolution to 2k if not provided
     const targetResolution = resolution || '2k';
 
+    // Temporarily disable 4K feature
+    if (targetResolution === '4k') {
+      return new Response(
+        JSON.stringify({
+          code: 'FEATURE_DISABLED',
+          message: '4K output is temporarily unavailable. Please use 1K or 2K.',
+        }),
+        { status: 400 }
+      );
+    }
+
     if (!isUnlimited) {
       // Calculate cost credits for non-admin users
       if (mediaType === AIMediaType.IMAGE) {

@@ -235,17 +235,16 @@ export function ImageGenerator({
     }
 
     if (tab === 'text-to-image') {
-      setCostCredits(resolution === '4k' ? 20 : 10);
+      setCostCredits(10);
     } else {
-      setCostCredits(resolution === '4k' ? 20 : 10);
+      setCostCredits(10);
     }
   };
 
   useEffect(() => {
     // Cost calculation logic:
-    // 1k/2k = 10 credits (default)
-    // 4k = 20 credits
-    setCostCredits(resolution === '4k' ? 20 : 10);
+    // All resolutions = 10 credits (4K temporarily disabled)
+    setCostCredits(10);
   }, [resolution]);
 
   const handleProviderChange = (value: string) => {
@@ -670,9 +669,8 @@ export function ImageGenerator({
                             <SelectValue placeholder={t('form.select_resolution')} />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="1k">1K (10 credits)</SelectItem>
-                            <SelectItem value="2k">2K (10 credits)</SelectItem>
-                            <SelectItem value="4k">4K (20 credits)</SelectItem>
+                            <SelectItem value="1k">1K (10 credits) - Free</SelectItem>
+                            <SelectItem value="2k">2K (10 credits) - Members</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -709,8 +707,7 @@ export function ImageGenerator({
                           <SelectValue placeholder={t('form.select_resolution')} />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="2k">2K (10 credits)</SelectItem>
-                          <SelectItem value="4k">4K (20 credits)</SelectItem>
+                          <SelectItem value="2k">2K (10 credits) - Members</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>

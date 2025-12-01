@@ -35,7 +35,7 @@
     "loading": "Loading...",
     "generating": "Generating...",
     "sign_in_to_generate": "Sign In to Generate Image",
-    "credits_cost": "Cost {credits} credits (1k/2k=10, 4k=20)",
+    "credits_cost": "Cost {credits} credits (10 per image). Free: 1K only, Members: up to 2K",
     "credits_remaining": "Remaining {credits} credits",
     "buy_credits": "Buy Credits",
     "progress": "Progress",
