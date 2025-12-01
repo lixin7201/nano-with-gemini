@@ -564,27 +564,25 @@ export function ImageGenerator({
   };
 
   const handleDownloadImage = async (image: GeneratedImage) => {
-    if (!image.url) {
-      return;
-    }
+    if (!image.url) return;
 
     try {
       setDownloadingImageId(image.id);
-      const resp = await fetch(image.url);
-      if (!resp.ok) {
-        throw new Error('Failed to fetch image');
-      }
+      // Use server-side proxy to avoid CORS "Failed to fetch" when fetching cross-origin images
+      const filename = `${image.id}.png`;
+      const proxyUrl = `/api/download-image?url=${encodeURIComponent(
+        image.url
+      )}&filename=${encodeURIComponent(filename)}`;
 
-      const blob = await resp.blob();
-      const blobUrl = URL.createObjectURL(blob);
+      // Trigger download via anchor navigation so the browser handles it
       const link = document.createElement('a');
-      link.href = blobUrl;
-      link.download = `${image.id}.png`;
+      link.href = proxyUrl;
+      // No need to set download attr; server forces attachment
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      setTimeout(() => URL.revokeObjectURL(blobUrl), 200);
-      toast.success('Image downloaded');
+
+      toast.success('Image download started');
     } catch (error) {
       console.error('Failed to download image:', error);
       toast.error('Failed to download image');
