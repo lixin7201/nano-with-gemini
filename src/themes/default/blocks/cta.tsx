@@ -8,7 +8,7 @@ import { CTA as CTAType } from '@/shared/types/blocks/landing';
 
 export function CTA({ cta, className }: { cta: CTAType; className?: string }) {
   return (
-    <section id={cta.id} className={`py-16 md:py-24 ${className}`}>
+    <section id={cta.id} className={`py-10 md:py-14 ${className}`}>
       <div className="container">
         <div className="text-center">
           <ScrollAnimation>

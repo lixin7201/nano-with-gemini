@@ -37,10 +37,10 @@ export default async function ShowcasesPage({
   // Note: External showcase items disabled for compliance
   // They contain third-party AI brand names (Google, Gemini, ChatGPT)
   // which may violate AI Wrapper compliance requirements
-  // const nbItems = getNanoBananaShowcaseItems();
-  // if (showcase) {
-  //   showcase.items = [...(showcase.items || []), ...nbItems];
-  // }
+  const nbItems = getNanoBananaShowcaseItems();
+  if (showcase) {
+    showcase.items = [...(showcase.items || []), ...nbItems];
+  }
 
   return <Page locale={locale} showcase={showcase} cta={cta} />;
 }

@@ -70,12 +70,12 @@ export function Showcase({
             />
           </DialogContent>
         </Dialog>
-        <div className="flex flex-1 flex-col gap-4 p-6">
+        <div className="flex flex-1 flex-col gap-4 p-4">
           {title && <h3 className="text-lg font-semibold">{title}</h3>}
           <div className="relative flex-1">
             <Link
               href={`/ai-image-generator?prompt=${encodeURIComponent(prompt || '')}`}
-              className="text-primary/90 hover:text-primary text-sm line-clamp-4 break-words underline-offset-2 hover:underline"
+              className="text-primary/90 hover:text-primary text-sm line-clamp-2 break-words underline-offset-2 hover:underline"
               aria-label="Use this prompt to generate"
             >
               {prompt}
@@ -90,7 +90,7 @@ export function Showcase({
           </button>
           <Link
             href={`/ai-image-generator?prompt=${encodeURIComponent(prompt || '')}`}
-            className="text-primary hover:text-primary/80 flex items-center gap-2 text-sm font-medium transition-colors"
+            className="text-primary hover:text-primary/80 hidden sm:flex items-center gap-2 text-sm font-medium transition-colors"
           >
             <Sparkles className="h-4 w-4" />
             Generate
@@ -103,21 +103,21 @@ export function Showcase({
   return (
     <section
       id={showcase.id}
-      className={`py-16 md:py-24 ${showcase.className} ${className}`}
+      className={`py-10 md:py-14 ${showcase.className} ${className}`}
     >
       <div className="container">
         <ScrollAnimation>
           <div className="mx-auto max-w-2xl text-center text-balance">
-            <h2 className="text-foreground mb-4 text-3xl font-semibold tracking-tight md:text-4xl">
+            <h2 className="text-foreground mb-3 text-3xl font-semibold tracking-tight md:text-4xl">
               {showcase.title}
             </h2>
-            <p className="text-muted-foreground mb-6 md:mb-12 lg:mb-16">
+            <p className="text-muted-foreground mb-4 md:mb-6 lg:mb-8">
               {showcase.description}
             </p>
           </div>
         </ScrollAnimation>
         <ScrollAnimation delay={0.2}>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
             {showcase.items?.map((item, index) => (
               <ShowcaseCard key={index} {...item} />
             ))}

@@ -15,10 +15,13 @@ type RawItem = {
 };
 
 export function getNanoBananaShowcaseItems(limit?: number): ShowcaseItem[] {
+  // Basic banned keywords for compliance filtering
+  const banned = ['google', 'gemini', 'gpt', 'chatgpt', 'openai'];
+
   const items = (rawData as RawItem[])
     .map((item) => {
       const prompt = item.prompt;
-      
+
       // Resolve image source from various possible fields
       let imageSrc = '';
       if (Array.isArray(item.images) && item.images.length > 0) imageSrc = item.images[0];
@@ -37,6 +40,10 @@ export function getNanoBananaShowcaseItems(limit?: number): ShowcaseItem[] {
         title = prompt.slice(0, 24) + (prompt.length > 24 ? '...' : '');
       }
 
+      // Compliance filter: drop items containing banned keywords
+      const hay = `${title ?? ''} ${prompt ?? ''}`.toLowerCase();
+      if (banned.some((k) => hay.includes(k))) return null;
+
       return {
         title: title || 'Showcase',
         prompt: prompt,
@@ -47,6 +54,12 @@ export function getNanoBananaShowcaseItems(limit?: number): ShowcaseItem[] {
       } as ShowcaseItem;
     })
     .filter((item) => item !== null) as ShowcaseItem[];
+
+  // Randomize order
+  for (let i = items.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [items[i], items[j]] = [items[j], items[i]];
+  }
 
   if (limit && limit > 0) {
     return items.slice(0, limit);

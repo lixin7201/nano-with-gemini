@@ -34,7 +34,7 @@ export function FeaturesAccordion({
 
   return (
     // overflow-x-hidden to prevent horizontal scroll
-    <section className={`overflow-x-hidden py-16 md:py-24 ${className}`}>
+    <section className={`overflow-x-hidden py-10 md:py-14 ${className}`}>
       <div className="absolute inset-0 -z-10 bg-linear-to-b sm:inset-6 sm:rounded-b-3xl dark:block dark:to-[color-mix(in_oklab,var(--color-zinc-900)_75%,var(--color-background))]"></div>
       {/* add overflow-x-hidden to container */}
       <div className="container space-y-8 overflow-x-hidden px-2 sm:px-6 md:space-y-16 lg:space-y-20 dark:[--color-border:color-mix(in_oklab,var(--color-white)_10%,transparent)]">

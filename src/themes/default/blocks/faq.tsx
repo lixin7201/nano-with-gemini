@@ -11,7 +11,7 @@ import { FAQ as FAQType } from '@/shared/types/blocks/landing';
 
 export function FAQ({ faq, className }: { faq: FAQType; className?: string }) {
   return (
-    <section id={faq.id} className={`py-16 md:py-24 ${className}`}>
+    <section id={faq.id} className={`py-10 md:py-14 ${className}`}>
       <div className={`mx-auto max-w-full px-4 md:max-w-3xl md:px-8`}>
         <ScrollAnimation>
           <div className="mx-auto max-w-2xl text-center text-balance">

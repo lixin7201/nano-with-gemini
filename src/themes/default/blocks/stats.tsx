@@ -13,7 +13,7 @@ export function Stats({
   return (
     <section
       id={stats.id}
-      className={`py-12 md:py-24 ${stats.className} ${className}`}
+      className={`py-10 md:py-14 ${stats.className} ${className}`}
     >
       <div className={`container space-y-8 md:space-y-16`}>
         <ScrollAnimation>

@@ -17,7 +17,7 @@ export function FeaturesStep({
   return (
     <section
       id={features.id}
-      className={cn('py-16 md:py-24', features.className, className)}
+      className={cn('py-10 md:py-14', features.className, className)}
     >
       <div className="m-4 rounded-[2rem]">
         <div className="@container relative container">

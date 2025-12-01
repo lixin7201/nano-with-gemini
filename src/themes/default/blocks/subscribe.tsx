@@ -58,7 +58,7 @@ export function Subscribe({
   return (
     <section
       id={subscribe.id}
-      className={cn('py-16 md:py-24', subscribe.className, className)}
+      className={cn('py-10 md:py-14', subscribe.className, className)}
     >
       <div className="mx-auto max-w-5xl px-6">
         <div className="text-center">

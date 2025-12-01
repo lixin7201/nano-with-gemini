@@ -14,7 +14,7 @@ export function Logos({
   return (
     <section
       id={logos.id}
-      className={cn('py-16 md:py-24', logos.className, className)}
+      className={cn('py-10 md:py-14', logos.className, className)}
     >
       <div className={`mx-auto max-w-5xl px-6`}>
         <ScrollAnimation>

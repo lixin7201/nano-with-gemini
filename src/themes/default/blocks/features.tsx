@@ -15,7 +15,7 @@ export function Features({
   return (
     <section
       id={features.id}
-      className={cn('py-16 md:py-24', features.className, className)}
+      className={cn('py-10 md:py-14', features.className, className)}
     >
       <div className={`container space-y-8 md:space-y-16`}>
         <ScrollAnimation>
