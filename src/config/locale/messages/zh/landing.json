@@ -396,22 +396,22 @@
           ]
         },
         {
-          "title": "合作伙伴",
+          "title": "链接",
           "children": [
             {
-              "title": "Nano Banana2",
+              "title": "首页",
               "url": "/",
-              "target": "_blank"
+              "target": "_self"
             },
             {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
-              "target": "_blank"
+              "title": "价格",
+              "url": "/pricing",
+              "target": "_self"
             },
             {
-              "title": "MCP.so",
-              "url": "https://mcp.so",
-              "target": "_blank"
+              "title": "作品展示",
+              "url": "/showcases",
+              "target": "_self"
             }
           ]
         }

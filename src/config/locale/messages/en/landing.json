@@ -388,22 +388,22 @@
           ]
         },
         {
-          "title": "Friends",
+          "title": "Links",
           "children": [
             {
-              "title": "Nano Banana2",
+              "title": "Home",
               "url": "/",
-              "target": "_blank"
+              "target": "_self"
             },
             {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
-              "target": "_blank"
+              "title": "Pricing",
+              "url": "/pricing",
+              "target": "_self"
             },
             {
-              "title": "MCP.so",
-              "url": "https://mcp.so",
-              "target": "_blank"
+              "title": "Showcases",
+              "url": "/showcases",
+              "target": "_self"
             }
           ]
         }
