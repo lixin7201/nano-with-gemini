@@ -46,6 +46,13 @@ export interface PricingItem {
   group?: string;
 }
 
+export interface PricingFreeTrial {
+  title?: string;
+  subtitle?: string;
+  description?: string;
+  button?: string;
+}
+
 export interface Pricing {
   id?: string;
   disabled?: boolean;
@@ -54,6 +61,7 @@ export interface Pricing {
   description?: string;
   items?: PricingItem[];
   groups?: PricingGroup[];
+  free_trial?: PricingFreeTrial;
   className?: string;
   sr_only_title?: string;
 }

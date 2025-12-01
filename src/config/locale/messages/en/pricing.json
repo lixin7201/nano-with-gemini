@@ -8,6 +8,12 @@
     "sr_only_title": "Nano Banana2 Pricing",
     "title": "Simple, transparent pricing",
     "description": "Choose the plan that's right for you. All plans include a 14-day money-back guarantee.",
+    "free_trial": {
+      "title": "Free Trial",
+      "subtitle": "Try before you buy. No credit card required.",
+      "description": "Get 30 credits (3x 1K images) for free! Free users can only generate 1K images.",
+      "button": "Claim Free Credits"
+    },
     "groups": [
       {
         "name": "monthly",

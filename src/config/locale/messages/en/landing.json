@@ -74,8 +74,8 @@
   },
   "hero": {
     "id": "hero",
-    "title": "Create Stunning Images with Gemini AI",
-    "highlight_text": "Gemini AI",
+    "title": "Create Stunning AI Images with Ease",
+    "highlight_text": "AI Images",
     "description": "Nano Banana2 is your ultimate AI image generation platform powered by Google's Gemini models. Create, edit, and inspire.",
     "announcement": {
       "badge": "New",
@@ -269,7 +269,7 @@
   "showcase": {
     "id": "showcase",
     "title": "Sample Gallery",
-    "description": "Explore stunning images created by our community with Nano Banana2.",
+    "description": "Explore sample images created with Nano Banana2.",
     "items": []
   },
   "faq": {
@@ -280,7 +280,7 @@
     "items": [
       {
         "question": "Is there a free trial?",
-        "answer": "Yes, we offer a free trial with 30 credits (3x 2K images) so you can explore our features."
+        "answer": "Yes, we offer a free trial with 30 credits (3x 1K images) so you can explore our features. Free users can only generate 1K images."
       },
       {
         "question": "How does billing work?",
@@ -338,7 +338,7 @@
     "id": "footer",
     "brand": {
       "title": "Nano Banana2",
-      "description": "Nano Banana2 is your ultimate AI image generation platform. Nano Banana2 is an independent platform powered by Google's Gemini models. We are not affiliated with, endorsed by, or sponsored by Google.",
+      "description": "Nano Banana2 is your ultimate AI image generation platform. Nano Banana2 is an independent platform powered by Google's Gemini models. We are not affiliated with, endorsed by, or sponsored by Google. Contact: support@nanobanana2.blog",
       "logo": {
         "src": "/logo.png",
         "alt": "Nano Banana2"

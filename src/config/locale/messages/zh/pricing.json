@@ -8,6 +8,12 @@
     "sr_only_title": "Nano Banana2 价格表",
     "title": "价格",
     "description": "选择适合您创作需求的方案。",
+    "free_trial": {
+      "title": "免费试用",
+      "subtitle": "先试后买，无需信用卡。",
+      "description": "免费获取 30 积分（可生成 3 张 1K 图片）！免费用户仅限生成 1K 图片。",
+      "button": "领取免费积分"
+    },
     "groups": [
       {
         "name": "monthly",

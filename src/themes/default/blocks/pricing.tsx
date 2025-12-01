@@ -371,15 +371,15 @@ export function Pricing({
             <CardHeader className="relative z-10 pb-2 text-center">
               <CardTitle className="flex items-center justify-center gap-2 text-xl font-bold">
                 <Zap className="text-primary size-5 fill-current" />
-                Free / 免费试用 3 张 2K 图片
+                {pricing.free_trial?.title || 'Free Trial'}
               </CardTitle>
               <CardDescription>
-                Try before you buy. No credit card required.
+                {pricing.free_trial?.subtitle || 'Try before you buy. No credit card required.'}
               </CardDescription>
             </CardHeader>
             <CardContent className="relative z-10 text-center">
               <p className="mb-4 text-sm font-medium">
-                Get 30 credits (3x 2K images) for free!
+                {pricing.free_trial?.description || 'Get 30 credits for free!'}
               </p>
               <Button
                 onClick={async () => {
@@ -426,7 +426,7 @@ export function Pricing({
                 ) : (
                   <Zap className="mr-2 size-4" />
                 )}
-                Claim Free Credits
+                {pricing.free_trial?.button || 'Claim Free Credits'}
               </Button>
             </CardContent>
           </Card>

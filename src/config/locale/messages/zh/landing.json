@@ -74,8 +74,8 @@
   },
   "hero": {
     "id": "hero",
-    "title": "使用 Gemini AI 创作惊艳图像",
-    "highlight_text": "Gemini AI",
+    "title": "轻松创作惊艳的 AI 图像",
+    "highlight_text": "AI 图像",
     "description": "Nano Banana2 是由 Google Gemini 模型驱动的终极 AI 图像生成平台。创作、编辑、激发灵感。",
     "announcement": {
       "badge": "全新",
@@ -269,7 +269,7 @@
   "showcase": {
     "id": "showcase",
     "title": "示例画廊",
-    "description": "探索社区使用 Nano Banana2 创作的精美图片。",
+    "description": "探索使用 Nano Banana2 创作的示例图片。",
     "items": []
   },
   "faq": {
@@ -278,6 +278,10 @@
     "description": "还有其他问题？欢迎发邮件联系我们。",
     "tip": "没有找到想要的答案？请联系 <a href='mailto:support@nanobanana2.blog' class='text-primary font-medium hover:underline'>我们的客服团队</a>",
     "items": [
+      {
+        "question": "有免费试用吗？",
+        "answer": "有的，我们提供 30 积分的免费试用（可生成 3 张 1K 图片），让您体验我们的功能。免费用户仅限生成 1K 图片。"
+      },
       {
         "question": "Nano Banana2 是什么？",
         "answer": "Nano Banana2 是一个由 Google Gemini 模型驱动的先进 AI 图像生成平台。"
@@ -342,7 +346,7 @@
     "id": "footer",
     "brand": {
       "title": "Nano Banana2",
-      "description": "Nano Banana2 是您的终极 AI 图像生成平台。Nano Banana2 是由 Google Gemini 模型驱动的独立平台。我们与 Google 没有任何关联、认可或赞助关系。",
+      "description": "Nano Banana2 是您的终极 AI 图像生成平台。Nano Banana2 是由 Google Gemini 模型驱动的独立平台。我们与 Google 没有任何关联、认可或赞助关系。联系方式：support@nanobanana2.blog",
       "logo": {
         "src": "/logo.png",
         "alt": "Nano Banana2"
