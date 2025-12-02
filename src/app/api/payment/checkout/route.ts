@@ -205,7 +205,7 @@ export async function POST(req: Request) {
 
     const callbackUrl =
       paymentType === PaymentType.SUBSCRIPTION
-        ? `${callbackBaseUrl}/settings/billing`
+        ? `${callbackBaseUrl}/success`
         : `${callbackBaseUrl}/settings/payments`;
 
     // build checkout order

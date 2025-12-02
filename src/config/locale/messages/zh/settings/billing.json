@@ -55,5 +55,18 @@
     "buttons": {
       "confirm_cancel": "确认取消"
     }
+  },
+  "success": {
+    "title": "订阅成功",
+    "description": "感谢订阅，权益已生效！您现在可以享受所有高级功能。",
+    "crumbs": {
+      "settings": "设置",
+      "billing": "账单",
+      "success": "订阅成功"
+    },
+    "buttons": {
+      "view_billing": "查看订阅",
+      "go_home": "返回首页"
+    }
   }
 }

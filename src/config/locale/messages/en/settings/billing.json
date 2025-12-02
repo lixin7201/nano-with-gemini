@@ -55,5 +55,18 @@
     "buttons": {
       "confirm_cancel": "Confirm Cancel"
     }
+  },
+  "success": {
+    "title": "Subscription Activated",
+    "description": "Thanks for subscribing! Your plan is now active and you have full access to all premium features.",
+    "crumbs": {
+      "settings": "Settings",
+      "billing": "Billing",
+      "success": "Success"
+    },
+    "buttons": {
+      "view_billing": "View Subscription",
+      "go_home": "Go Home"
+    }
   }
 }
