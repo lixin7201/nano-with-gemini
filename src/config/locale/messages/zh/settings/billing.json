@@ -58,7 +58,7 @@
   },
   "success": {
     "title": "订阅成功",
-    "description": "感谢订阅，权益已生效！您现在可以享受所有高级功能。",
+    "description": "感谢订阅，权益已生效！",
     "crumbs": {
       "settings": "设置",
       "billing": "账单",

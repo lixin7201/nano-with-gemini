@@ -58,7 +58,7 @@
   },
   "success": {
     "title": "Subscription Activated",
-    "description": "Thanks for subscribing! Your plan is now active and you have full access to all premium features.",
+    "description": "Thanks for subscribing! Your plan is now active.",
     "crumbs": {
       "settings": "Settings",
       "billing": "Billing",
