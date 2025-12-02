@@ -60,6 +60,11 @@ export const PERMISSIONS = {
   AITASKS_READ: 'admin.ai-tasks.read',
   AITASKS_WRITE: 'admin.ai-tasks.write',
   AITASKS_DELETE: 'admin.ai-tasks.delete',
+
+  // Showcases
+  SHOWCASES_READ: 'admin.showcases.read',
+  SHOWCASES_WRITE: 'admin.showcases.write',
+  SHOWCASES_DELETE: 'admin.showcases.delete',
 } as const;
 
 /**

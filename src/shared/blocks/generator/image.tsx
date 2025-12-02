@@ -19,6 +19,7 @@ import {
   ImageUploaderValue,
   LazyImage,
 } from '@/shared/blocks/common';
+import { ShareDialog } from '@/shared/blocks/showcase/share-dialog';
 import { Button } from '@/shared/components/ui/button';
 import {
   Card,
@@ -203,6 +204,7 @@ export function ImageGenerator({
   const [downloadingImageId, setDownloadingImageId] = useState<string | null>(
     null
   );
+  const [shareImage, setShareImage] = useState<GeneratedImage | null>(null);
   const [isMounted, setIsMounted] = useState(false);
 
   const { user, isCheckSign, setIsShowSignModal, fetchUserCredits } =
@@ -903,6 +905,19 @@ export function ImageGenerator({
                                 </>
                               )}
                             </Button>
+                            <Button
+                              size="sm"
+                              variant="ghost"
+                              onClick={() => {
+                                if (!user) {
+                                  setIsShowSignModal(true);
+                                } else {
+                                  setShareImage(image);
+                                }
+                              }}
+                            >
+                              Share
+                            </Button>
                           </div>
                         </div>
                       </div>
@@ -925,6 +940,14 @@ export function ImageGenerator({
           </div>
         </div>
       </div>
+      <ShareDialog
+        open={!!shareImage}
+        onOpenChange={(open) => !open && setShareImage(null)}
+        defaultValues={{
+          prompt: shareImage?.prompt,
+          image: shareImage?.url,
+        }}
+      />
     </section>
   );
 }

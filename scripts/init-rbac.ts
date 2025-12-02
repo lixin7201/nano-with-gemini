@@ -244,6 +244,29 @@ const defaultPermissions = [
     description: 'Delete AI tasks',
   },
 
+  // Showcases management
+  {
+    code: 'admin.showcases.read',
+    resource: 'showcases',
+    action: 'read',
+    title: 'Read Showcases',
+    description: 'View showcase list',
+  },
+  {
+    code: 'admin.showcases.write',
+    resource: 'showcases',
+    action: 'write',
+    title: 'Write Showcases',
+    description: 'Create and update showcases',
+  },
+  {
+    code: 'admin.showcases.delete',
+    resource: 'showcases',
+    action: 'delete',
+    title: 'Delete Showcases',
+    description: 'Delete showcases',
+  },
+
   // Wildcard permission for super admin
   {
     code: '*',
@@ -281,6 +304,7 @@ const defaultRoles = [
       'admin.apikeys.*',
       'admin.settings.read',
       'admin.ai-tasks.*',
+      'admin.showcases.*',
     ],
   },
   {

@@ -1,0 +1,36 @@
+{
+  "list": {
+    "title": "案例管理",
+    "buttons": {
+      "add": "新增",
+      "delete": "删除",
+      "pin": "置顶",
+      "unpin": "取消置顶",
+      "edit": "编辑",
+      "import": "导入静态数据",
+      "import_hint": "点击导入静态案例数据"
+    },
+    "empty": "暂无案例",
+    "confirm_delete": "确定删除选中的案例吗？",
+    "confirm_import": "确定将静态案例数据导入数据库吗？已存在的数据会自动跳过。",
+    "delete_success": "删除成功",
+    "import_success": "导入完成",
+    "items_imported": "条已导入",
+    "items_skipped": "条已跳过",
+    "importing": "导入中...",
+    "pinned": "已置顶",
+    "unpinned": "已取消置顶"
+  },
+  "add": {
+    "title": "新增案例",
+    "fields": {
+      "image": "上传图片",
+      "title": "标题（可选）",
+      "prompt": "提示词",
+      "tags": "标签（可选）"
+    },
+    "buttons": {
+      "submit": "新增"
+    }
+  }
+}

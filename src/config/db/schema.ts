@@ -543,3 +543,35 @@ export const chatMessage = pgTable(
     index('idx_chat_message_user_id').on(table.userId, table.status),
   ]
 );
+
+export const showcase = pgTable(
+  'showcase',
+  {
+    id: text('id').primaryKey(),
+    userId: text('user_id')
+      .notNull()
+      .references(() => user.id, { onDelete: 'cascade' }),
+    title: text('title'), // Optional title
+    prompt: text('prompt').notNull(), // Required prompt
+    image: text('image').notNull(), // Required image URL
+    tags: text('tags'), // Comma separated tags
+    source: text('source').notNull().default('user_share'), // user_share / admin
+    isPinned: boolean('is_pinned').default(false), // Pinned status
+    sort: integer('sort').default(0), // Sort order
+    status: text('status').notNull().default('published'), // published / deleted
+    createdAt: timestamp('created_at').defaultNow().notNull(),
+    updatedAt: timestamp('updated_at')
+      .defaultNow()
+      .$onUpdate(() => new Date())
+      .notNull(),
+    deletedAt: timestamp('deleted_at'), // Soft delete
+  },
+  (table) => [
+    index('idx_showcase_status_pinned_created').on(
+      table.status,
+      table.isPinned,
+      table.createdAt
+    ),
+    index('idx_showcase_user').on(table.userId),
+  ]
+);

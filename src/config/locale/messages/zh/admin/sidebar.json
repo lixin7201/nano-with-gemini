@@ -2,7 +2,6 @@
   "header": {
     "brand": {
       "title": "Nano Banana2",
-
       "url": "/admin"
     },
     "show_trigger": false
@@ -46,6 +45,11 @@
               "title": "文章",
               "icon": "FileText",
               "url": "/admin/posts"
+            },
+            {
+              "title": "案例",
+              "icon": "Image",
+              "url": "/admin/showcases"
             }
           ]
         },

@@ -1,13 +1,27 @@
 {
   "metadata": {
-    "title": "Showcases",
-    "description": "Awesome projects built with Nano Banana2"
+    "title": "Showcase - AI Image Generation Gallery",
+    "description": "Explore creative AI-generated images from the community, get inspired and generate your own"
   },
   "showcases": {
-    "id": "showcase",
-    "sr_only_title": "Showcases",
-    "title": "Sample Gallery",
-    "description": "Explore stunning images created by our community with Nano Banana2.",
-    "items": []
+    "title": "Showcase",
+    "description": "Explore the community's creations"
+  },
+  "title": "Showcase",
+  "description": "Explore the community's creations",
+  "search": {
+    "placeholder": "Search prompts...",
+    "button": "Search",
+    "no_results": "No results found"
+  },
+  "share": {
+    "button": "Share",
+    "title": "Share to Showcase",
+    "success": "Shared successfully!",
+    "fields": {
+      "title": "Title",
+      "prompt": "Prompt",
+      "tags": "Tags"
+    }
   }
 }

@@ -1,13 +1,27 @@
 {
   "metadata": {
-    "title": "案例展示",
-    "description": "用 Nano Banana2 打造的精彩项目"
+    "title": "案例展示 - AI 图片生成作品库",
+    "description": "探索社区的创意 AI 图片作品，获取灵感并一键生成同款"
   },
   "showcases": {
-    "id": "showcase",
-    "sr_only_title": "案例展示",
-    "title": "示例画廊",
-    "description": "探索社区使用 Nano Banana2 创作的精美图片。",
-    "items": []
+    "title": "案例展示",
+    "description": "探索社区的创意作品"
+  },
+  "title": "案例展示",
+  "description": "探索社区的创意作品",
+  "search": {
+    "placeholder": "搜索提示词...",
+    "button": "搜索",
+    "no_results": "未找到结果"
+  },
+  "share": {
+    "button": "分享",
+    "title": "分享到案例库",
+    "success": "分享成功！",
+    "fields": {
+      "title": "标题",
+      "prompt": "提示词",
+      "tags": "标签"
+    }
   }
 }

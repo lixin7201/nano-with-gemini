@@ -7,6 +7,7 @@ import {
   Showcase as ShowcaseType,
 } from '@/shared/types/blocks/landing';
 import { getNanoBananaShowcaseItems } from '@/shared/adapters/nano-banana-prompts';
+import { getShowcases } from '@/shared/models/showcase';
 
 export const generateMetadata = getMetadata({
   metadataKey: 'showcases.metadata',
@@ -34,12 +35,28 @@ export default async function ShowcasesPage({
   const showcase: ShowcaseType = t.raw('showcases');
   const cta: CTAType = tl.raw('cta');
 
-  // Note: External showcase items disabled for compliance
-  // They contain third-party AI brand names (Google, Gemini, ChatGPT)
-  // which may violate AI Wrapper compliance requirements
-  const nbItems = getNanoBananaShowcaseItems();
+  // Get static showcase items from JSON file (original data)
+  const staticItems = getNanoBananaShowcaseItems();
   if (showcase) {
-    showcase.items = [...(showcase.items || []), ...nbItems];
+    showcase.items = [...(showcase.items || []), ...staticItems];
+  }
+
+  // Fetch dynamic showcases from database (user shared / admin added)
+  const { items: dbItems } = await getShowcases({ limit: 100 });
+
+  // Convert database items to ShowcaseItem format and prepend them
+  // (database items show first, then static items)
+  const dynamicItems = dbItems.map((item) => ({
+    title: item.title || item.prompt.slice(0, 24) + '...',
+    prompt: item.prompt,
+    image: {
+      src: item.image,
+      alt: item.title || 'Showcase image',
+    },
+  }));
+
+  if (showcase && dynamicItems.length > 0) {
+    showcase.items = [...dynamicItems, ...(showcase.items || [])];
   }
 
   return <Page locale={locale} showcase={showcase} cta={cta} />;

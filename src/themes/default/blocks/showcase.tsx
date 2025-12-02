@@ -1,12 +1,17 @@
 'use client';
 
+import { useState, useMemo } from 'react';
+import { useTranslations } from 'next-intl';
 import { Link } from '@/core/i18n/navigation';
 import { ScrollAnimation } from '@/shared/components/ui/scroll-animation';
 import { Image as ImageType } from '@/shared/types/blocks/common';
 import { Showcase as ShowcaseType } from '@/shared/types/blocks/landing';
-import { Copy, Sparkles } from 'lucide-react';
-import { useState } from 'react';
+import { Copy, Sparkles, Search, Plus } from 'lucide-react';
 import { Dialog, DialogContent, DialogTrigger, DialogTitle } from '@/shared/components/ui/dialog';
+import { Input } from '@/shared/components/ui/input';
+import { Button } from '@/shared/components/ui/button';
+import { ShareDialog } from '@/shared/blocks/showcase/share-dialog';
+import { useAppContext } from '@/shared/contexts/app';
 
 export function Showcase({
   showcase,
@@ -15,6 +20,30 @@ export function Showcase({
   showcase: ShowcaseType;
   className?: string;
 }) {
+  const t = useTranslations('showcases');
+  const { user, setIsShowSignModal } = useAppContext();
+  const [keyword, setKeyword] = useState('');
+  const [isShareDialogOpen, setIsShareDialogOpen] = useState(false);
+
+  // Filter items based on keyword
+  const filteredItems = useMemo(() => {
+    if (!keyword.trim()) return showcase.items || [];
+    const searchTerm = keyword.toLowerCase();
+    return (showcase.items || []).filter((item) => {
+      const title = item.title?.toLowerCase() || '';
+      const prompt = item.prompt?.toLowerCase() || '';
+      return title.includes(searchTerm) || prompt.includes(searchTerm);
+    });
+  }, [showcase.items, keyword]);
+
+  const handleAddClick = () => {
+    if (!user) {
+      setIsShowSignModal(true);
+    } else {
+      setIsShareDialogOpen(true);
+    }
+  };
+
   const ShowcaseCard = ({
     title,
     image,
@@ -103,7 +132,7 @@ export function Showcase({
   return (
     <section
       id={showcase.id}
-      className={`py-10 md:py-14 ${showcase.className} ${className}`}
+      className={`py-10 md:py-14 ${showcase.className || ''} ${className || ''}`}
     >
       <div className="container">
         <ScrollAnimation>
@@ -116,14 +145,46 @@ export function Showcase({
             </p>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation delay={0.2}>
-          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-            {showcase.items?.map((item, index) => (
-              <ShowcaseCard key={index} {...item} />
-            ))}
+
+        {/* Search and Share */}
+        <ScrollAnimation delay={0.1}>
+          <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div className="relative w-full max-w-sm">
+              <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+              <Input
+                type="text"
+                placeholder={t('search.placeholder')}
+                value={keyword}
+                onChange={(e) => setKeyword(e.target.value)}
+                className="pl-10"
+              />
+            </div>
+            <Button onClick={handleAddClick}>
+              <Plus className="mr-2 h-4 w-4" />
+              {t('share.button')}
+            </Button>
           </div>
         </ScrollAnimation>
+
+        <ScrollAnimation delay={0.2}>
+          {filteredItems.length === 0 ? (
+            <div className="py-12 text-center text-muted-foreground">
+              {t('search.no_results')}
+            </div>
+          ) : (
+            <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+              {filteredItems.map((item, index) => (
+                <ShowcaseCard key={index} {...item} />
+              ))}
+            </div>
+          )}
+        </ScrollAnimation>
       </div>
+
+      <ShareDialog
+        open={isShareDialogOpen}
+        onOpenChange={setIsShareDialogOpen}
+      />
     </section>
   );
 }

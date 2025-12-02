@@ -15,6 +15,13 @@
       "when": 1764313828762,
       "tag": "0001_illegal_sauron",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1764644070372,
+      "tag": "0002_fancy_wonder_man",
+      "breakpoints": true
     }
   ]
 }

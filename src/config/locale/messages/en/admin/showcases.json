@@ -1,0 +1,36 @@
+{
+  "list": {
+    "title": "Showcases",
+    "buttons": {
+      "add": "Add",
+      "delete": "Delete",
+      "pin": "Pin",
+      "unpin": "Unpin",
+      "edit": "Edit",
+      "import": "Import Static Data",
+      "import_hint": "Click to import static showcase data"
+    },
+    "empty": "No showcases yet",
+    "confirm_delete": "Are you sure to delete selected showcases?",
+    "confirm_import": "Are you sure to import static showcase data to database? Existing data will be skipped.",
+    "delete_success": "Deleted successfully",
+    "import_success": "Import completed",
+    "items_imported": "items imported",
+    "items_skipped": "items skipped",
+    "importing": "Importing...",
+    "pinned": "Pinned",
+    "unpinned": "Unpinned"
+  },
+  "add": {
+    "title": "Add Showcase",
+    "fields": {
+      "image": "Upload Image",
+      "title": "Title (optional)",
+      "prompt": "Prompt",
+      "tags": "Tags (optional)"
+    },
+    "buttons": {
+      "submit": "Add"
+    }
+  }
+}
