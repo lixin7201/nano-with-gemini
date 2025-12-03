@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo, useEffect } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Copy, Sparkles, Search, Plus, Pin, PinOff, Trash2, Check } from 'lucide-react';
 import { toast } from 'sonner';
 
@@ -30,6 +30,7 @@ type ShowcaseItem = {
 export default function AdminShowcasesPage() {
   const t = useTranslations('admin.showcases');
   const tShowcases = useTranslations('showcases');
+  const locale = useLocale();
 
   const [keyword, setKeyword] = useState('');
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
@@ -58,7 +59,7 @@ export default function AdminShowcasesPage() {
 
   // Get static items
   const staticItems = useMemo(() => {
-    const items = getNanoBananaShowcaseItems();
+    const items = getNanoBananaShowcaseItems(undefined, locale);
     return items.map((item, index) => ({
       id: `static-${index}`,
       title: item.title,
@@ -67,11 +68,12 @@ export default function AdminShowcasesPage() {
       source: 'static' as const,
       isPinned: false,
     }));
-  }, []);
+  }, [locale]);
 
   // Combine and deduplicate items (database items first, then static)
   const allItems = useMemo(() => {
-    const dbPrompts = new Set(dbItems.map(item => item.prompt));
+    // Prefer image-based dedupe to be locale-agnostic
+    const dbImages = new Set(dbItems.map(item => item.image));
 
     // Convert db items
     const dbShowcaseItems: ShowcaseItem[] = dbItems.map(item => ({
@@ -84,8 +86,8 @@ export default function AdminShowcasesPage() {
       createdAt: item.createdAt,
     }));
 
-    // Filter static items that don't exist in db
-    const uniqueStaticItems = staticItems.filter(item => !dbPrompts.has(item.prompt || ''));
+    // Filter static items that don't exist in db (by image URL)
+    const uniqueStaticItems = staticItems.filter(item => !dbImages.has(item.image));
 
     // Sort: pinned first, then by date/order
     return [...dbShowcaseItems, ...uniqueStaticItems].sort((a, b) => {

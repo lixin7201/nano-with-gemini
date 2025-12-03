@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
 
   try {
     // Get all static items from JSON
-    const staticItems = getNanoBananaShowcaseItems();
+    const staticItems = getNanoBananaShowcaseItems(undefined, 'zh');
 
     // Get existing showcases to avoid duplicates
     const { items: existingItems } = await getShowcases({ limit: 10000 });

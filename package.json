@@ -35,7 +35,9 @@
     "cf:preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf:upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
-    "cf:typegen": "wrangler types --env-interface CloudflareEnv src/shared/types/cloudflare.d.ts"
+    "cf:typegen": "wrangler types --env-interface CloudflareEnv src/shared/types/cloudflare.d.ts",
+    "sync:youmind": "tsx scripts/sync-youmind-prompts.ts",
+    "submodule:update": "git submodule update --remote --merge && pnpm sync:youmind"
   },
   "dependencies": {
     "@ai-sdk/react": "^2.0.89",
@@ -160,7 +162,11 @@
     "tsx": "^4.20.3",
     "tw-animate-css": "^1.3.5",
     "typescript": "^5",
-    "wrangler": "^4.34.0"
+    "wrangler": "^4.34.0",
+    "unified": "^11.0.4",
+    "remark-parse": "^11.0.0",
+    "fast-glob": "^3.3.2",
+    "unist-util-visit": "^5.0.0"
   },
   "pnpm": {
     "overrides": {

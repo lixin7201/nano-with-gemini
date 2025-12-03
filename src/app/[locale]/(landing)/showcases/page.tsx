@@ -36,7 +36,7 @@ export default async function ShowcasesPage({
   const cta: CTAType = tl.raw('cta');
 
   // Get static showcase items from JSON file (original data)
-  const staticItems = getNanoBananaShowcaseItems();
+  const staticItems = getNanoBananaShowcaseItems(undefined, locale);
   if (showcase) {
     showcase.items = [...(showcase.items || []), ...staticItems];
   }
@@ -55,8 +55,12 @@ export default async function ShowcasesPage({
     },
   }));
 
-  if (showcase && dynamicItems.length > 0) {
-    showcase.items = [...dynamicItems, ...(showcase.items || [])];
+  if (showcase) {
+    // De-duplicate static items that also exist in dynamic (by image src)
+    const seen = new Set(dynamicItems.map(i => i.image?.src).filter(Boolean));
+    const existing = showcase.items || [];
+    const filteredStatic = existing.filter(i => !i.image?.src || !seen.has(i.image.src));
+    showcase.items = dynamicItems.length > 0 ? [...dynamicItems, ...filteredStatic] : filteredStatic;
   }
 
   return <Page locale={locale} showcase={showcase} cta={cta} />;

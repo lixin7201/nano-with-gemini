@@ -1,69 +1,101 @@
 import rawData from '@/data/nano-banana-prompts.json';
 import { ShowcaseItem } from '@/shared/types/blocks/landing';
+import { normalizeLocale } from '@/shared/lib/locale';
 
-// Define a flexible type for the raw JSON items to handle various field names
-type RawItem = {
-  prompt?: string;
-  title?: string;
-  // Possible image fields
-  images?: string[];
-  image?: string | { src: string };
-  image_url?: string;
-  url?: string;
-  img?: string;
-  [key: string]: any;
-};
+// v2.1: Banned 关键词可配置
+const defaultBanned = ['google', 'gemini', 'gpt', 'chatgpt', 'openai'];
+const envBanned = process.env.NB_BANNED_KEYWORDS
+  ?.split(',')
+  .map(s => s.trim().toLowerCase())
+  .filter(Boolean);
+const banned = (envBanned?.length ? envBanned : defaultBanned);
 
-export function getNanoBananaShowcaseItems(limit?: number): ShowcaseItem[] {
-  // Basic banned keywords for compliance filtering
-  const banned = ['google', 'gemini', 'gpt', 'chatgpt', 'openai'];
+// v2.1: 可复现的种子洗牌
+function seededShuffle<T>(arr: T[], seed: number) {
+  const a = [...arr];
+  let s = seed >>> 0;
+  for (let i = a.length - 1; i > 0; i--) {
+    // 简单 LCG 生成 [0,1)
+    s = (1664525 * s + 1013904223) >>> 0;
+    const r = s / 0xffffffff;
+    const j = Math.floor(r * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
-  const items = (rawData as RawItem[])
+interface RawItem {
+  id: string;
+  images: string[];
+  i18n: {
+    [locale: string]: {
+      title: string;
+      prompt: string;
+      description?: string;
+    };
+  };
+  source: {
+    repo: string;
+    author?: string;
+    sourceUrl?: string;
+    publishedAt?: string;
+  };
+  isFeatured?: boolean;
+}
+
+/**
+ * v2.4: 支持 options 参数
+ * - filter: 是否过滤 banned 关键词（默认 true）
+ * - seed: 自定义随机种子
+ */
+export interface GetNanoBananaOptions {
+  filter?: boolean;
+  seed?: number;
+}
+
+export function getNanoBananaShowcaseItems(
+  limit?: number,
+  locale: string = 'zh',
+  options?: GetNanoBananaOptions
+): ShowcaseItem[] {
+  const normalizedLocale = normalizeLocale(locale);
+  const shouldFilter = options?.filter !== false;
+
+  let items = (rawData as RawItem[])
     .map((item) => {
-      const prompt = item.prompt;
+      // 多语言回退：指定语言 → en → 任意可用
+      const content =
+        item.i18n[normalizedLocale] ??
+        item.i18n['en'] ??
+        Object.values(item.i18n)[0];
 
-      // Resolve image source from various possible fields
-      let imageSrc = '';
-      if (Array.isArray(item.images) && item.images.length > 0) imageSrc = item.images[0];
-      else if (typeof item.image === 'string') imageSrc = item.image;
-      else if (typeof item.image === 'object' && item.image?.src) imageSrc = item.image.src;
-      else if (item.image_url) imageSrc = item.image_url;
-      else if (item.url) imageSrc = item.url;
-      else if (item.img) imageSrc = item.img;
+      if (!content) return null;
 
-      // Filter out invalid items
+      const { title, prompt } = content;
+      const imageSrc = item.images?.[0];
       if (!prompt || !imageSrc) return null;
 
-      // Derive title if missing
-      let title = item.title;
-      if (!title && prompt) {
-        title = prompt.slice(0, 24) + (prompt.length > 24 ? '...' : '');
+      // Banned 过滤（单点职责，v2.4: 可通过 options.filter=false 禁用）
+      if (shouldFilter) {
+        const hay = `${title ?? ''} ${prompt}`.toLowerCase();
+        if (banned.some((k) => hay.includes(k))) return null;
       }
 
-      // Compliance filter: drop items containing banned keywords
-      const hay = `${title ?? ''} ${prompt ?? ''}`.toLowerCase();
-      if (banned.some((k) => hay.includes(k))) return null;
+      const finalTitle = title || prompt.slice(0, 24) + '...';
 
       return {
-        title: title || 'Showcase',
+        title: finalTitle,
         prompt: prompt,
-        image: {
-          src: imageSrc,
-          alt: title || 'Showcase image',
-        },
+        image: { src: imageSrc, alt: finalTitle },
       } as ShowcaseItem;
     })
-    .filter((item) => item !== null) as ShowcaseItem[];
+    .filter((item): item is ShowcaseItem => item !== null);
 
-  // Randomize order
-  for (let i = items.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [items[i], items[j]] = [items[j], items[i]];
-  }
+  // v2.1: 使用种子洗牌
+  // SSR 页与客户端建议共用同一 seed，避免水合不一致。
+  // 这里使用按天生成的种子，或者环境变量，或者传入的 seed
+  const seed = options?.seed ?? (Number(process.env.SHUFFLE_SEED) || Number(new Date().toISOString().slice(0, 10).replace(/-/g, '')));
+  items = seededShuffle(items, seed);
 
-  if (limit && limit > 0) {
-    return items.slice(0, limit);
-  }
-
-  return items;
+  return limit && limit > 0 ? items.slice(0, limit) : items;
 }

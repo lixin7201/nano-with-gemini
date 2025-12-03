@@ -33,7 +33,7 @@ export default async function LandingPage({
   // Note: External showcase items disabled for compliance
   // They contain third-party AI brand names (Google, Gemini, ChatGPT)
   // which may violate AI Wrapper compliance requirements
-  const nbItems = getNanoBananaShowcaseItems(6);
+  const nbItems = getNanoBananaShowcaseItems(6, locale);
   if (page.showcase) {
     // Overwrite with exactly 6 items from the external source
     page.showcase.items = nbItems;
