@@ -1,0 +1,4 @@
+[submodule ".source/awesome-nano-banana-pro-prompts"]
+	path = .source/awesome-nano-banana-pro-prompts
+	url = https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts
+	branch = main
