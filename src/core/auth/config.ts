@@ -1,11 +1,18 @@
 import { drizzleAdapter } from 'better-auth/adapters/drizzle';
 import { oneTap } from 'better-auth/plugins';
+import { createAuthMiddleware } from 'better-auth/api';
 
 import { db } from '@/core/db';
 import { envConfigs } from '@/config';
 import * as schema from '@/config/db/schema';
-import { getUuid } from '@/shared/lib/hash';
+import { getUuid, getSnowId } from '@/shared/lib/hash';
 import { getAllConfigs } from '@/shared/models/config';
+import {
+  createCredit,
+  CreditStatus,
+  CreditTransactionType,
+  NewCredit,
+} from '@/shared/models/credit';
 
 // Static auth options - NO database connection
 // This ensures zero database calls during build time
@@ -38,6 +45,52 @@ export const authOptions = {
   // 生产环境会自动设置 Secure, HttpOnly, SameSite=Lax
 };
 
+// Helper function to grant free trial credits to new users
+async function grantFreeTrialCredits(userId: string) {
+  try {
+    const { credit } = schema;
+    const { and, eq } = await import('drizzle-orm');
+
+    // Check if user has already received free trial credits
+    const existingTrial = await db()
+      .select()
+      .from(credit)
+      .where(
+        and(eq(credit.userId, userId), eq(credit.transactionScene, 'free_trial'))
+      )
+      .limit(1);
+
+    if (existingTrial.length > 0) {
+      console.log(`User ${userId} already has free trial credits`);
+      return; // Already claimed, skip
+    }
+
+    // Grant 30 credits, valid for 30 days
+    const now = new Date();
+    const expiresAt = new Date(now);
+    expiresAt.setDate(expiresAt.getDate() + 30);
+
+    const newCredit: NewCredit = {
+      id: getUuid(),
+      transactionNo: getSnowId(),
+      transactionType: CreditTransactionType.GRANT,
+      transactionScene: 'free_trial',
+      userId: userId,
+      status: CreditStatus.ACTIVE,
+      description: 'Free Trial Credits',
+      credits: 30,
+      remainingCredits: 30,
+      expiresAt: expiresAt,
+    };
+
+    await createCredit(newCredit);
+    console.log(`Free trial credits automatically granted to user ${userId}`);
+  } catch (error) {
+    console.error('Failed to grant free trial credits:', error);
+    // Don't throw - we don't want to block user registration
+  }
+}
+
 // Dynamic auth options - WITH database connection
 // Only used in API routes that actually need database access
 export async function getAuthOptions() {
@@ -59,6 +112,18 @@ export async function getAuthOptions() {
       configs.google_client_id && configs.google_one_tap_enabled === 'true'
         ? [oneTap()]
         : [],
+    hooks: {
+      after: createAuthMiddleware(async (ctx) => {
+        // Monitor user registration events
+        if (ctx.path.startsWith('/sign-up')) {
+          const newSession = ctx.context.newSession;
+          if (newSession && newSession.user) {
+            // Automatically grant free trial credits to new users
+            await grantFreeTrialCredits(newSession.user.id);
+          }
+        }
+      }),
+    },
   };
 }
 

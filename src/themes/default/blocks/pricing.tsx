@@ -374,7 +374,7 @@ export function Pricing({
                 {pricing.free_trial?.title || 'Free Trial'}
               </CardTitle>
               <CardDescription>
-                {pricing.free_trial?.subtitle || 'Try before you buy. No credit card required.'}
+                {pricing.free_trial?.subtitle || '新用户自动获得,老用户可手动领取'}
               </CardDescription>
             </CardHeader>
             <CardContent className="relative z-10 text-center">
